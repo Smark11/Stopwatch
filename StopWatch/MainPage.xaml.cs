@@ -37,6 +37,8 @@ namespace StopWatch
             BuildLocalizedApplicationBar();
 
             App.gStopWatch = new Stopwatch();
+
+            AdControl.ErrorOccurred += AdControl_ErrorOccurred;
             
             _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
 
@@ -95,6 +97,11 @@ namespace StopWatch
             }
 
             this.DataContext = this;
+        }
+
+        void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
+        {
+            
         }
 
         #region "Properties"
