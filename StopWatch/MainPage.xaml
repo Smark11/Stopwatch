@@ -6,17 +6,19 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI"
     mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
 
     <Viewbox>
         <!--LayoutRoot is the root grid where all page content is placed-->
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -43,20 +45,30 @@
             CurrentUICulture of the app at run time.
          -->
 
+            <UI:AdControl 
+ x:Name="AdControl"
+ ApplicationId="700ca24b-cbc7-4e90-82f1-d13ea652224f" 
+ AdUnitId="123911" 
+ HorizontalAlignment="Left" 
+ Height="80" 
+ Width="480"
+ Grid.Row="0"
+ VerticalAlignment="Top" />
+
             <!--TitlePanel contains the name of the application and page title-->
-            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
                 <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
                            Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
             </StackPanel>
 
             <!--ContentPanel - place additional content here-->
 
-            <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Grid x:Name="ContentPanel" Grid.Row="2">
                 <TextBox FontSize="50" Margin="10,11,10,10" Text="{Binding ClockValueString}" 
                      VerticalAlignment="Top"/>
             </Grid>
 
-            <Grid x:Name="StopwatchPanel" Grid.Row="2" >
+            <Grid x:Name="StopwatchPanel" Grid.Row="3" >
                 <Button x:Name="Start" Width="140" Height="75" Content="{Binding Mode}" HorizontalAlignment="Left" 
                     Margin="10,10,0,0" VerticalAlignment="Top" Click="Start_Click"/>
 
@@ -71,8 +83,8 @@
                     Margin="270,10,0,0" VerticalAlignment="Top" Click="Lap_Click"/>
             </Grid>
 
-            <Border Grid.Row="3" BorderBrush="Gray" BorderThickness="2" >
-                <Grid x:Name="LapDisplayGrid" Grid.Row="3">
+            <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="2" >
+                <Grid x:Name="LapDisplayGrid" Grid.Row="4">
                     <ListBox x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
                   IsEnabled="True" 
                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
