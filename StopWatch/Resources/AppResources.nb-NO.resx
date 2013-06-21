@@ -122,89 +122,89 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>nb-NO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Stoppeklokke</value>
   </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
-    <value>Clear Laps</value>
+    <value>Fjern runder</value>
   </data>
   <data name="AppBarEmailButton" xml:space="preserve">
-    <value>Email</value>
+    <value>E-post</value>
   </data>
   <data name="AppMenuItemAbout" xml:space="preserve">
-    <value>About</value>
+    <value>Om</value>
   </data>
   <data name="AppMenuItemOptions" xml:space="preserve">
-    <value>Options</value>
+    <value>Alternativer</value>
   </data>
   <data name="AppMenuItemReview" xml:space="preserve">
-    <value>Review</value>
+    <value>Gjennomgang</value>
   </data>
   <data name="DeleteAllLapDataMessage" xml:space="preserve">
-    <value>Are you sure you want to delete all lap data?</value>
+    <value>Er du sikker på at du vil slette alle fanget data?</value>
   </data>
   <data name="DeleteLapsTitle" xml:space="preserve">
-    <value>Delete Laps</value>
+    <value>Slette runder</value>
   </data>
   <data name="EmailSubject" xml:space="preserve">
-    <value>Lap Data</value>
+    <value>Fanget Data</value>
   </data>
   <data name="ExceedText" xml:space="preserve">
-    <value>Exceed</value>
+    <value>Overstige</value>
   </data>
   <data name="LapText" xml:space="preserve">
-    <value>Lap</value>
+    <value>Fanget</value>
   </data>
   <data name="MaxTimeExceededMessage" xml:space="preserve">
-    <value>Max time exceeded.</value>
+    <value>Maks gang overskredet.</value>
   </data>
   <data name="PauseText" xml:space="preserve">
     <value>Pause</value>
   </data>
   <data name="ResetMessage" xml:space="preserve">
-    <value>Resetting with erase all lap data.  Proceed?</value>
+    <value>Tilbakestille med slette alle lap data.  Vil du fortsette?</value>
   </data>
   <data name="ResetText" xml:space="preserve">
-    <value>Reset</value>
+    <value>Tilbakestille</value>
   </data>
   <data name="ResumeText" xml:space="preserve">
-    <value>Resume</value>
+    <value>CV</value>
   </data>
   <data name="StartText" xml:space="preserve">
     <value>Start</value>
   </data>
   <data name="AppMenuItemMoreApps" xml:space="preserve">
-    <value>More Apps</value>
+    <value>Flere apper</value>
   </data>
   <data name="LockScreen" xml:space="preserve">
-    <value>Lock Screen</value>
+    <value>Låseskjermen</value>
   </data>
   <data name="StopWatchOptions" xml:space="preserve">
-    <value>StopWatch Options</value>
+    <value>Stoppeklokke alternativer</value>
   </data>
   <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>Deaktivert</value>
   </data>
   <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Aktivert</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
+    <value>Det mest robuste Windows Phone stoppeklokke programmet inkluderer:
+Muligheten til å bytte mellom programmer mens timing hendelser.
+Gjør det mulig for deaktivering av windows låseskjermen mens timing hendelser.
+Spille inn og lagre informasjon om.</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Stoppeklokke</value>
   </data>
   <data name="Keyword2" xml:space="preserve">
-    <value>Timer</value>
+    <value>Tidtaker</value>
   </data>
   <data name="Keyword3" xml:space="preserve">
-    <value>Sex</value>
+    <value>sex</value>
   </data>
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>

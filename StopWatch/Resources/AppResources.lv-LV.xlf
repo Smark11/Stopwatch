@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="lv-LV" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">lv-LV</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hronometrs</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarClearLapsButton" translate="yes" xml:space="preserve">
+          <source>Clear Laps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Notīriet Laps</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarEmailButton" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">E-pasts</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Par</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemOptions" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opcijas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemReview" translate="yes" xml:space="preserve">
+          <source>Review</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pārskata</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllLapDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all lap data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vai tiešām vēlaties izdzēst visus datus klēpī</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteLapsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Laps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dzēst Laps</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailSubject" translate="yes" xml:space="preserve">
+          <source>Lap Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klēpja datu</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExceedText" translate="yes" xml:space="preserve">
+          <source>Exceed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pārsniegt</target>
+        </trans-unit>
+        <trans-unit id="Resx/LapText" translate="yes" xml:space="preserve">
+          <source>Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klēpī</target>
+        </trans-unit>
+        <trans-unit id="Resx/MaxTimeExceededMessage" translate="yes" xml:space="preserve">
+          <source>Max time exceeded.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pārsniegts maksimālais laiks.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PauseText" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pauzes</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetMessage" translate="yes" xml:space="preserve">
+          <source>Resetting with erase all lap data.  Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atiestatot ar dzēsīs visus klēpja datus.  Vai turpināt?</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetText" translate="yes" xml:space="preserve">
+          <source>Reset</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atiestatīt</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResumeText" translate="yes" xml:space="preserve">
+          <source>Resume</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CV</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartText" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sākums</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemMoreApps" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vairāk Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockScreen" translate="yes" xml:space="preserve">
+          <source>Lock Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lock Screen</target>
+        </trans-unit>
+        <trans-unit id="Resx/StopWatchOptions" translate="yes" xml:space="preserve">
+          <source>StopWatch Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hronometrs opcijas</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockScreenDisabled" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Invalīdiem</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockScreenEnabled" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iespējota</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>The most robust Windows Phone stopwatch application includes:
+Ability to switch between applications while timing events.
+Allows for disabling of windows lock screen while timing events.
+Record and save lap information.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ļoti stabila Windows Phone hronometrs pieteikums ietver:
+Iespēja pārslēgties starp lietojumprogrammām, lai gan grafiks notikumi.
+Ļauj atspējot windows bloķēt ekrānu, bet laika notikumiem.
+Ierakstīt un saglabāt informāciju klēpī.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hronometrs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taimeris</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
+          <source>Sex</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">sekss</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Facebook</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
+          <source>Twitter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Čivināt</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -122,89 +122,89 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>tr-TR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Kronometre</value>
   </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
-    <value>Clear Laps</value>
+    <value>NET Tur</value>
   </data>
   <data name="AppBarEmailButton" xml:space="preserve">
-    <value>Email</value>
+    <value>E-posta</value>
   </data>
   <data name="AppMenuItemAbout" xml:space="preserve">
-    <value>About</value>
+    <value>Hakkında</value>
   </data>
   <data name="AppMenuItemOptions" xml:space="preserve">
-    <value>Options</value>
+    <value>Seçenekler</value>
   </data>
   <data name="AppMenuItemReview" xml:space="preserve">
-    <value>Review</value>
+    <value>Bir daha gözden geçirme</value>
   </data>
   <data name="DeleteAllLapDataMessage" xml:space="preserve">
-    <value>Are you sure you want to delete all lap data?</value>
+    <value>Tüm Tur verileri silmek istediğinizden emin misiniz?</value>
   </data>
   <data name="DeleteLapsTitle" xml:space="preserve">
-    <value>Delete Laps</value>
+    <value>Tur silme</value>
   </data>
   <data name="EmailSubject" xml:space="preserve">
-    <value>Lap Data</value>
+    <value>Tur veri</value>
   </data>
   <data name="ExceedText" xml:space="preserve">
-    <value>Exceed</value>
+    <value>Aşan</value>
   </data>
   <data name="LapText" xml:space="preserve">
-    <value>Lap</value>
+    <value>Tur</value>
   </data>
   <data name="MaxTimeExceededMessage" xml:space="preserve">
-    <value>Max time exceeded.</value>
+    <value>En fazla zaman aşımı iletisi sayısı.</value>
   </data>
   <data name="PauseText" xml:space="preserve">
-    <value>Pause</value>
+    <value>Duraklat</value>
   </data>
   <data name="ResetMessage" xml:space="preserve">
-    <value>Resetting with erase all lap data.  Proceed?</value>
+    <value>Sıfırlama ile silmek tüm veri tur.  Devam edilsin mi?</value>
   </data>
   <data name="ResetText" xml:space="preserve">
-    <value>Reset</value>
+    <value>Sıfırlama</value>
   </data>
   <data name="ResumeText" xml:space="preserve">
-    <value>Resume</value>
+    <value>Özgeçmiş</value>
   </data>
   <data name="StartText" xml:space="preserve">
-    <value>Start</value>
+    <value>Başlat</value>
   </data>
   <data name="AppMenuItemMoreApps" xml:space="preserve">
-    <value>More Apps</value>
+    <value>Diğer uygulamalar</value>
   </data>
   <data name="LockScreen" xml:space="preserve">
-    <value>Lock Screen</value>
+    <value>Kilit ekranı</value>
   </data>
   <data name="StopWatchOptions" xml:space="preserve">
-    <value>StopWatch Options</value>
+    <value>Kronometre seçeneklerini</value>
   </data>
   <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>Engelli</value>
   </data>
   <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Etkin</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
+    <value>En sağlam Windows Phone kronometre uygulaması içerir:
+Zamanlama olayları sırasında uygulamalar arasında geçiş yapma yeteneği.
+Zamanlama olayları sırasında windows kilit ekranın devre dışı bırakmak için izin verir.
+Kayıt ve Tur bilgileri kaydedin.</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Kronometre</value>
   </data>
   <data name="Keyword2" xml:space="preserve">
-    <value>Timer</value>
+    <value>Zamanlayıcı</value>
   </data>
   <data name="Keyword3" xml:space="preserve">
-    <value>Sex</value>
+    <value>Seks</value>
   </data>
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>

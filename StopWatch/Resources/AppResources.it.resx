@@ -122,50 +122,50 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>it</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Cronometro</value>
   </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
-    <value>Clear Laps</value>
+    <value>Chiare giri</value>
   </data>
   <data name="AppBarEmailButton" xml:space="preserve">
-    <value>Email</value>
+    <value>Posta elettronica</value>
   </data>
   <data name="AppMenuItemAbout" xml:space="preserve">
-    <value>About</value>
+    <value>Info su</value>
   </data>
   <data name="AppMenuItemOptions" xml:space="preserve">
-    <value>Options</value>
+    <value>Opzioni</value>
   </data>
   <data name="AppMenuItemReview" xml:space="preserve">
-    <value>Review</value>
+    <value>Recensione</value>
   </data>
   <data name="DeleteAllLapDataMessage" xml:space="preserve">
-    <value>Are you sure you want to delete all lap data?</value>
+    <value>Sei sicuro di che voler cancellare tutti i dati sul giro?</value>
   </data>
   <data name="DeleteLapsTitle" xml:space="preserve">
-    <value>Delete Laps</value>
+    <value>Eliminare giri</value>
   </data>
   <data name="EmailSubject" xml:space="preserve">
-    <value>Lap Data</value>
+    <value>Dati giro</value>
   </data>
   <data name="ExceedText" xml:space="preserve">
-    <value>Exceed</value>
+    <value>Superare</value>
   </data>
   <data name="LapText" xml:space="preserve">
-    <value>Lap</value>
+    <value>Giro</value>
   </data>
   <data name="MaxTimeExceededMessage" xml:space="preserve">
-    <value>Max time exceeded.</value>
+    <value>Tempo massimo superato.</value>
   </data>
   <data name="PauseText" xml:space="preserve">
-    <value>Pause</value>
+    <value>Pausa</value>
   </data>
   <data name="ResetMessage" xml:space="preserve">
-    <value>Resetting with erase all lap data.  Proceed?</value>
+    <value>Ripristino con cancella tutti i giro dei dati.  Procedere?</value>
   </data>
   <data name="ResetText" xml:space="preserve">
     <value>Reset</value>
@@ -177,34 +177,34 @@
     <value>Start</value>
   </data>
   <data name="AppMenuItemMoreApps" xml:space="preserve">
-    <value>More Apps</value>
+    <value>Più Apps</value>
   </data>
   <data name="LockScreen" xml:space="preserve">
-    <value>Lock Screen</value>
+    <value>Schermata di blocco</value>
   </data>
   <data name="StopWatchOptions" xml:space="preserve">
-    <value>StopWatch Options</value>
+    <value>Opzioni di cronometro</value>
   </data>
   <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>Disabili</value>
   </data>
   <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Abilitato</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
+    <value>Il più robusto Windows Phone cronometro applicazione include:
+Possibilità di passare tra le applicazioni mentre eventi di temporizzazione.
+Consente la disabilitazione di windows blocco schermo mentre eventi di temporizzazione.
+Registrare e salvare le informazioni in giro.</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Cronometro</value>
   </data>
   <data name="Keyword2" xml:space="preserve">
     <value>Timer</value>
   </data>
   <data name="Keyword3" xml:space="preserve">
-    <value>Sex</value>
+    <value>Sesso</value>
   </data>
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>

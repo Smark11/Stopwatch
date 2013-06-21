@@ -122,83 +122,83 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>sv</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Stoppur</value>
   </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
-    <value>Clear Laps</value>
+    <value>Tydlig varv</value>
   </data>
   <data name="AppBarEmailButton" xml:space="preserve">
-    <value>Email</value>
+    <value>E-post</value>
   </data>
   <data name="AppMenuItemAbout" xml:space="preserve">
-    <value>About</value>
+    <value>Om</value>
   </data>
   <data name="AppMenuItemOptions" xml:space="preserve">
-    <value>Options</value>
+    <value>Alternativ</value>
   </data>
   <data name="AppMenuItemReview" xml:space="preserve">
-    <value>Review</value>
+    <value>Recension</value>
   </data>
   <data name="DeleteAllLapDataMessage" xml:space="preserve">
-    <value>Are you sure you want to delete all lap data?</value>
+    <value>Är du säker du vill ta bort alla varv data?</value>
   </data>
   <data name="DeleteLapsTitle" xml:space="preserve">
-    <value>Delete Laps</value>
+    <value>Ta bort varv</value>
   </data>
   <data name="EmailSubject" xml:space="preserve">
-    <value>Lap Data</value>
+    <value>Varv Data</value>
   </data>
   <data name="ExceedText" xml:space="preserve">
-    <value>Exceed</value>
+    <value>Överstiga</value>
   </data>
   <data name="LapText" xml:space="preserve">
-    <value>Lap</value>
+    <value>Varv</value>
   </data>
   <data name="MaxTimeExceededMessage" xml:space="preserve">
-    <value>Max time exceeded.</value>
+    <value>Max överskriden.</value>
   </data>
   <data name="PauseText" xml:space="preserve">
-    <value>Pause</value>
+    <value>Paus</value>
   </data>
   <data name="ResetMessage" xml:space="preserve">
-    <value>Resetting with erase all lap data.  Proceed?</value>
+    <value>Återställa med radera alla varv data.  Vill du fortsätta?</value>
   </data>
   <data name="ResetText" xml:space="preserve">
-    <value>Reset</value>
+    <value>Återställa</value>
   </data>
   <data name="ResumeText" xml:space="preserve">
-    <value>Resume</value>
+    <value>CV</value>
   </data>
   <data name="StartText" xml:space="preserve">
     <value>Start</value>
   </data>
   <data name="AppMenuItemMoreApps" xml:space="preserve">
-    <value>More Apps</value>
+    <value>Mer Apps</value>
   </data>
   <data name="LockScreen" xml:space="preserve">
-    <value>Lock Screen</value>
+    <value>Låsskärmen</value>
   </data>
   <data name="StopWatchOptions" xml:space="preserve">
-    <value>StopWatch Options</value>
+    <value>Stoppur alternativ</value>
   </data>
   <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>Funktionshindrade</value>
   </data>
   <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Aktiverad</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
+    <value>Mest robusta Windows Phone stoppur ansökan omfattar:
+Möjlighet att växla mellan program medan timing händelser.
+Gör för att inaktivera windows lås skärmen medan timing händelser.
+Spela in och spara varvinformation.</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Stoppur</value>
   </data>
   <data name="Keyword2" xml:space="preserve">
     <value>Timer</value>

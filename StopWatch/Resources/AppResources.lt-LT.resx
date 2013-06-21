@@ -122,92 +122,92 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>lt-LT</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Chronometras</value>
   </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
-    <value>Clear Laps</value>
+    <value>Aišku, ratų</value>
   </data>
   <data name="AppBarEmailButton" xml:space="preserve">
-    <value>Email</value>
+    <value>El. paštas</value>
   </data>
   <data name="AppMenuItemAbout" xml:space="preserve">
-    <value>About</value>
+    <value>Apie</value>
   </data>
   <data name="AppMenuItemOptions" xml:space="preserve">
-    <value>Options</value>
+    <value>Parinktys</value>
   </data>
   <data name="AppMenuItemReview" xml:space="preserve">
-    <value>Review</value>
+    <value>Apžvalga</value>
   </data>
   <data name="DeleteAllLapDataMessage" xml:space="preserve">
-    <value>Are you sure you want to delete all lap data?</value>
+    <value>Ar tikrai norite panaikinti visus rato duomenis?</value>
   </data>
   <data name="DeleteLapsTitle" xml:space="preserve">
-    <value>Delete Laps</value>
+    <value>Naikinti ratus</value>
   </data>
   <data name="EmailSubject" xml:space="preserve">
-    <value>Lap Data</value>
+    <value>Rato duomenis</value>
   </data>
   <data name="ExceedText" xml:space="preserve">
-    <value>Exceed</value>
+    <value>Viršyti</value>
   </data>
   <data name="LapText" xml:space="preserve">
-    <value>Lap</value>
+    <value>Juosmens</value>
   </data>
   <data name="MaxTimeExceededMessage" xml:space="preserve">
-    <value>Max time exceeded.</value>
+    <value>Viršytas maksimalus laikas.</value>
   </data>
   <data name="PauseText" xml:space="preserve">
-    <value>Pause</value>
+    <value>Pristabdyti</value>
   </data>
   <data name="ResetMessage" xml:space="preserve">
-    <value>Resetting with erase all lap data.  Proceed?</value>
+    <value>Iš naujo nustatyti su ištrinti visus juosmens duomenų.  Tęsti?</value>
   </data>
   <data name="ResetText" xml:space="preserve">
-    <value>Reset</value>
+    <value>Nustatyti iš naujo</value>
   </data>
   <data name="ResumeText" xml:space="preserve">
-    <value>Resume</value>
+    <value>CV</value>
   </data>
   <data name="StartText" xml:space="preserve">
-    <value>Start</value>
+    <value>Pradėti</value>
   </data>
   <data name="AppMenuItemMoreApps" xml:space="preserve">
-    <value>More Apps</value>
+    <value>Daugiau Apps</value>
   </data>
   <data name="LockScreen" xml:space="preserve">
-    <value>Lock Screen</value>
+    <value>Užrakto ekranas</value>
   </data>
   <data name="StopWatchOptions" xml:space="preserve">
-    <value>StopWatch Options</value>
+    <value>Chronometro funkcijos</value>
   </data>
   <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>Negalia</value>
   </data>
   <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Įjungtas</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
+    <value>Tvirčiausias Windows Phone chronometras prašyme nurodomas:
+Galimybė pakeisti programas, o laiko įvykius.
+Leidžia išjungti windows lock ekrane, o laiko įvykius.
+Užrašyti ir įrašyti juosmens informacija.</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Chronometras</value>
   </data>
   <data name="Keyword2" xml:space="preserve">
-    <value>Timer</value>
+    <value>Laikmatis</value>
   </data>
   <data name="Keyword3" xml:space="preserve">
-    <value>Sex</value>
+    <value>seksas</value>
   </data>
   <data name="Keyword4" xml:space="preserve">
-    <value>Facebook</value>
+    <value>"Facebook"</value>
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>

@@ -46,14 +46,14 @@
          -->
 
             <UI:AdControl 
- x:Name="AdControl"
- ApplicationId="5c0b9569-8b46-41f6-98ff-e2c097b4a6f3" 
- AdUnitId="133638" 
- HorizontalAlignment="Left" 
- Height="80" 
- Width="480"
- Grid.Row="0"
- VerticalAlignment="Top" />
+                 x:Name="AdControl"
+                 ApplicationId="5c0b9569-8b46-41f6-98ff-e2c097b4a6f3" 
+                 AdUnitId="133638" 
+                 HorizontalAlignment="Left" 
+                 Height="80" 
+                 Width="480"
+                 Grid.Row="0"
+                 VerticalAlignment="Top" />
 
             <!--TitlePanel contains the name of the application and page title-->
             <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">

@@ -2,8 +2,42 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <Languages xmlns="">
+    <Language code="ar" />
+    <Language code="bg-BG" />
+    <Language code="ca-ES" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de" />
+    <Language code="el-GR" />
+    <Language code="en" />
     <Language code="es" />
-    <Language code="zh" />
+    <Language code="et-EE" />
+    <Language code="fi-FI" />
+    <Language code="fr" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="hu-HU" />
+    <Language code="id-ID" />
+    <Language code="it" />
+    <Language code="ja-JP" />
+    <Language code="ko-KR" />
+    <Language code="lt-LT" />
+    <Language code="lv-LV" />
+    <Language code="nb-NO" />
+    <Language code="nl" />
+    <Language code="pl-PL" />
+    <Language code="pt" />
+    <Language code="ro-RO" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="sl-SI" />
+    <Language code="sv" />
+    <Language code="th-TH" />
+    <Language code="tr-TR" />
+    <Language code="uk-UA" />
+    <Language code="vi-VN" />
+    <Language code="zh-Hans" />
+    <Language code="zh-Hant" />
   </Languages>
   <App xmlns="" ProductID="{95d1b021-56f6-48e9-a169-4649fcac2982}" Title="StopWatch" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="StopWatch author" Description="The most robust Windows Phone stopwatch application includes:&#xD;&#xA;Ability to switch between applications while timing events.&#xD;&#xA;Allows for disabling of windows lock screen while timing events.&#xD;&#xA;Record and save lap information.&#xD;&#xA;&#xD;&#xA;" Publisher="StopWatch" PublisherID="{6ac8ecff-57d1-4930-9fb2-ce8ee143bbbb}">
     <IconPath IsRelative="true" IsResource="false">Assets\stop-watch-icon-small.png</IconPath>
@@ -26,18 +60,12 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\stop-watch-icon-small.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\stop-watch-icon-medium.png</BackgroundImageURI>
-          <Title>
-          </Title>
-          <BackContent>
-          </BackContent>
-          <BackBackgroundImageURI>
-          </BackBackgroundImageURI>
-          <BackTitle>
-          </BackTitle>
-          <DeviceLockImageURI>
-          </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <Title></Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI></DeviceLockImageURI>
+          <HasLarge></HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
