@@ -14,13 +14,13 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="False">
 
-    <Viewbox>
+    <Viewbox Stretch="Fill">
         <!--LayoutRoot is the root grid where all page content is placed-->
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
@@ -65,15 +65,15 @@
             <!--ContentPanel - place additional content here-->
 
             <Grid x:Name="ContentPanel" Grid.Row="2">
-                <Viewbox Stretch="Fill">
+                <!--<Viewbox Stretch="Uniform">-->
 
                     <Border BorderThickness="1" BorderBrush="Red">
-                        <TextBlock FontSize="50" Margin="10,11,10,10" Text="{Binding ClockValueString}" 
-                        TextAlignment="Center"
+                        <TextBlock FontSize="50" Margin="125,11,10,10" Text="{Binding ClockValueString}" 
+                        TextAlignment="Left"
                                
                      VerticalAlignment="Top"/>
                     </Border>
-                </Viewbox>
+                <!--</Viewbox>-->
             </Grid>
 
             <Grid x:Name="StopwatchPanel" Grid.Row="3" HorizontalAlignment="Center">

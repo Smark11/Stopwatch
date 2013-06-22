@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Povolené</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Nejrobustnějších Windows Phone stopky aplikácia obsahuje:
-Možnosť prepínania medzi aplikáciami zároveň načasovanie udalostí.
-Umožňuje vypnutie windows zámok obrazovky pri načasovanie udalostí.
-Zaznamenať a uložiť informácie o kolo.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stopky</value>
   </data>

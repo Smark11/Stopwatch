@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Käytössä</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Vahvin Windows Phone-sekuntikello sisältää:
-Etevyys jotta heilahdus kesken ahkeruus ajoitus tapahtuma.
-Mahdollistaa for kykenemättömäksi windows lukko näytön ajoitus tapahtuma.
-Äänittää ja tallentaa kierros tiedot.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Sekuntikello</value>
   </data>

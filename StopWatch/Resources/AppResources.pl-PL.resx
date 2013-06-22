@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Włączone</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Najbardziej solidny stoper Windows Phone aplikacji obejmuje:
-Możliwość przełączania się między aplikacjami a czas zdarzenia.
-Pozwala na wyłączenie windows blokada ekranu podczas chronometrażu zdarzeń.
-Nagrać i zapisać informacje okrążenie.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stoper</value>
   </data>

@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Enabled</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>StopWatch</value>
   </data>

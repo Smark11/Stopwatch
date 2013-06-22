@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Etkin</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>En sağlam Windows Phone kronometre uygulaması içerir:
-Zamanlama olayları sırasında uygulamalar arasında geçiş yapma yeteneği.
-Zamanlama olayları sırasında windows kilit ekranın devre dışı bırakmak için izin verir.
-Kayıt ve Tur bilgileri kaydedin.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Kronometre</value>
   </data>

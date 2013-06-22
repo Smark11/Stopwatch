@@ -109,10 +109,10 @@
 Ability to switch between applications while timing events.
 Allows for disabling of windows lock screen while timing events.
 Record and save lap information.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Det mest robuste Windows Phone stoppeklokke programmet inkluderer:
-Muligheten til å bytte mellom programmer mens timing hendelser.
-Gjør det mulig for deaktivering av windows låseskjermen mens timing hendelser.
-Spille inn og lagre informasjon om.</target>
+          <target state="new">The most robust Windows Phone stopwatch application includes:
+Ability to switch between applications while timing events.
+Allows for disabling of windows lock screen while timing events.
+Record and save lap information.</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

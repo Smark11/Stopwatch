@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Kích hoạt</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Ứng dụng mạnh mẽ nhất đồng hồ bấm giờ Windows Phone bao gồm:
-Khả năng chuyển đổi giữa các ứng dụng trong khi thời gian sự kiện.
-Cho phép vô hiệu hóa windows khóa màn hình trong khi thời gian sự kiện.
-Ghi lại và lưu thông tin vòng.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Đồng hồ bấm giờ</value>
   </data>

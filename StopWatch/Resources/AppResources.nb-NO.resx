@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Aktivert</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Det mest robuste Windows Phone stoppeklokke programmet inkluderer:
-Muligheten til å bytte mellom programmer mens timing hendelser.
-Gjør det mulig for deaktivering av windows låseskjermen mens timing hendelser.
-Spille inn og lagre informasjon om.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stoppeklokke</value>
   </data>

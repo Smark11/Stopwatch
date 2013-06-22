@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Iespējota</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Ļoti stabila Windows Phone hronometrs pieteikums ietver:
-Iespēja pārslēgties starp lietojumprogrammām, lai gan grafiks notikumi.
-Ļauj atspējot windows bloķēt ekrānu, bet laika notikumiem.
-Ierakstīt un saglabāt informāciju klēpī.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Hronometrs</value>
   </data>

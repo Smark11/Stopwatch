@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Habilitado</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>O aplicativo de cronômetro mais robusto do Windows Phone inclui:
-Capacidade de alternar entre aplicativos enquanto eventos de tempo.
-Permite a desabilitação da tela de bloqueio do windows enquanto eventos de tempo.
-Gravar e salvar informações de volta.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Cronômetro</value>
   </data>

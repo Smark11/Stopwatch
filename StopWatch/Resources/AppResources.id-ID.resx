@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Diaktifkan</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Paling kuat Windows Phone stopwatch aplikasi termasuk:
-Kemampuan untuk beralih antara aplikasi sementara waktu peristiwa.
-Memungkinkan untuk menonaktifkan windows kunci layar sementara waktu peristiwa.
-Merekam dan menyimpan informasi lap.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>StopWatch</value>
   </data>

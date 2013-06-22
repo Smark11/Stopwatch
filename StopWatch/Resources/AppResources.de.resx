@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Aktiviert</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Die robusteste Windows Phone-Stoppuhr-Anwendung umfasst:
-Möglichkeit zum Wechseln zwischen Anwendungen während der Timeout-Ereignisse.
-Deaktivieren der Windows-Verschluss-Schirm während der Timeout-Ereignisse ermöglicht.
-Zeichnen Sie auf und speichern Sie die Rundeninformationen.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stoppuhr</value>
   </data>

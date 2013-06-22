@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Ingeschakeld</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>De meest robuuste Windows Phone stopwatch aanvraag omvat:
-Mogelijkheid om te schakelen tussen toepassingen terwijl timing-gebeurtenissen.
-Staat voor het uitschakelen van windows slotscherm terwijl timing-gebeurtenissen.
-Opnemen en opslaan door de rondegegevens.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>StopWatch</value>
   </data>

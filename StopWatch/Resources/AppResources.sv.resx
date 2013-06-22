@@ -191,12 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Aktiverad</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Mest robusta Windows Phone stoppur ansökan omfattar:
-Möjlighet att växla mellan program medan timing händelser.
-Gör för att inaktivera windows lås skärmen medan timing händelser.
-Spela in och spara varvinformation.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stoppur</value>
   </data>
