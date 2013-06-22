@@ -146,8 +146,6 @@
     <Content Include="Assets\feature.email.png" />
     <Content Include="Assets\stop-watch-icon-medium.png" />
     <Content Include="Assets\stop-watch-icon-small.png" />
-    <Content Include="Assets\stopwatch-medium.png" />
-    <Content Include="Assets\stopwatch-small.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

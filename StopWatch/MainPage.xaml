@@ -58,29 +58,32 @@
             <!--TitlePanel contains the name of the application and page title-->
             <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
                 <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
-                           Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+                           Margin="9,-7,0,0" 
+                           HorizontalAlignment="Center"
+                           Style="{StaticResource PhoneTextTitle1Style}"/>
             </StackPanel>
 
             <!--ContentPanel - place additional content here-->
 
             <Grid x:Name="ContentPanel" Grid.Row="2">
                 <TextBox FontSize="50" Margin="10,11,10,10" Text="{Binding ClockValueString}" 
+                        
                      VerticalAlignment="Top"/>
             </Grid>
 
-            <Grid x:Name="StopwatchPanel" Grid.Row="3" >
-                <Button x:Name="Start" Width="140" Height="75" Content="{Binding Mode}" HorizontalAlignment="Left" 
-                    Margin="10,10,0,0" VerticalAlignment="Top" Click="Start_Click"/>
+            <Grid x:Name="StopwatchPanel" Grid.Row="3" HorizontalAlignment="Center">
+                <Button x:Name="Start" Width="160" Height="75" Content="{Binding Mode}" HorizontalAlignment="Left" 
+                    Margin="5,10,0,0" VerticalAlignment="Top" Click="Start_Click"/>
 
-                <Button x:Name="Reset" Width="140" Height="75" 
+                <Button x:Name="Reset" Width="160" Height="75" 
                         Content="{Binding Path=LocalizedResources.ResetText, Source={StaticResource LocalizedStrings}}" 
                         HorizontalAlignment="Left" 
-                    Margin="140,10,0,0" VerticalAlignment="Top" Click="Reset_Click"/>
+                    Margin="160,10,0,0" VerticalAlignment="Top" Click="Reset_Click"/>
 
-                <Button x:Name="Lap" Width="140" Height="75" 
+                <Button x:Name="Lap" Width="160" Height="75" 
                         Content="{Binding Path=LocalizedResources.LapText, Source={StaticResource LocalizedStrings}}" 
                         HorizontalAlignment="Left" 
-                    Margin="270,10,0,0" VerticalAlignment="Top" Click="Lap_Click"/>
+                    Margin="315,10,0,0" VerticalAlignment="Top" Click="Lap_Click"/>
             </Grid>
 
             <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="2" >
