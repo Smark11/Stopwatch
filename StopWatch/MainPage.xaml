@@ -56,19 +56,24 @@
                  VerticalAlignment="Top" />
 
             <!--TitlePanel contains the name of the application and page title-->
-            <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
-                <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
+                <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
+                    <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
                            Margin="9,-7,0,0" 
                            HorizontalAlignment="Center"
                            Style="{StaticResource PhoneTextTitle1Style}"/>
-            </StackPanel>
-
+                </StackPanel>
             <!--ContentPanel - place additional content here-->
 
             <Grid x:Name="ContentPanel" Grid.Row="2">
-                <TextBox FontSize="50" Margin="10,11,10,10" Text="{Binding ClockValueString}" 
-                        
+                <Viewbox Stretch="Fill">
+
+                    <Border BorderThickness="1" BorderBrush="Red">
+                        <TextBlock FontSize="50" Margin="10,11,10,10" Text="{Binding ClockValueString}" 
+                        TextAlignment="Center"
+                               
                      VerticalAlignment="Top"/>
+                    </Border>
+                </Viewbox>
             </Grid>
 
             <Grid x:Name="StopwatchPanel" Grid.Row="3" HorizontalAlignment="Center">
