@@ -25,6 +25,7 @@ namespace StopWatch
         DateTime _dateTimeLastStart;
         String _isRunning = "No";
         Common commonCode = new Common();
+        TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -39,12 +40,13 @@ namespace StopWatch
             App.gStopWatch = new Stopwatch();
 
             AdControl.ErrorOccurred += AdControl_ErrorOccurred;
-            
+
             _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
 
             SetLockScreenSetting();
-            LapCollection = new ObservableCollection<string>();
-            LoadLaps();
+            StopwatchTimesCollection = new ObservableCollection<StopwatchTimes>();
+
+            LoadLapAndSplitData();
 
             //Need to determine what/if any adjustment should be made to clock
             //For example, if clock was paused previously we want to start at last clock value with clock paused
@@ -101,7 +103,7 @@ namespace StopWatch
 
         void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
         {
-            
+
         }
 
         #region "Properties"
@@ -135,16 +137,17 @@ namespace StopWatch
             }
         }
 
-        private ObservableCollection<String> _lapCollection;
-        public ObservableCollection<String> LapCollection
+        private ObservableCollection<StopwatchTimes> _stopwatchTimesCollection;
+        public ObservableCollection<StopwatchTimes> StopwatchTimesCollection
         {
-            get { return _lapCollection; }
+            get { return _stopwatchTimesCollection; }
             set
             {
-                _lapCollection = value;
-                NotifyPropertyChanged("LapCollection");
+                _stopwatchTimesCollection = value;
+                NotifyPropertyChanged("StopwatchTimesCollection");
             }
         }
+
         private string _mode;
         public string Mode
         {
@@ -213,9 +216,8 @@ namespace StopWatch
             EmailComposeTask emailCompuser;
 
             emailCompuser = new EmailComposeTask();
-            // emailCompuser.Subject = "Lap Data";
             emailCompuser.Subject = AppResources.EmailSubject;
-            emailCompuser.Body = GetLapData("\n");
+            emailCompuser.Body = BuildEmailBody();
             emailCompuser.Show();
         }
 
@@ -233,8 +235,10 @@ namespace StopWatch
 
                 App.gStopWatch.Reset();
                 _adjustment = new TimeSpan();
-                LapCollection.Clear();
+                _lastSplitTime = new TimeSpan();
+                StopwatchTimesCollection.Clear();
                 commonCode.RemoveSettings("Stopwatch-Laps");
+                commonCode.RemoveSettings("Stopwatch-Splits");
                 Mode = AppResources.StartText;
             }
             else
@@ -246,14 +250,18 @@ namespace StopWatch
 
         private void Lap_Click(object sender, EventArgs e)
         {
-            string lapText = string.Empty;
             string saveLaps = string.Empty;
-            int _lapCounter = 0;
+            string saveSplits = string.Empty;
+            StopwatchTimes stopwatchTimes = new StopwatchTimes();
 
-            _lapCounter = LapCollection.Count + 1;
+            stopwatchTimes.ItemCount = StopwatchTimesCollection.Count + 1;
+            stopwatchTimes.SplitTime = ClockValueString;
+            stopwatchTimes.LapTime = (ClockValue - _lastSplitTime).ToString(@"hh\:mm\:ss\.ff");
+            StopwatchTimesCollection.Insert(0, stopwatchTimes);
+            _lastSplitTime = ClockValue;
 
-            lapText = AppResources.LapText + " " + _lapCounter + ": " + ClockValueString;
-            LapCollection.Insert(0, lapText);
+            saveSplits = GetSplitData(",");
+            commonCode.SaveSettings("Stopwatch-Splits", saveSplits);
 
             saveLaps = GetLapData(",");
             commonCode.SaveSettings("Stopwatch-Laps", saveLaps);
@@ -261,11 +269,12 @@ namespace StopWatch
 
         private void DeleteLaps_Click(object sender, EventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show(AppResources.DeleteAllLapDataMessage, AppResources.DeleteLapsTitle,  MessageBoxButton.OKCancel);
+            MessageBoxResult result = MessageBox.Show(AppResources.DeleteAllLapDataMessage, AppResources.DeleteLapsTitle, MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK)
             {
                 commonCode.RemoveSettings("Stopwatch-Laps");
-                LapCollection.Clear();
+                commonCode.RemoveSettings("Stopwatch-Splits");
+                StopwatchTimesCollection.Clear();
             }
         }
 
@@ -323,9 +332,9 @@ namespace StopWatch
 
             try
             {
-                foreach (var item in LapCollection)
+                foreach (var item in StopwatchTimesCollection)
                 {
-                    returnString = returnString + item + delimiter;
+                    returnString = returnString + item.LapTime + delimiter;
                 }
             }
             catch (Exception)
@@ -336,19 +345,67 @@ namespace StopWatch
             return returnString;
         }
 
-        public void LoadLaps()
+        public String GetSplitData(String delimiter)
         {
-            string[] laps;
+            String returnString = String.Empty;
 
-            laps = commonCode.GetSetting("Stopwatch-Laps").Split(',');
-
-            foreach (var item in laps)
+            try
             {
-                if (item != string.Empty)
+                foreach (var item in StopwatchTimesCollection)
                 {
-                    LapCollection.Add(item);
+                    returnString = returnString + item.SplitTime + delimiter;
                 }
             }
+            catch (Exception)
+            {
+
+                return returnString;
+            }
+            return returnString;
+        }
+
+        public void LoadLapAndSplitData()
+        {
+            string[] laps;
+            string[] splits;
+
+            laps = commonCode.GetSetting("Stopwatch-Laps").Split(',');
+            splits = commonCode.GetSetting("Stopwatch-Splits").Split(',');
+
+            for (int i = laps.Count()-1; i >=0; i--)
+            {
+                if (laps[i] != string.Empty)
+                {
+                    StopwatchTimes stopwatchTimes = new StopwatchTimes();
+                    stopwatchTimes.ItemCount = laps.Count()-i-1;
+                    stopwatchTimes.LapTime = laps[i];
+                    stopwatchTimes.SplitTime = splits[i];
+                    StopwatchTimesCollection.Insert(0,stopwatchTimes);
+
+                    _lastSplitTime = TimeSpan.Parse(stopwatchTimes.SplitTime);
+                }
+            }
+        }
+
+        public string BuildEmailBody()
+        {
+            string returnString = string.Empty;
+
+            try
+            {
+                returnString = "Number/Split/Lap" + "\n";
+                foreach (var item in StopwatchTimesCollection)
+                {
+                    returnString = returnString + item.ItemCount + '/' + item.SplitTime + '/' + item.LapTime + "\n";
+                }
+            }
+            catch (Exception)
+            {
+
+                return returnString;
+            }
+            return returnString;
+
         }
 
         private void SetLockScreenSetting()
@@ -407,10 +464,6 @@ namespace StopWatch
             ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem(AppResources.AppMenuItemReview);
             ApplicationBar.MenuItems.Add(appBarMenuItem3);
             appBarMenuItem3.Click += new EventHandler(Review_Click);
-
-            //ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
-            //ApplicationBar.MenuItems.Add(appBarMenuItem4);
-            //appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
         }
 
 

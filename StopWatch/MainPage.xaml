@@ -56,23 +56,23 @@
                  VerticalAlignment="Top" />
 
             <!--TitlePanel contains the name of the application and page title-->
-                <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
-                    <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
+            <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
+                <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
                            Margin="9,-7,0,0" 
                            HorizontalAlignment="Center"
                            Style="{StaticResource PhoneTextTitle1Style}"/>
-                </StackPanel>
+            </StackPanel>
             <!--ContentPanel - place additional content here-->
 
             <Grid x:Name="ContentPanel" Grid.Row="2">
                 <!--<Viewbox Stretch="Uniform">-->
 
-                    <Border BorderThickness="1" BorderBrush="Red">
-                        <TextBlock FontSize="50" Margin="125,11,10,10" Text="{Binding ClockValueString}" 
+                <Border BorderThickness="1" BorderBrush="Red">
+                    <TextBlock FontSize="50" Margin="125,11,10,10" Text="{Binding ClockValueString}" 
                         TextAlignment="Left"
                                
                      VerticalAlignment="Top"/>
-                    </Border>
+                </Border>
                 <!--</Viewbox>-->
             </Grid>
 
@@ -94,11 +94,29 @@
             <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="2" >
                 <Grid x:Name="LapDisplayGrid" Grid.Row="4">
                     <ListBox x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
-                  IsEnabled="True" 
-                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
-                  ItemsSource="{Binding LapCollection}"   
-                  Height="320" 
-                  VerticalAlignment="Top"/>
+                             IsEnabled="True" 
+                             ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                             ItemsSource="{Binding StopwatchTimesCollection}" 
+                             Height="320" 
+                             VerticalAlignment="Top">
+
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Border BorderThickness="1" BorderBrush="Red">
+                                        <TextBlock Text="{Binding ItemCount}"  />
+                                    </Border>
+                                    <Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">
+                                        <TextBlock Text="{Binding SplitTime}"  />
+                                    </Border>
+                                    <Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">
+                                        <TextBlock Text="{Binding LapTime}" />
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+
+                    </ListBox>
                 </Grid>
             </Border>
 
