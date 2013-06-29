@@ -93,7 +93,16 @@
 
             <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="2" >
                 <Grid x:Name="LapDisplayGrid" Grid.Row="4">
-                    <ListBox x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel  Orientation="Horizontal" Grid.Row="0">
+                        <TextBlock FontSize="30" Margin="30,0,0,0" HorizontalAlignment="Center" Width="50" Text="Lap"/>
+                        <TextBlock FontSize="30" Margin="70,0,0,0" HorizontalAlignment="Center" Width="200" Text="Elapsed"/>
+                        <TextBlock FontSize="30" Margin="20,0,0,0" HorizontalAlignment="Center" Width="200" Text="Split" />
+                    </StackPanel>
+                    <ListBox Grid.Row="1" x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
                              IsEnabled="True" 
                              ScrollViewer.HorizontalScrollBarVisibility="Auto"
                              ItemsSource="{Binding StopwatchTimesCollection}" 
@@ -102,17 +111,19 @@
 
                         <ListBox.ItemTemplate>
                             <DataTemplate>
+                                <Border BorderBrush="Red" BorderThickness="2,2,2,2">
                                 <StackPanel Orientation="Horizontal">
-                                    <Border BorderThickness="1" BorderBrush="Red">
-                                        <TextBlock Text="{Binding ItemCount}"  />
-                                    </Border>
-                                    <Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">
-                                        <TextBlock Text="{Binding SplitTime}"  />
-                                    </Border>
-                                    <Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">
-                                        <TextBlock Text="{Binding LapTime}" />
-                                    </Border>
+                                    <!--<Border BorderThickness="1" BorderBrush="Red">-->
+                                    <TextBlock TextAlignment="Center" Margin="10,0,0,0" Width="50" Text="{Binding ItemCount}"  />
+                                    <!--</Border>-->
+                                    <!--<Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">-->
+                                    <TextBlock TextAlignment="Center" Margin="10,0,0,0" Width="200" Text="{Binding SplitTime}"  />
+                                    <!--</Border>-->
+                                    <!--<Border Width="150" Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">-->
+                                    <TextBlock  TextAlignment="Center" Margin="10,0,0,0" Width="200" Text="{Binding LapTime}" />
+                                    <!--</Border>-->
                                 </StackPanel>
+                                </Border>
                             </DataTemplate>
                         </ListBox.ItemTemplate>
 
