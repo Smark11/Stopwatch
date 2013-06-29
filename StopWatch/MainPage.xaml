@@ -47,8 +47,8 @@
 
             <UI:AdControl 
                  x:Name="AdControl"
-                 ApplicationId="5c0b9569-8b46-41f6-98ff-e2c097b4a6f3" 
-                 AdUnitId="133638" 
+                 ApplicationId="a5f523de-5568-422f-8074-f2321a75f7ee" 
+                 AdUnitId="134721" 
                  HorizontalAlignment="Left" 
                  Height="80" 
                  Width="480"
