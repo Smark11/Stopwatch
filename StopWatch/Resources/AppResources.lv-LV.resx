@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Čivināt</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Taimera datus</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Ļoti stabila Windows Phone hronometrs pieteikums ietver:
+Iespēja pārslēgties starp lietojumprogrammām, lai gan grafiks notikumi.
+Ļauj atspējot windows bloķēt ekrānu, bet laika notikumiem.
+Ierakstīt un saglabāt informāciju klēpī.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Pagājis</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Numurs/Split/klēpja</value>
+  </data>
 </root>

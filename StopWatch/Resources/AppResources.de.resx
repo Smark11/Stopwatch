@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Timer-Daten</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Die robusteste Windows Phone-Stoppuhr-Anwendung umfasst:
+Möglichkeit zum Wechseln zwischen Anwendungen während der Timeout-Ereignisse.
+Deaktivieren der Windows-Verschluss-Schirm während der Timeout-Ereignisse ermöglicht.
+Zeichnen Sie auf und speichern Sie die Rundeninformationen.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Verstrichen</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Anzahl/Split/Lap</value>
+  </data>
 </root>

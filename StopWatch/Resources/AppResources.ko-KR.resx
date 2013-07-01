@@ -209,4 +209,16 @@
   <data name="Keyword5" xml:space="preserve">
     <value>지 저 귀 다</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>타이머 데이터</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>경과</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>분할</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>번호/분할/무릎</value>
+  </data>
 </root>

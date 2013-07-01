@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Laikmačio duomenis</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Tvirčiausias Windows Phone chronometras prašyme nurodomas:
+Galimybė pakeisti programas, o laiko įvykius.
+Leidžia išjungti windows lock ekrane, o laiko įvykius.
+Užrašyti ir įrašyti juosmens informacija.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Praeina</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Splitas</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Numeris/Split/juosmens</value>
+  </data>
 </root>

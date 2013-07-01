@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Dados do temporizador</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>O aplicativo de cronômetro mais robusto do Windows Phone inclui:
+Capacidade de alternar entre aplicativos enquanto eventos de tempo.
+Permite a desabilitação da tela de bloqueio do windows enquanto eventos de tempo.
+Gravar e salvar informações de volta.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Decorrido</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Número de Lap/Split</value>
+  </data>
 </root>

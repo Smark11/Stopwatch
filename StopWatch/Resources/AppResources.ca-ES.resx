@@ -215,4 +215,10 @@ Enregistrar i desar la informació de la volta.</value>
   <data name="ColumnHeader2" xml:space="preserve">
     <value>Split</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Dades de temporitzador</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Nombre/Split/Lap</value>
+  </data>
 </root>

@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Zamanlayıcı veri</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>En sağlam Windows Phone kronometre uygulaması içerir:
+Zamanlama olayları sırasında uygulamalar arasında geçiş yapma yeteneği.
+Zamanlama olayları sırasında windows kilit ekranın devre dışı bırakmak için izin verir.
+Kayıt ve Tur bilgileri kaydedin.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Geçen süre</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Sayı/bölme/Tur</value>
+  </data>
 </root>

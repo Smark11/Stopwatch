@@ -209,4 +209,16 @@
   <data name="Keyword5" xml:space="preserve">
     <value>ทวิตเตอร์</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>ข้อมูลการจับเวลา</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>ผ่านไป</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>แยก</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>หมายเลข/แยก/ตัก</value>
+  </data>
 </root>

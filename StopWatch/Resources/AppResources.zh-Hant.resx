@@ -209,4 +209,16 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>計時器資料</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>已用</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>拆分</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>數量/拆分/圈</value>
+  </data>
 </root>

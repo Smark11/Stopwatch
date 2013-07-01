@@ -209,4 +209,16 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Πειραχτήρι</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Χρονόμετρο δεδομένων</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Παρέλθει</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Σπλιτ</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Αριθμός/Split/αγκαλιά</value>
+  </data>
 </root>

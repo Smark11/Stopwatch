@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Stare de nervozitate</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Cronometru date</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Cele mai robuste Windows Phone cronometru cererea include:
+Posibilitatea de a comuta între aplicaţiile în timp ce calendarul evenimentelor.
+Permite dezactivarea windows ecranul de blocare în timp ce calendarul evenimentelor.
+Înregistra şi a salva informaţii poală.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Scurs</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Split/numărul/tur</value>
+  </data>
 </root>

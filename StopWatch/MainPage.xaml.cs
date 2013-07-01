@@ -297,8 +297,10 @@ namespace StopWatch
 
         private void MoreApps_Click(object sender, EventArgs e)
         {
-            MarketplaceDetailTask marketplaceDetailTask = new MarketplaceDetailTask();
-            marketplaceDetailTask.Show();
+           MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
+
+            marketplaceSearchTask.SearchTerms = "KLB Creations";
+            marketplaceSearchTask.Show();
         }
 
         #endregion "Events"
@@ -464,6 +466,10 @@ namespace StopWatch
             ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem(AppResources.AppMenuItemReview);
             ApplicationBar.MenuItems.Add(appBarMenuItem3);
             appBarMenuItem3.Click += new EventHandler(Review_Click);
+
+            ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
+            ApplicationBar.MenuItems.Add(appBarMenuItem4);
+            appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
         }
 
 

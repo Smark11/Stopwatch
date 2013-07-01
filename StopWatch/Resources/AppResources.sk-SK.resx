@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Časovač údajov</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Nejrobustnějších Windows Phone stopky aplikácia obsahuje:
+Možnosť prepínania medzi aplikáciami zároveň načasovanie udalostí.
+Umožňuje vypnutie windows zámok obrazovky pri načasovanie udalostí.
+Zaznamenať a uložiť informácie o kolo.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Uplynula</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Číslo/Split/Lap</value>
+  </data>
 </root>

@@ -215,4 +215,10 @@
   <data name="ColumnHeader2" xml:space="preserve">
     <value>سبليت</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>بيانات جهاز ضبط الوقت</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>رقم/سبليت/اللفة</value>
+  </data>
 </root>

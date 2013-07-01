@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Taimer</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Kõige jõulisem Windows Phone Stopper rakendus sisaldab:
+Võime samas ajastus sündmuste rakenduste vaheldumisi.
+Võimaldab keelamine windows lukk ekraan samas ajastus sündmused.
+Lindista ja Salvesta ringi andmed.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Möödunud</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Arv-Split-Lap</value>
+  </data>
 </root>

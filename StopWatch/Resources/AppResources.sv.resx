@@ -203,4 +203,22 @@
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Timer Data</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mest robusta Windows Phone stoppur ansökan omfattar:
+Möjlighet att växla mellan program medan timing händelser.
+Gör för att inaktivera windows lås skärmen medan timing händelser.
+Spela in och spara varvinformation.</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Förflutit</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Antal/Split/Lap</value>
+  </data>
 </root>
