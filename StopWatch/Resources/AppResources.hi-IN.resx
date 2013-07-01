@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>गोद को हटाना</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>गोद डेटा</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>से अधिक हो</value>
   </data>

@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Usuń okrążeń</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Dane okrążenia</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Przekracza</value>
   </data>

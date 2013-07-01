@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Poistaa kierrosta</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Kierros tiedot</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Ylittää</value>
   </data>

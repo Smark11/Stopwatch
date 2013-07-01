@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Видалити кіл</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Колінах даних</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Перевищувати</value>
   </data>

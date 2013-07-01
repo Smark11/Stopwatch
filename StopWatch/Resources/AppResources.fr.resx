@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Supprimer les tours</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Données au tour</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Dépasser</value>
   </data>

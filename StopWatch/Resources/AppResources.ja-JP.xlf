@@ -49,8 +49,8 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ラップを削除します。</target>
         </trans-unit>
         <trans-unit id="Resx/EmailSubject" translate="yes" xml:space="preserve">
-          <source>Lap Data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">ラップ</target>
+          <source>Timer Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">タイマー データ</target>
         </trans-unit>
         <trans-unit id="Resx/ExceedText" translate="yes" xml:space="preserve">
           <source>Exceed</source>
@@ -133,6 +133,18 @@ Windows のロック画面のタイミング イベントの中の無効にす�
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Twitter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Twitter</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
+          <source>Elapsed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">経過時間</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader2" translate="yes" xml:space="preserve">
+          <source>Split</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">分割</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
+          <source>Number/Split/Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">数/スプリット/ラップ</target>
         </trans-unit>
       </group>
     </body>

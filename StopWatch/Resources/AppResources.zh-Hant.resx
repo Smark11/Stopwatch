@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>刪除圈</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>腿上的資料</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>超過</value>
   </data>

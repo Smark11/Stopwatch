@@ -125,4 +125,94 @@
     <value>ca-ES</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Cronòmetre</value>
+  </data>
+  <data name="AppBarClearLapsButton" xml:space="preserve">
+    <value>Desactiveu Laps</value>
+  </data>
+  <data name="AppBarEmailButton" xml:space="preserve">
+    <value>Correu electrònic</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Opcions</value>
+  </data>
+  <data name="AppMenuItemReview" xml:space="preserve">
+    <value>Revisió</value>
+  </data>
+  <data name="DeleteAllLapDataMessage" xml:space="preserve">
+    <value>Esteu segur que voleu suprimir totes les dades de volta?</value>
+  </data>
+  <data name="DeleteLapsTitle" xml:space="preserve">
+    <value>Suprimir voltes</value>
+  </data>
+  <data name="ExceedText" xml:space="preserve">
+    <value>Superar els</value>
+  </data>
+  <data name="LapText" xml:space="preserve">
+    <value>Volta</value>
+  </data>
+  <data name="MaxTimeExceededMessage" xml:space="preserve">
+    <value>Excedeixi el temps màx.</value>
+  </data>
+  <data name="PauseText" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="ResetMessage" xml:space="preserve">
+    <value>S'està reinicialitzant amb esborrar tots de tornada dades.  Voleu continuar?</value>
+  </data>
+  <data name="ResetText" xml:space="preserve">
+    <value>Restablir</value>
+  </data>
+  <data name="ResumeText" xml:space="preserve">
+    <value>Currículum vitae</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>Inici</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Més Apps</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>Pantalla de panys</value>
+  </data>
+  <data name="StopWatchOptions" xml:space="preserve">
+    <value>Cronòmetre opcions</value>
+  </data>
+  <data name="LockScreenDisabled" xml:space="preserve">
+    <value>Amb discapacitat</value>
+  </data>
+  <data name="LockScreenEnabled" xml:space="preserve">
+    <value>Permès</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>L'aplicació més robust de Windows Phone cronòmetre inclou:
+L'habilitat per canviar-se entre aplicacions mentre esdeveniments de cronometratge.
+Permet la desactivació de la pantalla de panys de windows mentre esdeveniments de calendari.
+Enregistrar i desar la informació de la volta.</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Cronòmetre</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Temporitzador</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Sexe</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Transcorregut</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
 </root>

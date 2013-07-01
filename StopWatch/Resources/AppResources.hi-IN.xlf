@@ -49,8 +49,8 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">गोद को हटाना</target>
         </trans-unit>
         <trans-unit id="Resx/EmailSubject" translate="yes" xml:space="preserve">
-          <source>Lap Data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">गोद डेटा</target>
+          <source>Timer Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">टाइमर डेटा</target>
         </trans-unit>
         <trans-unit id="Resx/ExceedText" translate="yes" xml:space="preserve">
           <source>Exceed</source>
@@ -133,6 +133,18 @@ Windows ताला स्क्रीन करते हुए समय क�
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Twitter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">चहचहाना</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
+          <source>Elapsed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">गुजरे</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader2" translate="yes" xml:space="preserve">
+          <source>Split</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">भाजित</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
+          <source>Number/Split/Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">संख्या/विभाजन/गोद</target>
         </trans-unit>
       </group>
     </body>

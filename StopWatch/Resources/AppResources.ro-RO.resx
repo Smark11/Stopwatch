@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Ştergeţi ture</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Date de tur.</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Depăşească</value>
   </data>

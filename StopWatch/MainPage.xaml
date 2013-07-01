@@ -98,9 +98,9 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <StackPanel  Orientation="Horizontal" Grid.Row="0">
-                        <TextBlock FontSize="30" Margin="30,0,0,0" HorizontalAlignment="Center" Width="50" Text="Lap"/>
-                        <TextBlock FontSize="30" Margin="70,0,0,0" HorizontalAlignment="Center" Width="200" Text="Elapsed"/>
-                        <TextBlock FontSize="30" Margin="20,0,0,0" HorizontalAlignment="Center" Width="200" Text="Split" />
+                        <TextBlock FontSize="30" Margin="30,0,0,0" HorizontalAlignment="Center" Width="50" Text="{Binding Path=LocalizedResources.LapText, Source={StaticResource LocalizedStrings}}"/>
+                        <TextBlock FontSize="30" Margin="70,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader1, Source={StaticResource LocalizedStrings}}"/>
+                        <TextBlock FontSize="30" Margin="20,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader2, Source={StaticResource LocalizedStrings}}"/>
                     </StackPanel>
                     <ListBox Grid.Row="1" x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
                              IsEnabled="True" 

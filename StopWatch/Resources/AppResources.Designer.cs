@@ -136,6 +136,24 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Elapsed.
+        /// </summary>
+        public static string ColumnHeader1 {
+            get {
+                return ResourceManager.GetString("ColumnHeader1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Split.
+        /// </summary>
+        public static string ColumnHeader2 {
+            get {
+                return ResourceManager.GetString("ColumnHeader2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Are you sure you want to delete all lap data?.
         /// </summary>
         public static string DeleteAllLapDataMessage {
@@ -154,7 +172,16 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Lap Data.
+        ///   Looks up a localized string similar to Number/Split/Lap.
+        /// </summary>
+        public static string EmailBody {
+            get {
+                return ResourceManager.GetString("EmailBody", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Timer Data.
         /// </summary>
         public static string EmailSubject {
             get {

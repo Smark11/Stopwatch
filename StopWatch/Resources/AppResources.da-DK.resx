@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Slette omgange</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Lap Data</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Overstiger</value>
   </data>

@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>حذف لفات</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>بيانات اللفة</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>تتجاوز</value>
   </data>
@@ -211,5 +208,11 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>تويتر</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>المنقضي</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>سبليت</value>
   </data>
 </root>

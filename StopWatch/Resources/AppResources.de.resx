@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Löschen Runden</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Runde Daten</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Überschreiten</value>
   </data>

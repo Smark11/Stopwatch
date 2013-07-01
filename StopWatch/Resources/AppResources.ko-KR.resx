@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>바퀴를 삭제</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>무릎 데이터</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>초과</value>
   </data>

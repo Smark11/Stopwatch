@@ -393,7 +393,7 @@ namespace StopWatch
 
             try
             {
-                returnString = "Number/Split/Lap" + "\n";
+                returnString = AppResources.EmailBody + "\n";
                 foreach (var item in StopwatchTimesCollection)
                 {
                     returnString = returnString + item.ItemCount + '/' + item.SplitTime + '/' + item.LapTime + "\n";

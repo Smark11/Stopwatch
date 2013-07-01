@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Ta bort varv</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Varv Data</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Överstiga</value>
   </data>

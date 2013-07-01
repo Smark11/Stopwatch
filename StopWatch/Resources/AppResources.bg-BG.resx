@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Изтриване на обиколки</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Скута данни</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Надвишава</value>
   </data>
@@ -211,5 +208,11 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Изминали</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Сплит</value>
   </data>
 </root>

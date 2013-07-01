@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Удаление Laps</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Круг данных</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Превышает</value>
   </data>

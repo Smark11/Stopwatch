@@ -149,9 +149,6 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Dzēst Laps</value>
   </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Klēpja datu</value>
-  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Pārsniegt</value>
   </data>

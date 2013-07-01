@@ -49,8 +49,8 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Poistaa kierrosta</target>
         </trans-unit>
         <trans-unit id="Resx/EmailSubject" translate="yes" xml:space="preserve">
-          <source>Lap Data</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kierros tiedot</target>
+          <source>Timer Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajastin tiedot</target>
         </trans-unit>
         <trans-unit id="Resx/ExceedText" translate="yes" xml:space="preserve">
           <source>Exceed</source>
@@ -109,10 +109,10 @@
 Ability to switch between applications while timing events.
 Allows for disabling of windows lock screen while timing events.
 Record and save lap information.</source>
-          <target state="new">The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vahvin Windows Phone-sekuntikello sisältää:
+Etevyys jotta heilahdus kesken ahkeruus ajoitus tapahtuma.
+Mahdollistaa for kykenemättömäksi windows lukko näytön ajoitus tapahtuma.
+Äänittää ja tallentaa kierros tiedot.</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -133,6 +133,18 @@ Record and save lap information.</target>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Twitter</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Twitter</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
+          <source>Elapsed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulunut</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader2" translate="yes" xml:space="preserve">
+          <source>Split</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Split</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
+          <source>Number/Split/Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numero/Split/Lap</target>
         </trans-unit>
       </group>
     </body>
