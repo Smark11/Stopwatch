@@ -299,7 +299,7 @@ namespace StopWatch
         {
            MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
 
-            marketplaceSearchTask.SearchTerms = "KLB Creations";
+            marketplaceSearchTask.SearchTerms = "KLBCreations";
             marketplaceSearchTask.Show();
         }
 
