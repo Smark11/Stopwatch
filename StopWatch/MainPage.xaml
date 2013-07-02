@@ -11,6 +11,7 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
+    
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="False">
 
@@ -65,15 +66,12 @@
             <!--ContentPanel - place additional content here-->
 
             <Grid x:Name="ContentPanel" Grid.Row="2">
-                <!--<Viewbox Stretch="Uniform">-->
+                <Viewbox Stretch="Fill">
 
                 <Border BorderThickness="1" BorderBrush="Red">
-                    <TextBlock FontSize="50" Margin="125,11,10,10" Text="{Binding ClockValueString}" 
-                        TextAlignment="Left"
-                               
-                     VerticalAlignment="Top"/>
+                    <TextBlock FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString}"/>
                 </Border>
-                <!--</Viewbox>-->
+                </Viewbox>
             </Grid>
 
             <Grid x:Name="StopwatchPanel" Grid.Row="3" HorizontalAlignment="Center">
