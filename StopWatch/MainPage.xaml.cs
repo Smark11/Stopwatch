@@ -40,6 +40,7 @@ namespace StopWatch
 
             App.gStopWatch = new Stopwatch();
 
+
             AdControl.ErrorOccurred += AdControl_ErrorOccurred;
 
             _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
@@ -483,5 +484,30 @@ namespace StopWatch
 
 
         #endregion "Common Routines"
+
+        private void PhoneOrientationChanged(object sender, OrientationChangedEventArgs e)
+        {
+            // Switch the placement of the buttons based on an orientation change.
+            if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
+            {
+                Grid.SetRow(AdControl, 0);
+                Grid.SetRow(ContentPanel, 1);
+                Grid.SetRowSpan(ContentPanel, 2);
+                Grid.SetRow(ButtonPanel, 3);
+                LapBorder.Visibility = Visibility.Visible;
+                LapGrid.Visibility = Visibility.Visible;
+            }
+            // If not in portrait, move buttonList content to visible row and column.
+            else
+            {
+                Grid.SetRow(ContentPanel, 1);
+                Grid.SetRow(AdControl, 0);
+                Grid.SetRowSpan(ContentPanel, 4);
+                Grid.SetRow(ButtonPanel, 5);
+                LapBorder.Visibility = Visibility.Collapsed;
+                LapGrid.Visibility = Visibility.Collapsed;
+            }
+
+        }
     }
 }

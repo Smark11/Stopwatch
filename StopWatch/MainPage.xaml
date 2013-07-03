@@ -11,15 +11,15 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    
-    SupportedOrientations="Portrait" Orientation="Portrait"
+    OrientationChanged="PhoneOrientationChanged"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
     shell:SystemTray.IsVisible="False">
 
     <Viewbox Stretch="Fill">
         <!--LayoutRoot is the root grid where all page content is placed-->
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
@@ -50,15 +50,17 @@
                  x:Name="AdControl"
                  ApplicationId="a5f523de-5568-422f-8074-f2321a75f7ee" 
                  AdUnitId="134721" 
-                 HorizontalAlignment="Left" 
+                 HorizontalAlignment="Center" 
+                MaxWidth="480"
+                MaxHeight="80"
                  Height="80" 
                  Width="480"
                  Grid.Row="0"
                  VerticalAlignment="Top" />
 
-            <Border Grid.Row="1"  BorderThickness="4,4,4,0" BorderBrush="Gray">
+            <!--<Border Grid.Row="1"  BorderThickness="4,4,4,0" BorderBrush="Gray">-->
                 <!--TitlePanel contains the name of the application and page title-->
-                <StackPanel HorizontalAlignment="Center" x:Name="TitlePanel" Margin="0,0,0,0">
+                <!--<StackPanel HorizontalAlignment="Center" x:Name="TitlePanel" Margin="0,0,0,0">
                     <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
                            Margin="9,-7,0,0" 
                            HorizontalAlignment="Center"
@@ -67,10 +69,10 @@
                            FontStyle="Italic"
                            />
                 </StackPanel>
-            </Border>
+            </Border>-->
             <!--ContentPanel - place additional content here-->
 
-            <Grid x:Name="ContentPanel" Grid.Row="2">
+            <Grid Margin="0,10,0,0" x:Name="ContentPanel" Grid.Row="1" Grid.RowSpan="2">
                 <Viewbox Stretch="Fill">
 
                     <Border BorderThickness="2,4,2,4" BorderBrush="Gray">
@@ -100,8 +102,8 @@
                 </Viewbox>
             </Grid>
 
-            <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="4,0,4,4" >
-                <Grid x:Name="LapDisplayGrid" Grid.Row="4">
+            <Border x:Name="LapBorder" Grid.Row="4" BorderBrush="Gray" BorderThickness="4,0,4,4" >
+                <Grid x:Name="LapGrid" Grid.Row="4">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
@@ -117,7 +119,7 @@
                              IsEnabled="True" 
                              ScrollViewer.HorizontalScrollBarVisibility="Auto"
                              ItemsSource="{Binding StopwatchTimesCollection}" 
-                             Height="320" 
+                             Height="260" 
                              VerticalAlignment="Top">
 
                         <ListBox.ItemTemplate>

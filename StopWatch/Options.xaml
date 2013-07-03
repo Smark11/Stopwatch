@@ -32,6 +32,7 @@
                 Checked="toggleswitch_Checked"  
                 Unchecked="toggleswitch_Unchecked">
             </toolkit:ToggleSwitch>
+            
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
