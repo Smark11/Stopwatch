@@ -56,7 +56,7 @@
                  Grid.Row="0"
                  VerticalAlignment="Top" />
 
-            <Border Grid.Row="1"  BorderThickness="2,4,2,0" BorderBrush="Gray">
+            <Border Grid.Row="1"  BorderThickness="4,4,4,0" BorderBrush="Gray">
                 <!--TitlePanel contains the name of the application and page title-->
                 <StackPanel HorizontalAlignment="Center" x:Name="TitlePanel" Margin="0,0,0,0">
                     <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
