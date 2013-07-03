@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Données de minuterie</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>L'application plus robuste de chronomètre Windows Phone comprend :
-Possibilité de basculer entre les applications lors des événements de minutage.
-Permet la désactivation de l'écran de verrouillage de windows tandis que des événements de minutage.
-Enregistrer et sauvegarder les informations du tour.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>S'est écoulé</value>
   </data>

@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Timeren Data</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Den mest robuste Windows Phone stopur program omfatter:
-Evnen til at skifte mellem programmer mens timing begivenheder.
-Giver mulighed for deaktivering af windows låseskærmen mens timing begivenheder.
-Optage og gemme omgangsoplysningerne.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Forløbet</value>
   </data>

@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Permès</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>L'aplicació més robust de Windows Phone cronòmetre inclou:
-L'habilitat per canviar-se entre aplicacions mentre esdeveniments de cronometratge.
-Permet la desactivació de la pantalla de panys de windows mentre esdeveniments de calendari.
-Enregistrar i desar la informació de la volta.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Cronòmetre</value>
   </data>

@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Ajastin tiedot</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Vahvin Windows Phone-sekuntikello sisältää:
-Etevyys jotta heilahdus kesken ahkeruus ajoitus tapahtuma.
-Mahdollistaa for kykenemättömäksi windows lukko näytön ajoitus tapahtuma.
-Äänittää ja tallentaa kierros tiedot.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Kulunut</value>
   </data>

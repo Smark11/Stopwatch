@@ -109,10 +109,10 @@
 Ability to switch between applications while timing events.
 Allows for disabling of windows lock screen while timing events.
 Record and save lap information.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">La aplicación más robusta de cronómetro de Windows Phone incluye:
-Capacidad para cambiar entre aplicaciones y eventos de sincronización.
-Permite la desactivación de bloqueo de pantalla de windows mientras eventos de sincronización.
-Registrar y guardar información de vuelta.</target>
+          <target state="new">The most robust Windows Phone stopwatch application includes:
+Ability to switch between applications while timing events.
+Allows for disabling of windows lock screen while timing events.
+Record and save lap information.</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

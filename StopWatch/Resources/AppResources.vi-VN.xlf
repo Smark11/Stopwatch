@@ -109,10 +109,10 @@
 Ability to switch between applications while timing events.
 Allows for disabling of windows lock screen while timing events.
 Record and save lap information.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ứng dụng mạnh mẽ nhất đồng hồ bấm giờ Windows Phone bao gồm:
-Khả năng chuyển đổi giữa các ứng dụng trong khi thời gian sự kiện.
-Cho phép vô hiệu hóa windows khóa màn hình trong khi thời gian sự kiện.
-Ghi lại và lưu thông tin vòng.</target>
+          <target state="new">The most robust Windows Phone stopwatch application includes:
+Ability to switch between applications while timing events.
+Allows for disabling of windows lock screen while timing events.
+Record and save lap information.</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

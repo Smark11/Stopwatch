@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Timer Data</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Elapsed</value>
   </data>

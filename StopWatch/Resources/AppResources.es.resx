@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Datos del contador de tiempo</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>La aplicación más robusta de cronómetro de Windows Phone incluye:
-Capacidad para cambiar entre aplicaciones y eventos de sincronización.
-Permite la desactivación de bloqueo de pantalla de windows mientras eventos de sincronización.
-Registrar y guardar información de vuelta.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Transcurrido</value>
   </data>

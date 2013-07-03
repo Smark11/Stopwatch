@@ -56,50 +56,63 @@
                  Grid.Row="0"
                  VerticalAlignment="Top" />
 
-            <!--TitlePanel contains the name of the application and page title-->
-            <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="12,17,0,28">
-                <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
+            <Border Grid.Row="1"  BorderThickness="2,4,2,0" BorderBrush="Gray">
+                <!--TitlePanel contains the name of the application and page title-->
+                <StackPanel HorizontalAlignment="Center" x:Name="TitlePanel" Margin="0,0,0,0">
+                    <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
                            Margin="9,-7,0,0" 
                            HorizontalAlignment="Center"
-                           Style="{StaticResource PhoneTextTitle1Style}"/>
-            </StackPanel>
+                           Style="{StaticResource PhoneTextTitle1Style}"
+                           FontSize="50"
+                           FontStyle="Italic"
+                           />
+                </StackPanel>
+            </Border>
             <!--ContentPanel - place additional content here-->
 
             <Grid x:Name="ContentPanel" Grid.Row="2">
                 <Viewbox Stretch="Fill">
 
-                <Border BorderThickness="1" BorderBrush="Red">
-                    <TextBlock FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString}"/>
-                </Border>
+                    <Border BorderThickness="2,4,2,4" BorderBrush="Gray">
+                        <TextBlock Foreground="LimeGreen" Width="250" FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString}" FontFamily="Franklin Gothic Medium"/>
+                    </Border>
                 </Viewbox>
             </Grid>
 
-            <Grid x:Name="StopwatchPanel" Grid.Row="3" HorizontalAlignment="Center">
-                <Button x:Name="Start" Width="160" Height="75" Content="{Binding Mode}" HorizontalAlignment="Left" 
+            <Grid x:Name="ButtonPanel" Grid.Row="3">
+                <Viewbox Stretch="Fill">
+                    <Border Grid.Row="3" HorizontalAlignment="Center" BorderThickness="4,0,4,0" BorderBrush="Gray">
+                        <Grid x:Name="StopwatchPanel" >
+                            <Button x:Name="Start" Width="160" Height="75" Content="{Binding Mode}" HorizontalAlignment="Left" 
                     Margin="5,10,0,0" VerticalAlignment="Top" Click="Start_Click"/>
 
-                <Button x:Name="Reset" Width="160" Height="75" 
+                            <Button x:Name="Reset" Width="160" Height="75" 
                         Content="{Binding Path=LocalizedResources.ResetText, Source={StaticResource LocalizedStrings}}" 
                         HorizontalAlignment="Left" 
                     Margin="160,10,0,0" VerticalAlignment="Top" Click="Reset_Click"/>
 
-                <Button x:Name="Lap" Width="160" Height="75" 
+                            <Button x:Name="Lap" Width="160" Height="75" 
                         Content="{Binding Path=LocalizedResources.LapText, Source={StaticResource LocalizedStrings}}" 
                         HorizontalAlignment="Left" 
                     Margin="315,10,0,0" VerticalAlignment="Top" Click="Lap_Click"/>
+                        </Grid>
+                    </Border>
+                </Viewbox>
             </Grid>
 
-            <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="2" >
+            <Border Grid.Row="4" BorderBrush="Gray" BorderThickness="4,0,4,4" >
                 <Grid x:Name="LapDisplayGrid" Grid.Row="4">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
+                    <Border BorderBrush="Gray" BorderThickness="0,4,0,4">
                     <StackPanel  Orientation="Horizontal" Grid.Row="0">
                         <TextBlock FontSize="30" Margin="30,0,0,0" HorizontalAlignment="Center" Width="50" Text="{Binding Path=LocalizedResources.LapText, Source={StaticResource LocalizedStrings}}"/>
                         <TextBlock FontSize="30" Margin="70,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader1, Source={StaticResource LocalizedStrings}}"/>
                         <TextBlock FontSize="30" Margin="20,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader2, Source={StaticResource LocalizedStrings}}"/>
                     </StackPanel>
+                    </Border>
                     <ListBox Grid.Row="1" x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
                              IsEnabled="True" 
                              ScrollViewer.HorizontalScrollBarVisibility="Auto"
@@ -109,18 +122,18 @@
 
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Border BorderBrush="Red" BorderThickness="2,2,2,2">
-                                <StackPanel Orientation="Horizontal">
-                                    <!--<Border BorderThickness="1" BorderBrush="Red">-->
-                                    <TextBlock TextAlignment="Center" Margin="10,0,0,0" Width="50" Text="{Binding ItemCount}"  />
-                                    <!--</Border>-->
-                                    <!--<Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">-->
-                                    <TextBlock TextAlignment="Center" Margin="10,0,0,0" Width="200" Text="{Binding SplitTime}"  />
-                                    <!--</Border>-->
-                                    <!--<Border Width="150" Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">-->
-                                    <TextBlock  TextAlignment="Center" Margin="10,0,0,0" Width="200" Text="{Binding LapTime}" />
-                                    <!--</Border>-->
-                                </StackPanel>
+                                <Border BorderBrush="Gray" Margin="0,2,0,0" BorderThickness="0,0,0,2">
+                                    <StackPanel Orientation="Horizontal">
+                                        <!--<Border BorderThickness="1" BorderBrush="Red">-->
+                                        <TextBlock TextAlignment="Center" Margin="10,0,0,0" Width="50" Text="{Binding ItemCount}"  />
+                                        <!--</Border>-->
+                                        <!--<Border Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">-->
+                                        <TextBlock TextAlignment="Center" Margin="10,0,0,0" Width="200" Text="{Binding SplitTime}"  />
+                                        <!--</Border>-->
+                                        <!--<Border Width="150" Margin="10,0,0,0" BorderThickness="1" BorderBrush="Red">-->
+                                        <TextBlock  TextAlignment="Center" Margin="10,0,0,0" Width="200" Text="{Binding LapTime}" />
+                                        <!--</Border>-->
+                                    </StackPanel>
                                 </Border>
                             </DataTemplate>
                         </ListBox.ItemTemplate>

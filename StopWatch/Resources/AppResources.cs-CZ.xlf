@@ -109,10 +109,10 @@
 Ability to switch between applications while timing events.
 Allows for disabling of windows lock screen while timing events.
 Record and save lap information.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nejvíce robustní stopky aplikace Windows Phone zahrnuje:
-Možnost přepínat mezi aplikacemi při časování události.
-Umožňuje zakázat windows zámek obrazovky při časování události.
-Zaznamenat a uložit informace o kolo.</target>
+          <target state="new">The most robust Windows Phone stopwatch application includes:
+Ability to switch between applications while timing events.
+Allows for disabling of windows lock screen while timing events.
+Record and save lap information.</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Ura stoparica podatkov</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Najbolj zanesljive Windows Phone štoparica vključuje:
-Možnost, da preklopite med aplikacijami, medtem ko čas dogodkov.
-Omogoča za onemogočanje windows zaklepanje zaslona, medtem ko čas dogodkov.
-Snemaj in shrani informacije v naročju.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Preteklo</value>
   </data>

@@ -206,12 +206,6 @@
   <data name="EmailSubject" xml:space="preserve">
     <value>Időzítő adatok</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>A leg--bb erős Windows Phone stopper alkalmazása magában foglalja:
-Képesség-hoz kapcsol között pályázatokat, miközben időzítési események.
-Megbénít windows lock képernyő közben időzítési események lehetővé teszi.
-Feljegyzés és megment a kör információk között.</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Eltelt</value>
   </data>
