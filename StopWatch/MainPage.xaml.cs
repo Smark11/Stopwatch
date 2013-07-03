@@ -14,6 +14,7 @@ using System.Windows.Threading;
 using System.Collections.ObjectModel;
 using Microsoft.Phone.Tasks;
 using System.IO;
+using System.Windows.Media;
 
 
 namespace StopWatch
@@ -84,6 +85,7 @@ namespace StopWatch
             if (_isRunning == "Yes")
             {
                 Mode = AppResources.StartText;
+                Start.Background = new SolidColorBrush(Colors.Green);
                 StartTimer();
             }
             else
@@ -91,10 +93,12 @@ namespace StopWatch
                 if (_adjustment == new TimeSpan(0, 0, 0))
                 {
                     Mode = AppResources.StartText;
+                    Start.Background = new SolidColorBrush(Colors.Green);
                 }
                 else
                 {
                     Mode = AppResources.ResumeText;
+                    Start.Background = new SolidColorBrush(Colors.Green);
                 }
             }
 
@@ -240,11 +244,13 @@ namespace StopWatch
                 commonCode.RemoveSettings("Stopwatch-Laps");
                 commonCode.RemoveSettings("Stopwatch-Splits");
                 Mode = AppResources.StartText;
+                Start.Background = new SolidColorBrush(Colors.Green);
             }
             else
             {
                 App.gStopWatch.Stop();
                 Mode = AppResources.ResumeText;
+                Start.Background = new SolidColorBrush(Colors.Green);
             }
         }
 
@@ -313,16 +319,19 @@ namespace StopWatch
             {
                 App.gStopWatch.Start();
                 Mode = AppResources.PauseText;
+                Start.Background = new SolidColorBrush(Colors.Red);
             }
             else if (Mode == AppResources.PauseText)
             {
                 App.gStopWatch.Stop();
                 Mode = AppResources.ResumeText;
+                Start.Background = new SolidColorBrush(Colors.Green);
             }
             else if (Mode == AppResources.ResumeText)
             {
                 App.gStopWatch.Start();
                 Mode = AppResources.PauseText;
+                Start.Background = new SolidColorBrush(Colors.Red);
             };
 
             ClockValue = App.gStopWatch.Elapsed;
