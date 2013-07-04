@@ -149,6 +149,9 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Slette omgange</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Timeren Data</value>
+  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Overstiger</value>
   </data>
@@ -188,6 +191,20 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Aktiveret</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Bedste stopur i Windows Phone butik!
+
+Funktioner omfatter:
+
+* Email Lap og stræktider
+* Kører under lås skærm
+* Deaktivere låseskærmen
+* Både delt og samlet tid
+* Store, let at læse ur
+* Landskab støtte til store tal
+
+Download denne app i dag!</value>
+  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stopur</value>
   </data>
@@ -202,9 +219,6 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
-  </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Timeren Data</value>
   </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Forløbet</value>

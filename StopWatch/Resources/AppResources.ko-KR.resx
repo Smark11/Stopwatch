@@ -149,6 +149,9 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>바퀴를 삭제</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>타이머 데이터</value>
+  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>초과</value>
   </data>
@@ -189,10 +192,18 @@
     <value>사용 가능</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>가장 강력한 Windows Phone stopwatch 응용 프로그램에 포함 되어 있습니다.
-타이밍 이벤트 동안 응용 프로그램 간에 전환할 수 있습니다.
-타이밍 이벤트 동안 windows 잠금 화면의 해제 할 수 있습니다.
-기록 하 고 무릎 정보를 저장 합니다.</value>
+    <value>최고의 중지 Windows Phone 스토어에서 시계!
+
+기능은 다음과 같습니다.
+
+* 이메일 무릎 시간을 분할 하 고
+* 잠금 화면에서 실행
+* 잠금 화면 해제
+* 모두 분할 및 총 시간
+* 대형, 시계 읽기 쉬운
+* 프리 큰 숫자에 대 한 지원
+
+오늘은이 애플 리 케이이 션을 다운로드!</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
     <value>스톱 워치</value>
@@ -208,9 +219,6 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>지 저 귀 다</value>
-  </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>타이머 데이터</value>
   </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>경과</value>

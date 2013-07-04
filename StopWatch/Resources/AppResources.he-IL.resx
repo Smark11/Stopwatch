@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>זמין</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>יישום סטופר החזקה ביותר של Windows Phone כולל:
-היכולת לעבור בין יישומים תוך תזמון האירועים.
-מאפשר ביטול של מסך הנעילה של windows בעת תזמון האירועים.
-להקליט ולשמור מידע הברכיים.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>סטופר</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>פיצול/מספר/הברכיים</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>מחירי להפסיק לצפות במאגר של Windows Phone!
+
+התכונות כוללות:
+
+* דוא ל Lap ולפצל פעמים
+* פועל תחת מסך הנעילה
+* לבטל את מסך הנעילה
+* פיצול וגם הזמן הכולל
+* גדול, קל לקרוא שעון
+* נוף תמיכה עבור מספרים גדולים
+
+להוריד יישום זה היום!</value>
   </data>
 </root>

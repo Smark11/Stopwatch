@@ -39,7 +39,7 @@
     <Language code="zh-Hans" />
     <Language code="zh-Hant" />
   </Languages>
-  <App xmlns="" ProductID="{95d1b021-56f6-48e9-a169-4649fcac2982}" Title="StopWatch" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="StopWatch author" Description="The most robust Windows Phone stopwatch application includes:&#xD;&#xA;Ability to switch between applications while timing events.&#xD;&#xA;Allows for disabling of windows lock screen while timing events.&#xD;&#xA;Record and save lap information.&#xD;&#xA;&#xD;&#xA;" Publisher="StopWatch" PublisherID="{6ac8ecff-57d1-4930-9fb2-ce8ee143bbbb}">
+  <App xmlns="" ProductID="{95d1b021-56f6-48e9-a169-4649fcac2982}" Title="StopWatch" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="StopWatch author" Description="Best Stop Watch in the Windows Phone Store!&#xD;&#xA;&#xD;&#xA;Features include:&#xD;&#xA;&#xD;&#xA;* Email Lap and Split Times&#xD;&#xA;* Running under Lock Screen&#xD;&#xA;* Disable Lock Screen&#xD;&#xA;* Both Split and Total Time&#xD;&#xA;* Large, easy to read clock&#xD;&#xA;* Landscape support for big numbers&#xD;&#xA;" Publisher="StopWatch" PublisherID="{6ac8ecff-57d1-4930-9fb2-ce8ee143bbbb}">
     <IconPath IsRelative="true" IsResource="false">Assets\stop-watch-icon-small.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -60,12 +60,17 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\stop-watch-icon-small.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\stop-watch-icon-medium.png</BackgroundImageURI>
-          <Title></Title>
-          <BackContent></BackContent>
-          <BackBackgroundImageURI></BackBackgroundImageURI>
-          <BackTitle></BackTitle>
-          <DeviceLockImageURI></DeviceLockImageURI>
-          <HasLarge></HasLarge>
+          <Title>StopWatch</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>
+          </HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

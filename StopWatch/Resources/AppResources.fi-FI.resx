@@ -149,6 +149,9 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Poistaa kierrosta</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Ajastin tiedot</value>
+  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Ylittää</value>
   </data>
@@ -188,6 +191,20 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Käytössä</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Paras lopettaa katsella Windows Phone varastossa!
+
+Ominaisuuksia:
+
+* Email kierros- ja väliaikoineen
+* Lukitusnäyttö suoritetaan
+* Poista Lukitusnäyttö
+* Split sekä kokonaisaika
+Iso, helppolukuinen kello
+* Maisema tuki suuria lukuja
+
+Lataa app tänään!</value>
+  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Sekuntikello</value>
   </data>
@@ -202,9 +219,6 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
-  </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Ajastin tiedot</value>
   </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Kulunut</value>

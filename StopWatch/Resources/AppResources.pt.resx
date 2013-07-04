@@ -215,4 +215,18 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Número de Lap/Split</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Melhor parar de assistir na loja do Windows Phone!
+
+As características incluem:
+
+* E-mail de volta e dividir vezes
+* Executando sob a tela de bloqueio
+* Desabilitar a tela de bloqueio
+* Split tanto tempo Total
+* Grande, fácil de ler o relógio
+* Suporte para grandes números de paisagem
+
+Baixe este app hoje!</value>
+  </data>
 </root>

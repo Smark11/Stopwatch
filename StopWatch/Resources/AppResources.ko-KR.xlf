@@ -105,14 +105,30 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">사용 가능</target>
         </trans-unit>
         <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
-          <source>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">가장 강력한 Windows Phone stopwatch 응용 프로그램에 포함 되어 있습니다.
-타이밍 이벤트 동안 응용 프로그램 간에 전환할 수 있습니다.
-타이밍 이벤트 동안 windows 잠금 화면의 해제 할 수 있습니다.
-기록 하 고 무릎 정보를 저장 합니다.</target>
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">최고의 중지 Windows Phone 스토어에서 시계!
+
+기능은 다음과 같습니다.
+
+* 이메일 무릎 시간을 분할 하 고
+* 잠금 화면에서 실행
+* 잠금 화면 해제
+* 모두 분할 및 총 시간
+* 대형, 시계 읽기 쉬운
+* 프리 큰 숫자에 대 한 지원
+
+오늘은이 애플 리 케이이 션을 다운로드!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

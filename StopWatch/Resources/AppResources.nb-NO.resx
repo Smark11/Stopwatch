@@ -149,6 +149,9 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Slette runder</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Tidtaker Data</value>
+  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Overstige</value>
   </data>
@@ -188,6 +191,20 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Aktivert</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste stoppeklokke i Windows Phone butikken!
+
+Funksjoner inkluderer:
+
+* E-post fanget og mellomtider
+* Kjører under låseskjermen
+* Deaktivere låseskjermen
+* Både Split og totaltiden
+* Store, lettleste klokke
+* Landskapet støtte for store tall
+
+Last ned denne app i dag!</value>
+  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stoppeklokke</value>
   </data>
@@ -202,9 +219,6 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Twitter</value>
-  </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Tidtaker Data</value>
   </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Forløpt</value>

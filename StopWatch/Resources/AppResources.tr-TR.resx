@@ -215,4 +215,18 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Sayı/bölme/Tur</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>En iyi Windows Phone mağaza İzle Dur!
+
+Özellikleri şunlardır:
+
+* Email Lap ve bölünmüş kez
+* Kilit ekranı altında çalışan
+* Kilit ekranını devre dışı bırakın
+* Hem Böl ve toplam süre
+* Büyük, saat okunması kolay
+* Destek büyük sayılar için peyzaj
+
+Bu uygulama bugün yükleyin!</value>
+  </data>
 </root>

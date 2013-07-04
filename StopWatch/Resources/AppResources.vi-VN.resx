@@ -215,4 +215,18 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Split-số-vòng</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Tốt nhất ngừng xem trong cửa hàng Windows Phone!
+
+Tính năng bao gồm:
+
+* Gửi email Lap và phân chia thời gian
+* Chạy dưới màn hình khóa
+* Vô hiệu hoá màn hình khóa
+* Cả hai phân chia và tổng số thời gian
+* Lớn, dễ đọc đồng hồ
+* Cảnh quan hỗ trợ cho số lượng lớn
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
 </root>

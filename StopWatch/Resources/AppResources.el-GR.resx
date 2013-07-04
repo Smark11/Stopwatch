@@ -149,6 +149,9 @@
   <data name="DeleteLapsTitle" xml:space="preserve">
     <value>Διαγραφή γύρους</value>
   </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Χρονόμετρο δεδομένων</value>
+  </data>
   <data name="ExceedText" xml:space="preserve">
     <value>Υπερβαίνει</value>
   </data>
@@ -189,10 +192,18 @@
     <value>Ενεργοποιημένη</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>Η πιο ισχυρή εφαρμογή χρονόμετρο Windows Phone που περιλαμβάνει:
-Δυνατότητα για εναλλαγή μεταξύ εφαρμογών ενώ χρόνο εκδηλώσεις.
-Επιτρέπει την απενεργοποίηση του windows κλείδωμα οθόνης ενώ χρόνο εκδηλώσεις.
-Εγγράψτε και αποθηκεύστε αγκαλιά πληροφορίες.</value>
+    <value>Καλύτερο χρονόμετρο με διακόπτη στο κατάστημα Windows Phone!
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Ηλεκτρονικό ταχυδρομείο αγκαλιά και διάσπαση φορές
+* Τρέχουν κάτω από την οθόνη κλειδαριών
+* Θέστε εκτός λειτουργίας οθόνη κλειδαριών
+* Και οι δύο διαίρεση και συνολικό χρόνο
+* Μεγάλη, ευανάγνωστη ρολόι
+* Τοπίο υποστήριξη για μεγάλους αριθμούς
+
+Κατεβάστε αυτό το app σήμερα!</value>
   </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Χρονόμετρο</value>
@@ -208,9 +219,6 @@
   </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Πειραχτήρι</value>
-  </data>
-  <data name="EmailSubject" xml:space="preserve">
-    <value>Χρονόμετρο δεδομένων</value>
   </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Παρέλθει</value>

@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Поддръжка</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Най-силно Windows Phone хронометър приложението включва:
-Възможността да превключвате между приложения, докато времето събития.
-Дава възможност за деактивиране на windows заключване на екрана докато времето събития.
-Документ и спасявам скута информация.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Хронометър</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>Брой и Сплит/скута</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Най-добре спрете часовник в Windows Phone магазина!
+
+Характеристики включват:
+
+* Имейл скута и разделят пъти
+* Движение при заключване на екрана
+* Забраните заключване на екрана
+* Както Сплит и общо време
+* Големи, лесни за четене часовник
+* Пейзаж подкрепа за големи номера
+
+Изтеглете този ап днес!</value>
   </data>
 </root>

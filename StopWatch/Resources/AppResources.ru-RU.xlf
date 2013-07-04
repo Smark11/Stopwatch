@@ -105,14 +105,30 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Включено</target>
         </trans-unit>
         <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
-          <source>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Самые надежные приложения Windows Phone секундомер включает в себя:
-Возможность переключения между приложениями во время времени события.
-Позволяет для отключения экрана замка windows во время времени события.
-Запись и сохранение круг информации.</target>
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Лучший секундомер в хранилище Windows Phone!
+
+Особенности включают:
+
+* Email Lap и сплиты
+* Работает под экран замка
+* Отключить экран замка
+* Как Сплит, так и общее время
+* Большой, легко читаемым будильник
+* Пейзаж поддержка больших чисел
+
+Скачайте этот app сегодня!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

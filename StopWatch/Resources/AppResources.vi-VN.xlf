@@ -105,14 +105,30 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kích hoạt</target>
         </trans-unit>
         <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
-          <source>The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</source>
-          <target state="new">The most robust Windows Phone stopwatch application includes:
-Ability to switch between applications while timing events.
-Allows for disabling of windows lock screen while timing events.
-Record and save lap information.</target>
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tốt nhất ngừng xem trong cửa hàng Windows Phone!
+
+Tính năng bao gồm:
+
+* Gửi email Lap và phân chia thời gian
+* Chạy dưới màn hình khóa
+* Vô hiệu hoá màn hình khóa
+* Cả hai phân chia và tổng số thời gian
+* Lớn, dễ đọc đồng hồ
+* Cảnh quan hỗ trợ cho số lượng lớn
+
+Tải về ứng dụng này vào ngày hôm nay!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

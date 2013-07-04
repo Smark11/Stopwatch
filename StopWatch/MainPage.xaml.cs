@@ -15,6 +15,7 @@ using System.Collections.ObjectModel;
 using Microsoft.Phone.Tasks;
 using System.IO;
 using System.Windows.Media;
+using Windows.ApplicationModel.Store;
 
 
 namespace StopWatch
@@ -39,16 +40,15 @@ namespace StopWatch
             BuildLocalizedApplicationBar();
 
             App.gStopWatch = new Stopwatch();
-
-
-            AdControl.ErrorOccurred += AdControl_ErrorOccurred;
-
             _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
 
             SetLockScreenSetting();
             StopwatchTimesCollection = new ObservableCollection<StopwatchTimes>();
 
             LoadLapAndSplitData();
+
+            MyAdControl.ErrorOccurred += MyAdControl_ErrorOccurred;
+
 
             //Need to determine what/if any adjustment should be made to clock
             //For example, if clock was paused previously we want to start at last clock value with clock paused
@@ -106,9 +106,9 @@ namespace StopWatch
             this.DataContext = this;
         }
 
-        void AdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
+        void MyAdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
         {
-
+            Console.WriteLine(e.Error);
         }
 
         #region "Properties"
@@ -490,7 +490,7 @@ namespace StopWatch
             // Switch the placement of the buttons based on an orientation change.
             if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
             {
-                Grid.SetRow(AdControl, 0);
+                Grid.SetRow(MyAdControl, 0);
                 Grid.SetRow(ContentPanel, 1);
                 Grid.SetRowSpan(ContentPanel, 2);
                 Grid.SetRow(ButtonPanel, 3);
@@ -501,7 +501,7 @@ namespace StopWatch
             else
             {
                 Grid.SetRow(ContentPanel, 1);
-                Grid.SetRow(AdControl, 0);
+                Grid.SetRow(MyAdControl, 0);
                 Grid.SetRowSpan(ContentPanel, 4);
                 Grid.SetRow(ButtonPanel, 5);
                 LapBorder.Visibility = Visibility.Collapsed;

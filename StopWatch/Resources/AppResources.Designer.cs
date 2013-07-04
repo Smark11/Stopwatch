@@ -79,10 +79,18 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The most robust Windows Phone stopwatch application includes:
-        ///Ability to switch between applications while timing events.
-        ///Allows for disabling of windows lock screen while timing events.
-        ///Record and save lap information..
+        ///   Looks up a localized string similar to Best Stop Watch in the Windows Phone Store!
+        ///
+        ///Features include:
+        ///
+        ///* Email Lap and Split Times
+        ///* Running under Lock Screen
+        ///* Disable Lock Screen
+        ///* Both Split and Total Time
+        ///* Large, easy to read clock
+        ///* Landscape support for big numbers
+        ///
+        ///Download this app today!.
         /// </summary>
         public static string AppDescription {
             get {

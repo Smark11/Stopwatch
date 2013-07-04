@@ -47,7 +47,7 @@
          -->
 
             <UI:AdControl 
-                 x:Name="AdControl"
+                 x:Name="MyAdControl"
                  ApplicationId="a5f523de-5568-422f-8074-f2321a75f7ee" 
                  AdUnitId="134721" 
                  HorizontalAlignment="Center" 

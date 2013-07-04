@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>已啟用</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>最穩健的 Windows Phone 碼錶應用程式包括：
-同時計時事件的應用程式之間切換的能力。
-允許禁用 windows 鎖定螢幕同時計時事件。
-記錄和保存圈的資訊。</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>碼錶</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>數量/拆分/圈</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>最好停止 Windows Phone 存儲區中的手錶 ！
+
+功能包括：
+
+* 電子郵件圈和拆分倍
+* 在鎖定螢幕下運行
+* 禁用鎖定螢幕
+* 拆分和總時間
+* 大型、 易讀的時鐘
+* 景觀大數位支援
+
+今天下載這個應用程式 ！</value>
   </data>
 </root>

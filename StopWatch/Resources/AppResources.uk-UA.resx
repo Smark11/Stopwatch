@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Ввімкнено</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Найбільш надійний Windows Phone секундомір застосування включає в себе:
-Можливість перемикання між додатками під час події терміни.
-Дозволяє відключити windows блокування екрану під час події терміни.
-Записати та зберегти інформацію на колінах.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Секундомір</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>Число, Спліт, коліна</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Краще зупинити годинник у сховищі Windows Phone!
+
+Функції включають в себе:
+
+* Електронна пошта на колінах і розкол рази
+* Під управлінням блокування екрану
+* Вимкнути блокування екрану
+* Як розділення і загальний час
+* Великі, легко читати годинник
+* Ландшафт підтримки для великих чисел
+
+Завантажити цю app сьогодні!</value>
   </data>
 </root>

@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Включено</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Самые надежные приложения Windows Phone секундомер включает в себя:
-Возможность переключения между приложениями во время времени события.
-Позволяет для отключения экрана замка windows во время времени события.
-Запись и сохранение круг информации.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Секундомер</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>Номер/Сплит/коленях</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Лучший секундомер в хранилище Windows Phone!
+
+Особенности включают:
+
+* Email Lap и сплиты
+* Работает под экран замка
+* Отключить экран замка
+* Как Сплит, так и общее время
+* Большой, легко читаемым будильник
+* Пейзаж поддержка больших чисел
+
+Скачайте этот app сегодня!</value>
   </data>
 </root>

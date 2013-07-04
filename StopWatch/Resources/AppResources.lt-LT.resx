@@ -215,4 +215,18 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Numeris/Split/juosmens</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+
+Funkcijos apima:
+
+* Rašykite juosmens ir padalinti kartų
+* Veikia užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir bendras laikas
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
 </root>

@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>تمكين</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>ويشمل تطبيق ساعة توقيت Windows Phone أقوى:
-القدرة على التبديل بين التطبيقات أثناء أحداث التوقيت.
-يسمح لتعطيل windows قفل الشاشة أثناء أحداث التوقيت.
-تسجيل وحفظ المعلومات اللفة.</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>ساعة توقيت</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>رقم/سبليت/اللفة</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>أفضل وقف يشاهد في مخزن Windows Phone!
+
+وتشمل الميزات:
+
+* البريد الإلكتروني اللفة وتقسيم الأوقات
+* يعمل تحت قفل الشاشة
+* تعطيل قفل الشاشة
+* كل من الانقسام وإجمالي الوقت
+* كبيرة وسهلة القراءة على مدار الساعة
+* تقديم الدعم للأرقام الكبيرة والمناظر الطبيعية
+
+تحميل هذا التطبيق اليوم!</value>
   </data>
 </root>

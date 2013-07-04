@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>已启用</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>最稳健的 Windows Phone 秒表应用程序包括：
-同时计时事件的应用程序之间切换的能力。
-允许禁用 windows 锁定屏幕同时计时事件。
-记录和保存圈的信息。</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>秒表</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>数量/拆分/圈</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>最好停止 Windows Phone 存储区中的手表 ！
+
+功能包括：
+
+* 电子邮件圈和拆分倍
+* 在锁定屏幕下运行
+* 禁用锁定屏幕
+* 拆分和总时间
+* 大型、 易读的时钟
+* 景观大数字支持
+
+今天下载这个应用程序 ！</value>
   </data>
 </root>

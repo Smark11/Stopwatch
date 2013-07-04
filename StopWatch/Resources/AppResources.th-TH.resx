@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>เปิดใช้งาน</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>แอพลิเคชัน Windows Phone นาฬิกาจับแข็งแกร่งมากที่สุดประกอบด้วย:
-ความสามารถในการสลับระหว่างโปรแกรมประยุกต์ในขณะที่ระยะเวลากิจกรรม
-ช่วยให้การปิดการใช้งานของ windows หน้าจอล็อคในขณะที่ระยะเวลากิจกรรม
-บันทึก และบันทึกข้อมูลการตัก</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>นาฬิกาจับ</value>
   </data>
@@ -220,5 +214,19 @@
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>หมายเลข/แยก/ตัก</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>ส่วนหยุดนาฬิกาในร้าน Windows Phone
+
+คุณสมบัติรวมถึง:
+
+* อีตัก และแบ่งเวลา
+* ทำงานภายใต้หน้าจอล็อค
+* ปิดล็อคหน้าจอ
+* ทั้งแยกและรวมเวลา
+* ขนาดใหญ่ ง่ายต่อการอ่านนาฬิกา
+* สนับสนุนใหญ่เลขแนวนอน
+
+ดาวน์โหลด app นี้วันนี้</value>
   </data>
 </root>

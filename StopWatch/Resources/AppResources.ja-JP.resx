@@ -188,12 +188,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>有効になって</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>最も堅牢な Windows Phone のストップウォッチのアプリケーションが含まれます。
-タイミング イベント中アプリケーションを切り替える機能。
-Windows のロック画面のタイミング イベントの中の無効にすることができます。
-記録し、ラップ情報を保存します。</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>ストップウォッチ</value>
   </data>
@@ -220,5 +214,19 @@ Windows のロック画面のタイミング イベントの中の無効にす�
   </data>
   <data name="EmailBody" xml:space="preserve">
     <value>数/スプリット/ラップ</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>最高の Windows Phone 店で時計を停止 ！
+
+機能は含みます。
+
+* E メール ラップと分割回
+* ロック スクリーンの下で実行しています。
+* ロック スクリーンを無効にします。
+* 分割と合計時間
+* 大規模な簡単に時計を読む
+* サポートの大きな番号を風景します。
+
+このアプリを今すぐダウンロード ！</value>
   </data>
 </root>
