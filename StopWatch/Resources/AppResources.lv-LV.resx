@@ -215,18 +215,4 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Numurs/Split/klēpja</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Labākais pārtraukt skatīties Windows Phone veikalā!
-
-Funkcijas ietver:
-
-* E-pasts klēpja un sadalīt reizes
-* Darbojas Lock Screen
-* Disable Lock Screen
-* Sadalīt gan kopējais laiks
-* Liels, viegli lasīt pulksteni
-* Ainavu atbalsts lielas numuriem
-
-Lejupielādēt šo app šodien!</value>
-  </data>
 </root>

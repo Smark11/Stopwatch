@@ -215,18 +215,4 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Antal/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bästa sluta titta i Windows Phone Store!
-
-Funktioner inkluderar:
-
-* E-varv och sträcktider
-* Körs under låsskärmen
-* Inaktivera låsskärmen
-* Både Split och Total tid
-* Stor, lätt att läsa klockan
-* Landskap stöd för stora siffror
-
-Ladda ner denna app idag!</value>
-  </data>
 </root>

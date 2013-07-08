@@ -215,18 +215,4 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Nomor/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Terbaik Stop Watch di Windows Phone Store!
-
-Fitur termasuk:
-
-* Email Lap dan membagi kali
-* Berjalan di bawah layar kunci
-* Menonaktifkan layar kunci
-* Split maupun Total waktu
-* Besar, mudah dibaca jam.
-* Lanskap dukungan untuk jumlah besar
-
-Download aplikasi ini hari ini!</value>
-  </data>
 </root>

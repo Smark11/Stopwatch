@@ -191,20 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Włączone</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Najlepszy stoper w magazynie Windows Phone!
-
-Funkcje obejmują:
-
-* E-mail okrążenie i międzyczasy
-* Działa blokada ekranu
-* Wyłączanie blokady ekranu
-* Zarówno Split i całkowity czas
-* Duży, czytelny zegar
-* Wsparcie dla dużych liczb krajobraz
-
-Pobrać tę aplikację dziś!</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stoper</value>
   </data>

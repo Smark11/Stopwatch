@@ -215,18 +215,4 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Numero/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Meglio smettere di guardare nell'archivio di Windows Phone!
-
-Le caratteristiche includono:
-
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Sia Split e tempo totale
-* Grande, di facile lettura dell'orologio
-* Supporto per i grandi numeri di panorama
-
-Scaricare questa app oggi!</value>
-  </data>
 </root>

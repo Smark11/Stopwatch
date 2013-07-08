@@ -191,20 +191,6 @@
   <data name="LockScreenEnabled" xml:space="preserve">
     <value>Aktiveret</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bedste stopur i Windows Phone butik!
-
-Funktioner omfatter:
-
-* Email Lap og stræktider
-* Kører under lås skærm
-* Deaktivere låseskærmen
-* Både delt og samlet tid
-* Store, let at læse ur
-* Landskab støtte til store tal
-
-Download denne app i dag!</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stopur</value>
   </data>

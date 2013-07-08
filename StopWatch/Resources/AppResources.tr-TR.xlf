@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">En iyi Windows Phone mağaza İzle Dur!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Özellikleri şunlardır:
+Features include:
 
-* Email Lap ve bölünmüş kez
-* Kilit ekranı altında çalışan
-* Kilit ekranını devre dışı bırakın
-* Hem Böl ve toplam süre
-* Büyük, saat okunması kolay
-* Destek büyük sayılar için peyzaj
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Bu uygulama bugün yükleyin!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

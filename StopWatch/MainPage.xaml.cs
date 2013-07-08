@@ -28,6 +28,7 @@ namespace StopWatch
         String _isRunning = "No";
         Common commonCode = new Common();
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
+        MessageBoxResult msgResult;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -39,6 +40,17 @@ namespace StopWatch
             // Sample code to localize the ApplicationBar
             BuildLocalizedApplicationBar();
 
+            ////Check the install date, every 10th day ask to rate
+            //int daysSinceInstalled = 0;
+            //daysSinceInstalled = commonCode.GetDaySinceInstalled();
+            ////This is where we would pop up a question asking if they want to rate.  Need to globalize the question
+            //msgResult = MessageBox.Show("Would you like to rate the application?", "Rate", MessageBoxButton.OKCancel);
+            //if (msgResult == MessageBoxResult.OK)
+            //{
+            //    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+            //    marketplaceReviewTask.Show();
+            //}
+
             App.gStopWatch = new Stopwatch();
             _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
 
@@ -48,7 +60,6 @@ namespace StopWatch
             LoadLapAndSplitData();
 
             MyAdControl.ErrorOccurred += MyAdControl_ErrorOccurred;
-
 
             //Need to determine what/if any adjustment should be made to clock
             //For example, if clock was paused previously we want to start at last clock value with clock paused
@@ -304,7 +315,7 @@ namespace StopWatch
 
         private void MoreApps_Click(object sender, EventArgs e)
         {
-           MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
+            MarketplaceSearchTask marketplaceSearchTask = new MarketplaceSearchTask();
 
             marketplaceSearchTask.SearchTerms = "KLBCreations";
             marketplaceSearchTask.Show();
@@ -384,15 +395,15 @@ namespace StopWatch
             laps = commonCode.GetSetting("Stopwatch-Laps").Split(',');
             splits = commonCode.GetSetting("Stopwatch-Splits").Split(',');
 
-            for (int i = laps.Count()-1; i >=0; i--)
+            for (int i = laps.Count() - 1; i >= 0; i--)
             {
                 if (laps[i] != string.Empty)
                 {
                     StopwatchTimes stopwatchTimes = new StopwatchTimes();
-                    stopwatchTimes.ItemCount = laps.Count()-i-1;
+                    stopwatchTimes.ItemCount = laps.Count() - i - 1;
                     stopwatchTimes.LapTime = laps[i];
                     stopwatchTimes.SplitTime = splits[i];
-                    StopwatchTimesCollection.Insert(0,stopwatchTimes);
+                    StopwatchTimesCollection.Insert(0, stopwatchTimes);
 
                     _lastSplitTime = TimeSpan.Parse(stopwatchTimes.SplitTime);
                 }

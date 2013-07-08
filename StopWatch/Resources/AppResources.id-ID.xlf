@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Terbaik Stop Watch di Windows Phone Store!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Fitur termasuk:
+Features include:
 
-* Email Lap dan membagi kali
-* Berjalan di bawah layar kunci
-* Menonaktifkan layar kunci
-* Split maupun Total waktu
-* Besar, mudah dibaca jam.
-* Lanskap dukungan untuk jumlah besar
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Download aplikasi ini hari ini!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
