@@ -43,6 +43,62 @@ namespace StopWatch
 
         #endregion "General"
 
+        #region "App Opened"
+
+        //This proc will add 1 to the number of times the app has been opened and return that value and save that value
+        public int AppOpened()
+        {
+            int returnValue = 0;
+            string settingValue = string.Empty;
+            IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
+
+            try
+            {
+                if (appSettings.Contains("Stopwatch-AppOpenedCount"))
+                {
+                    settingValue=GetSetting("Stopwatch-AppOpenedCount");
+                    returnValue = Convert.ToInt16(settingValue)+1;
+                    SaveSettings("Stopwatch-AppOpenedCount", returnValue.ToString());
+                }
+                else   //has not been opened yet so intitialize as first time being opened
+                {
+                    SaveSettings("Stopwatch-AppOpenedCount", "1");
+                    returnValue = 1;
+                }
+            }
+            catch (Exception)
+            {;
+                return 0;
+            }
+            return returnValue;
+        }
+
+
+        public string HasAppBeenRated()
+        {
+            string returnValue = string.Empty;
+            IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
+            try
+            {
+                if (appSettings.Contains("Stopwatch-AppRated"))
+                {
+                    returnValue = GetSetting("Stopwatch-AppRated");
+                }
+                else
+                {
+                    SaveSettings("Stopwatch-AppRated", "No");
+                    returnValue = "No";
+                }
+            }
+            catch (Exception)
+            {
+                return "No";
+            }
+            return returnValue;
+        }
+
+        #endregion "App Opened"
+
         #region "InstallDate"
 
         public void SaveInstallDate(string settingName, DateTime installDate)
@@ -52,6 +108,7 @@ namespace StopWatch
             appSettings[settingName] = installDate;
             appSettings.Save();
         }
+
 
         public DateTime GetInstallDate(string settingName)
         {

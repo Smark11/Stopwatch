@@ -29,6 +29,8 @@ namespace StopWatch
         Common commonCode = new Common();
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
         MessageBoxResult msgResult;
+        int appOpenedCount = 0;
+        string hasAppBeenRated = string.Empty;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -40,16 +42,30 @@ namespace StopWatch
             // Sample code to localize the ApplicationBar
             BuildLocalizedApplicationBar();
 
-            ////Check the install date, every 10th day ask to rate
-            //int daysSinceInstalled = 0;
-            //daysSinceInstalled = commonCode.GetDaySinceInstalled();
-            ////This is where we would pop up a question asking if they want to rate.  Need to globalize the question
-            //msgResult = MessageBox.Show("Would you like to rate the application?", "Rate", MessageBoxButton.OKCancel);
-            //if (msgResult == MessageBoxResult.OK)
-            //{
-            //    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-            //    marketplaceReviewTask.Show();
-            //}
+            //Marks 
+            //1) Need to change question to yes/no and not ok/cancel. Not sure how to do that.
+            //2) Need to globalize the question.
+            //3) Not sure what you were talking about with the 10 times comment.
+            //4) With the code below EVERY time they open the app after the 3rd time, they will be prompted to rate until
+            // the say yes to rate.  Not sure if we want that, as that could be annoying.
+            appOpenedCount = commonCode.AppOpened();
+            hasAppBeenRated = commonCode.HasAppBeenRated();
+            if (appOpenedCount > 3 && hasAppBeenRated == "No")
+            {
+               msgResult = MessageBox.Show("Would you like to rate the application?", "Rate", MessageBoxButton.OKCancel);
+               if (msgResult == MessageBoxResult.OK)
+               {
+                   MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                   marketplaceReviewTask.Show();
+
+                   commonCode.SaveSettings("Stopwatch-AppRated", "Yes");
+               }
+               else
+               {
+                   commonCode.SaveSettings("Stopwatch-AppRated", "No");
+               }
+            }
+        
 
             App.gStopWatch = new Stopwatch();
             _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
