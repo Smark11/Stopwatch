@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parim Stop Watch Windows Phone poest!
 
-Features include:
+Funktsioonide hulka kuuluvad:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* E-post süles ja vaheajad
+* Käivitatud lukk ekraan
+* Välja lülitada Lukusta ekraan
+* Split nii koguaeg
+* Suur, kergesti loetav kella
+* Maastiku toetus suured numbrid
 
-Download this app today!</target>
+Lae alla käesoleva app täna!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -161,6 +161,14 @@ Download this app today!</target>
         <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
           <source>Number/Split/Lap</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Arv-Split-Lap</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määr</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teie tagasiside on meile väga oluline! Garanteeritud soovite jagada oma tagasisidet meie poolt reiting on turuplatsil stopperit?</target>
         </trans-unit>
       </group>
     </body>

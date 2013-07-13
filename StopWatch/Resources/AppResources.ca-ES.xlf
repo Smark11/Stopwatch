@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Millor deixar de veure a la botiga de Windows Phone!
 
-Features include:
+Les característiques inclouen:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* Volta de correu electrònic i dividir el temps
+* S'executa amb pantalla de panys
+* Impossibiliti pantalla de Pany
+* Split tant temps Total
+* Gran, fàcil de llegir el rellotge
+* Suport per a un gran nombre de paisatge
 
-Download this app today!</target>
+Descarregar aquest app avui!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -161,6 +161,14 @@ Download this app today!</target>
         <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
           <source>Number/Split/Lap</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Nombre/Split/Lap</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taxa</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">La seva opinió és molt important per a nosaltres! Woud agradaria compartir la seva opinió amb nosaltres pel cronòmetre a la plaça del mercat de l'avaluació?</target>
         </trans-unit>
       </group>
     </body>

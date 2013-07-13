@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tốt nhất ngừng xem trong cửa hàng Windows Phone!
 
-Features include:
+Tính năng bao gồm:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* Gửi email Lap và phân chia thời gian
+* Chạy dưới màn hình khóa
+* Vô hiệu hoá màn hình khóa
+* Cả hai phân chia và tổng số thời gian
+* Lớn, dễ đọc đồng hồ
+* Cảnh quan hỗ trợ cho số lượng lớn
 
-Download this app today!</target>
+Tải về ứng dụng này vào ngày hôm nay!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -161,6 +161,14 @@ Download this app today!</target>
         <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
           <source>Number/Split/Lap</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Split-số-vòng</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tỷ lệ</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Phản hồi của bạn là rất quan trọng với chúng tôi! Woud bạn muốn chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường?</target>
         </trans-unit>
       </group>
     </body>

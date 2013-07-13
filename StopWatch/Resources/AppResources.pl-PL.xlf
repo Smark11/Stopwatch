@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Najlepszy stoper w magazynie Windows Phone!
 
-Features include:
+Funkcje obejmują:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* E-mail okrążenie i międzyczasy
+* Działa blokada ekranu
+* Wyłączanie blokady ekranu
+* Zarówno Split i całkowity czas
+* Duży, czytelny zegar
+* Wsparcie dla dużych liczb krajobraz
 
-Download this app today!</target>
+Pobrać tę aplikację dziś!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -161,6 +161,14 @@ Download this app today!</target>
         <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
           <source>Number/Split/Lap</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Numer z okrążenia</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kurs</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Twoja opinia jest dla nas bardzo ważne! Woud chcesz podzielić się swoją opinię z nami przez ocena stoper na rynku?</target>
         </trans-unit>
       </group>
     </body>

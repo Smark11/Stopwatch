@@ -46,9 +46,9 @@ namespace StopWatch
             //Every 5th time app is opened prompt user if they want to rate.  Once they say yes, never prompt them again.
             appOpenedCount = AppOpenedCount();
             hasAppBeenRated = HasAppBeenRated();
-            if (appOpenedCount > 5 && hasAppBeenRated == "No")
+            if (appOpenedCount > 4 && hasAppBeenRated == "No")
             {
-                msgResult = MessageBox.Show("Would you like to rate the application?", "Rate", MessageBoxButton.OKCancel);
+                msgResult = MessageBox.Show(AppResources.RateTheAppQuestion, AppResources.RateAppHeader, MessageBoxButton.OKCancel);
                 if (msgResult == MessageBoxResult.OK)
                 {
                     MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();

@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bedste stopur i Windows Phone butik!
 
-Features include:
+Funktioner omfatter:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* Email Lap og stræktider
+* Kører under lås skærm
+* Deaktivere låseskærmen
+* Både delt og samlet tid
+* Store, let at læse ur
+* Landskab støtte til store tal
 
-Download this app today!</target>
+Download denne app i dag!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -161,6 +161,14 @@ Download this app today!</target>
         <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
           <source>Number/Split/Lap</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Antallet/Split/Lap</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sats</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Din feedback er meget vigtig for os! Woud du gerne dele din feedback med os ved rating stopur på markedspladsen?</target>
         </trans-unit>
       </group>
     </body>
