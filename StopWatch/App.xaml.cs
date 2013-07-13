@@ -7,6 +7,8 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using StopWatch.Resources;
+using Common.IsolatedStoreage;
+
 namespace StopWatch
 {
     public partial class App : Application
@@ -21,8 +23,7 @@ namespace StopWatch
         /// Constructor for the Application object.
         /// </summary>
         /// 
-        Common commonCode = new Common();
-        public static Stopwatch gStopWatch;
+       public static Stopwatch gStopWatch;
 
         public App()
         {
@@ -88,15 +89,15 @@ namespace StopWatch
 
         private void SaveStopWatchValues()
         {
-            commonCode.SaveSettings("Stopwatch-DateTimeLastStart", DateTime.Now.ToString());
+            IS.SaveSetting("Stopwatch-DateTimeLastStart", DateTime.Now.ToString());
 
             if (gStopWatch.IsRunning == true)
             {
-                commonCode.SaveSettings("Stopwatch-IsRunning", "Yes");
+                IS.SaveSetting("Stopwatch-IsRunning", "Yes");
             }
             else
             {
-                commonCode.SaveSettings("Stopwatch-IsRunning", "No");
+                IS.SaveSetting("Stopwatch-IsRunning", "No");
             }
         }
 

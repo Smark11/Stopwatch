@@ -16,6 +16,7 @@ using Microsoft.Phone.Tasks;
 using System.IO;
 using System.Windows.Media;
 using Windows.ApplicationModel.Store;
+using Common.IsolatedStoreage;
 
 
 namespace StopWatch
@@ -25,8 +26,8 @@ namespace StopWatch
         DispatcherTimer _timer;
         TimeSpan _adjustment = new TimeSpan(0, 0, 0);
         DateTime _dateTimeLastStart;
-        String _isRunning = "No";
-        Common commonCode = new Common();
+        string _isRunning = "No";
+
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
         MessageBoxResult msgResult;
         int appOpenedCount = 0;
@@ -42,33 +43,29 @@ namespace StopWatch
             // Sample code to localize the ApplicationBar
             BuildLocalizedApplicationBar();
 
-            //Marks 
-            //1) Need to change question to yes/no and not ok/cancel. Not sure how to do that.
-            //2) Need to globalize the question.
-            //3) Not sure what you were talking about with the 10 times comment.
-            //4) With the code below EVERY time they open the app after the 3rd time, they will be prompted to rate until
-            // the say yes to rate.  Not sure if we want that, as that could be annoying.
-            appOpenedCount = commonCode.AppOpened();
-            hasAppBeenRated = commonCode.HasAppBeenRated();
-            if (appOpenedCount > 3 && hasAppBeenRated == "No")
+            //Every 5th time app is opened prompt user if they want to rate.  Once they say yes, never prompt them again.
+            appOpenedCount = AppOpenedCount();
+            hasAppBeenRated = HasAppBeenRated();
+            if (appOpenedCount > 5 && hasAppBeenRated == "No")
             {
-               msgResult = MessageBox.Show("Would you like to rate the application?", "Rate", MessageBoxButton.OKCancel);
-               if (msgResult == MessageBoxResult.OK)
-               {
-                   MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                   marketplaceReviewTask.Show();
+                msgResult = MessageBox.Show("Would you like to rate the application?", "Rate", MessageBoxButton.OKCancel);
+                if (msgResult == MessageBoxResult.OK)
+                {
+                    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                    marketplaceReviewTask.Show();
 
-                   commonCode.SaveSettings("Stopwatch-AppRated", "Yes");
-               }
-               else
-               {
-                   commonCode.SaveSettings("Stopwatch-AppRated", "No");
-               }
+                    IS.SaveSetting("Stopwatch-AppRated", "Yes");
+                }
+                else
+                {
+                    IS.SaveSetting("Stopwatch-AppRated", "No");
+                    IS.SaveSetting("Stopwatch-AppOpenedCount",0);
+                }
             }
-        
+
 
             App.gStopWatch = new Stopwatch();
-            _isRunning = commonCode.GetSetting("Stopwatch-IsRunning");
+            _isRunning = IsStopWatchRunning();
 
             SetLockScreenSetting();
             StopwatchTimesCollection = new ObservableCollection<StopwatchTimes>();
@@ -81,28 +78,28 @@ namespace StopWatch
             //For example, if clock was paused previously we want to start at last clock value with clock paused
             //For example, if clock was running previously we want to add time that has accrued since app was shot down
 
-            if ((commonCode.GetSetting("Stopwatch-DateTimeLastStart") == string.Empty) || (_isRunning == "No"))
+            if ((IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty) || (_isRunning == "No"))
             {
-                if (commonCode.GetSetting("Stopwatch-DateTimeLastStart") == string.Empty)
+                if (IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty)
                 {
                     _adjustment = new TimeSpan();
                 }
                 else
                 {
-                    if (commonCode.GetSetting("Stopwatch-LastValue") == string.Empty)
+                    if (IS.GetSettingStringValue("Stopwatch-LastValue") == string.Empty)
                     {
                         _adjustment = new TimeSpan();
                     }
                     else
                     {
-                        _adjustment = TimeSpan.Parse(commonCode.GetSetting("Stopwatch-LastValue"));
+                        _adjustment = TimeSpan.Parse(IS.GetSettingStringValue("Stopwatch-LastValue"));
                     }
                 }
             }
             else  //clock was running when it was last opened, so add accrued time
             {
-                _dateTimeLastStart = DateTime.Parse(commonCode.GetSetting("Stopwatch-DateTimeLastStart"));
-                _adjustment = TimeSpan.Parse(commonCode.GetSetting("Stopwatch-LastValue")) + (DateTime.Now - _dateTimeLastStart);
+                _dateTimeLastStart = DateTime.Parse(IS.GetSettingStringValue("Stopwatch-DateTimeLastStart"));
+                _adjustment = TimeSpan.Parse(IS.GetSettingStringValue("Stopwatch-LastValue")) + (DateTime.Now - _dateTimeLastStart);
             }
 
             _timer = new DispatcherTimer();
@@ -194,21 +191,21 @@ namespace StopWatch
                     this.Start.IsEnabled = true;
                     this.Reset.IsEnabled = false;
                     this.Lap.IsEnabled = false;
-                    commonCode.SaveSettings("Stopwatch-IsRunning", "No");
+                    IS.SaveSetting("Stopwatch-IsRunning", "No");
                 }
                 else if (_mode == AppResources.PauseText)
                 {
                     this.Start.IsEnabled = true;
                     this.Reset.IsEnabled = true;
                     this.Lap.IsEnabled = true;
-                    commonCode.SaveSettings("Stopwatch-IsRunning", "Yes");
+                    IS.SaveSetting("Stopwatch-IsRunning", "Yes");
                 }
                 else if (_mode == AppResources.ResumeText)
                 {
                     this.Start.IsEnabled = true;
                     this.Reset.IsEnabled = true;
                     this.Lap.IsEnabled = false;
-                    commonCode.SaveSettings("Stopwatch-IsRunning", "No");
+                    IS.SaveSetting("Stopwatch-IsRunning", "No");
                 }
                 else if (_mode == AppResources.ExceedText)
                 {
@@ -217,7 +214,7 @@ namespace StopWatch
                     this.Start.IsEnabled = false;
                     this.Reset.IsEnabled = true;
                     this.Lap.IsEnabled = false;
-                    commonCode.SaveSettings("Stopwatch-IsRunning", "No");
+                    IS.SaveSetting("Stopwatch-IsRunning", "No");
                 };
             }
         }
@@ -239,7 +236,7 @@ namespace StopWatch
             {
                 ClockValue = App.gStopWatch.Elapsed + _adjustment;
                 ClockValueString = ClockValue.ToString(@"hh\:mm\:ss\.ff");
-                commonCode.SaveSettings("Stopwatch-LastValue", ClockValue.ToString());
+                IS.SaveSetting("Stopwatch-LastValue", ClockValue.ToString());
             }
         }
 
@@ -269,8 +266,8 @@ namespace StopWatch
                 _adjustment = new TimeSpan();
                 _lastSplitTime = new TimeSpan();
                 StopwatchTimesCollection.Clear();
-                commonCode.RemoveSettings("Stopwatch-Laps");
-                commonCode.RemoveSettings("Stopwatch-Splits");
+                IS.RemoveSetting("Stopwatch-Laps");
+                IS.RemoveSetting("Stopwatch-Splits");
                 Mode = AppResources.StartText;
                 Start.Background = new SolidColorBrush(Colors.Green);
             }
@@ -295,10 +292,10 @@ namespace StopWatch
             _lastSplitTime = ClockValue;
 
             saveSplits = GetSplitData(",");
-            commonCode.SaveSettings("Stopwatch-Splits", saveSplits);
+            IS.SaveSetting("Stopwatch-Splits", saveSplits);
 
             saveLaps = GetLapData(",");
-            commonCode.SaveSettings("Stopwatch-Laps", saveLaps);
+            IS.SaveSetting("Stopwatch-Laps", saveLaps);
         }
 
         private void DeleteLaps_Click(object sender, EventArgs e)
@@ -306,8 +303,8 @@ namespace StopWatch
             MessageBoxResult result = MessageBox.Show(AppResources.DeleteAllLapDataMessage, AppResources.DeleteLapsTitle, MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK)
             {
-                commonCode.RemoveSettings("Stopwatch-Laps");
-                commonCode.RemoveSettings("Stopwatch-Splits");
+                IS.RemoveSetting("Stopwatch-Laps");
+                IS.RemoveSetting("Stopwatch-Splits");
                 StopwatchTimesCollection.Clear();
             }
         }
@@ -408,8 +405,8 @@ namespace StopWatch
             string[] laps;
             string[] splits;
 
-            laps = commonCode.GetSetting("Stopwatch-Laps").Split(',');
-            splits = commonCode.GetSetting("Stopwatch-Splits").Split(',');
+            laps = IS.GetSettingStringValue("Stopwatch-Laps").Split(',');
+            splits = IS.GetSettingStringValue("Stopwatch-Splits").Split(',');
 
             for (int i = laps.Count() - 1; i >= 0; i--)
             {
@@ -451,9 +448,9 @@ namespace StopWatch
         {
             string lockScreenValue = string.Empty;
 
-            if (commonCode.GetSetting("Stopwatch-LockScreen") != string.Empty)
+            if (IS.GetSettingStringValue("Stopwatch-LockScreen") != string.Empty)
             {
-                lockScreenValue = commonCode.GetSetting("Stopwatch-LockScreen");
+                lockScreenValue = IS.GetSettingStringValue("Stopwatch-LockScreen");
                 if (lockScreenValue == "Enabled")
                 {
                     PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
@@ -509,6 +506,78 @@ namespace StopWatch
             appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
         }
 
+        public string IsStopWatchRunning()
+        {
+            string returnValue = string.Empty;
+
+            try
+            {
+                if (IS.GetSettingStringValue("Stopwatch-IsRunning") != string.Empty)
+                {
+                    returnValue = IS.GetSettingStringValue("Stopwatch-IsRunning");
+                }
+                else
+                {
+                    returnValue = "No";
+                }
+            }
+            catch (Exception)
+            {
+                return "No";
+            }
+            return returnValue;
+        }
+
+        public string HasAppBeenRated()
+        {
+            string returnValue = string.Empty;
+
+            try
+            {
+                if (IS.GetSettingStringValue("Stopwatch-AppRated") != string.Empty)
+                {
+                    returnValue = IS.GetSettingStringValue("Stopwatch-AppRated");
+                }
+                else
+                {
+                    IS.SaveSetting("Stopwatch-AppRated", "No");
+                    returnValue = "No";
+                }
+            }
+            catch (Exception)
+            {
+                return "No";
+            }
+            return returnValue;
+        }
+
+        //This proc will add 1 to the number of times the app has been opened and return that value and save that value
+        public int AppOpenedCount()
+        {
+            int returnValue = 0;
+            string settingValue = string.Empty;
+
+            try
+            {
+                if (IS.GetSettingStringValue("Stopwatch-AppOpenedCount") != string.Empty)
+                {
+                    settingValue = IS.GetSettingStringValue("Stopwatch-AppOpenedCount");
+                    returnValue = Convert.ToInt16(settingValue) + 1;
+                    IS.SaveSetting("Stopwatch-AppOpenedCount", returnValue.ToString());
+                }
+                else   //has not been opened yet so intitialize as first time being opened
+                {
+                    IS.SaveSetting("Stopwatch-AppOpenedCount", "1");
+                    returnValue = 1;
+                }
+            }
+            catch (Exception)
+            {
+                ;
+                return 0;
+            }
+            return returnValue;
+        }
 
         #endregion "Common Routines"
 

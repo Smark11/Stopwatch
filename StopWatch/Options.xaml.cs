@@ -8,12 +8,13 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using StopWatch.Resources;
+using Common.IsolatedStoreage;
 
 namespace StopWatch
 {
     public partial class Options
     {
-        Common commonCode = new Common();
+ 
 
         public Options()
         {
@@ -21,14 +22,14 @@ namespace StopWatch
 
             InitializeComponent();
 
-            if (commonCode.GetSetting("Stopwatch-LockScreen") == string.Empty)
+            if (IS.GetSettingStringValue("Stopwatch-LockScreen") == string.Empty)
             {
                 toggleswitch.IsChecked = false;
                 toggleswitch.Content = AppResources.LockScreenDisabled;
             }
             else
             {
-                lockScreenValue = commonCode.GetSetting("Stopwatch-LockScreen");
+                lockScreenValue = IS.GetSettingStringValue("Stopwatch-LockScreen");
                 if (lockScreenValue == "Enabled")
                 {
                     toggleswitch.IsChecked = true;
@@ -46,7 +47,7 @@ namespace StopWatch
         private void toggleswitch_Checked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            commonCode.SaveSettings("Stopwatch-LockScreen", "Enabled");
+            IS.SaveSetting("Stopwatch-LockScreen", "Enabled");
             toggleswitch.Content = AppResources.LockScreenEnabled;
         }
 
@@ -54,7 +55,7 @@ namespace StopWatch
         private void toggleswitch_Unchecked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            commonCode.SaveSettings("Stopwatch-LockScreen", "Disabled");
+            IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
             toggleswitch.Content = AppResources.LockScreenDisabled;
         }
     }
