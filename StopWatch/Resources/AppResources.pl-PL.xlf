@@ -170,6 +170,10 @@ Pobrać tę aplikację dziś!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Twoja opinia jest dla nas bardzo ważne! Woud chcesz podzielić się swoją opinię z nami przez ocena stoper na rynku?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Twoja opinia jest dla nas bardzo ważne! Napiszcie swoje opinie z nami przez ocena stoper na rynku.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

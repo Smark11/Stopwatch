@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Anzahl/Split/Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste Stop Watch im Windows Phone Store!
+
+Eigenschaften umfassen:
+
+* E-Mail-Runde und Zwischenzeiten
+* Läuft unter Verschluss-Schirm
+* Lock-Bildschirm deaktivieren
+* Sowohl Split und Gesamtzeit
+* Großes, einfach abzulesendes Uhr
+* Unterstützung für große Zahlen Landschaft
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Komplettpreise</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ihr Feedback ist uns sehr wichtig! Gerne Woud Sie Ihr Feedback mit uns zu teilen, durch Bewertung der Stoppuhr auf dem Marktplatz?</value>
+  </data>
 </root>

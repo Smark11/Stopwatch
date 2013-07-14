@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Numer z okrążenia</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najlepszy stoper w magazynie Windows Phone!
+
+Funkcje obejmują:
+
+* E-mail okrążenie i międzyczasy
+* Działa blokada ekranu
+* Wyłączanie blokady ekranu
+* Zarówno Split i całkowity czas
+* Duży, czytelny zegar
+* Wsparcie dla dużych liczb krajobraz
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Twoja opinia jest dla nas bardzo ważne! Woud chcesz podzielić się swoją opinię z nami przez ocena stoper na rynku?</value>
+  </data>
 </root>

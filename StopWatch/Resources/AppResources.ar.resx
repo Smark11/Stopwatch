@@ -229,4 +229,10 @@
 
 تحميل هذا التطبيق اليوم!</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>ملاحظاتك مهم جداً بالنسبة لنا! Woud كنت ترغب في تقاسم تعليقاتك معنا حسب التصنيف ساعة توقيت في السوق؟</value>
+  </data>
 </root>

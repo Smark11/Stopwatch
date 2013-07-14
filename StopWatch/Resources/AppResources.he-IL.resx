@@ -229,4 +229,10 @@
 
 להוריד יישום זה היום!</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>קצב</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>המשוב שלך מאוד חשובה לנו! Woud אתה רוצה לשתף אותנו את המשוב שלך על-ידי דירוג הסטופר על השוק?</value>
+  </data>
 </root>

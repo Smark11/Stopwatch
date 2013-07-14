@@ -229,4 +229,10 @@
 
 Изтеглете този ап днес!</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Курс</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Вашето мнение е много важно за нас! Woud искали да споделите вашето мнение с нас чрез оценка на хронометър на пазара?</value>
+  </data>
 </root>

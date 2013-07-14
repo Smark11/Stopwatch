@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Nombre/Split/Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
+
+Caractéristiques comprennent :
+
+* Courriel tour et temps intermédiaires
+* En cours d'exécution sous l'écran de serrure
+* Désactiver l'écran de serrure
+* Split et temps Total
+* Grand, facile à lire horloge
+* Paysage de soutien pour les grands nombres
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Vos impressions sont très importantes pour nous ! Woud vous voulez partager vos commentaires avec nous par le chronomètre sur le marché de la notation ?</value>
+  </data>
 </root>

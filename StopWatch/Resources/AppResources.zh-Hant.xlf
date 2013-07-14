@@ -170,6 +170,10 @@ Download this app today!</source>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">您的回饋意見是對我們很重要 ！闖你喜歡的評分在市場上的碼錶與我們分享您的回饋意見嗎？</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您的回饋意見是對我們很重要 ！請由評分碼錶在市場上的與我們分享您的回饋意見。</target>
+        </trans-unit>
       </group>
     </body>
   </file>

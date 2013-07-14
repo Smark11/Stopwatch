@@ -235,4 +235,7 @@ Download this app today!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</value>
+  </data>
 </root>

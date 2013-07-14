@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Arv-Split-Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Parim Stop Watch Windows Phone poest!
+
+Funktsioonide hulka kuuluvad:
+
+* E-post süles ja vaheajad
+* Käivitatud lukk ekraan
+* Välja lülitada Lukusta ekraan
+* Split nii koguaeg
+* Suur, kergesti loetav kella
+* Maastiku toetus suured numbrid
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Määr</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Teie tagasiside on meile väga oluline! Garanteeritud soovite jagada oma tagasisidet meie poolt reiting on turuplatsil stopperit?</value>
+  </data>
 </root>

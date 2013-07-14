@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Number/Split/Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</value>
+  </data>
 </root>

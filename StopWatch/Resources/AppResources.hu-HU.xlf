@@ -170,6 +170,10 @@ Letölt ez app ma!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Visszajelzése nagyon fontos nekünk! Woud szeretne megosztani a visszajelzést értékelés az időmérő a piacon?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visszajelzése nagyon fontos nekünk! Kérjük, ossza meg visszajelzést velünk az értékelés a stopper, a piactéren.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

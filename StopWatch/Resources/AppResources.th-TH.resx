@@ -229,4 +229,10 @@
 
 ดาวน์โหลด app นี้วันนี้</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>อัตรา</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา Woud คุณต้องใช้คำติชมของคุณกับเราจัดอันดับนาฬิกาจับในตลาด</value>
+  </data>
 </root>

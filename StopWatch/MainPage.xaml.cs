@@ -29,9 +29,6 @@ namespace StopWatch
         string _isRunning = "No";
 
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
-        MessageBoxResult msgResult;
-        int appOpenedCount = 0;
-        string hasAppBeenRated = string.Empty;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -43,27 +40,9 @@ namespace StopWatch
             // Sample code to localize the ApplicationBar
             BuildLocalizedApplicationBar();
 
-            //Every 5th time app is opened prompt user if they want to rate.  Once they say yes, never prompt them again.
-            appOpenedCount = AppOpenedCount();
-            hasAppBeenRated = HasAppBeenRated();
-            if (appOpenedCount > 4 && hasAppBeenRated == "No")
-            {
-                msgResult = MessageBox.Show(AppResources.RateTheAppQuestion, AppResources.RateAppHeader, MessageBoxButton.OKCancel);
-                if (msgResult == MessageBoxResult.OK)
-                {
-                    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                    marketplaceReviewTask.Show();
-
-                    IS.SaveSetting("Stopwatch-AppRated", "Yes");
-                }
-                else
-                {
-                    IS.SaveSetting("Stopwatch-AppRated", "No");
-                    IS.SaveSetting("Stopwatch-AppOpenedCount",0);
-                }
-            }
-
-
+            //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+            RateTheApp();
+       
             App.gStopWatch = new Stopwatch();
             _isRunning = IsStopWatchRunning();
 
@@ -577,6 +556,51 @@ namespace StopWatch
                 return 0;
             }
             return returnValue;
+        }
+
+        //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+        private void RateTheApp()
+        {
+            MessageBoxResult msgResult;
+            int appOpenedCount = 0;
+            string hasAppBeenRated = string.Empty;
+
+            try
+            {
+                appOpenedCount = AppOpenedCount();
+                hasAppBeenRated = HasAppBeenRated();
+                if ((appOpenedCount == 5 || appOpenedCount == 10 || appOpenedCount == 15) && hasAppBeenRated == "No")
+                {
+                    msgResult = MessageBox.Show(AppResources.RateTheAppQuestion, AppResources.RateAppHeader, MessageBoxButton.OKCancel);
+                    if (msgResult == MessageBoxResult.OK)
+                    {
+                        MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                        marketplaceReviewTask.Show();
+
+                        IS.SaveSetting("Stopwatch-AppRated", "Yes");
+                    }
+                    else
+                    {
+                        IS.SaveSetting("Stopwatch-AppRated", "No");
+                    }
+                }
+                else
+                {
+                    if (appOpenedCount == 20 && hasAppBeenRated == "No")
+                    {
+                        msgResult = MessageBox.Show(AppResources.RateTheAppPrompt, AppResources.RateAppHeader, MessageBoxButton.OK);
+                        MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                        marketplaceReviewTask.Show();
+
+                        IS.SaveSetting("Stopwatch-AppRated", "Yes");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+
+            }
         }
 
         #endregion "Common Routines"

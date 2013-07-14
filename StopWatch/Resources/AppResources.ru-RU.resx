@@ -229,4 +229,10 @@
 
 Скачайте этот app сегодня!</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ваше мнение очень важно для нас! Woud вы хотели бы поделиться своими впечатлениями с нами по рейтингу секундомер на рынке?</value>
+  </data>
 </root>

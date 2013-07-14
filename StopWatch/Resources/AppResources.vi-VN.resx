@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Split-số-vòng</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Tốt nhất ngừng xem trong cửa hàng Windows Phone!
+
+Tính năng bao gồm:
+
+* Gửi email Lap và phân chia thời gian
+* Chạy dưới màn hình khóa
+* Vô hiệu hoá màn hình khóa
+* Cả hai phân chia và tổng số thời gian
+* Lớn, dễ đọc đồng hồ
+* Cảnh quan hỗ trợ cho số lượng lớn
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Phản hồi của bạn là rất quan trọng với chúng tôi! Woud bạn muốn chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường?</value>
+  </data>
 </root>

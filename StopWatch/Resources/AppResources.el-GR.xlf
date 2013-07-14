@@ -170,6 +170,10 @@ Download this app today!</source>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Woud ήθελα να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση το χρονόμετρο στην αγορά;</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Nummer/Split/Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste stoppeklokke i Windows Phone butikken!
+
+Funksjoner inkluderer:
+
+* E-post fanget og mellomtider
+* Kjører under låseskjermen
+* Deaktivere låseskjermen
+* Både Split og totaltiden
+* Store, lettleste klokke
+* Landskapet støtte for store tall
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Din tilbakemelding er veldig viktig for oss! Woud du gjerne dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedsplassen?</value>
+  </data>
 </root>

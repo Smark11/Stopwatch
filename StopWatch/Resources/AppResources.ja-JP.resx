@@ -229,4 +229,10 @@
 
 このアプリを今すぐダウンロード ！</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>レート</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>あなたのフィードバックは非常に重要です ！Woud 市場でストップウォッチを評価することにより、私たちとご意見を共有したいですか？</value>
+  </data>
 </root>

@@ -170,6 +170,10 @@ Tải về ứng dụng này vào ngày hôm nay!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Phản hồi của bạn là rất quan trọng với chúng tôi! Woud bạn muốn chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Phản hồi của bạn là rất quan trọng với chúng tôi! Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

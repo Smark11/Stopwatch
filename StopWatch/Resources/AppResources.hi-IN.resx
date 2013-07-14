@@ -229,4 +229,10 @@
 
 इस app डाउनलोड आज!</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>दर</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! Woud आप अपनी राय हमारे साथ बाजार पर स्टॉपवॉच रेटिंग द्वारा साझा करने के लिए पसंद है?</value>
+  </data>
 </root>

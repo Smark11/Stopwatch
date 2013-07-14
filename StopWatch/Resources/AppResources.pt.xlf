@@ -170,6 +170,10 @@ Baixe este app hoje!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu feedback é muito importante para nós! Woud você gosta de compartilhar seus comentários por classificação o cronômetro no mercado?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu feedback é muito importante para nós! Compartilhe sua opinião por classificação o cronômetro no mercado.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

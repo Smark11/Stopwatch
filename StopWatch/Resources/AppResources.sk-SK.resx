@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Číslo/Split/Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najlepšie stopky v ukladacom priestore Windows Phone!
+
+Funkcie patrí:
+
+* E-mail Lap a medzičasy
+* Beží pod Zamknúť obrazovku
+* Zakázať Lock obrazovky
+* Split aj celkový čas
+* Veľký, ľahko čitateľné hodiny
+* Podpora pre veľké čísla na šírku
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Sadzba</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Vaša spätná väzba je pre nás veľmi dôležité! Woude vám zdieľať svoj názor s nami podľa hodnotenia stopky na trhu?</value>
+  </data>
 </root>

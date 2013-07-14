@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Split/številka/krog</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najboljši Stop Watch v shrambi Windows Phone!
+
+Funkcije vključujejo:
+
+* E-pošta krog in Split-krat
+* Tekmovanje v teku pod Zakleni zaslon
+* Onemogoči zaklepanje zaslon
+* Tako Split in skupni čas
+* Velik, enostaven za branje ura
+* Krajine podporo za velike številke
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Stopnja</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Vaša povratna informacija je zelo pomembno za nas! Woud želeli deliti svoje mnenje z nami po ocenah so štoparice na trgu?</value>
+  </data>
 </root>

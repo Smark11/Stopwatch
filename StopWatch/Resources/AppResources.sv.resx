@@ -215,4 +215,24 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Antal/Split/Lap</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Bästa sluta titta i Windows Phone Store!
+
+Funktioner inkluderar:
+
+* E-varv och sträcktider
+* Körs under låsskärmen
+* Inaktivera låsskärmen
+* Både Split och Total tid
+* Stor, lätt att läsa klockan
+* Landskap stöd för stora siffror
+
+Ladda ner denna app idag!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Kurs</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Dina synpunkter är mycket viktiga för oss! Woud du vill dela din feedback med oss efter betyg stoppuret på marknadsplatsen?</value>
+  </data>
 </root>

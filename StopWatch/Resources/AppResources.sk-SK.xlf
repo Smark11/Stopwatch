@@ -170,6 +170,10 @@ Stiahnite si túto app dnes!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaša spätná väzba je pre nás veľmi dôležité! Woude vám zdieľať svoj názor s nami podľa hodnotenia stopky na trhu?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaša spätná väzba je pre nás veľmi dôležité! Prosím zdieľať svoj názor s nami rating stopky na trhu.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

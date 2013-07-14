@@ -229,4 +229,10 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Αριθμός/Split/αγκαλιά</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Woud ήθελα να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση το χρονόμετρο στην αγορά;</value>
+  </data>
 </root>

@@ -170,6 +170,10 @@ Download this app today!</source>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ваше мнение очень важно для нас! Woud вы хотели бы поделиться своими впечатлениями с нами по рейтингу секундомер на рынке?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ваше мнение очень важно для нас! Пожалуйста поделитесь с нами по рейтингу секундомер на рынке.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

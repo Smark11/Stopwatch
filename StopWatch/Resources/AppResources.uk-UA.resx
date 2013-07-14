@@ -229,4 +229,10 @@
 
 Завантажити цю app сьогодні!</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Курс</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ваші відгуки дуже важливо для нас! Woud ви хотіли б поділитися вашу зворотний зв'язок з нами за рейтингом секундомір на ринку?</value>
+  </data>
 </root>

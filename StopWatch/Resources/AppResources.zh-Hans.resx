@@ -229,4 +229,10 @@
 
 今天下载这个应用程序 ！</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>您的反馈意见是对我们很重要 ！闯你喜欢的评分在市场上的秒表与我们分享您的反馈意见吗？</value>
+  </data>
 </root>

@@ -170,6 +170,10 @@ Lae alla käesoleva app täna!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Teie tagasiside on meile väga oluline! Garanteeritud soovite jagada oma tagasisidet meie poolt reiting on turuplatsil stopperit?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teie tagasiside on meile väga oluline! Palun jaga oma tagasiside meiega on turuplatsil stopperit hinnangu järgi.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

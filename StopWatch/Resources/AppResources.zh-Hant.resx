@@ -229,4 +229,10 @@
 
 今天下載這個應用程式 ！</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>您的回饋意見是對我們很重要 ！闖你喜歡的評分在市場上的碼錶與我們分享您的回饋意見嗎？</value>
+  </data>
 </root>

@@ -170,6 +170,10 @@ Descarregar aquest app avui!</target>
           <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">La seva opinió és molt important per a nosaltres! Woud agradaria compartir la seva opinió amb nosaltres pel cronòmetre a la plaça del mercat de l'avaluació?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">La seva opinió és molt important per a nosaltres! Si us plau, compartiu els vostres comentaris amb nosaltres pels avaluació el cronòmetre a la plaça del mercat.</target>
+        </trans-unit>
       </group>
     </body>
   </file>
