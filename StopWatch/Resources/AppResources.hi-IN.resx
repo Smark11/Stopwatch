@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! Woud आप अपनी राय हमारे साथ बाजार पर स्टॉपवॉच रेटिंग द्वारा साझा करने के लिए पसंद है?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! कृपया आपकी प्रतिक्रिया हमारे साथ शेयर बाज़ार पर स्टॉपवॉच रेटिंग द्वारा।</value>
+  </data>
 </root>

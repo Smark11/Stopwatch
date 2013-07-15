@@ -235,4 +235,7 @@ Descarregar aquest app avui!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>La seva opinió és molt important per a nosaltres! Woud agradaria compartir la seva opinió amb nosaltres pel cronòmetre a la plaça del mercat de l'avaluació?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>La seva opinió és molt important per a nosaltres! Si us plau, compartiu els vostres comentaris amb nosaltres pels avaluació el cronòmetre a la plaça del mercat.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@ Letölt ez app ma!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Visszajelzése nagyon fontos nekünk! Woud szeretne megosztani a visszajelzést értékelés az időmérő a piacon?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Visszajelzése nagyon fontos nekünk! Kérjük, ossza meg visszajelzést velünk az értékelés a stopper, a piactéren.</value>
+  </data>
 </root>

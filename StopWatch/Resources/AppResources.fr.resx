@@ -235,4 +235,7 @@ Téléchargez cette application dès aujourd'hui !</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Vos impressions sont très importantes pour nous ! Woud vous voulez partager vos commentaires avec nous par le chronomètre sur le marché de la notation ?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Vos impressions sont très importantes pour nous ! S'il vous plaît de partager vos commentaires avec nous par le chronomètre sur le marché de la notation.</value>
+  </data>
 </root>

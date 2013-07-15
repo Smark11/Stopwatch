@@ -235,4 +235,7 @@ Descărcaţi acest app astăzi!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Feedback-ul este foarte important pentru noi! Woud ai dori să vă împărtăşesc feedback-ul cu noi reiting cronometru pe piaţă?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Feedback-ul este foarte important pentru noi! Vă rugăm să împărtăşesc feedback-ul cu noi reiting cronometru pe piaţă.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Woud ήθελα να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση το χρονόμετρο στην αγορά;</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά.</value>
+  </data>
 </root>

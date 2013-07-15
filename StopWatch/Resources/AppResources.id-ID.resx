@@ -235,4 +235,7 @@ Download aplikasi ini hari ini!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Umpan balik Anda sangat penting untuk kita! Woud Anda ingin berbagi umpan balik Anda dengan kami dengan rating StopWatch di pasar?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting untuk kita! Silakan berbagi Tanggapan Anda dengan kami dengan rating StopWatch di pasar.</value>
+  </data>
 </root>

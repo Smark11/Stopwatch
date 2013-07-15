@@ -235,4 +235,7 @@ Download dit app vandaag nog!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Uw feedback is zeer belangrijk voor ons! Woud die u uw feedback met ons te delen willen volgens rating de StopWatch op de markt?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Uw feedback is zeer belangrijk voor ons! Deel uw feedback met ons volgens rating de StopWatch op de markt.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Mums labai svarbu savo atsiliepimą! Woud norite pasidalinti su mumis savo atsiliepimus, įvertindami chronometras rinkoje?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Mums labai svarbu savo atsiliepimą! Prašome pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje.</value>
+  </data>
 </root>

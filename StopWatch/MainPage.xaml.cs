@@ -586,13 +586,15 @@ namespace StopWatch
                 }
                 else
                 {
-                    if (appOpenedCount == 20 && hasAppBeenRated == "No")
+                    if (appOpenedCount >= 20 && hasAppBeenRated == "No")
                     {
                         msgResult = MessageBox.Show(AppResources.RateTheAppPrompt, AppResources.RateAppHeader, MessageBoxButton.OK);
                         MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
                         marketplaceReviewTask.Show();
-
-                        IS.SaveSetting("Stopwatch-AppRated", "Yes");
+                        if (msgResult == MessageBoxResult.OK)
+                        {
+                            IS.SaveSetting("Stopwatch-AppRated", "Yes");
+                        }
                     }
                 }
             }

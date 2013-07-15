@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ваше мнение очень важно для нас! Woud вы хотели бы поделиться своими впечатлениями с нами по рейтингу секундомер на рынке?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ваше мнение очень важно для нас! Пожалуйста поделитесь с нами по рейтингу секундомер на рынке.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>あなたのフィードバックは非常に重要です ！Woud 市場でストップウォッチを評価することにより、私たちとご意見を共有したいですか？</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>あなたのフィードバックは非常に重要です ！あなたのフィードバックを市場でストップウォッチを評価することによりシェアしてください。</value>
+  </data>
 </root>

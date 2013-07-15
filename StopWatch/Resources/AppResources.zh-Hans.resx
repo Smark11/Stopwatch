@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>您的反馈意见是对我们很重要 ！闯你喜欢的评分在市场上的秒表与我们分享您的反馈意见吗？</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>您的反馈意见是对我们很重要 ！请由评分秒表在市场上的与我们分享您的反馈意见。</value>
+  </data>
 </root>

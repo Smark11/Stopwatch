@@ -235,4 +235,7 @@ Lejupielādēt šo app šodien!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Woud vēlaties dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū.</value>
+  </data>
 </root>

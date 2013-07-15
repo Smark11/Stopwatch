@@ -235,4 +235,7 @@ Last ned denne app i dag!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Din tilbakemelding er veldig viktig for oss! Woud du gjerne dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedsplassen?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Din tilbakemelding er veldig viktig for oss! Kan du dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedet.</value>
+  </data>
 </root>

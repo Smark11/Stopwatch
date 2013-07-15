@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Вашето мнение е много важно за нас! Woud искали да споделите вашето мнение с нас чрез оценка на хронометър на пазара?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Вашето мнение е много важно за нас! Моля, Споделете вашето мнение с нас по оценка на хронометър на пазара.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@ Bu uygulama bugün yükleyin!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Görüşleriniz bizim için çok önemlidir! Kronometre Pazar derecelendirerek görüşlerinizi paylaşmak istediğiniz woud?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Görüşleriniz bizim için çok önemlidir! Lütfen görüşlerinizi bizimle kronometre Pazar derecelendirerek paylaşın.</value>
+  </data>
 </root>

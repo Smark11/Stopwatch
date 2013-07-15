@@ -235,4 +235,7 @@ Descargue esta aplicación!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Su opinión es muy importante para nosotros! ¿Woud que le gustaría compartir su opinión con nosotros por valorar el cronómetro en el mercado?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Su opinión es muy importante para nosotros! Por favor comparta su opinión con nosotros por valorar el cronómetro en el mercado.</value>
+  </data>
 </root>

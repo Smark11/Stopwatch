@@ -235,4 +235,7 @@ Ladda ner denna app idag!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Dina synpunkter är mycket viktiga för oss! Woud du vill dela din feedback med oss efter betyg stoppuret på marknadsplatsen?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Dina synpunkter är mycket viktiga för oss! Vänligen dela din feedback med oss efter betyg stoppuret på marketplace.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@ Laden Sie diese app herunter!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ihr Feedback ist uns sehr wichtig! Gerne Woud Sie Ihr Feedback mit uns zu teilen, durch Bewertung der Stoppuhr auf dem Marktplatz?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ihr Feedback ist uns sehr wichtig! Bitte teilen Sie Ihre Meinung mit uns nach Bewertung der Stoppuhr auf dem Marktplatz.</value>
+  </data>
 </root>

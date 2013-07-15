@@ -235,4 +235,7 @@ Lataa app tänään!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Palautteesi on meille tärkeää! Woud haluat antaa palautetta meille luokituksen sekuntikello markkinoilla?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Palautteesi on meille tärkeää! Lähetä palautetta meille luokituksen sekuntikello markkinoilla.</value>
+  </data>
 </root>

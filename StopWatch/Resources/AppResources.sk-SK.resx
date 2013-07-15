@@ -235,4 +235,7 @@ Stiahnite si túto app dnes!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Vaša spätná väzba je pre nás veľmi dôležité! Woude vám zdieľať svoj názor s nami podľa hodnotenia stopky na trhu?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Vaša spätná väzba je pre nás veľmi dôležité! Prosím zdieľať svoj názor s nami rating stopky na trhu.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@ Scaricare questa app oggi!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Il vostro feedback è molto importante per noi! Woud volete condividere il vostro feedback con noi di punteggio il cronometro sul marketplace?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Il vostro feedback è molto importante per noi! Si prega di condividere il tuo feedback con noi di punteggio il cronometro sul marketplace.</value>
+  </data>
 </root>

@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>המשוב שלך מאוד חשובה לנו! Woud אתה רוצה לשתף אותנו את המשוב שלך על-ידי דירוג הסטופר על השוק?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>המשוב שלך מאוד חשובה לנו! אנא שתפו את המשוב שלך אותנו על-ידי דירוג הסטופר על השוק.</value>
+  </data>
 </root>

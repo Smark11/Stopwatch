@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา Woud คุณต้องใช้คำติชมของคุณกับเราจัดอันดับนาฬิกาจับในตลาด</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา กรุณาใช้คำติชมของคุณร่วมกับเรา โดยจัดอันดับนาฬิกาจับตลาดบน</value>
+  </data>
 </root>

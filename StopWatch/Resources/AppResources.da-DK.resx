@@ -235,4 +235,7 @@ Download denne app i dag!</value>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Din feedback er meget vigtig for os! Woud du gerne dele din feedback med os ved rating stopur på markedspladsen?</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Din feedback er meget vigtig for os! Kan du dele din feedback med os af rating stopur på markedet.</value>
+  </data>
 </root>

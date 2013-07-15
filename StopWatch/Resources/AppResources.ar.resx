@@ -235,4 +235,7 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>ملاحظاتك مهم جداً بالنسبة لنا! Woud كنت ترغب في تقاسم تعليقاتك معنا حسب التصنيف ساعة توقيت في السوق؟</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>ملاحظاتك مهم جداً بالنسبة لنا! يرجى حصة تعليقاتك معنا بتصنيف ساعة الإيقاف في السوق.</value>
+  </data>
 </root>
