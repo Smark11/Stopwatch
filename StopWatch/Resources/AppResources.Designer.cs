@@ -135,6 +135,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Remove Advertising.
+        /// </summary>
+        public static string AppMenuItemRemoveAdvertising {
+            get {
+                return ResourceManager.GetString("AppMenuItemRemoveAdvertising", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Review.
         /// </summary>
         public static string AppMenuItemReview {
@@ -329,6 +338,15 @@ namespace StopWatch.Resources {
         public static string RateTheAppQuestion {
             get {
                 return ResourceManager.GetString("RateTheAppQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rate Stopwatch 5 stars to remove advertising. Proceed?.
+        /// </summary>
+        public static string RemoveAdvertisingQuestion {
+            get {
+                return ResourceManager.GetString("RemoveAdvertisingQuestion", resourceCulture);
             }
         }
         

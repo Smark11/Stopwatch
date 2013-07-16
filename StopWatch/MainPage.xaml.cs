@@ -17,10 +17,11 @@ using System.IO;
 using System.Windows.Media;
 using Windows.ApplicationModel.Store;
 using Common.IsolatedStoreage;
-
+using Common.Utilities;
 
 namespace StopWatch
 {
+
     public partial class MainPage : INotifyPropertyChanged
     {
         DispatcherTimer _timer;
@@ -32,16 +33,29 @@ namespace StopWatch
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+      
         // Constructor
         public MainPage()
         {
+            string hasAppBeenRated = string.Empty;
+
             InitializeComponent();
 
-            // Sample code to localize the ApplicationBar
-            BuildLocalizedApplicationBar();
-
             //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-            RateTheApp();
+            Rate.RateTheApp(AppResources.RateTheAppQuestion,AppResources.RateTheAppPrompt,AppResources.RateAppHeader);
+
+            hasAppBeenRated = Rate.HasAppBeenRated();
+            if (hasAppBeenRated.ToUpper() == "YES")
+            {
+                AdvertisingVisibility = Visibility.Collapsed;
+            }
+            else
+            {
+                AdvertisingVisibility = Visibility.Visible;
+            }
+
+            // Sample code to localize the ApplicationBar
+            BuildLocalizedApplicationBar(hasAppBeenRated);
        
             App.gStopWatch = new Stopwatch();
             _isRunning = IsStopWatchRunning();
@@ -57,7 +71,7 @@ namespace StopWatch
             //For example, if clock was paused previously we want to start at last clock value with clock paused
             //For example, if clock was running previously we want to add time that has accrued since app was shot down
 
-            if ((IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty) || (_isRunning == "No"))
+            if ((IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty) || (_isRunning.ToUpper() == "NO"))
             {
                 if (IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty)
                 {
@@ -86,7 +100,7 @@ namespace StopWatch
             _timer.Interval = new TimeSpan(0, 0, 0);
             _timer.Start();
 
-            if (_isRunning == "Yes")
+            if (_isRunning.ToUpper() == "YES")
             {
                 Mode = AppResources.StartText;
                 Start.Background = new SolidColorBrush(Colors.Green);
@@ -142,6 +156,17 @@ namespace StopWatch
             {
                 _clockValueString = value;
                 NotifyPropertyChanged("ClockValueString");
+            }
+        }
+
+        private Visibility _advertisingVisibility;
+        public Visibility AdvertisingVisibility
+        {
+            get { return _advertisingVisibility; }
+            set
+            {
+                _advertisingVisibility = value;
+                NotifyPropertyChanged("AdvertisingVisibility");
             }
         }
 
@@ -300,7 +325,6 @@ namespace StopWatch
 
         private void Review_Click(object sender, EventArgs e)
         {
-
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
         }
@@ -311,6 +335,33 @@ namespace StopWatch
 
             marketplaceSearchTask.SearchTerms = "KLBCreations";
             marketplaceSearchTask.Show();
+        }
+
+        private void RemoveAdvertising_Click(object sender, EventArgs e)
+        {
+            MessageBoxResult msgResult;
+            string hasAppBeenRated = string.Empty;
+            
+            hasAppBeenRated = Rate.HasAppBeenRated();
+
+            if (hasAppBeenRated.ToUpper() == "YES")
+            {
+                return;
+            }
+
+            msgResult = MessageBox.Show(AppResources.RemoveAdvertisingQuestion,AppResources.RateAppHeader, MessageBoxButton.OKCancel);
+            if (msgResult == MessageBoxResult.OK)
+            {
+                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                marketplaceReviewTask.Show();
+
+                IS.SaveSetting("AppRated", "Yes");
+                AdvertisingVisibility = Visibility.Collapsed;
+            }
+            else
+            {
+                IS.SaveSetting("AppRated", "No");
+            }           
         }
 
         #endregion "Events"
@@ -441,12 +492,34 @@ namespace StopWatch
             }
         }
 
+        public string IsStopWatchRunning()
+        {
+            string returnValue = string.Empty;
+
+            try
+            {
+                if (IS.GetSettingStringValue("Stopwatch-IsRunning") != string.Empty)
+                {
+                    returnValue = IS.GetSettingStringValue("Stopwatch-IsRunning");
+                }
+                else
+                {
+                    returnValue = "No";
+                }
+            }
+            catch (Exception)
+            {
+                return "No";
+            }
+            return returnValue;
+        }
+
         #endregion "Methods"
 
         #region "Common Routines"
 
         // Sample code for building a localized ApplicationBar
-        private void BuildLocalizedApplicationBar()
+        private void BuildLocalizedApplicationBar(string hasAppBeenRated)
         {
             // Set the page's ApplicationBar to a new instance of ApplicationBar.
             ApplicationBar = new ApplicationBar();
@@ -483,129 +556,14 @@ namespace StopWatch
             ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
             ApplicationBar.MenuItems.Add(appBarMenuItem4);
             appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
+
+            if (hasAppBeenRated.ToUpper() == "NO")
+            {
+                ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.AppMenuItemRemoveAdvertising);
+                ApplicationBar.MenuItems.Add(appBarMenuItem5);
+                appBarMenuItem5.Click += new EventHandler(RemoveAdvertising_Click);
+            }         
         }
-
-        public string IsStopWatchRunning()
-        {
-            string returnValue = string.Empty;
-
-            try
-            {
-                if (IS.GetSettingStringValue("Stopwatch-IsRunning") != string.Empty)
-                {
-                    returnValue = IS.GetSettingStringValue("Stopwatch-IsRunning");
-                }
-                else
-                {
-                    returnValue = "No";
-                }
-            }
-            catch (Exception)
-            {
-                return "No";
-            }
-            return returnValue;
-        }
-
-        public string HasAppBeenRated()
-        {
-            string returnValue = string.Empty;
-
-            try
-            {
-                if (IS.GetSettingStringValue("Stopwatch-AppRated") != string.Empty)
-                {
-                    returnValue = IS.GetSettingStringValue("Stopwatch-AppRated");
-                }
-                else
-                {
-                    IS.SaveSetting("Stopwatch-AppRated", "No");
-                    returnValue = "No";
-                }
-            }
-            catch (Exception)
-            {
-                return "No";
-            }
-            return returnValue;
-        }
-
-        //This proc will add 1 to the number of times the app has been opened and return that value and save that value
-        public int AppOpenedCount()
-        {
-            int returnValue = 0;
-            string settingValue = string.Empty;
-
-            try
-            {
-                if (IS.GetSettingStringValue("Stopwatch-AppOpenedCount") != string.Empty)
-                {
-                    settingValue = IS.GetSettingStringValue("Stopwatch-AppOpenedCount");
-                    returnValue = Convert.ToInt16(settingValue) + 1;
-                    IS.SaveSetting("Stopwatch-AppOpenedCount", returnValue.ToString());
-                }
-                else   //has not been opened yet so intitialize as first time being opened
-                {
-                    IS.SaveSetting("Stopwatch-AppOpenedCount", "1");
-                    returnValue = 1;
-                }
-            }
-            catch (Exception)
-            {
-                ;
-                return 0;
-            }
-            return returnValue;
-        }
-
-        //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-        private void RateTheApp()
-        {
-            MessageBoxResult msgResult;
-            int appOpenedCount = 0;
-            string hasAppBeenRated = string.Empty;
-
-            try
-            {
-                appOpenedCount = AppOpenedCount();
-                hasAppBeenRated = HasAppBeenRated();
-                if ((appOpenedCount == 5 || appOpenedCount == 10 || appOpenedCount == 15) && hasAppBeenRated == "No")
-                {
-                    msgResult = MessageBox.Show(AppResources.RateTheAppQuestion, AppResources.RateAppHeader, MessageBoxButton.OKCancel);
-                    if (msgResult == MessageBoxResult.OK)
-                    {
-                        MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                        marketplaceReviewTask.Show();
-
-                        IS.SaveSetting("Stopwatch-AppRated", "Yes");
-                    }
-                    else
-                    {
-                        IS.SaveSetting("Stopwatch-AppRated", "No");
-                    }
-                }
-                else
-                {
-                    if (appOpenedCount >= 20 && hasAppBeenRated == "No")
-                    {
-                        msgResult = MessageBox.Show(AppResources.RateTheAppPrompt, AppResources.RateAppHeader, MessageBoxButton.OK);
-                        MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                        marketplaceReviewTask.Show();
-                        if (msgResult == MessageBoxResult.OK)
-                        {
-                            IS.SaveSetting("Stopwatch-AppRated", "Yes");
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-
-
-            }
-        }
-
-        #endregion "Common Routines"
 
         private void PhoneOrientationChanged(object sender, OrientationChangedEventArgs e)
         {
@@ -631,5 +589,9 @@ namespace StopWatch
             }
 
         }
+
+        #endregion "Common Routines"
+
+       
     }
 }

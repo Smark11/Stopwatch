@@ -56,11 +56,12 @@
                  Height="80" 
                  Width="480"
                  Grid.Row="0"
+                Visibility="{Binding AdvertisingVisibility}"
                  VerticalAlignment="Top" />
 
             <!--<Border Grid.Row="1"  BorderThickness="4,4,4,0" BorderBrush="Gray">-->
-                <!--TitlePanel contains the name of the application and page title-->
-                <!--<StackPanel HorizontalAlignment="Center" x:Name="TitlePanel" Margin="0,0,0,0">
+            <!--TitlePanel contains the name of the application and page title-->
+            <!--<StackPanel HorizontalAlignment="Center" x:Name="TitlePanel" Margin="0,0,0,0">
                     <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}" 
                            Margin="9,-7,0,0" 
                            HorizontalAlignment="Center"
@@ -109,11 +110,11 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <Border BorderBrush="Gray" BorderThickness="0,4,0,4">
-                    <StackPanel  Orientation="Horizontal" Grid.Row="0">
-                        <TextBlock FontSize="30" Margin="30,0,0,0" HorizontalAlignment="Center" Width="50" Text="{Binding Path=LocalizedResources.LapText, Source={StaticResource LocalizedStrings}}"/>
-                        <TextBlock FontSize="30" Margin="70,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader1, Source={StaticResource LocalizedStrings}}"/>
-                        <TextBlock FontSize="30" Margin="20,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader2, Source={StaticResource LocalizedStrings}}"/>
-                    </StackPanel>
+                        <StackPanel  Orientation="Horizontal" Grid.Row="0">
+                            <TextBlock FontSize="30" Margin="30,0,0,0" HorizontalAlignment="Center" Width="50" Text="{Binding Path=LocalizedResources.LapText, Source={StaticResource LocalizedStrings}}"/>
+                            <TextBlock FontSize="30" Margin="70,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader1, Source={StaticResource LocalizedStrings}}"/>
+                            <TextBlock FontSize="30" Margin="20,0,0,0" HorizontalAlignment="Center" Width="200" Text="{Binding Path=LocalizedResources.ColumnHeader2, Source={StaticResource LocalizedStrings}}"/>
+                        </StackPanel>
                     </Border>
                     <ListBox Grid.Row="1" x:Name="lstLapDisplay" FontSize="30" Margin="30,10,20,0"  
                              IsEnabled="True" 
