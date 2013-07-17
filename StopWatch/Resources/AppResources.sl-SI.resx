@@ -238,4 +238,10 @@ Travnato gričevje to app danes!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Vaša povratna informacija je zelo pomembno za nas! Prosim delite svoje povratne informacije, z nami po ocenah so štoparice na trgu.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Odstranite oglaševanje</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Stopnja štoparica 5 zvezdic umakniti oglaševanja. Ali želite nadaljevati?</value>
+  </data>
 </root>

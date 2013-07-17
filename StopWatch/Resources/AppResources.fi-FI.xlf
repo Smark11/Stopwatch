@@ -176,11 +176,11 @@ Lataa app tänään!</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemRemoveAdvertising" translate="yes" xml:space="preserve">
           <source>Remove Advertising</source>
-          <target state="new">Remove Advertising</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poista mainonta</target>
         </trans-unit>
         <trans-unit id="Resx/RemoveAdvertisingQuestion" translate="yes" xml:space="preserve">
           <source>Rate Stopwatch 5 stars to remove advertising. Proceed?</source>
-          <target state="new">Rate Stopwatch 5 stars to remove advertising. Proceed?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korko sekuntikello 5 tähteä poistaa mainonnan. Jatketaanko?</target>
         </trans-unit>
       </group>
     </body>

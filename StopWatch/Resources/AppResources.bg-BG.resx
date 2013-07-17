@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Вашето мнение е много важно за нас! Моля, Споделете вашето мнение с нас по оценка на хронометър на пазара.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Премахване на рекламата</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Процент хронометър 5 звезди, за да премахнете реклама. Продължите?</value>
+  </data>
 </root>

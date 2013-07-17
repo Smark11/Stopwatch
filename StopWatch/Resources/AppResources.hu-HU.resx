@@ -238,4 +238,10 @@ Letölt ez app ma!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Visszajelzése nagyon fontos nekünk! Kérjük, ossza meg visszajelzést velünk az értékelés a stopper, a piactéren.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Távolítsa el a reklám</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Arány stopper 5 csillagok eltávolítani a reklám. Folytatja?</value>
+  </data>
 </root>

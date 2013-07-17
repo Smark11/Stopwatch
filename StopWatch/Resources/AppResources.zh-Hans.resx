@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>您的反馈意见是对我们很重要 ！请由评分秒表在市场上的与我们分享您的反馈意见。</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>删除广告</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>删除广告率秒表 5 星。是否继续?</value>
+  </data>
 </root>

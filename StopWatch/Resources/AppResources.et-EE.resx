@@ -238,4 +238,10 @@ Lae alla käesoleva app täna!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Teie tagasiside on meile väga oluline! Palun jaga oma tagasiside meiega on turuplatsil stopperit hinnangu järgi.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Eemalda reklaam</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Määra taimer 5 tärni eemaldada reklaam. Kas soovite jätkata?</value>
+  </data>
 </root>

@@ -238,4 +238,10 @@ Descarregar aquest app avui!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>La seva opinió és molt important per a nosaltres! Si us plau, compartiu els vostres comentaris amb nosaltres pels avaluació el cronòmetre a la plaça del mercat.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Eliminar publicitat</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Taxa cronòmetre de 5 estrelles per eliminar la publicitat. Voleu continuar?</value>
+  </data>
 </root>

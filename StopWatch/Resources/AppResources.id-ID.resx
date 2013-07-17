@@ -238,4 +238,10 @@ Download aplikasi ini hari ini!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Umpan balik Anda sangat penting untuk kita! Silakan berbagi Tanggapan Anda dengan kami dengan rating StopWatch di pasar.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Menghapus iklan</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Tingkat Stopwatch 5 stars untuk menghapus iklan. Melanjutkan?</value>
+  </data>
 </root>

@@ -238,4 +238,10 @@ Ladda ner denna app idag!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Dina synpunkter är mycket viktiga för oss! Vänligen dela din feedback med oss efter betyg stoppuret på marketplace.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Ta bort reklam</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Kurs stoppur 5 stjärnor att ta bort reklam. Vill du fortsätta?</value>
+  </data>
 </root>

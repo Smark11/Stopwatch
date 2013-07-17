@@ -238,4 +238,10 @@ Téléchargez cette application dès aujourd'hui !</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Vos impressions sont très importantes pour nous ! S'il vous plaît de partager vos commentaires avec nous par le chronomètre sur le marché de la notation.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Enlever la publicité</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Taux chronomètre 5 étoiles à enlever la publicité. Aller de l'avant ?</value>
+  </data>
 </root>

@@ -238,4 +238,10 @@ Scaricare questa app oggi!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Il vostro feedback è molto importante per noi! Si prega di condividere il tuo feedback con noi di punteggio il cronometro sul marketplace.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Rimuovere la pubblicità</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Tasso cronometro 5 stelle a rimuovere la pubblicità. Procedere?</value>
+  </data>
 </root>

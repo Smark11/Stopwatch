@@ -238,4 +238,10 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Mums labai svarbu savo atsiliepimą! Prašome pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Pašalinti reklamos</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Norma chronometras 5 žvaigždės pašalinti reklamos. Tęsti?</value>
+  </data>
 </root>

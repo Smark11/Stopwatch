@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา กรุณาใช้คำติชมของคุณร่วมกับเรา โดยจัดอันดับนาฬิกาจับตลาดบน</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>เอาโฆษณา</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>ดาว 5 นาฬิกาจับอัตราการเอาโฆษณา ดำเนินต่อหรือไม่</value>
+  </data>
 </root>

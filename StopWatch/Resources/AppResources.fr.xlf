@@ -176,11 +176,11 @@ Téléchargez cette application dès aujourd'hui !</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemRemoveAdvertising" translate="yes" xml:space="preserve">
           <source>Remove Advertising</source>
-          <target state="new">Remove Advertising</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enlever la publicité</target>
         </trans-unit>
         <trans-unit id="Resx/RemoveAdvertisingQuestion" translate="yes" xml:space="preserve">
           <source>Rate Stopwatch 5 stars to remove advertising. Proceed?</source>
-          <target state="new">Rate Stopwatch 5 stars to remove advertising. Proceed?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taux chronomètre 5 étoiles à enlever la publicité. Aller de l'avant ?</target>
         </trans-unit>
       </group>
     </body>

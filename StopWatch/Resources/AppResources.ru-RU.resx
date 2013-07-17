@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ваше мнение очень важно для нас! Пожалуйста поделитесь с нами по рейтингу секундомер на рынке.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Удаление рекламы</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Курс секундомер 5 звёзд для удаления рекламы. Продолжить?</value>
+  </data>
 </root>

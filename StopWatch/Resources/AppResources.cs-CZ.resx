@@ -238,4 +238,10 @@ Stáhněte tuto app dnes!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Váš názor je pro nás velmi důležité! Prosím sdílet své názory s námi hodnocení stopky na tržišti.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Odstranit reklamy</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Míra stopky 5 hvězdiček odstranit reklamy. Chcete pokračovat?</value>
+  </data>
 </root>

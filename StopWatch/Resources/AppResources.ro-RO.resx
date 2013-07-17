@@ -238,4 +238,10 @@ Descărcaţi acest app astăzi!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Feedback-ul este foarte important pentru noi! Vă rugăm să împărtăşesc feedback-ul cu noi reiting cronometru pe piaţă.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Elimina publicitate</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Rata cronometru 5 stele pentru a elimina de publicitate. Proceda?</value>
+  </data>
 </root>

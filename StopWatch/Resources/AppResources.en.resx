@@ -238,4 +238,10 @@ Download this app today!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Remove Advertising</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Rate Stopwatch 5 stars to remove advertising. Proceed?</value>
+  </data>
 </root>

@@ -238,4 +238,10 @@ Lejupielādēt šo app šodien!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Noņemt reklāmas</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Lai noņemtu reklāmas likmi hronometrs 5 zvaigznes. Vai turpināt?</value>
+  </data>
 </root>

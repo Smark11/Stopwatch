@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ваші відгуки дуже важливо для нас! Будь ласка, поділіться своїми міркуваннями з нами за рейтингом секундомір на ринку.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Видалити реклами</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Ставка секундомір 5 зірочок видалити реклами. Продовжити?</value>
+  </data>
 </root>

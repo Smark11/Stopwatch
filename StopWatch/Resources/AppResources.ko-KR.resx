@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>귀하의 의견은 우리에 게 매우 중요 한! 제발 평가 시장에 기초 하 여 우리와 함께 귀하의 의견 공유.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>광고를 제거</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>광고를 제거 하려면 속도 스톱 워치 5 별입니다. 진행?</value>
+  </data>
 </root>

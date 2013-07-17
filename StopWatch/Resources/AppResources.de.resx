@@ -238,4 +238,10 @@ Laden Sie diese app herunter!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ihr Feedback ist uns sehr wichtig! Bitte teilen Sie Ihre Meinung mit uns nach Bewertung der Stoppuhr auf dem Marktplatz.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Werbung entfernen</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Komplettpreise Stoppuhr 5 Sterne um Werbung zu entfernen. Vorgehen?</value>
+  </data>
 </root>

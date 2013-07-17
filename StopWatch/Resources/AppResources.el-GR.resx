@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Αφαιρέσει τις διαφήμισεις</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Ποσοστό χρονόμετρο 5 αστέρια για να αφαιρέσω τη διαφήμιση. Προχωρήσει;</value>
+  </data>
 </root>

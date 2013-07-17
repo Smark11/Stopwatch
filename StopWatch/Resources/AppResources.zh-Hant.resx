@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>您的回饋意見是對我們很重要 ！請由評分碼錶在市場上的與我們分享您的回饋意見。</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>刪除廣告</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>刪除廣告率碼錶 5 星。是否繼續?</value>
+  </data>
 </root>

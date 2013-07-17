@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>המשוב שלך מאוד חשובה לנו! אנא שתפו את המשוב שלך אותנו על-ידי דירוג הסטופר על השוק.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>להסיר פרסום</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>קצב סטופר 5 כוכבים כדי להסיר את הפרסום. האם להמשיך?</value>
+  </data>
 </root>

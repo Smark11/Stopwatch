@@ -238,4 +238,10 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Phản hồi của bạn là rất quan trọng với chúng tôi! Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Loại bỏ quảng cáo</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Tốc độ đồng hồ bấm giờ 5 sao để loại bỏ các quảng cáo. Tiếp tục?</value>
+  </data>
 </root>

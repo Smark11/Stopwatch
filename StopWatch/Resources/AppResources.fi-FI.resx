@@ -238,4 +238,10 @@ Lataa app tänään!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Palautteesi on meille tärkeää! Lähetä palautetta meille luokituksen sekuntikello markkinoilla.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Poista mainonta</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Korko sekuntikello 5 tähteä poistaa mainonnan. Jatketaanko?</value>
+  </data>
 </root>

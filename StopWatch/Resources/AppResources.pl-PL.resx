@@ -238,4 +238,10 @@ Pobrać tę aplikację dziś!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Twoja opinia jest dla nas bardzo ważne! Napiszcie swoje opinie z nami przez ocena stoper na rynku.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Usunąć reklamy</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Kurs stoper 5 gwiazdek usunąć reklamy. Czy kontynuować?</value>
+  </data>
 </root>

@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>あなたのフィードバックは非常に重要です ！あなたのフィードバックを市場でストップウォッチを評価することによりシェアしてください。</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>広告を削除します。</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>広告を削除する率はストップウォッチ 5 星です。続行しますか。</value>
+  </data>
 </root>

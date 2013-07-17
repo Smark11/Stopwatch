@@ -238,4 +238,10 @@ Download dit app vandaag nog!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Uw feedback is zeer belangrijk voor ons! Deel uw feedback met ons volgens rating de StopWatch op de markt.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Verwijder reclame</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Tarief Stopwatch 5 sterren te verwijderen van reclame. Wilt u doorgaan?</value>
+  </data>
 </root>

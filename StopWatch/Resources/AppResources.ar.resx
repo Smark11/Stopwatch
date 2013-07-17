@@ -238,4 +238,10 @@
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>ملاحظاتك مهم جداً بالنسبة لنا! يرجى حصة تعليقاتك معنا بتصنيف ساعة الإيقاف في السوق.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>إزالة الإعلانات</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>معدل ساعة توقيت 5 نجوم لإزالة الإعلانات. هل تريد المتابعة؟</value>
+  </data>
 </root>

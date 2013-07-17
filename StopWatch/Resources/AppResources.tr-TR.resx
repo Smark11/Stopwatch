@@ -238,4 +238,10 @@ Bu uygulama bugün yükleyin!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Görüşleriniz bizim için çok önemlidir! Lütfen görüşlerinizi bizimle kronometre Pazar derecelendirerek paylaşın.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Reklam kaldırmak</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Oranı kronometre 5 yıldız reklam kaldırmak için. Devam edilsin mi?</value>
+  </data>
 </root>

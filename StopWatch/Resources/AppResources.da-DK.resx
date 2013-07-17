@@ -238,4 +238,10 @@ Download denne app i dag!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Din feedback er meget vigtig for os! Kan du dele din feedback med os af rating stopur på markedet.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Fjerne reklamer</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Sats stopur 5 stjerner til at fjerne reklamer. Vil du fortsætte?</value>
+  </data>
 </root>

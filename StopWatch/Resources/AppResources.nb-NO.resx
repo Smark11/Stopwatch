@@ -238,4 +238,10 @@ Last ned denne app i dag!</value>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Din tilbakemelding er veldig viktig for oss! Kan du dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedet.</value>
   </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Fjerne reklamering</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Rate stoppeklokke 5 stjerner å fjerne reklame. Vil du fortsette?</value>
+  </data>
 </root>
