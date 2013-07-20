@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Stopper Valikud</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Erivajadustega</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Lubatud</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stopper</value>
   </data>

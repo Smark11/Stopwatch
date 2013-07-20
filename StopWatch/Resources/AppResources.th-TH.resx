@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>ตัวนาฬิกาจับ</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>ปิดการใช้งาน</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>เปิดใช้งาน</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>นาฬิกาจับ</value>
   </data>

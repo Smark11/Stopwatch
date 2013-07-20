@@ -61,6 +61,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?.
+        /// </summary>
+        public static string AddCountdownQuestion {
+            get {
+                return ResourceManager.GetString("AddCountdownQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clear Laps.
         /// </summary>
         public static string AppBarClearLapsButton {
@@ -113,6 +122,15 @@ namespace StopWatch.Resources {
         public static string AppMenuItemAbout {
             get {
                 return ResourceManager.GetString("AppMenuItemAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add Countdown.
+        /// </summary>
+        public static string AppMenuItemAddCountdown {
+            get {
+                return ResourceManager.GetString("AppMenuItemAddCountdown", resourceCulture);
             }
         }
         
@@ -171,6 +189,33 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Countdown Alarm.
+        /// </summary>
+        public static string CountdownAlarm {
+            get {
+                return ResourceManager.GetString("CountdownAlarm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Countdown Options.
+        /// </summary>
+        public static string CountdownOptions {
+            get {
+                return ResourceManager.GetString("CountdownOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default Countdown Time.
+        /// </summary>
+        public static string DefaultCountdownTime {
+            get {
+                return ResourceManager.GetString("DefaultCountdownTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Are you sure you want to delete all lap data?.
         /// </summary>
         public static string DeleteAllLapDataMessage {
@@ -189,6 +234,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Disabled.
+        /// </summary>
+        public static string Disabled {
+            get {
+                return ResourceManager.GetString("Disabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Number/Split/Lap.
         /// </summary>
         public static string EmailBody {
@@ -203,6 +257,15 @@ namespace StopWatch.Resources {
         public static string EmailSubject {
             get {
                 return ResourceManager.GetString("EmailSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enabled.
+        /// </summary>
+        public static string Enabled {
+            get {
+                return ResourceManager.GetString("Enabled", resourceCulture);
             }
         }
         
@@ -279,24 +342,6 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Disabled.
-        /// </summary>
-        public static string LockScreenDisabled {
-            get {
-                return ResourceManager.GetString("LockScreenDisabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enabled.
-        /// </summary>
-        public static string LockScreenEnabled {
-            get {
-                return ResourceManager.GetString("LockScreenEnabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Max time exceeded..
         /// </summary>
         public static string MaxTimeExceededMessage {
@@ -338,6 +383,15 @@ namespace StopWatch.Resources {
         public static string RateTheAppQuestion {
             get {
                 return ResourceManager.GetString("RateTheAppQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Record.
+        /// </summary>
+        public static string Record {
+            get {
+                return ResourceManager.GetString("Record", resourceCulture);
             }
         }
         

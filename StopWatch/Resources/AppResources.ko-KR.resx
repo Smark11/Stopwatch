@@ -185,12 +185,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>스톱 워치 옵션</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>사용 안 함</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>사용 가능</value>
-  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>최고의 중지 Windows Phone 스토어에서 시계!
 

@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>StopWatch opties</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Handicap</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Ingeschakeld</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>StopWatch</value>
   </data>

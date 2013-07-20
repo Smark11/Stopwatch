@@ -18,14 +18,14 @@ namespace StopWatch
 
         public Options()
         {
-            string lockScreenValue = string.Empty;
+           string lockScreenValue = string.Empty;
 
             InitializeComponent();
 
             if (IS.GetSettingStringValue("Stopwatch-LockScreen") == string.Empty)
             {
                 toggleswitch.IsChecked = false;
-                toggleswitch.Content = AppResources.LockScreenDisabled;
+                toggleswitch.Content = AppResources.Disabled;
             }
             else
             {
@@ -33,12 +33,12 @@ namespace StopWatch
                 if (lockScreenValue == "Enabled")
                 {
                     toggleswitch.IsChecked = true;
-                    toggleswitch.Content = AppResources.LockScreenEnabled;
+                    toggleswitch.Content = AppResources.Enabled;
                 }
                 else
                 {
                     toggleswitch.IsChecked = false;
-                    toggleswitch.Content = AppResources.LockScreenDisabled;
+                    toggleswitch.Content = AppResources.Disabled;
                 }
             }
         }
@@ -48,7 +48,7 @@ namespace StopWatch
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
             IS.SaveSetting("Stopwatch-LockScreen", "Enabled");
-            toggleswitch.Content = AppResources.LockScreenEnabled;
+            toggleswitch.Content = AppResources.Enabled;
         }
 
         //ON Lock screen is disabled
@@ -56,7 +56,7 @@ namespace StopWatch
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
-            toggleswitch.Content = AppResources.LockScreenDisabled;
+            toggleswitch.Content = AppResources.Disabled;
         }
     }
 }

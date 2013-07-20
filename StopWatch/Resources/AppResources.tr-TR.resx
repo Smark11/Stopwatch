@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Kronometre seçeneklerini</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Engelli</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Etkin</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Kronometre</value>
   </data>

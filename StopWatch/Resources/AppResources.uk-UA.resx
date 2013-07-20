@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Секундомір параметри</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Осіб з обмеженими фізичними</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Ввімкнено</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Секундомір</value>
   </data>

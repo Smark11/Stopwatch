@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Đồng hồ bấm giờ tùy chọn</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Khuyết tật</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Kích hoạt</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Đồng hồ bấm giờ</value>
   </data>

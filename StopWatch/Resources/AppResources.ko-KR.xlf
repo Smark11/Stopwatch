@@ -96,13 +96,13 @@
           <source>StopWatch Options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">스톱 워치 옵션</target>
         </trans-unit>
-        <trans-unit id="Resx/LockScreenDisabled" translate="yes" xml:space="preserve">
+        <trans-unit id="Resx/Disabled" translate="yes" xml:space="preserve">
           <source>Disabled</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용 안 함</target>
+          <target state="new">Disabled</target>
         </trans-unit>
-        <trans-unit id="Resx/LockScreenEnabled" translate="yes" xml:space="preserve">
+        <trans-unit id="Resx/Enabled" translate="yes" xml:space="preserve">
           <source>Enabled</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용 가능</target>
+          <target state="new">Enabled</target>
         </trans-unit>
         <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
           <source>Best Stop Watch in the Windows Phone Store!
@@ -181,6 +181,30 @@ Download this app today!</source>
         <trans-unit id="Resx/RemoveAdvertisingQuestion" translate="yes" xml:space="preserve">
           <source>Rate Stopwatch 5 stars to remove advertising. Proceed?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">광고를 제거 하려면 속도 스톱 워치 5 별입니다. 진행?</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownAlarm" translate="yes" xml:space="preserve">
+          <source>Countdown Alarm</source>
+          <target state="new">Countdown Alarm</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownOptions" translate="yes" xml:space="preserve">
+          <source>Countdown Options</source>
+          <target state="new">Countdown Options</target>
+        </trans-unit>
+        <trans-unit id="Resx/DefaultCountdownTime" translate="yes" xml:space="preserve">
+          <source>Default Countdown Time</source>
+          <target state="new">Default Countdown Time</target>
+        </trans-unit>
+        <trans-unit id="Resx/Record" translate="yes" xml:space="preserve">
+          <source>Record</source>
+          <target state="new">Record</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddCountdownQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</source>
+          <target state="new">Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
+          <source>Add Countdown</source>
+          <target state="new">Add Countdown</target>
         </trans-unit>
       </group>
     </body>

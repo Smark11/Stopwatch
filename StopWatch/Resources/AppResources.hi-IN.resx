@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>स्टॉपवॉच विकल्प</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>विकलांग</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>सक्षम किया गया</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>स्टॉपवॉच</value>
   </data>

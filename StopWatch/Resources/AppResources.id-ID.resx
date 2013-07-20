@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>StopWatch pilihan</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Penyandang Cacat</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Diaktifkan</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>StopWatch</value>
   </data>

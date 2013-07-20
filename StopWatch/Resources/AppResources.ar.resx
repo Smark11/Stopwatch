@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>ساعة توقيت الخيارات</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>ذوي</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>تمكين</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>ساعة توقيت</value>
   </data>

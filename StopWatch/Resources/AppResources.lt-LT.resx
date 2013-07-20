@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Chronometro funkcijos</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Negalia</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Įjungtas</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Chronometras</value>
   </data>

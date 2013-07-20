@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>אפשרויות סטופר</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>בעלי מוגבלויות</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>זמין</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>סטופר</value>
   </data>

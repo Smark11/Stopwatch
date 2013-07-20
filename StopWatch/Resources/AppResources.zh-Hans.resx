@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>秒表选项</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>已禁用</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>已启用</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>秒表</value>
   </data>

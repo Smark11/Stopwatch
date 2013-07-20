@@ -8,12 +8,10 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using StopWatch.Resources;
-using System.Diagnostics;
 using System.ComponentModel;
 using System.Windows.Threading;
 using System.Collections.ObjectModel;
 using Microsoft.Phone.Tasks;
-using System.IO;
 using System.Windows.Media;
 using Windows.ApplicationModel.Store;
 using Common.IsolatedStoreage;
@@ -24,16 +22,9 @@ namespace StopWatch
 
     public partial class MainPage : INotifyPropertyChanged
     {
-        DispatcherTimer _timer;
-        TimeSpan _adjustment = new TimeSpan(0, 0, 0);
-        DateTime _dateTimeLastStart;
-        string _isRunning = "No";
-
-        TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-      
         // Constructor
         public MainPage()
         {
@@ -41,84 +32,26 @@ namespace StopWatch
 
             InitializeComponent();
 
+            AdvertisingVisibility = Visibility.Visible;
+
             //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-            Rate.RateTheApp(AppResources.RateTheAppQuestion,AppResources.RateTheAppPrompt,AppResources.RateAppHeader);
+            Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
 
             hasAppBeenRated = Rate.HasAppBeenRated();
             if (hasAppBeenRated.ToUpper() == "YES")
             {
-                AdvertisingVisibility = Visibility.Collapsed;
+                this.pivotCountdown.IsEnabled = true;
             }
             else
             {
-                AdvertisingVisibility = Visibility.Visible;
+                this.pivotCountdown.IsEnabled = false;
             }
 
-            // Sample code to localize the ApplicationBar
             BuildLocalizedApplicationBar(hasAppBeenRated);
-       
-            App.gStopWatch = new Stopwatch();
-            _isRunning = IsStopWatchRunning();
 
             SetLockScreenSetting();
-            StopwatchTimesCollection = new ObservableCollection<StopwatchTimes>();
-
-            LoadLapAndSplitData();
 
             MyAdControl.ErrorOccurred += MyAdControl_ErrorOccurred;
-
-            //Need to determine what/if any adjustment should be made to clock
-            //For example, if clock was paused previously we want to start at last clock value with clock paused
-            //For example, if clock was running previously we want to add time that has accrued since app was shot down
-
-            if ((IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty) || (_isRunning.ToUpper() == "NO"))
-            {
-                if (IS.GetSettingStringValue("Stopwatch-DateTimeLastStart") == string.Empty)
-                {
-                    _adjustment = new TimeSpan();
-                }
-                else
-                {
-                    if (IS.GetSettingStringValue("Stopwatch-LastValue") == string.Empty)
-                    {
-                        _adjustment = new TimeSpan();
-                    }
-                    else
-                    {
-                        _adjustment = TimeSpan.Parse(IS.GetSettingStringValue("Stopwatch-LastValue"));
-                    }
-                }
-            }
-            else  //clock was running when it was last opened, so add accrued time
-            {
-                _dateTimeLastStart = DateTime.Parse(IS.GetSettingStringValue("Stopwatch-DateTimeLastStart"));
-                _adjustment = TimeSpan.Parse(IS.GetSettingStringValue("Stopwatch-LastValue")) + (DateTime.Now - _dateTimeLastStart);
-            }
-
-            _timer = new DispatcherTimer();
-            _timer.Tick += new EventHandler(Timer_Tick);
-            _timer.Interval = new TimeSpan(0, 0, 0);
-            _timer.Start();
-
-            if (_isRunning.ToUpper() == "YES")
-            {
-                Mode = AppResources.StartText;
-                Start.Background = new SolidColorBrush(Colors.Green);
-                StartTimer();
-            }
-            else
-            {
-                if (_adjustment == new TimeSpan(0, 0, 0))
-                {
-                    Mode = AppResources.StartText;
-                    Start.Background = new SolidColorBrush(Colors.Green);
-                }
-                else
-                {
-                    Mode = AppResources.ResumeText;
-                    Start.Background = new SolidColorBrush(Colors.Green);
-                }
-            }
 
             this.DataContext = this;
         }
@@ -137,28 +70,6 @@ namespace StopWatch
             }
         }
 
-        private TimeSpan _clockValue;
-        public TimeSpan ClockValue
-        {
-            get { return _clockValue; }
-            set
-            {
-                _clockValue = value;
-                NotifyPropertyChanged("ClockValue");
-            }
-        }
-
-        private String _clockValueString;
-        public String ClockValueString
-        {
-            get { return _clockValueString; }
-            set
-            {
-                _clockValueString = value;
-                NotifyPropertyChanged("ClockValueString");
-            }
-        }
-
         private Visibility _advertisingVisibility;
         public Visibility AdvertisingVisibility
         {
@@ -170,157 +81,101 @@ namespace StopWatch
             }
         }
 
-        private ObservableCollection<StopwatchTimes> _stopwatchTimesCollection;
-        public ObservableCollection<StopwatchTimes> StopwatchTimesCollection
+        private String _pivotName;
+        public String PivotName
         {
-            get { return _stopwatchTimesCollection; }
-            set
+            get
             {
-                _stopwatchTimesCollection = value;
-                NotifyPropertyChanged("StopwatchTimesCollection");
+                _pivotName = (pivotControl.SelectedItem as PivotItem).Header as string;
+                return _pivotName.ToUpper();
             }
         }
 
-        private string _mode;
-        public string Mode
-        {
-            get { return _mode; }
-            set
-            {
-                _mode = value;
-                NotifyPropertyChanged("Mode");
-
-                if (_mode == AppResources.StartText)
-                {
-                    this.Start.IsEnabled = true;
-                    this.Reset.IsEnabled = false;
-                    this.Lap.IsEnabled = false;
-                    IS.SaveSetting("Stopwatch-IsRunning", "No");
-                }
-                else if (_mode == AppResources.PauseText)
-                {
-                    this.Start.IsEnabled = true;
-                    this.Reset.IsEnabled = true;
-                    this.Lap.IsEnabled = true;
-                    IS.SaveSetting("Stopwatch-IsRunning", "Yes");
-                }
-                else if (_mode == AppResources.ResumeText)
-                {
-                    this.Start.IsEnabled = true;
-                    this.Reset.IsEnabled = true;
-                    this.Lap.IsEnabled = false;
-                    IS.SaveSetting("Stopwatch-IsRunning", "No");
-                }
-                else if (_mode == AppResources.ExceedText)
-                {
-                    App.gStopWatch.Stop();
-                    ClockValue = new TimeSpan(0, 0, 0);
-                    this.Start.IsEnabled = false;
-                    this.Reset.IsEnabled = true;
-                    this.Lap.IsEnabled = false;
-                    IS.SaveSetting("Stopwatch-IsRunning", "No");
-                };
-            }
-        }
         #endregion "Properties"
 
         #region "Events"
 
-        private void Timer_Tick(object sender, EventArgs e)
+        private void pivotControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (ClockValue >= new TimeSpan(9, 0, 0))
+            //Need to change the appbar and menu item captions depending on wich pivot
+            //Options should either be Stopwatch options or Countdown options
+            foreach (ApplicationBarMenuItem item in ApplicationBar.MenuItems)
             {
-                if (Mode != AppResources.ExceedText)
+                if (item.Text.Contains("Options"))
                 {
-                    MessageBox.Show(AppResources.MaxTimeExceededMessage);
-                    Mode = AppResources.ExceedText;
+                    if (PivotName == "STOPWATCH")
+                    {
+                        item.Text = "Stopwatch Options";
+                    }
+                    else
+                    {
+                        item.Text = "Countdown Options";
+                    }
                 }
             }
-            else if (Mode != AppResources.ExceedText)
+
+            foreach (ApplicationBarIconButton item in ApplicationBar.Buttons)
             {
-                ClockValue = App.gStopWatch.Elapsed + _adjustment;
-                ClockValueString = ClockValue.ToString(@"hh\:mm\:ss\.ff");
-                IS.SaveSetting("Stopwatch-LastValue", ClockValue.ToString());
+
             }
         }
 
         private void Email_Click(object sender, EventArgs e)
         {
             EmailComposeTask emailCompuser;
+            string emailBody = string.Empty;
+
+            switch (PivotName)
+            {
+                case "STOPWATCH":
+                    emailBody = BuildEmailBodyStopwatch();
+                    break;
+                case "COUNTDOWN":
+                    emailBody = string.Empty;
+                    break;
+            }
 
             emailCompuser = new EmailComposeTask();
             emailCompuser.Subject = AppResources.EmailSubject;
-            emailCompuser.Body = BuildEmailBody();
+            emailCompuser.Body = emailBody;
             emailCompuser.Show();
-        }
-
-        private void Start_Click(object sender, EventArgs e)
-        {
-            StartTimer();
-        }
-
-        private void Reset_Click(object sender, EventArgs e)
-        {
-            App.gStopWatch.Stop();
-            MessageBoxResult result = MessageBox.Show(AppResources.ResetMessage, AppResources.ResetText, MessageBoxButton.OKCancel);
-            if (result == MessageBoxResult.OK)
-            {
-
-                App.gStopWatch.Reset();
-                _adjustment = new TimeSpan();
-                _lastSplitTime = new TimeSpan();
-                StopwatchTimesCollection.Clear();
-                IS.RemoveSetting("Stopwatch-Laps");
-                IS.RemoveSetting("Stopwatch-Splits");
-                Mode = AppResources.StartText;
-                Start.Background = new SolidColorBrush(Colors.Green);
-            }
-            else
-            {
-                App.gStopWatch.Stop();
-                Mode = AppResources.ResumeText;
-                Start.Background = new SolidColorBrush(Colors.Green);
-            }
-        }
-
-        private void Lap_Click(object sender, EventArgs e)
-        {
-            string saveLaps = string.Empty;
-            string saveSplits = string.Empty;
-            StopwatchTimes stopwatchTimes = new StopwatchTimes();
-
-            stopwatchTimes.ItemCount = StopwatchTimesCollection.Count + 1;
-            stopwatchTimes.SplitTime = ClockValueString;
-            stopwatchTimes.LapTime = (ClockValue - _lastSplitTime).ToString(@"hh\:mm\:ss\.ff");
-            StopwatchTimesCollection.Insert(0, stopwatchTimes);
-            _lastSplitTime = ClockValue;
-
-            saveSplits = GetSplitData(",");
-            IS.SaveSetting("Stopwatch-Splits", saveSplits);
-
-            saveLaps = GetLapData(",");
-            IS.SaveSetting("Stopwatch-Laps", saveLaps);
         }
 
         private void DeleteLaps_Click(object sender, EventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show(AppResources.DeleteAllLapDataMessage, AppResources.DeleteLapsTitle, MessageBoxButton.OKCancel);
-            if (result == MessageBoxResult.OK)
+            switch (PivotName)
             {
-                IS.RemoveSetting("Stopwatch-Laps");
-                IS.RemoveSetting("Stopwatch-Splits");
-                StopwatchTimesCollection.Clear();
+                case "STOPWATCH":
+                    MessageBoxResult result = MessageBox.Show(AppResources.DeleteAllLapDataMessage, AppResources.DeleteLapsTitle, MessageBoxButton.OKCancel);
+                    if (result == MessageBoxResult.OK)
+                    {
+                        IS.RemoveSetting("Stopwatch-Laps");
+                        IS.RemoveSetting("Stopwatch-Splits");
+                        this.stopwatchControl.StopwatchTimesCollection.Clear();
+                    }
+
+                    break;
+                case "COUNTDOWN":
+                    break;
+            }
+        }
+
+        private void Options_Click(object sender, EventArgs e)
+        {
+            switch (PivotName)
+            {
+                case "STOPWATCH":
+                    NavigationService.Navigate(new Uri("/StopwatchOptions.xaml", UriKind.Relative));
+                    break;
+                case "COUNTDOWN":
+                    NavigationService.Navigate(new Uri("/CountdownOptions.xaml", UriKind.Relative));
+                    break;
             }
         }
 
         private void About_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/About.xaml", UriKind.Relative));
-        }
-
-        private void Options_Click(object sender, EventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/Options.xaml", UriKind.Relative));
         }
 
         private void Review_Click(object sender, EventArgs e)
@@ -337,11 +192,11 @@ namespace StopWatch
             marketplaceSearchTask.Show();
         }
 
-        private void RemoveAdvertising_Click(object sender, EventArgs e)
+        private void AddCountdown_Click(object sender, EventArgs e)
         {
             MessageBoxResult msgResult;
             string hasAppBeenRated = string.Empty;
-            
+
             hasAppBeenRated = Rate.HasAppBeenRated();
 
             if (hasAppBeenRated.ToUpper() == "YES")
@@ -349,130 +204,24 @@ namespace StopWatch
                 return;
             }
 
-            msgResult = MessageBox.Show(AppResources.RemoveAdvertisingQuestion,AppResources.RateAppHeader, MessageBoxButton.OKCancel);
+            msgResult = MessageBox.Show(AppResources.AddCountdownQuestion, AppResources.RateAppHeader, MessageBoxButton.OKCancel);
             if (msgResult == MessageBoxResult.OK)
             {
                 MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
                 marketplaceReviewTask.Show();
 
                 IS.SaveSetting("AppRated", "Yes");
-                AdvertisingVisibility = Visibility.Collapsed;
+                this.pivotCountdown.IsEnabled = true;
             }
             else
             {
                 IS.SaveSetting("AppRated", "No");
-            }           
+            }
         }
 
         #endregion "Events"
 
         #region "Methods"
-
-        public void StartTimer()
-        {
-            if (Mode == AppResources.StartText)
-            {
-                App.gStopWatch.Start();
-                Mode = AppResources.PauseText;
-                Start.Background = new SolidColorBrush(Colors.Red);
-            }
-            else if (Mode == AppResources.PauseText)
-            {
-                App.gStopWatch.Stop();
-                Mode = AppResources.ResumeText;
-                Start.Background = new SolidColorBrush(Colors.Green);
-            }
-            else if (Mode == AppResources.ResumeText)
-            {
-                App.gStopWatch.Start();
-                Mode = AppResources.PauseText;
-                Start.Background = new SolidColorBrush(Colors.Red);
-            };
-
-            ClockValue = App.gStopWatch.Elapsed;
-        }
-
-        public String GetLapData(String delimiter)
-        {
-            String returnString = String.Empty;
-
-            try
-            {
-                foreach (var item in StopwatchTimesCollection)
-                {
-                    returnString = returnString + item.LapTime + delimiter;
-                }
-            }
-            catch (Exception)
-            {
-
-                return returnString;
-            }
-            return returnString;
-        }
-
-        public String GetSplitData(String delimiter)
-        {
-            String returnString = String.Empty;
-
-            try
-            {
-                foreach (var item in StopwatchTimesCollection)
-                {
-                    returnString = returnString + item.SplitTime + delimiter;
-                }
-            }
-            catch (Exception)
-            {
-
-                return returnString;
-            }
-            return returnString;
-        }
-
-        public void LoadLapAndSplitData()
-        {
-            string[] laps;
-            string[] splits;
-
-            laps = IS.GetSettingStringValue("Stopwatch-Laps").Split(',');
-            splits = IS.GetSettingStringValue("Stopwatch-Splits").Split(',');
-
-            for (int i = laps.Count() - 1; i >= 0; i--)
-            {
-                if (laps[i] != string.Empty)
-                {
-                    StopwatchTimes stopwatchTimes = new StopwatchTimes();
-                    stopwatchTimes.ItemCount = laps.Count() - i - 1;
-                    stopwatchTimes.LapTime = laps[i];
-                    stopwatchTimes.SplitTime = splits[i];
-                    StopwatchTimesCollection.Insert(0, stopwatchTimes);
-
-                    _lastSplitTime = TimeSpan.Parse(stopwatchTimes.SplitTime);
-                }
-            }
-        }
-
-        public string BuildEmailBody()
-        {
-            string returnString = string.Empty;
-
-            try
-            {
-                returnString = AppResources.EmailBody + "\n";
-                foreach (var item in StopwatchTimesCollection)
-                {
-                    returnString = returnString + item.ItemCount + '/' + item.SplitTime + '/' + item.LapTime + "\n";
-                }
-            }
-            catch (Exception)
-            {
-
-                return returnString;
-            }
-            return returnString;
-
-        }
 
         private void SetLockScreenSetting()
         {
@@ -492,33 +241,31 @@ namespace StopWatch
             }
         }
 
-        public string IsStopWatchRunning()
+        public string BuildEmailBodyStopwatch()
         {
-            string returnValue = string.Empty;
+            string returnString = string.Empty;
 
             try
             {
-                if (IS.GetSettingStringValue("Stopwatch-IsRunning") != string.Empty)
+                returnString = AppResources.EmailBody + "\n";
+                foreach (var item in this.stopwatchControl.StopwatchTimesCollection)
                 {
-                    returnValue = IS.GetSettingStringValue("Stopwatch-IsRunning");
-                }
-                else
-                {
-                    returnValue = "No";
+                    returnString = returnString + item.ItemCount + '/' + item.SplitTime + '/' + item.LapTime + "\n";
                 }
             }
             catch (Exception)
             {
-                return "No";
+
+                return returnString;
             }
-            return returnValue;
+            return returnString;
         }
+
 
         #endregion "Methods"
 
         #region "Common Routines"
 
-        // Sample code for building a localized ApplicationBar
         private void BuildLocalizedApplicationBar(string hasAppBeenRated)
         {
             // Set the page's ApplicationBar to a new instance of ApplicationBar.
@@ -559,39 +306,67 @@ namespace StopWatch
 
             if (hasAppBeenRated.ToUpper() == "NO")
             {
-                ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.AppMenuItemRemoveAdvertising);
+                ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.AppMenuItemAddCountdown);
                 ApplicationBar.MenuItems.Add(appBarMenuItem5);
-                appBarMenuItem5.Click += new EventHandler(RemoveAdvertising_Click);
-            }         
+                appBarMenuItem5.Click += new EventHandler(AddCountdown_Click);
+            }
         }
+
+
 
         private void PhoneOrientationChanged(object sender, OrientationChangedEventArgs e)
         {
-            // Switch the placement of the buttons based on an orientation change.
-            if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
+            switch (PivotName)
             {
-                Grid.SetRow(MyAdControl, 0);
-                Grid.SetRow(ContentPanel, 1);
-                Grid.SetRowSpan(ContentPanel, 2);
-                Grid.SetRow(ButtonPanel, 3);
-                LapBorder.Visibility = Visibility.Visible;
-                LapGrid.Visibility = Visibility.Visible;
+                case "STOPWATCH":
+                    // Switch the placement of the buttons based on an orientation change.
+                    if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
+                    {
+                        Grid.SetRow(MyAdControl, 0);
+                        Grid.SetRow(this.stopwatchControl.ContentPanel, 1);
+                        Grid.SetRowSpan(this.stopwatchControl.ContentPanel, 2);
+                        Grid.SetRow(this.stopwatchControl.ButtonPanel, 3);
+                        this.stopwatchControl.LapBorder.Visibility = Visibility.Visible;
+                        this.stopwatchControl.LapGrid.Visibility = Visibility.Visible;
+                    }
+                    // If not in portrait, move buttonList content to visible row and column.
+                    else
+                    {
+                        Grid.SetRow(this.stopwatchControl.ContentPanel, 1);
+                        Grid.SetRow(MyAdControl, 0);
+                        Grid.SetRowSpan(this.stopwatchControl.ContentPanel, 4);
+                        Grid.SetRow(this.stopwatchControl.ButtonPanel, 5);
+                        this.stopwatchControl.LapBorder.Visibility = Visibility.Collapsed;
+                        this.stopwatchControl.LapGrid.Visibility = Visibility.Collapsed;
+                    }
+                    break;
+                case "COUNTDOWN":
+                    // Switch the placement of the buttons based on an orientation change.
+                    if ((e.Orientation & PageOrientation.Portrait) == (PageOrientation.Portrait))
+                    {
+                        Grid.SetRow(MyAdControl, 0);
+                        Grid.SetRow(this.countdownControl.ContentPanel, 1);
+                        Grid.SetRowSpan(this.countdownControl.ContentPanel, 2);
+                        Grid.SetRow(this.stopwatchControl.ButtonPanel, 3);
+                        this.countdownControl.LapBorder.Visibility = Visibility.Visible;
+                        this.countdownControl.LapGrid.Visibility = Visibility.Visible;
+                    }
+                    // If not in portrait, move buttonList content to visible row and column.
+                    else
+                    {
+                        Grid.SetRow(this.countdownControl.ContentPanel, 1);
+                        Grid.SetRow(MyAdControl, 0);
+                        Grid.SetRowSpan(this.countdownControl.ContentPanel, 4);
+                        Grid.SetRow(this.countdownControl.ButtonPanel, 5);
+                        this.countdownControl.LapBorder.Visibility = Visibility.Collapsed;
+                        this.countdownControl.LapGrid.Visibility = Visibility.Collapsed;
+                    }
+                    break;
             }
-            // If not in portrait, move buttonList content to visible row and column.
-            else
-            {
-                Grid.SetRow(ContentPanel, 1);
-                Grid.SetRow(MyAdControl, 0);
-                Grid.SetRowSpan(ContentPanel, 4);
-                Grid.SetRow(ButtonPanel, 5);
-                LapBorder.Visibility = Visibility.Collapsed;
-                LapGrid.Visibility = Visibility.Collapsed;
-            }
-
         }
 
         #endregion "Common Routines"
 
-       
+
     }
 }

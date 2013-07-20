@@ -24,7 +24,7 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="{Binding Path=LocalizedResources.StopWatchOptions, Source={StaticResource LocalizedStrings}}"
-                       FontSize="40" Margin="0,0,0,20" />
+                       HorizontalAlignment="Center" FontSize="40" Margin="0,0,0,20" />
             <TextBlock Text="{Binding Path=LocalizedResources.LockScreen, Source={StaticResource LocalizedStrings}}"
                        FontSize="20" />
             <toolkit:ToggleSwitch  x:Name="toggleswitch"

@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Opções de cronômetro</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Com deficiência</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Habilitado</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Cronômetro</value>
   </data>

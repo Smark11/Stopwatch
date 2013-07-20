@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>Stopky možnosti</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>Zakázáno</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>Povoleno</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>Stopky</value>
   </data>

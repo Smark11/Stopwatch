@@ -182,12 +182,6 @@
   <data name="StopWatchOptions" xml:space="preserve">
     <value>ストップウォッチのオプション</value>
   </data>
-  <data name="LockScreenDisabled" xml:space="preserve">
-    <value>無効</value>
-  </data>
-  <data name="LockScreenEnabled" xml:space="preserve">
-    <value>有効になって</value>
-  </data>
   <data name="Keyword1" xml:space="preserve">
     <value>ストップウォッチ</value>
   </data>
