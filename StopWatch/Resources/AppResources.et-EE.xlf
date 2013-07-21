@@ -206,6 +206,10 @@ Lae alla käesoleva app täna!</target>
           <source>Add Countdown</source>
           <target state="new">Add Countdown</target>
         </trans-unit>
+        <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
+          <source>Countdown Finished!</source>
+          <target state="new">Countdown Finished!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

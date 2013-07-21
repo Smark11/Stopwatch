@@ -13,6 +13,9 @@ using StopWatch.Resources;
 using Common.IsolatedStoreage;
 using System.Windows.Media;
 using System.Collections.ObjectModel;
+using Microsoft.Xna.Framework;
+using System.IO;
+using Microsoft.Xna.Framework.Audio;
 
 namespace StopWatch
 {
@@ -23,7 +26,7 @@ namespace StopWatch
         public event PropertyChangedEventHandler PropertyChanged;
         string isRunning = "No";
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);     
-        TimeSpan defaultCountdown = new TimeSpan(0, 1, 0);
+        TimeSpan defaultCountdown = new TimeSpan(0, 0, 10);
         string lastCountdownValue = string.Empty;
 
         public CountdownUserControl()
@@ -60,7 +63,7 @@ namespace StopWatch
             }
             else
             {
-                if (lastCountdownValue == string.Empty)
+                if (lastCountdownValue == string.Empty || lastCountdownValue == defaultCountdown.ToString())
                 {
                     Mode = AppResources.StartText;
                     Start.Background = new SolidColorBrush(Colors.Green);
@@ -151,6 +154,13 @@ namespace StopWatch
             }
         }
 
+        private string _sound;
+        public string Sound
+        {
+            get { return _sound; }
+            set { _sound = value; NotifyPropertyChanged("Sound"); }
+        }
+
         #endregion "Properties"
 
         #region "Events"
@@ -160,9 +170,17 @@ namespace StopWatch
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
 
 
+            if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue >= new TimeSpan(0, 0, 0))
+            {
+                //PlaySound("Assets/Cow2.wav");
+                PlaySound2("/Assets/Cow2.wav");
+            }
+
             if (ClockValue <= new TimeSpan(0,0,0))
             {
-                 MessageBoxResult result = MessageBox.Show("Countdown finished!", AppResources.ResetText, MessageBoxButton.OK);
+                //PlaySound("Assets/Duck.wav");
+                PlaySound2("/Assets/Cow2.wav");
+                MessageBoxResult result = MessageBox.Show(AppResources.CountdownFinished, AppResources.CountdownFinished, MessageBoxButton.OK);
                  if (result == MessageBoxResult.OK)
                  {
                      ResetCountdown();
@@ -350,6 +368,42 @@ namespace StopWatch
             }
         }
 
+
+        //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
+        //Note no slash before the Assets folder, and it's a WAV file!
+        private void PlaySound(string soundFile)
+        {
+            try
+            {
+                Stream stream = TitleContainer.OpenStream(soundFile);
+                SoundEffect effect = SoundEffect.FromStream(stream);
+                FrameworkDispatcher.Update();
+                effect.Play();
+                
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
+        private void PlaySound2(string soundFile)
+        {
+            try            
+            {
+                Sound = soundFile;
+
+                myBoundSound.Play();
+
+                //if (myBoundSound.CurrentState == System.Windows.Media.MediaElementState.Playing)
+                //    myBoundSound.Pause();
+                //else
+                //    myBoundSound.Play();
+            }
+            catch (Exception ex)
+            {
+            }
+        }
 
         #endregion "Methods"
     }

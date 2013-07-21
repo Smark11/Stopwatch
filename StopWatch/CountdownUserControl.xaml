@@ -24,10 +24,12 @@
             <Viewbox Stretch="Fill">
 
                 <Border BorderThickness="2,4,2,4" BorderBrush="Gray">
-                    <TextBlock HorizontalAlignment="Center" Foreground="LimeGreen" Width="250" FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString}" FontFamily="Franklin Gothic Medium"/>
+                    <TextBlock TextAlignment="Center"  Foreground="LimeGreen" Width="250" FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString}" FontFamily="Franklin Gothic Medium"/>
                 </Border>
             </Viewbox>
         </Grid>
+
+        <TextBlock Grid.Row="2" TextAlignment="Center" Width="250" FontSize="25" Text="Tap to set time" FontFamily="Franklin Gothic Medium"/>
 
         <Grid x:Name="ButtonPanel" Grid.Row="3">
             <Viewbox Stretch="Fill">
@@ -91,6 +93,9 @@
                 </ListBox>
             </Grid>
         </Border>
+
+        <MediaElement x:Name="myBoundSound" Source="{Binding Sound}"
+                      AutoPlay="False" Visibility="Collapsed"></MediaElement>
     </Grid>
 
 </UserControl>
