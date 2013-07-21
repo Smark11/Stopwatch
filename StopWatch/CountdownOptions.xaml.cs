@@ -119,5 +119,10 @@ namespace StopWatch
             }
         }
         #endregion "Methods"
+
+        private void defaultCountdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
+        {
+
+        }
     }
 }

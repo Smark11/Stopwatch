@@ -406,5 +406,10 @@ namespace StopWatch
         }
 
         #endregion "Methods"
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+               
+        }
     }
 }

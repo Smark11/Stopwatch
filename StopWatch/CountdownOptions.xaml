@@ -12,6 +12,7 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:toolkitcode4fun="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"      
     shell:SystemTray.IsVisible="True">
 
 
@@ -22,9 +23,14 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="25"/>
             <RowDefinition Height="100"/>
-            <RowDefinition Height="25"/>
+            <RowDefinition Height="75"/>
             <RowDefinition Height="400"/>
         </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
         <TextBlock Grid.Row="0" 
@@ -39,6 +45,7 @@
         <toolkit:ToggleSwitch 
                   x:Name="toggleLockScreen" 
                   Grid.Row="2" 
+            Grid.ColumnSpan="2"
                   Margin="0,-5,0,0"
                   Height="150"                                 
                   Checked="toggleLockScreen_Checked"  
@@ -51,19 +58,23 @@
         <toolkit:ToggleSwitch 
                    x:Name="togglePlayAlarm"  
                    Grid.Row="4" 
+             Grid.ColumnSpan="2"
                    Margin="0,-5,0,0"
                    Height="105"
                    Checked="togglePlayAlarm_Checked"  
                    Unchecked="togglePlayAlarm_Unchecked">
         </toolkit:ToggleSwitch>
         <TextBlock Grid.Row="5" 
+                   VerticalAlignment="Center"
                   Text="{Binding Path=LocalizedResources.DefaultCountdownTime, Source={StaticResource LocalizedStrings}}"                      
                    FontSize="20"
                    Margin="10,0,0,0" />
-     
-       
-
-
+        <toolkitcode4fun:TimeSpanPicker x:Name="defaultCountdownTime" 
+                                         
+                   Grid.Row="5" Grid.Column="1"
+                   FontSize="20"
+  ValueChanged="defaultCountdownTime_ValueChanged"                                        
+                   Margin="10,0,0,0" />
     </Grid>
 
 </phone:PhoneApplicationPage>
