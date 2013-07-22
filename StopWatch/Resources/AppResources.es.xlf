@@ -210,6 +210,14 @@ Descargue esta aplicación!</target>
           <source>Countdown Finished!</source>
           <target state="new">Countdown Finished!</target>
         </trans-unit>
+        <trans-unit id="Resx/Countdown" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="new">Countdown</target>
+        </trans-unit>
+        <trans-unit id="Resx/Stopwatch" translate="yes" xml:space="preserve">
+          <source>Stopwatch</source>
+          <target state="new">Stopwatch</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -312,8 +312,6 @@ namespace StopWatch
             }
         }
 
-
-
         private void PhoneOrientationChanged(object sender, OrientationChangedEventArgs e)
         {
             switch (PivotName)

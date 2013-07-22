@@ -26,7 +26,7 @@ namespace StopWatch
         public event PropertyChangedEventHandler PropertyChanged;
         string isRunning = "No";
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);     
-        TimeSpan defaultCountdown = new TimeSpan(0, 0, 10);
+        TimeSpan defaultCountdown;
         string lastCountdownValue = string.Empty;
 
         public CountdownUserControl()
@@ -38,6 +38,7 @@ namespace StopWatch
 
             LoadLapAndSplitData();
 
+            defaultCountdown = GetCountdownDefaultTime();
             lastCountdownValue = GetLastCountdownValue();
 
             if (lastCountdownValue == string.Empty)
@@ -234,6 +235,18 @@ namespace StopWatch
             IS.SaveSetting("Countdown-Laps", saveLaps);
         }
 
+        private void taptosettime_click(object sender, RoutedEventArgs e)
+        {
+            ctlCountdownTime.Value=ClockValue;
+            ctlCountdownTime.OpenPicker();
+        }
+
+        private void countdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
+        {
+            ClockValue = TimeSpan.Parse(ctlCountdownTime.Value.ToString());
+            ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
+        }
+
         #endregion "Events"
  
         #region "Methods"
@@ -368,6 +381,21 @@ namespace StopWatch
             }
         }
 
+        private TimeSpan GetCountdownDefaultTime()
+        {
+            TimeSpan returnValue;
+
+            if (IS.GetSettingStringValue("Countdown-DefaultTime") == string.Empty)
+            {
+                returnValue = new TimeSpan(0, 1, 0);
+            }
+            else
+            {
+                returnValue = TimeSpan.Parse(IS.GetSettingStringValue("Countdown-DefaultTime"));              
+            }
+
+            return returnValue;
+        }
 
         //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
         //Note no slash before the Assets folder, and it's a WAV file!
@@ -407,9 +435,6 @@ namespace StopWatch
 
         #endregion "Methods"
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-               
-        }
+     
     }
 }

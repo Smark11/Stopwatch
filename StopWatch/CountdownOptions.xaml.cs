@@ -21,6 +21,7 @@ namespace StopWatch
 
             GetLockScreenSetting();
             GetCountdownAlarmSetting();
+            GetCountdownDefaultTime();
         }
 
         #region "Events"
@@ -28,7 +29,7 @@ namespace StopWatch
         //OFF Lock screen is not disabled
         private void toggleLockScreen_Checked(object sender, RoutedEventArgs e)
         {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
+       //     PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
             IS.SaveSetting("Stopwatch-LockScreen", "Enabled");
             toggleLockScreen.Content = AppResources.Enabled;
         }
@@ -36,32 +37,28 @@ namespace StopWatch
         //ON Lock screen is disabled
         private void toggleLockScreen_Unchecked(object sender, RoutedEventArgs e)
         {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+          //  PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
             toggleLockScreen.Content = AppResources.Disabled;
         }
 
         private void togglePlayAlarm_Checked(object sender, RoutedEventArgs e)
         {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            IS.SaveSetting("Stopwatch-CountdownAlarm", "Enabled");
+        //    PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
+            IS.SaveSetting("Countdown-Alarm", "Enabled");
             togglePlayAlarm.Content = AppResources.Enabled;
         }
 
         private void togglePlayAlarm_Unchecked(object sender, RoutedEventArgs e)
         {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            IS.SaveSetting("Stopwatch-CountdownAlarm", "Disabled");
+          //  PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+            IS.SaveSetting("Countdown-Alarm", "Disabled");
             togglePlayAlarm.Content = AppResources.Disabled;
         }
 
-        private void toggleDefaultStartTime_Checked(object sender, RoutedEventArgs e)
+        private void defaultCountdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
         {
-
-        }
-
-        private void toggleDefaultStartTime_Unchecked(object sender, RoutedEventArgs e)
-        {
+            IS.SaveSetting("Countdown-DefaultTime", ctlDefaultCountdownTime.Value.ToString());
 
         }
 
@@ -98,14 +95,14 @@ namespace StopWatch
         {
             string countdownAlarmValue = string.Empty;
 
-            if (IS.GetSettingStringValue("Stopwatch-CountdownAlarm") == string.Empty)
+            if (IS.GetSettingStringValue("Countdown-Alarm") == string.Empty)
             {
                 togglePlayAlarm.IsChecked = false;
                 togglePlayAlarm.Content = AppResources.Disabled;
             }
             else
             {
-                countdownAlarmValue = IS.GetSettingStringValue("Stopwatch-CountdownAlarm");
+                countdownAlarmValue = IS.GetSettingStringValue("Countdown-Alarm");
                 if (countdownAlarmValue == "Enabled")
                 {
                     togglePlayAlarm.IsChecked = true;
@@ -118,11 +115,23 @@ namespace StopWatch
                 }
             }
         }
+
+        private void GetCountdownDefaultTime()
+        {
+            string countdownAlarmValue = string.Empty;
+
+            if (IS.GetSettingStringValue("Countdown-DefaultTime") == string.Empty)
+            {
+                ctlDefaultCountdownTime.Value = new TimeSpan(0, 1, 0);
+            }
+            else
+            {
+                countdownAlarmValue = IS.GetSettingStringValue("Countdown-DefaultTime");
+                ctlDefaultCountdownTime.Value = TimeSpan.Parse(countdownAlarmValue);
+            }
+        }
+
         #endregion "Methods"
 
-        private void defaultCountdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
-        {
-
-        }
     }
 }

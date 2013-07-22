@@ -33,11 +33,11 @@
         </Grid.ColumnDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <TextBlock Grid.Row="0" 
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2"
                    Text="{Binding Path=LocalizedResources.CountdownOptions, Source={StaticResource LocalizedStrings}}"
                    HorizontalAlignment="Center"
                    FontSize="40" 
-                   Margin="10,0,0,20" />
+                   Margin="0,0,0,20" />
         <TextBlock Grid.Row="1" 
                    Text="{Binding Path=LocalizedResources.LockScreen, Source={StaticResource LocalizedStrings}}"                      
                    FontSize="20"
@@ -69,12 +69,12 @@
                   Text="{Binding Path=LocalizedResources.DefaultCountdownTime, Source={StaticResource LocalizedStrings}}"                      
                    FontSize="20"
                    Margin="10,0,0,0" />
-        <toolkitcode4fun:TimeSpanPicker x:Name="defaultCountdownTime" 
-                                         
+        <toolkitcode4fun:TimeSpanPicker x:Name="ctlDefaultCountdownTime"                                      
                    Grid.Row="5" Grid.Column="1"
+                   Margin="80,0,0,0" Width="150"
                    FontSize="20"
-  ValueChanged="defaultCountdownTime_ValueChanged"                                        
-                   Margin="10,0,0,0" />
+                   ValueChanged="defaultCountdownTime_ValueChanged"                                        
+                   />
     </Grid>
 
 </phone:PhoneApplicationPage>

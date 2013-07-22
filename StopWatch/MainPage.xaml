@@ -34,13 +34,15 @@
 
             <phone:Pivot x:Name="pivotControl" Grid.Row="1" SelectionChanged="pivotControl_SelectionChanged">
                 <!--Pivot item one-->
-                <phone:PivotItem x:Name="pivotStopwatch" Header="Stopwatch">
+                <phone:PivotItem x:Name="pivotStopwatch" 
+                         Header="{Binding Path=LocalizedResources.Stopwatch, Source={StaticResource LocalizedStrings}}" >                              
                     <local:StopWatchUserControl x:Name="stopwatchControl">
                     </local:StopWatchUserControl>
                 </phone:PivotItem>
 
                 <!--Pivot item two-->
-                <phone:PivotItem x:Name="pivotCountdown" Header="Countdown">
+                <phone:PivotItem x:Name="pivotCountdown" 
+                     Header="{Binding Path=LocalizedResources.Countdown, Source={StaticResource LocalizedStrings}}" >
                     <local:CountdownUserControl x:Name="countdownControl">
                         
                     </local:CountdownUserControl>

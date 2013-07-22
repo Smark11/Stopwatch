@@ -189,6 +189,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Countdown.
+        /// </summary>
+        public static string Countdown {
+            get {
+                return ResourceManager.GetString("Countdown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Countdown Alarm.
         /// </summary>
         public static string CountdownAlarm {
@@ -464,6 +473,15 @@ namespace StopWatch.Resources {
         public static string StartText {
             get {
                 return ResourceManager.GetString("StartText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stopwatch.
+        /// </summary>
+        public static string Stopwatch {
+            get {
+                return ResourceManager.GetString("Stopwatch", resourceCulture);
             }
         }
         

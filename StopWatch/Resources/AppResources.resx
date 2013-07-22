@@ -265,4 +265,10 @@ Download this app today!</value>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown Finished!</value>
   </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
 </root>
