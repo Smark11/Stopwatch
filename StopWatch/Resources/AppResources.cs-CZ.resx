@@ -238,4 +238,37 @@ Stáhněte tuto app dnes!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Míra stopky 5 hvězdiček odstranit reklamy. Chcete pokračovat?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Zakázáno</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Povoleno</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Odpočítávacího měřiče</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Odpočítávání možnosti</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Výchozí odpočítávání času</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Záznam</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Vaše zpětná vazba je důležitá! Míra stopky 5 hvězdiček přidat funkce odpočítávání. Chcete pokračovat?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Přidejte odpočítávání</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Odpočítávání dokončen!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Odpočítávání</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopky</value>
+  </data>
 </root>

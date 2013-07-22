@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Курс секундомер 5 звёзд для удаления рекламы. Продолжить?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Инвалидов</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Тревогу отсчет</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Опции обратный отсчет</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Отсчет времени по умолчанию</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Ваше мнение важно! Курс секундомер 5 звёзд добавить функциональность комплекса предпусковых операций. Продолжить?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Добавить обратный отсчет</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Обратный отсчет закончил!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Обратный отсчет</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Секундомер</value>
+  </data>
 </root>

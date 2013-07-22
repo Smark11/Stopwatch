@@ -24,6 +24,8 @@ namespace StopWatch
         /// </summary>
         /// 
        public static Stopwatch gStopWatch;
+       public static TimeSpan gDefaultCountdown;
+       public static string gAlarmSetting = string.Empty;
 
         public App()
         {

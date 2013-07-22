@@ -212,6 +212,16 @@ namespace StopWatch
 
                 IS.SaveSetting("AppRated", "Yes");
                 this.pivotCountdown.IsEnabled = true;
+
+                foreach (ApplicationBarMenuItem item in ApplicationBar.MenuItems)
+                {
+                    if (item.Text == AppResources.AppMenuItemAddCountdown)
+                    {
+                        //Disable it now that it is no longer needed, next time app is started it will not be even loaded as a menu option
+                        item.IsEnabled = false;  
+                    }
+                }
+
             }
             else
             {

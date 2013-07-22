@@ -238,4 +238,37 @@ Laden Sie diese app herunter!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Komplettpreise Stoppuhr 5 Sterne um Werbung zu entfernen. Vorgehen?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Behinderte</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Countdown-Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Countdown-Optionen</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Countdown Standardzeit</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Datensatz</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Ihr Feedback ist wichtig! Komplettpreise Stoppuhr 5 Sterne Countdown Funktionen hinzufügen. Vorgehen?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Hinzufügen von Countdown</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Countdown beendet!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stoppuhr</value>
+  </data>
 </root>

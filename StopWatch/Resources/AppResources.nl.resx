@@ -238,4 +238,37 @@ Download dit app vandaag nog!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Tarief Stopwatch 5 sterren te verwijderen van reclame. Wilt u doorgaan?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Handicap</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Ingeschakeld</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Countdown Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Opties voor aftellen</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Standaard Countdown tijd</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Uw feedback is belangrijk! Tarief Stopwatch 5 sterren Countdown functionaliteit toevoegen. Wilt u doorgaan?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Countdown toevoegen</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Countdown klaar!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Aftellen</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
 </root>

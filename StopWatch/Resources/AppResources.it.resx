@@ -238,4 +238,37 @@ Scaricare questa app oggi!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Tasso cronometro 5 stelle a rimuovere la pubblicità. Procedere?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Disabili</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Abilitato</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Conto alla rovescia allarme</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Opzioni di conto alla rovescia</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Conto alla rovescia predefinito</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Il vostro feedback è importante! Tasso cronometro 5 stelle per aggiungere funzionalità di conto alla rovescia. Procedere?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Aggiungere il conto alla rovescia</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Finito il conto alla rovescia!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Conto alla rovescia</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Cronometro</value>
+  </data>
 </root>

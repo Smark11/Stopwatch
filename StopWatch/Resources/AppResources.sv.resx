@@ -238,4 +238,37 @@ Ladda ner denna app idag!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Kurs stoppur 5 stjärnor att ta bort reklam. Vill du fortsätta?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Funktionshindrade</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiverad</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Nedräkning larm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Nedräkning alternativ</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Standard nedräkningstiden</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Posten</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Din feedback är viktig! Kurs stoppur 5 stjärnor att lägga till Countdown funktioner. Vill du fortsätta?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Lägg till Countdown</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Nedräkningen är klar!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Nedräkning</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stoppur</value>
+  </data>
 </root>

@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>広告を削除する率はストップウォッチ 5 星です。続行しますか。</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>無効になっています。</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>有効になっています。</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>カウント ダウンのアラーム</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>カウント ダウンのオプション</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>既定のカウント ダウン時間</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>レコード</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>あなたのフィードバックは重要です ！カウント ダウンの機能を追加する率はストップウォッチ 5 星です。続行しますか。</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>カウント ダウンを追加します。</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>カウント ダウン終了 ！</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>カウント ダウン</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
 </root>

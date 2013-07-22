@@ -238,4 +238,37 @@ Download this app today!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Rate Stopwatch 5 stars to remove advertising. Proceed?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Countdown Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Countdown Options</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Default Countdown Time</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Add Countdown</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Countdown Finished!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
 </root>

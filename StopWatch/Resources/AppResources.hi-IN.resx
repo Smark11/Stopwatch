@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>विज्ञापन हटाने के लिए दर स्टॉपवॉच 5 सितारे। आगे बढ़ें?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>विकलांग</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>सक्षम किया गया</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>उलटी गिनती अलार्म</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>उलटी गिनती विकल्प</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>डिफ़ॉल्ट उलटी गिनती समय</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>रिकॉर्ड</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>आपकी राय महत्वपूर्ण है! दर स्टॉपवॉच 5 सितारे उलटी गिनती कार्यक्षमता जोड़ने के लिए। आगे बढ़ें?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>उलटी गिनती जोड़ें</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>उलटी गिनती समाप्त हो गया!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>उलटी गिनती</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>स्टॉपवॉच</value>
+  </data>
 </root>

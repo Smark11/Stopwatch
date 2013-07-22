@@ -238,4 +238,37 @@ Last ned denne app i dag!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Rate stoppeklokke 5 stjerner å fjerne reklame. Vil du fortsette?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Deaktivert</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktivert</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Nedtelling Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Nedtelling alternativer</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Standard nedtellingstiden</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Din tilbakemelding er viktig! Rate stoppeklokke 5 stjerner legge Countdown funksjonalitet. Vil du fortsette?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Legge til nedtelling</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Nedtellingen ferdig!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Nedtelling</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stoppeklokke</value>
+  </data>
 </root>

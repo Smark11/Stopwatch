@@ -238,4 +238,37 @@ Download aplikasi ini hari ini!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Tingkat Stopwatch 5 stars untuk menghapus iklan. Melanjutkan?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Penyandang Cacat</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Diaktifkan</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Hitung mundur Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Countdown pilihan</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Waktu standar Countdown</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Catatan</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting! Tingkat Stopwatch 5 stars untuk menambahkan fungsi hitung mundur. Melanjutkan?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Tambahkan Countdown</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Countdown selesai!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Hitung mundur</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
 </root>

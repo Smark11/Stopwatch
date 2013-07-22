@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Ставка секундомір 5 зірочок видалити реклами. Продовжити?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Інваліди</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Ввімкнено</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Зворотний відлік сигналізації</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Зворотного відліку-параметри</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>За замовчуванням час зворотного відліку</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Запис</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Ваші відгуки дуже важливо! Ставка секундомір 5 зірок, щоб додати функціональність зворотного відліку. Продовжити?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Додати зворотного відліку</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Зворотний відлік закінчена!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Зворотний відлік</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Секундомір</value>
+  </data>
 </root>

@@ -238,4 +238,37 @@ Descargue esta aplicación!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Tasa cronómetro 5 estrellas para quitar la publicidad. ¿Proceder?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Discapacitados</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Habilitado</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Alarma de cuenta regresiva</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Opciones de cuenta regresiva</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Tiempo de la cuenta regresiva por defecto</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Su opinión es importante! Tasa cronómetro 5 estrellas para agregar funcionalidad de cuenta regresiva. ¿Proceder?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Añadir cuenta regresiva</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Cuenta regresiva terminó!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Cuenta regresiva</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Cronómetro</value>
+  </data>
 </root>

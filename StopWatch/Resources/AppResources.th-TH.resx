@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>ดาว 5 นาฬิกาจับอัตราการเอาโฆษณา ดำเนินต่อหรือไม่</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>ปิดการใช้งาน</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>เปิดใช้งาน</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>ตอ</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>ตัวนับถอยหลัง</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>เวลานับถอยหลัง</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>คอร์ด</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญ ดาว 5 นาฬิกาจับอัตราการเพิ่มฟังก์ชันการทำงานนับถอยหลัง ดำเนินต่อหรือไม่</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>เพิ่มนับถอยหลัง</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>นับถอยหลังเสร็จแล้ว</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>นับถอยหลัง</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>นาฬิกาจับ</value>
+  </data>
 </root>

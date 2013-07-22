@@ -238,4 +238,37 @@ Descărcaţi acest app astăzi!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Rata cronometru 5 stele pentru a elimina de publicitate. Proceda?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Cu handicap</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Activat</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Numărătoare inversă de alarmă</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Numărătoarea inversă opţiuni</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Implicit Countdown timp</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Înregistrare</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Feedback-ul este important! Rata cronometru 5 stele pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Adauga Countdown</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Numărătoarea inversă a terminat!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Numărătoarea inversă</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
 </root>

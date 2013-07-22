@@ -29,7 +29,6 @@ namespace StopWatch
         //OFF Lock screen is not disabled
         private void toggleLockScreen_Checked(object sender, RoutedEventArgs e)
         {
-       //     PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
             IS.SaveSetting("Stopwatch-LockScreen", "Enabled");
             toggleLockScreen.Content = AppResources.Enabled;
         }
@@ -37,29 +36,28 @@ namespace StopWatch
         //ON Lock screen is disabled
         private void toggleLockScreen_Unchecked(object sender, RoutedEventArgs e)
         {
-          //  PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
             toggleLockScreen.Content = AppResources.Disabled;
         }
 
         private void togglePlayAlarm_Checked(object sender, RoutedEventArgs e)
         {
-        //    PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
             IS.SaveSetting("Countdown-Alarm", "Enabled");
             togglePlayAlarm.Content = AppResources.Enabled;
+            App.gAlarmSetting = "Enabled";
         }
 
         private void togglePlayAlarm_Unchecked(object sender, RoutedEventArgs e)
         {
-          //  PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             IS.SaveSetting("Countdown-Alarm", "Disabled");
             togglePlayAlarm.Content = AppResources.Disabled;
+            App.gAlarmSetting = "Disabled";
         }
 
         private void defaultCountdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
         {
             IS.SaveSetting("Countdown-DefaultTime", ctlDefaultCountdownTime.Value.ToString());
-
+            App.gDefaultCountdown = TimeSpan.Parse(ctlDefaultCountdownTime.Value.ToString());
         }
 
         #endregion "Events"

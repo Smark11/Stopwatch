@@ -238,4 +238,37 @@ Bu uygulama bugün yükleyin!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Oranı kronometre 5 yıldız reklam kaldırmak için. Devam edilsin mi?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Engelli</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Geri sayım Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Geri sayım seçenekleri</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Varsayılan sayım süresini</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Rekor</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Geribildirim önemlidir! Geri sayım işlevselliği eklemek için kronometre 5 yıldız oranı. Devam edilsin mi?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Geri sayım Ekle</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Geri sayım bitmiş!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Geri sayım</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Kronometre</value>
+  </data>
 </root>

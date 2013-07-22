@@ -238,4 +238,37 @@ Letölt ez app ma!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Arány stopper 5 csillagok eltávolítani a reklám. Folytatja?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Fogyatékkal élő</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Engedélyezve</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Visszaszámláló riasztás</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Visszaszámlálás beállítások</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Alapértelmezett visszaszámláló</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Rekord</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Visszajelzése fontos! Arány stopper 5 csillagok visszaszámlálás bővíthetjük. Folytatja?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Add hozzá a visszaszámlálás</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Visszaszámlálás befejeződött!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Visszaszámlálás</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopperóra</value>
+  </data>
 </root>

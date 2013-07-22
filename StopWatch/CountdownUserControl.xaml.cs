@@ -16,6 +16,7 @@ using System.Collections.ObjectModel;
 using Microsoft.Xna.Framework;
 using System.IO;
 using Microsoft.Xna.Framework.Audio;
+using Microsoft.Phone.Scheduler;
 
 namespace StopWatch
 {
@@ -25,9 +26,9 @@ namespace StopWatch
         DispatcherTimer dispatcherTimer;
         public event PropertyChangedEventHandler PropertyChanged;
         string isRunning = "No";
-        TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);     
-        TimeSpan defaultCountdown;
+        TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);    
         string lastCountdownValue = string.Empty;
+        public static Alarm alarm;
 
         public CountdownUserControl()
         {
@@ -38,18 +39,20 @@ namespace StopWatch
 
             LoadLapAndSplitData();
 
-            defaultCountdown = GetCountdownDefaultTime();
+            App.gDefaultCountdown = GetCountdownDefaultTime();
+            App.gAlarmSetting = GetCountdownAlarmSetting();
+
             lastCountdownValue = GetLastCountdownValue();
 
             if (lastCountdownValue == string.Empty)
             {
-                ClockValue = defaultCountdown;
+                ClockValue =App.gDefaultCountdown;
             }
             else
-            {        
+            {
                 ClockValue = TimeSpan.Parse(lastCountdownValue);
-            }           
-            
+            }
+
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
 
             dispatcherTimer = new DispatcherTimer();
@@ -64,7 +67,7 @@ namespace StopWatch
             }
             else
             {
-                if (lastCountdownValue == string.Empty || lastCountdownValue == defaultCountdown.ToString())
+                if (lastCountdownValue == string.Empty || lastCountdownValue == App.gDefaultCountdown.ToString())
                 {
                     Mode = AppResources.StartText;
                     Start.Background = new SolidColorBrush(Colors.Green);
@@ -75,11 +78,11 @@ namespace StopWatch
                     Start.Background = new SolidColorBrush(Colors.Green);
                 }
 
-            }         
+            }
             this.DataContext = this;
         }
 
-         #region "Properties"
+        #region "Properties"
 
         private void NotifyPropertyChanged(String propertyName)
         {
@@ -151,7 +154,7 @@ namespace StopWatch
                     this.Reset.IsEnabled = true;
                     this.Record.IsEnabled = false;
                     IS.SaveSetting("Countdown-IsRunning", "No");
-                };          
+                };
             }
         }
 
@@ -167,25 +170,22 @@ namespace StopWatch
         #region "Events"
         void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            ClockValue = ClockValue - new TimeSpan(0, 0, 1);     
+            ClockValue = ClockValue - new TimeSpan(0, 0, 1);
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
-
 
             if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue >= new TimeSpan(0, 0, 0))
             {
-                //PlaySound("Assets/Cow2.wav");
-                PlaySound2("/Assets/Cow2.wav");
+                PlaySound("Assets/alarm.wav");
             }
 
-            if (ClockValue <= new TimeSpan(0,0,0))
+            if (ClockValue <= new TimeSpan(0, 0, 0))
             {
-                //PlaySound("Assets/Duck.wav");
-                PlaySound2("/Assets/Cow2.wav");
-                MessageBoxResult result = MessageBox.Show(AppResources.CountdownFinished, AppResources.CountdownFinished, MessageBoxButton.OK);
-                 if (result == MessageBoxResult.OK)
-                 {
-                     ResetCountdown();
-                 }                
+                PlaySound("Assets/alarm.wav");
+                MessageBoxResult result = MessageBox.Show(AppResources.CountdownFinished, AppResources.Countdown, MessageBoxButton.OK);
+                if (result == MessageBoxResult.OK)
+                {
+                    ResetCountdown();
+                }
             }
 
             IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
@@ -206,7 +206,7 @@ namespace StopWatch
                 _lastSplitTime = new TimeSpan();
                 CountdownTimesCollection.Clear();
                 IS.RemoveSetting("Countdown-Laps");
-                IS.RemoveSetting("Countdown-Splits");              
+                IS.RemoveSetting("Countdown-Splits");
             }
             else
             {
@@ -237,7 +237,7 @@ namespace StopWatch
 
         private void taptosettime_click(object sender, RoutedEventArgs e)
         {
-            ctlCountdownTime.Value=ClockValue;
+            ctlCountdownTime.Value = ClockValue;
             ctlCountdownTime.OpenPicker();
         }
 
@@ -248,7 +248,7 @@ namespace StopWatch
         }
 
         #endregion "Events"
- 
+
         #region "Methods"
 
         public string IsCountdownRunning()
@@ -276,7 +276,7 @@ namespace StopWatch
         private void ResetCountdown()
         {
             dispatcherTimer.Stop();
-            ClockValue = defaultCountdown;
+            ClockValue = App.gDefaultCountdown;
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
             Mode = AppResources.StartText;
             Start.Background = new SolidColorBrush(Colors.Green);
@@ -391,7 +391,23 @@ namespace StopWatch
             }
             else
             {
-                returnValue = TimeSpan.Parse(IS.GetSettingStringValue("Countdown-DefaultTime"));              
+                returnValue = TimeSpan.Parse(IS.GetSettingStringValue("Countdown-DefaultTime"));
+            }
+
+            return returnValue;
+        }
+
+        private string GetCountdownAlarmSetting()
+        {
+            string returnValue = string.Empty;
+
+            if (IS.GetSettingStringValue("Countdown-Alarm") == string.Empty)
+            {
+                returnValue = "Disabled";
+            }
+            else
+            {
+                returnValue = IS.GetSettingStringValue("Countdown-Alarm");
             }
 
             return returnValue;
@@ -403,11 +419,13 @@ namespace StopWatch
         {
             try
             {
-                Stream stream = TitleContainer.OpenStream(soundFile);
-                SoundEffect effect = SoundEffect.FromStream(stream);
-                FrameworkDispatcher.Update();
-                effect.Play();
-                
+                if (App.gAlarmSetting.ToUpper() == "ENABLED")              
+                {
+                    Stream stream = TitleContainer.OpenStream(soundFile);
+                    SoundEffect effect = SoundEffect.FromStream(stream);
+                    FrameworkDispatcher.Update();
+                    effect.Play();
+                }
             }
             catch (Exception ex)
             {
@@ -417,7 +435,7 @@ namespace StopWatch
         //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
         private void PlaySound2(string soundFile)
         {
-            try            
+            try
             {
                 Sound = soundFile;
 
@@ -435,6 +453,6 @@ namespace StopWatch
 
         #endregion "Methods"
 
-     
+
     }
 }

@@ -238,4 +238,37 @@ Download denne app i dag!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Sats stopur 5 stjerner til at fjerne reklamer. Vil du fortsætte?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Handicappede</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiveret</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Nedtælling Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Nedtælling indstillinger</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Standard nedtællingstiden</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Din feedback er vigtig! Sats stopur 5 stjerner at tilføje Nedtælling funktionalitet. Vil du fortsætte?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Tilføje Nedtælling</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Nedtælling færdig!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Nedtælling</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopur</value>
+  </data>
 </root>

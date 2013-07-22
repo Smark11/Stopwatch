@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>删除广告率秒表 5 星。是否继续?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>倒计时报警</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>倒计时选项</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>默认时间倒计时</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>您的反馈很重要 ！率秒表 5 星添加倒计时功能。是否继续?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>添加倒计时</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>倒计时完成 ！</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>倒计时</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>秒表</value>
+  </data>
 </root>

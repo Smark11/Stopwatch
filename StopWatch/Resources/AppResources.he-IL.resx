@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>קצב סטופר 5 כוכבים כדי להסיר את הפרסום. האם להמשיך?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>בעלי מוגבלויות</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>מופעל</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>ספירה לאחור אזעקה</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>אפשרויות הספירה לאחור</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>ברירת המחדל של הספירה לאחור</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>שיא</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>המשוב שלכם חשוב! קצב סטופר 5 כוכבים כדי להוסיף פונקציונליות הספירה לאחור. האם להמשיך?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>הוסף את הספירה לאחור</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>הספירה לאחור הסתיימה!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>הספירה לאחור</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>סטופר</value>
+  </data>
 </root>

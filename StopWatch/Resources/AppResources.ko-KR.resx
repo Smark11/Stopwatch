@@ -238,4 +238,37 @@
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>광고를 제거 하려면 속도 스톱 워치 5 별입니다. 진행?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>사용 안 함</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>사용 가능</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>카운트 다운 알람</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>카운트 다운 옵션</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>기본 카운트 다운 시간</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>레코드</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>귀하의 의견은 중요 합니다! 카운트 다운 기능 추가 속도 스톱 워치 5 별. 진행?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>카운트다운을 추가</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>카운트 다운 완료!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>카운트 다운</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>스톱 워치</value>
+  </data>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="1.0.0.0" build-num="0">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="2.0.0" build-num="0">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
     </header>
@@ -98,11 +98,11 @@
         </trans-unit>
         <trans-unit id="Resx/Disabled" translate="yes" xml:space="preserve">
           <source>Disabled</source>
-          <target state="new">Disabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용 안 함</target>
         </trans-unit>
         <trans-unit id="Resx/Enabled" translate="yes" xml:space="preserve">
           <source>Enabled</source>
-          <target state="new">Enabled</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사용 가능</target>
         </trans-unit>
         <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
           <source>Best Stop Watch in the Windows Phone Store!
@@ -184,39 +184,39 @@ Download this app today!</source>
         </trans-unit>
         <trans-unit id="Resx/CountdownAlarm" translate="yes" xml:space="preserve">
           <source>Countdown Alarm</source>
-          <target state="new">Countdown Alarm</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카운트 다운 알람</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownOptions" translate="yes" xml:space="preserve">
           <source>Countdown Options</source>
-          <target state="new">Countdown Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카운트 다운 옵션</target>
         </trans-unit>
         <trans-unit id="Resx/DefaultCountdownTime" translate="yes" xml:space="preserve">
           <source>Default Countdown Time</source>
-          <target state="new">Default Countdown Time</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">기본 카운트 다운 시간</target>
         </trans-unit>
         <trans-unit id="Resx/Record" translate="yes" xml:space="preserve">
           <source>Record</source>
-          <target state="new">Record</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">레코드</target>
         </trans-unit>
         <trans-unit id="Resx/AddCountdownQuestion" translate="yes" xml:space="preserve">
           <source>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</source>
-          <target state="new">Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">귀하의 의견은 중요 합니다! 카운트 다운 기능 추가 속도 스톱 워치 5 별. 진행?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
           <source>Add Countdown</source>
-          <target state="new">Add Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카운트다운을 추가</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
-          <target state="new">Countdown Finished!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카운트 다운 완료!</target>
         </trans-unit>
         <trans-unit id="Resx/Countdown" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카운트 다운</target>
         </trans-unit>
         <trans-unit id="Resx/Stopwatch" translate="yes" xml:space="preserve">
           <source>Stopwatch</source>
-          <target state="new">Stopwatch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스톱 워치</target>
         </trans-unit>
       </group>
     </body>

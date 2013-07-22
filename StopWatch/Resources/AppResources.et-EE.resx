@@ -238,4 +238,37 @@ Lae alla käesoleva app täna!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Määra taimer 5 tärni eemaldada reklaam. Kas soovite jätkata?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Erivajadustega</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Lubatud</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Taimeri helisignaali</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Taimeri Valikud</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Vaikimisi Taimeri aeg</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Kirje</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Teie tagasiside on oluline! Määra taimer 5 tärni Tagaplaanil funktsionaalsust. Kas soovite jätkata?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Lisada Tagaplaanil</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Tagaplaanil lõppenud!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Tagaplaanil</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Stopper</value>
+  </data>
 </root>

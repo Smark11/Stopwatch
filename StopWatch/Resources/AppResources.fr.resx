@@ -238,4 +238,37 @@ Téléchargez cette application dès aujourd'hui !</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Taux chronomètre 5 étoiles à enlever la publicité. Aller de l'avant ?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Handicapés</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Activé</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Compte à rebours alarme</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Options de compte à rebours</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Compte à rebours par défaut</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Enregistrement</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Votre avis est important ! Taux chronomètre 5 étoiles pour ajouter des fonctionnalités de compte à rebours. Aller de l'avant ?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Ajoutez le compte à rebours</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Compte à rebours terminé !</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Compte à rebours</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Chronomètre</value>
+  </data>
 </root>

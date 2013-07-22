@@ -238,4 +238,37 @@ Travnato gričevje to app danes!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Stopnja štoparica 5 zvezdic umakniti oglaševanja. Ali želite nadaljevati?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Invalidne</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Omogočeno</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Odštevanje Alarm</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Odštevanje možnosti</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Privzeta časa odštevanja</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Zapis</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Vaša povratna informacija je pomembna! Stopnja štoparica 5 zvezdic za dodajanje funkcionalnosti odštevanje. Ali želite nadaljevati?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Dodaj odštevanje</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Odštevanje končal!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Odštevanje</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Štoparica</value>
+  </data>
 </root>

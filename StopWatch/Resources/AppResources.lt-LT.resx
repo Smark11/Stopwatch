@@ -238,4 +238,37 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Norma chronometras 5 žvaigždės pašalinti reklamos. Tęsti?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Negalia</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Įjungtas</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Countdown signalizacijos</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Countdown parinktys</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Numatytasis Countdown laikas</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Įrašas</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Svarbu jūsų atsiliepimus! Norma chronometras 5 žvaigždės pridėti Countdown funkcionalumą. Tęsti?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Pridėti Countdown</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Tas, kurio nėra baigtas!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Chronometras</value>
+  </data>
 </root>

@@ -238,4 +238,37 @@ Lataa app tänään!</value>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
     <value>Korko sekuntikello 5 tähteä poistaa mainonnan. Jatketaanko?</value>
   </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Vammaisten</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Käytössä</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Countdown herätyskello</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Ajastimen asetukset</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Oletuksena lähtölaskenta aika</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Ennätys</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Palautteesi on tärkeää! Korko sekuntikello 5 tähteä lisätä lähtölaskenta toiminnot. Jatketaanko?</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Lisää lähtölaskenta</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Lähtölaskenta valmis!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Lähtölaskenta</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Sekuntikello</value>
+  </data>
 </root>
