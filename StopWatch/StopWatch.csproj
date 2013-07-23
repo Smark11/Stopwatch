@@ -164,6 +164,7 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\beep.wav" />
     <Content Include="Assets\cancel.png" />
     <Content Include="Assets\feature.email.png" />
     <Content Include="Assets\stop-watch-icon-medium.png" />

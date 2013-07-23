@@ -17,6 +17,7 @@ using Microsoft.Xna.Framework;
 using System.IO;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Phone.Scheduler;
+using System.Threading;
 
 namespace StopWatch
 {
@@ -26,7 +27,7 @@ namespace StopWatch
         DispatcherTimer dispatcherTimer;
         public event PropertyChangedEventHandler PropertyChanged;
         string isRunning = "No";
-        TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);    
+        TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
         string lastCountdownValue = string.Empty;
         public static Alarm alarm;
 
@@ -46,7 +47,7 @@ namespace StopWatch
 
             if (lastCountdownValue == string.Empty)
             {
-                ClockValue =App.gDefaultCountdown;
+                ClockValue = App.gDefaultCountdown;
             }
             else
             {
@@ -170,25 +171,30 @@ namespace StopWatch
         #region "Events"
         void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            ClockValue = ClockValue - new TimeSpan(0, 0, 1);
-            ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
-
-            if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue >= new TimeSpan(0, 0, 0))
+            Dispatcher.BeginInvoke(() =>
             {
-                PlaySound("Assets/alarm.wav");
-            }
+                ClockValue = ClockValue - new TimeSpan(0, 0, 1);
+                ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
 
-            if (ClockValue <= new TimeSpan(0, 0, 0))
-            {
-                PlaySound("Assets/alarm.wav");
-                MessageBoxResult result = MessageBox.Show(AppResources.CountdownFinished, AppResources.Countdown, MessageBoxButton.OK);
-                if (result == MessageBoxResult.OK)
+                if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue >= new TimeSpan(0, 0, 0))
                 {
-                    ResetCountdown();
+                    CountdownTextBlock.Foreground = new SolidColorBrush(Colors.Red);
+                    PlaySound("Assets/alarm.wav");
                 }
-            }
 
-            IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
+                if (ClockValue <= new TimeSpan(0, 0, 0))
+                {
+                    PlaySound("Assets/beep.wav");
+                    PlaySound("Assets/beep.wav");
+                    MessageBoxResult result = MessageBox.Show(AppResources.CountdownFinished, AppResources.Countdown, MessageBoxButton.OK);
+                    if (result == MessageBoxResult.OK)
+                    {
+                        ResetCountdown();
+                    }
+                }
+
+                IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
+            });
         }
 
         private void Countdown_Start_Click(object sender, EventArgs e)
@@ -280,6 +286,7 @@ namespace StopWatch
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
             Mode = AppResources.StartText;
             Start.Background = new SolidColorBrush(Colors.Green);
+            CountdownTextBlock.Foreground = new SolidColorBrush(Colors.Green);
         }
 
         public void StartCountdown()
@@ -419,7 +426,7 @@ namespace StopWatch
         {
             try
             {
-                if (App.gAlarmSetting.ToUpper() == "ENABLED")              
+                if (App.gAlarmSetting.ToUpper() == "ENABLED")
                 {
                     Stream stream = TitleContainer.OpenStream(soundFile);
                     SoundEffect effect = SoundEffect.FromStream(stream);
