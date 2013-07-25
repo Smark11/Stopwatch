@@ -14,17 +14,17 @@
 
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
+            <RowDefinition Height="60"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button Grid.Row="0" Width="250" Height="70"
-                   FontSize="25" Content="Tap to set time" Click="taptosettime_click"
+        <Button Grid.Row="0" Width="250" Height="60" Margin="0,0,0,0"
+                   FontSize="20" Content="Tap to set time" Click="taptosettime_click"
                    FontFamily="Franklin Gothic Medium"/>
-
+        
         <Grid Margin="0,10,0,0" x:Name="ContentPanel" Grid.Row="1" Grid.RowSpan="2">
             <Viewbox Stretch="Fill">
                 <Border BorderThickness="2,4,2,4" BorderBrush="Gray">

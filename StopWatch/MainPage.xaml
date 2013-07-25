@@ -41,7 +41,7 @@
                 </phone:PivotItem>
 
                 <!--Pivot item two-->
-                <phone:PivotItem x:Name="pivotCountdown" 
+                <phone:PivotItem x:Name="pivotCountdown" Margin="0,0,0,0"
                      Header="{Binding Path=LocalizedResources.Countdown, Source={StaticResource LocalizedStrings}}" >
                     <local:CountdownUserControl x:Name="countdownControl">
                         

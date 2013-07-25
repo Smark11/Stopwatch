@@ -244,6 +244,8 @@ namespace StopWatch
         private void taptosettime_click(object sender, RoutedEventArgs e)
         {
             ctlCountdownTime.Value = ClockValue;
+            ctlCountdownTime.DialogTitle = "Choose Duration";
+            
             ctlCountdownTime.OpenPicker();
         }
 
