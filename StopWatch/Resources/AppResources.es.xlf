@@ -218,6 +218,10 @@ Descargue esta aplicación!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cronómetro</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiempo transcurrido:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

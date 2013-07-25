@@ -271,4 +271,7 @@ Download this app today!</value>
   <data name="Stopwatch" xml:space="preserve">
     <value>Stopwatch</value>
   </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Elapsed Time:</value>
+  </data>
 </root>

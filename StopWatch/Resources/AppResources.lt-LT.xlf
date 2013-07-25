@@ -218,6 +218,10 @@ Parsisiųsti šią programą šiandien!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometras</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Praėjęs laikas:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

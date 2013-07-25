@@ -218,6 +218,10 @@ Download this app today!</source>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">ساعة توقيت</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">الوقت المنقضي:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

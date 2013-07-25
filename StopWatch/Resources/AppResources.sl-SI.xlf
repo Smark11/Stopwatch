@@ -218,6 +218,10 @@ Travnato gričevje to app danes!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Štoparica</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Potekli čas:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -30,6 +30,7 @@ namespace StopWatch
         TimeSpan _lastSplitTime = new TimeSpan(0, 0, 0);
         string lastCountdownValue = string.Empty;
         public static Alarm alarm;
+        string originalCountdownTime = string.Empty;
 
         public CountdownUserControl()
         {
@@ -171,8 +172,6 @@ namespace StopWatch
         #region "Events"
         void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            Dispatcher.BeginInvoke(() =>
-            {
                 ClockValue = ClockValue - new TimeSpan(0, 0, 1);
                 ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
 
@@ -186,15 +185,14 @@ namespace StopWatch
                 {
                     PlaySound("Assets/beep.wav");
                     PlaySound("Assets/beep.wav");
-                    MessageBoxResult result = MessageBox.Show(AppResources.CountdownFinished, AppResources.Countdown, MessageBoxButton.OK);
+                    MessageBoxResult result = MessageBox.Show(AppResources.ElapsedTime + " " + originalCountdownTime, AppResources.CountdownFinished, MessageBoxButton.OK);
                     if (result == MessageBoxResult.OK)
                     {
                         ResetCountdown();
                     }
                 }
 
-                IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
-            });
+                IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());         
         }
 
         private void Countdown_Start_Click(object sender, EventArgs e)
@@ -298,6 +296,7 @@ namespace StopWatch
                 dispatcherTimer.Start();
                 Mode = AppResources.PauseText;
                 Start.Background = new SolidColorBrush(Colors.Red);
+                originalCountdownTime = ClockValueString;
             }
             else if (Mode == AppResources.PauseText)
             {
@@ -412,7 +411,8 @@ namespace StopWatch
 
             if (IS.GetSettingStringValue("Countdown-Alarm") == string.Empty)
             {
-                returnValue = "Disabled";
+                returnValue = "Enabled";
+                IS.SaveSetting("Countdown-Alarm", "Enabled");
             }
             else
             {

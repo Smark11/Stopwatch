@@ -218,6 +218,10 @@ Tải về ứng dụng này vào ngày hôm nay!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Đồng hồ bấm giờ</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thời gian:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -218,6 +218,10 @@ Laden Sie diese app herunter!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Stoppuhr</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verstrichene Zeit:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

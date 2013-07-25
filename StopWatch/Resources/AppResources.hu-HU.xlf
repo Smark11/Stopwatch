@@ -218,6 +218,10 @@ Letölt ez app ma!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Stopperóra</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eltelt idő:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

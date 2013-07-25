@@ -261,6 +261,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Elapsed Time:.
+        /// </summary>
+        public static string ElapsedTime {
+            get {
+                return ResourceManager.GetString("ElapsedTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Number/Split/Lap.
         /// </summary>
         public static string EmailBody {

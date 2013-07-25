@@ -218,6 +218,10 @@ Stáhněte tuto app dnes!</target>
           <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Stopky</target>
         </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uplynulý čas:</target>
+        </trans-unit>
       </group>
     </body>
   </file>
