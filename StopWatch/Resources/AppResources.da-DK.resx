@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Antallet/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bedste stopur i Windows Phone butik!
-
-Funktioner omfatter:
-
-* Email Lap og stræktider
-* Kører under lås skærm
-* Deaktivere låseskærmen
-* Både delt og samlet tid
-* Store, let at læse ur
-* Landskab støtte til store tal
-
-Download denne app i dag!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Sats</value>
   </data>
@@ -270,5 +256,8 @@ Download denne app i dag!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Stopur</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Forløbet tid:</value>
   </data>
 </root>

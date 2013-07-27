@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Split/numărul/tur</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Cel mai bun Oprire ceas în Windows Phone magazin!
-
-Caracteristicile includ:
-
-* Tur de e-mail şi Split ori
-* Care rulează sub ecran de blocare
-* Dezactivare blocare ecran
-* Atât Split şi timpul Total
-* Mare, uşor de citit ceas
-* Peisaj suport pentru numere mari
-
-Descărcaţi acest app astăzi!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Rata</value>
   </data>
@@ -270,5 +256,8 @@ Descărcaţi acest app astăzi!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Cronometru</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Timp scurs:</value>
   </data>
 </root>

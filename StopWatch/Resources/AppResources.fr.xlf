@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mieux arrête de regarder dans le magasin de Windows Phone !
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Caractéristiques comprennent :
+Features include:
 
-* Courriel tour et temps intermédiaires
-* En cours d'exécution sous l'écran de serrure
-* Désactiver l'écran de serrure
-* Split et temps Total
-* Grand, facile à lire horloge
-* Paysage de soutien pour les grands nombres
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Téléchargez cette application dès aujourd'hui !</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

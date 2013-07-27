@@ -271,4 +271,7 @@
   <data name="Stopwatch" xml:space="preserve">
     <value>ساعة توقيت</value>
   </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>الوقت المنقضي:</value>
+  </data>
 </root>

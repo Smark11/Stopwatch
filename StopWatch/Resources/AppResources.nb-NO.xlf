@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Beste stoppeklokke i Windows Phone butikken!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Funksjoner inkluderer:
+Features include:
 
-* E-post fanget og mellomtider
-* Kjører under låseskjermen
-* Deaktivere låseskjermen
-* Både Split og totaltiden
-* Store, lettleste klokke
-* Landskapet støtte for store tall
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Last ned denne app i dag!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

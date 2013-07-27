@@ -271,4 +271,7 @@
   <data name="Stopwatch" xml:space="preserve">
     <value>Χρονόμετρο</value>
   </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Χρόνος που πέρασε:</value>
+  </data>
 </root>

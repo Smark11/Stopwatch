@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Número/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Mejor detener el reloj en la tienda de Windows Phone!
-
-Las características incluyen:
-
-* Correo de vuelta y dividir veces
-* Funcionamiento bajo la pantalla de bloqueo
-* Desactivar la pantalla de bloqueo
-* El Split y el tiempo Total
-* Grande, fácil leer el reloj
-* Soporte para números grandes del paisaje
-
-Descargue esta aplicación!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tasa</value>
   </data>
@@ -270,5 +256,8 @@ Descargue esta aplicación!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Cronómetro</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Tiempo transcurrido:</value>
   </data>
 </root>

@@ -271,4 +271,7 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="Stopwatch" xml:space="preserve">
     <value>Đồng hồ bấm giờ</value>
   </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Thời gian:</value>
+  </data>
 </root>

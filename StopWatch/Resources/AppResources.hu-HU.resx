@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Split/szám/kör</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Legjobb Stop Watch a Windows Phone boltban!
-
-Funkciók közé tartozik:
-
-* E-mail kör és részidők
-* Zár képernyőn alatt futó
-* Tiltsa le zár képernyőn
-* Split, mind a teljes idő
-* Nagy, könnyen olvasható óra
-* Táj támogatja a nagy számok
-
-Letölt ez app ma!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Arány</value>
   </data>
@@ -270,5 +256,8 @@ Letölt ez app ma!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Stopperóra</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Eltelt idő:</value>
   </data>
 </root>

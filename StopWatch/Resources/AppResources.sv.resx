@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Antal/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bästa sluta titta i Windows Phone Store!
-
-Funktioner inkluderar:
-
-* E-varv och sträcktider
-* Körs under låsskärmen
-* Inaktivera låsskärmen
-* Både Split och Total tid
-* Stor, lätt att läsa klockan
-* Landskap stöd för stora siffror
-
-Ladda ner denna app idag!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Kurs</value>
   </data>
@@ -270,5 +256,8 @@ Ladda ner denna app idag!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Stoppur</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Förfluten tid:</value>
   </data>
 </root>

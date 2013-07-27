@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Numero/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Paras lopettaa katsella Windows Phone varastossa!
-
-Ominaisuuksia:
-
-* Email kierros- ja väliaikoineen
-* Lukitusnäyttö suoritetaan
-* Poista Lukitusnäyttö
-* Split sekä kokonaisaika
-Iso, helppolukuinen kello
-* Maisema tuki suuria lukuja
-
-Lataa app tänään!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Korko</value>
   </data>
@@ -270,5 +256,8 @@ Lataa app tänään!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Sekuntikello</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Kulunut aika:</value>
   </data>
 </root>

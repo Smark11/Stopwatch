@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Nombre/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Millor deixar de veure a la botiga de Windows Phone!
-
-Les característiques inclouen:
-
-* Volta de correu electrònic i dividir el temps
-* S'executa amb pantalla de panys
-* Impossibiliti pantalla de Pany
-* Split tant temps Total
-* Gran, fàcil de llegir el rellotge
-* Suport per a un gran nombre de paisatge
-
-Descarregar aquest app avui!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Taxa</value>
   </data>
@@ -270,5 +256,8 @@ Descarregar aquest app avui!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Cronòmetre</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Temps transcorregut:</value>
   </data>
 </root>

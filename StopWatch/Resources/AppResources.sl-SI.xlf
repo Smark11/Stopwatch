@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Najboljši Stop Watch v shrambi Windows Phone!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Funkcije vključujejo:
+Features include:
 
-* E-pošta krog in Split-krat
-* Tekmovanje v teku pod Zakleni zaslon
-* Onemogoči zaklepanje zaslon
-* Tako Split in skupni čas
-* Velik, enostaven za branje ura
-* Krajine podporo za velike številke
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Travnato gričevje to app danes!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

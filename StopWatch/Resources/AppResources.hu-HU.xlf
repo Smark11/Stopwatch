@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Legjobb Stop Watch a Windows Phone boltban!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Funkciók közé tartozik:
+Features include:
 
-* E-mail kör és részidők
-* Zár képernyőn alatt futó
-* Tiltsa le zár képernyőn
-* Split, mind a teljes idő
-* Nagy, könnyen olvasható óra
-* Táj támogatja a nagy számok
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Letölt ez app ma!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

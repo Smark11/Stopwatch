@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parim Stop Watch Windows Phone poest!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Funktsioonide hulka kuuluvad:
+Features include:
 
-* E-post süles ja vaheajad
-* Käivitatud lukk ekraan
-* Välja lülitada Lukusta ekraan
-* Split nii koguaeg
-* Suur, kergesti loetav kella
-* Maastiku toetus suured numbrid
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Lae alla käesoleva app täna!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

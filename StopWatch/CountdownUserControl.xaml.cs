@@ -18,6 +18,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Phone.Scheduler;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace StopWatch
 {
@@ -172,27 +173,38 @@ namespace StopWatch
         #region "Events"
         void dispatcherTimer_Tick(object sender, EventArgs e)
         {
+            Task.Factory.StartNew(TimerClickAsync);          
+        }
+
+        private void TimerClickAsync()
+        {
+            Dispatcher.BeginInvoke(() =>
+            {
                 ClockValue = ClockValue - new TimeSpan(0, 0, 1);
                 ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
 
-                if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue >= new TimeSpan(0, 0, 0))
+                if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue > new TimeSpan(0, 0, 0))
                 {
                     CountdownTextBlock.Foreground = new SolidColorBrush(Colors.Red);
                     PlaySound("Assets/alarm.wav");
                 }
+            });
 
-                if (ClockValue <= new TimeSpan(0, 0, 0))
-                {
-                    PlaySound("Assets/beep.wav");
-                    PlaySound("Assets/beep.wav");
-                    MessageBoxResult result = MessageBox.Show(AppResources.ElapsedTime + " " + originalCountdownTime, AppResources.CountdownFinished, MessageBoxButton.OK);
-                    if (result == MessageBoxResult.OK)
+            if (ClockValue <= new TimeSpan(0, 0, 0))
+            {
+                Dispatcher.BeginInvoke(() =>
                     {
-                        ResetCountdown();
-                    }
-                }
+                        PlaySound("Assets/beep.wav");
 
-                IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());         
+                        MessageBoxResult result = MessageBox.Show(AppResources.ElapsedTime + " " + originalCountdownTime, AppResources.CountdownFinished, MessageBoxButton.OK);
+                        if (result == MessageBoxResult.OK)
+                        {
+                            ResetCountdown();
+                        }
+                    });
+            }
+
+            IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());      
         }
 
         private void Countdown_Start_Click(object sender, EventArgs e)

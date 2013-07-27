@@ -28,7 +28,7 @@
         <Grid Margin="0,10,0,0" x:Name="ContentPanel" Grid.Row="1" Grid.RowSpan="2">
             <Viewbox Stretch="Fill">
                 <Border BorderThickness="2,4,2,4" BorderBrush="Gray">
-                    <TextBlock x:Name="CountdownTextBlock" TextAlignment="Center"  Foreground="LimeGreen" Width="250" FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString}" FontFamily="Franklin Gothic Medium"/>
+                    <TextBlock x:Name="CountdownTextBlock" TextAlignment="Center"  Foreground="LimeGreen" Width="250" FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString, UpdateSourceTrigger=Explicit}" FontFamily="Franklin Gothic Medium"/>
                 </Border>
             </Viewbox>
         </Grid>

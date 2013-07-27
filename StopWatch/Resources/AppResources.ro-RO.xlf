@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cel mai bun Oprire ceas în Windows Phone magazin!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Caracteristicile includ:
+Features include:
 
-* Tur de e-mail şi Split ori
-* Care rulează sub ecran de blocare
-* Dezactivare blocare ecran
-* Atât Split şi timpul Total
-* Mare, uşor de citit ceas
-* Peisaj suport pentru numere mari
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Descărcaţi acest app astăzi!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

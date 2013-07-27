@@ -209,20 +209,6 @@
   <data name="EmailBody" xml:space="preserve">
     <value>Číslo/Split/Lap</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
-
-Mezi funkce patří:
-
-* E-mail Lap a Split krát
-* Běžící pod zámek obrazovky
-* Zakázat zamykání obrazovky
-* Split i celkový čas
-* Velká, snadno číst hodiny
-* Krajina podpora velkých čísel
-
-Stáhněte tuto app dnes!</value>
-  </data>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Míra</value>
   </data>
@@ -270,5 +256,8 @@ Stáhněte tuto app dnes!</value>
   </data>
   <data name="Stopwatch" xml:space="preserve">
     <value>Stopky</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Uplynulý čas:</value>
   </data>
 </root>
