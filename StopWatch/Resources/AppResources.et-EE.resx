@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>Taimer</value>
   </data>
@@ -259,5 +256,22 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Kulunud aeg:</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Parim Stop Watch Windows Phone poest!
+
+Funktsioonide hulka kuuluvad:
+
+* E-post süles ja vaheajad
+* Käivitatud lukk ekraan
+* Välja lülitada Lukusta ekraan
+* Split nii koguaeg
+* Suur, kergesti loetav kella
+* Maastiku toetus suured numbrid
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>AppBar menüü abil saate avada Tagaplaanil</value>
   </data>
 </root>

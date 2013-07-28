@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>计时器数据</value>
   </data>

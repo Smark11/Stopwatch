@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>فيسبوك</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>تويتر</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>المنقضي</value>
   </data>
@@ -273,5 +270,8 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>الوقت المنقضي:</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>استخدم القائمة AppBar لإطلاق العنان للعد التنازلي</value>
   </data>
 </root>

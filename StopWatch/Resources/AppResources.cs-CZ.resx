@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>Časovače Data</value>
   </data>
@@ -259,5 +256,22 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Uplynulý čas:</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
+
+Mezi funkce patří:
+
+* E-mail Lap a Split krát
+* Běžící pod uzamknout obrazovku
+* Zakázat zamykání obrazovky
+* Split i celkový čas
+* Velká, snadno číst hodiny
+* Krajina podpora velkých čísel
+
+Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Nabídka panelu aplikacφ slouží k odemknutí odpočítávání</value>
   </data>
 </root>

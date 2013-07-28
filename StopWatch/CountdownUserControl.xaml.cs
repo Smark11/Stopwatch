@@ -95,6 +95,8 @@ namespace StopWatch
             }
         }
 
+        public TimeSpan TimeSpan1Min { get { return TimeSpan.FromMinutes(1); } }
+
         private ObservableCollection<StopwatchTimes> _countdownTimesCollection;
         public ObservableCollection<StopwatchTimes> CountdownTimesCollection
         {
@@ -302,6 +304,8 @@ namespace StopWatch
 
         private void ResetCountdown(bool setClockValueToDefault)
         {
+            SolidColorBrush mySolidColorBrush = new SolidColorBrush();
+          
             dispatcherTimer.Stop();
            
             if (setClockValueToDefault == true)
@@ -309,10 +313,14 @@ namespace StopWatch
                 ClockValue = App.gDefaultCountdown;
             }
 
+            
+            // Describes the brush's color using RGB values.  Each value has a range of 0-255.
+            mySolidColorBrush.Color = System.Windows.Media.Color.FromArgb(255, 50, 205, 50);
+          
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
             Mode = AppResources.StartText;
             Start.Background = new SolidColorBrush(Colors.Green);
-            btnCountdownDisplay.Foreground = new SolidColorBrush(Colors.Green);
+            btnCountdownDisplay.Foreground = new SolidColorBrush(mySolidColorBrush.Color);
         }
 
         public void StartCountdown()

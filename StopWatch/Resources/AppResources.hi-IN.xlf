@@ -147,8 +147,8 @@ Download this app today!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">फेसबुक</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
-          <source>Twitter</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">चहचहाना</target>
+          <source>Countdown</source>
+          <target state="new">Countdown</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>

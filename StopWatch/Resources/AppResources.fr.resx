@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>Données de minuterie</value>
   </data>
@@ -259,5 +256,22 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Temps écoulé :</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
+
+Caractéristiques comprennent :
+
+* Courriel tour et temps intermédiaires
+* En cours d'exécution sous l'écran de serrure
+* Désactiver l'écran de serrure
+* Split et temps Total
+* Grand, facile à lire horloge
+* Paysage de soutien pour les grands nombres
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Utilisez le menu de la barre d'accès pour déverrouiller le compte à rebours</value>
   </data>
 </root>

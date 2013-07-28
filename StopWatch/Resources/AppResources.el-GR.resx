@@ -211,9 +211,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Πειραχτήρι</value>
-  </data>
   <data name="ColumnHeader1" xml:space="preserve">
     <value>Παρέλθει</value>
   </data>
@@ -273,5 +270,8 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Χρόνος που πέρασε:</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Χρησιμοποιήστε AppBar μενού για να ξεκλειδώσετε την αντίστροφη μέτρηση</value>
   </data>
 </root>

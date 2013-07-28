@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>Timer-Daten</value>
   </data>
@@ -259,5 +256,22 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Verstrichene Zeit:</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste Stop Watch im Windows Phone Store!
+
+Eigenschaften umfassen:
+
+* E-Mail-Runde und Zwischenzeiten
+* Läuft unter Verschluss-Schirm
+* Lock-Bildschirm deaktivieren
+* Sowohl Split und Gesamtzeit
+* Großes, einfach abzulesendes Uhr
+* Unterstützung für große Zahlen Landschaft
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Menü "verwenden AppBar" Countdown entsperren</value>
   </data>
 </root>

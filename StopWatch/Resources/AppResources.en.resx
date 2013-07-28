@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>Timer Data</value>
   </data>
@@ -259,5 +256,22 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Elapsed Time:</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Use AppBar menu to unlock Countdown</value>
   </data>
 </root>

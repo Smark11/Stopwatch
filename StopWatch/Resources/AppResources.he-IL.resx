@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>פייסבוק</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>טוויטר</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>שעון העצר של נתונים</value>
   </data>
@@ -273,5 +270,8 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>זמן שחלף:</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>השתמש בתפריט AppBar כדי לפתוח את הספירה לאחור</value>
   </data>
 </root>

@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>फेसबुक</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>चहचहाना</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>टाइमर डेटा</value>
   </data>
@@ -273,5 +270,8 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>बीता हुआ समय:</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>उलटी गिनती अनलॉक करने के लिए AppBar मेनू का उपयोग करें</value>
   </data>
 </root>

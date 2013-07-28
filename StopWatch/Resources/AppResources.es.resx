@@ -194,9 +194,6 @@
   <data name="Keyword4" xml:space="preserve">
     <value>Facebook</value>
   </data>
-  <data name="Keyword5" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="EmailSubject" xml:space="preserve">
     <value>Datos del contador de tiempo</value>
   </data>
@@ -259,5 +256,22 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Tiempo transcurrido:</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mejor detener el reloj en la tienda de Windows Phone!
+
+Las características incluyen:
+
+* Correo electrónico Lap y dividir veces
+* Corriendo bajo la pantalla de bloqueo
+* Desactivar la pantalla de bloqueo
+* Tanto Split y tiempo Total
+* Grande, fácil leer el reloj
+* Soporte para grandes números de paisaje
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Utilizar el menú AppBar para desbloquear la cuenta regresiva</value>
   </data>
 </root>
