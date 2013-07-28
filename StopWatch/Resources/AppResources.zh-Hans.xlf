@@ -222,6 +222,10 @@ Download this app today!</source>
           <source>Elapsed Time:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">运行时间：</target>
         </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to unlock Countdown</source>
+          <target state="new">Use AppBar menu to unlock Countdown</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paras Stop Watch Windows Phone-Storessa!
 
-Features include:
+Ominaisuuksia:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* Email kierros- ja väliaikoineen
+* Running Lukitusnäyttö
+* Poista Lukitusnäyttö
+* Split sekä kokonaisaika
+Iso, helppolukuinen kello
+* Maisema tuki suuria lukuja
 
-Download this app today!</target>
+Lataa app tänään!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -221,6 +221,10 @@ Download this app today!</target>
         <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
           <source>Elapsed Time:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulunut aika:</target>
+        </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to unlock Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aukaista lähtölaskenta AppBar-valikon avulla</target>
         </trans-unit>
       </group>
     </body>

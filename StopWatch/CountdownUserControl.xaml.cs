@@ -47,7 +47,7 @@ namespace StopWatch
 
             lastCountdownValue = GetLastCountdownValue();
 
-            if (lastCountdownValue == string.Empty)
+            if (lastCountdownValue == string.Empty || lastCountdownValue == "00:00:00")
             {
                 ClockValue = App.gDefaultCountdown;
             }
@@ -70,7 +70,7 @@ namespace StopWatch
             }
             else
             {
-                if (lastCountdownValue == string.Empty || lastCountdownValue == App.gDefaultCountdown.ToString())
+                if (lastCountdownValue == string.Empty || lastCountdownValue == "00:00:00" || lastCountdownValue == App.gDefaultCountdown.ToString())
                 {
                     Mode = AppResources.StartText;
                     Start.Background = new SolidColorBrush(Colors.Green);
@@ -173,7 +173,7 @@ namespace StopWatch
         #region "Events"
         void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            Task.Factory.StartNew(TimerClickAsync);          
+            Task.Factory.StartNew(TimerClickAsync);
         }
 
         private void TimerClickAsync()
@@ -185,7 +185,7 @@ namespace StopWatch
 
                 if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue > new TimeSpan(0, 0, 0))
                 {
-                    CountdownTextBlock.Foreground = new SolidColorBrush(Colors.Red);
+                    btnCountdownDisplay.Foreground = new SolidColorBrush(Colors.Red);
                     PlaySound("Assets/alarm.wav");
                 }
             });
@@ -199,12 +199,12 @@ namespace StopWatch
                         MessageBoxResult result = MessageBox.Show(AppResources.ElapsedTime + " " + originalCountdownTime, AppResources.CountdownFinished, MessageBoxButton.OK);
                         if (result == MessageBoxResult.OK)
                         {
-                            ResetCountdown();
+                            ResetCountdown(true);
                         }
                     });
             }
 
-            IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());      
+            IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
         }
 
         private void Countdown_Start_Click(object sender, EventArgs e)
@@ -218,7 +218,7 @@ namespace StopWatch
             MessageBoxResult result = MessageBox.Show(AppResources.ResetMessage, AppResources.ResetText, MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK)
             {
-                ResetCountdown();
+                ResetCountdown(true);
                 _lastSplitTime = new TimeSpan();
                 CountdownTimesCollection.Clear();
                 IS.RemoveSetting("Countdown-Laps");
@@ -251,18 +251,27 @@ namespace StopWatch
             IS.SaveSetting("Countdown-Laps", saveLaps);
         }
 
-        private void taptosettime_click(object sender, RoutedEventArgs e)
+        private void Display_TimeSpanPickerControl(object sender, RoutedEventArgs e)
         {
-            ctlCountdownTime.Value = ClockValue;
-            ctlCountdownTime.DialogTitle = "Choose Duration";
-            
-            ctlCountdownTime.OpenPicker();
+            isRunning = IsCountdownRunning();
+
+            if (isRunning.ToUpper() == "NO")
+            {
+                //TJY I do not want to set the timespanpicker value here because if I do that triggers the value changed event below and resetscountdown,
+                //which is fine if the user picks a time and clicks ok/check, BUT if they cancel then I do not/did not want to resetcountdown, and just wanted what was there still
+                //up so by not setting the value here, I will only be resetting if they click ok/cancel.
+               // ctlCountdownTime.Value = ClockValue;
+                ctlCountdownTime.DialogTitle = "Choose Duration";
+
+                ctlCountdownTime.OpenPicker();
+            }
         }
 
         private void countdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
         {
             ClockValue = TimeSpan.Parse(ctlCountdownTime.Value.ToString());
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
+            ResetCountdown(false);
         }
 
         #endregion "Events"
@@ -291,14 +300,19 @@ namespace StopWatch
             return returnValue;
         }
 
-        private void ResetCountdown()
+        private void ResetCountdown(bool setClockValueToDefault)
         {
             dispatcherTimer.Stop();
-            ClockValue = App.gDefaultCountdown;
+           
+            if (setClockValueToDefault == true)
+            {
+                ClockValue = App.gDefaultCountdown;
+            }
+
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
             Mode = AppResources.StartText;
             Start.Background = new SolidColorBrush(Colors.Green);
-            CountdownTextBlock.Foreground = new SolidColorBrush(Colors.Green);
+            btnCountdownDisplay.Foreground = new SolidColorBrush(Colors.Green);
         }
 
         public void StartCountdown()
@@ -474,6 +488,5 @@ namespace StopWatch
 
         #endregion "Methods"
 
-
-    }
+        }   
 }

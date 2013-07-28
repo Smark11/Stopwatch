@@ -306,6 +306,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Use AppBar menu to unlock Countdown.
+        /// </summary>
+        public static string HowToUnlockCountdown {
+            get {
+                return ResourceManager.GetString("HowToUnlockCountdown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to StopWatch.
         /// </summary>
         public static string Keyword1 {
@@ -342,7 +351,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Twitter.
+        ///   Looks up a localized string similar to Countdown.
         /// </summary>
         public static string Keyword5 {
             get {

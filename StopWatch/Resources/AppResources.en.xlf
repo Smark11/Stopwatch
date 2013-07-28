@@ -117,7 +117,7 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Best Stop Watch in the Windows Phone Store!
 
 Features include:
 
@@ -221,6 +221,10 @@ Download this app today!</target>
         <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
           <source>Elapsed Time:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Elapsed Time:</target>
+        </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to unlock Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Use AppBar menu to unlock Countdown</target>
         </trans-unit>
       </group>
     </body>

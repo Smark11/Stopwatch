@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nejlepší zastavit Watch v úložišti Windows Phone!
 
-Features include:
+Mezi funkce patří:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* E-mail Lap a Split krát
+* Běžící pod uzamknout obrazovku
+* Zakázat zamykání obrazovky
+* Split i celkový čas
+* Velká, snadno číst hodiny
+* Krajina podpora velkých čísel
 
-Download this app today!</target>
+Stáhněte tuto app dnes!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -221,6 +221,10 @@ Download this app today!</target>
         <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
           <source>Elapsed Time:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Uplynulý čas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to unlock Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nabídka panelu aplikacφ slouží k odemknutí odpočítávání</target>
         </trans-unit>
       </group>
     </body>

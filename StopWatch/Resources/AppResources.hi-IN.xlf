@@ -222,6 +222,10 @@ Download this app today!</source>
           <source>Elapsed Time:</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">बीता हुआ समय:</target>
         </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to unlock Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">उलटी गिनती अनलॉक करने के लिए AppBar मेनू का उपयोग करें</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -14,25 +14,30 @@
 
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button Grid.Row="0" Width="250" Height="60" Margin="0,0,0,0"
-                   FontSize="20" Content="Tap to set time" Click="taptosettime_click"
-                   FontFamily="Franklin Gothic Medium"/>
-        
+        <Button x:Name="btnCountdownHowTo" Grid.Row="0" Width="450" Height="60" Margin="0,0,0,0"                
+                Content="{Binding Path=LocalizedResources.HowToUnlockCountdown, Source={StaticResource LocalizedStrings}}"
+                FontSize="20" FontFamily="Franklin Gothic Medium"/>
+      
         <Grid Margin="0,10,0,0" x:Name="ContentPanel" Grid.Row="1" Grid.RowSpan="2">
             <Viewbox Stretch="Fill">
                 <Border BorderThickness="2,4,2,4" BorderBrush="Gray">
-                    <TextBlock x:Name="CountdownTextBlock" TextAlignment="Center"  Foreground="LimeGreen" Width="250" FontSize="50" Margin="0,0,0,0" Text="{Binding ClockValueString, UpdateSourceTrigger=Explicit}" FontFamily="Franklin Gothic Medium"/>
+                    <Button  x:Name="btnCountdownDisplay" HorizontalContentAlignment="Center" 
+                             Foreground="LimeGreen" Width="250" FontSize="50" 
+                             Click="Display_TimeSpanPickerControl"
+                             BorderThickness="0"
+                             Margin="0,0,0,0" Content="{Binding ClockValueString, UpdateSourceTrigger=Explicit}" 
+                             FontFamily="Franklin Gothic Medium"/>
                 </Border>
             </Viewbox>
         </Grid>
-     
+
         <Grid x:Name="ButtonPanel" Grid.Row="3">
             <Viewbox Stretch="Fill">
                 <Border Grid.Row="3" HorizontalAlignment="Center" BorderThickness="4,0,4,0" BorderBrush="Gray">
@@ -98,7 +103,7 @@
 
         <toolkitcode4fun:TimeSpanPicker x:Name="ctlCountdownTime"                                      
                    Grid.Row="5" Grid.Column="1"
-                   Visibility="Collapsed"
+                   Visibility="Collapsed"                                  
                    Margin="80,0,0,0" Width="150"
                    FontSize="20"
                    ValueChanged="countdownTime_ValueChanged"                                        

@@ -40,11 +40,11 @@ namespace StopWatch
             hasAppBeenRated = Rate.HasAppBeenRated();
             if (hasAppBeenRated.ToUpper() == "YES")
             {
-                this.pivotCountdown.IsEnabled = true;
+                EnableCountdown();             
             }
             else
             {
-                this.pivotCountdown.IsEnabled = false;
+                DisableCountdown();            
             }
 
             BuildLocalizedApplicationBar(hasAppBeenRated);
@@ -211,14 +211,14 @@ namespace StopWatch
                 marketplaceReviewTask.Show();
 
                 IS.SaveSetting("AppRated", "Yes");
-                this.pivotCountdown.IsEnabled = true;
+                EnableCountdown();
 
                 foreach (ApplicationBarMenuItem item in ApplicationBar.MenuItems)
                 {
                     if (item.Text == AppResources.AppMenuItemAddCountdown)
                     {
                         //Disable it now that it is no longer needed, next time app is started it will not be even loaded as a menu option
-                        item.IsEnabled = false;  
+                        item.IsEnabled = false;
                     }
                 }
 
@@ -270,6 +270,19 @@ namespace StopWatch
             }
             return returnString;
         }
+
+        private void EnableCountdown()
+        {
+            this.pivotCountdown.IsEnabled = true;
+            this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Collapsed;
+        }
+
+        private void DisableCountdown()
+        {
+            this.pivotCountdown.IsEnabled = false;
+            this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Visible;
+        }
+
 
 
         #endregion "Methods"
