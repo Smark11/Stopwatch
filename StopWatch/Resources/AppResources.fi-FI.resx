@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Palautteesi on tärkeää! Korko sekuntikello 5 tähteä lisätä lähtölaskenta toiminnot. Jatketaanko?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Lisää lähtölaskenta</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Lähtölaskenta valmis!</value>
   </data>
@@ -270,8 +267,5 @@ Iso, helppolukuinen kello
 * Maisema tuki suuria lukuja
 
 Lataa app tänään!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Aukaista lähtölaskenta AppBar-valikon avulla</value>
   </data>
 </root>

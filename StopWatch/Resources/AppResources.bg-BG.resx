@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Вашето мнение е важно! Процент хронометър 5 звезди да добавите Countdown функционалност. Продължите?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Добави броене</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Броене готови!</value>
   </data>
@@ -270,8 +267,5 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Изминало време:</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Използвайте AppBar меню, за да отключите броене</value>
   </data>
 </root>

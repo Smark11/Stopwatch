@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>คำติชมของคุณเป็นสิ่งสำคัญ ดาว 5 นาฬิกาจับอัตราการเพิ่มฟังก์ชันการทำงานนับถอยหลัง ดำเนินต่อหรือไม่</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>เพิ่มนับถอยหลัง</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>นับถอยหลังเสร็จแล้ว</value>
   </data>

@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Su opinión es importante! Tasa cronómetro 5 estrellas para agregar funcionalidad de cuenta regresiva. ¿Proceder?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Añadir cuenta regresiva</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Cuenta regresiva terminó!</value>
   </data>
@@ -270,8 +267,5 @@ Las características incluyen:
 * Soporte para grandes números de paisaje
 
 Descargar esta aplicación hoy!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Utilizar el menú AppBar para desbloquear la cuenta regresiva</value>
   </data>
 </root>

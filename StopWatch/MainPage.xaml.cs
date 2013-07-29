@@ -105,11 +105,11 @@ namespace StopWatch
                 {
                     if (PivotName == "STOPWATCH")
                     {
-                        item.Text = "Stopwatch Options";
+                        item.Text =  AppResources.StopWatchOptions;
                     }
                     else
                     {
-                        item.Text = "Countdown Options";
+                        item.Text = AppResources.CountdownOptions;
                     }
                 }
             }
@@ -249,6 +249,11 @@ namespace StopWatch
                     PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
                 }
             }
+            else //if lockscreen setting not set then default to disabling lockscreen
+            {
+                PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+                IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
+            }
         }
 
         public string BuildEmailBodyStopwatch()
@@ -318,10 +323,6 @@ namespace StopWatch
             ApplicationBarMenuItem appBarMenuItem2 = new ApplicationBarMenuItem(AppResources.AppMenuItemAbout);
             ApplicationBar.MenuItems.Add(appBarMenuItem2);
             appBarMenuItem2.Click += new EventHandler(About_Click);
-
-            ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem(AppResources.AppMenuItemReview);
-            ApplicationBar.MenuItems.Add(appBarMenuItem3);
-            appBarMenuItem3.Click += new EventHandler(Review_Click);
 
             ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
             ApplicationBar.MenuItems.Add(appBarMenuItem4);

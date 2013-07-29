@@ -148,7 +148,7 @@ Descargar esta aplicación hoy!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cuenta regresiva</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>
@@ -203,8 +203,8 @@ Descargar esta aplicación hoy!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Su opinión es importante! Tasa cronómetro 5 estrellas para agregar funcionalidad de cuenta regresiva. ¿Proceder?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
-          <source>Add Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Añadir cuenta regresiva</target>
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tarifa para habilitar la cuenta regresiva</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
@@ -223,8 +223,20 @@ Descargar esta aplicación hoy!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiempo transcurrido:</target>
         </trans-unit>
         <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
-          <source>Use AppBar menu to unlock Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilizar el menú AppBar para desbloquear la cuenta regresiva</target>
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilice AppBar menú para activar la cuenta regresiva</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">No</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sí</target>
         </trans-unit>
       </group>
     </body>

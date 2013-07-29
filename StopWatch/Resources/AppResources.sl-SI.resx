@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Vaša povratna informacija je pomembna! Stopnja štoparica 5 zvezdic za dodajanje funkcionalnosti odštevanje. Ali želite nadaljevati?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Dodaj odštevanje</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Odštevanje končal!</value>
   </data>

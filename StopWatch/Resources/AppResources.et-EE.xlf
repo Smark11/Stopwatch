@@ -148,7 +148,7 @@ Lae alla käesoleva app täna!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tagaplaanil</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>
@@ -203,8 +203,8 @@ Lae alla käesoleva app täna!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Teie tagasiside on oluline! Määra taimer 5 tärni Tagaplaanil funktsionaalsust. Kas soovite jätkata?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
-          <source>Add Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lisada Tagaplaanil</target>
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Määra, et võimaldada Tagaplaanil</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
@@ -223,8 +223,20 @@ Lae alla käesoleva app täna!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulunud aeg:</target>
         </trans-unit>
         <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
-          <source>Use AppBar menu to unlock Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">AppBar menüü abil saate avada Tagaplaanil</target>
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">AppBar menüü abil saate lubada Tagaplaanil</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ei</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jah</target>
         </trans-unit>
       </group>
     </body>

@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Svarbu jūsų atsiliepimus! Norma chronometras 5 žvaigždės pridėti Countdown funkcionalumą. Tęsti?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Pridėti Countdown</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Tas, kurio nėra baigtas!</value>
   </data>

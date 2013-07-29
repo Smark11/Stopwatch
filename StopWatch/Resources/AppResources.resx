@@ -260,7 +260,7 @@ Download this app today!</value>
     <value>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</value>
   </data>
   <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Add Countdown</value>
+    <value>Rate to enable countdown</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown Finished!</value>
@@ -275,6 +275,15 @@ Download this app today!</value>
     <value>Elapsed Time:</value>
   </data>
   <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Use AppBar menu to unlock Countdown</value>
+    <value>Use AppBar menu to enable Countdown</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
   </data>
 </root>

@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Votre avis est important ! Taux chronomètre 5 étoiles pour ajouter des fonctionnalités de compte à rebours. Aller de l'avant ?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Ajoutez le compte à rebours</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Compte à rebours terminé !</value>
   </data>
@@ -270,8 +267,5 @@ Caractéristiques comprennent :
 * Paysage de soutien pour les grands nombres
 
 Téléchargez cette application dès aujourd'hui !</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Utilisez le menu de la barre d'accès pour déverrouiller le compte à rebours</value>
   </data>
 </root>

@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Ваше мнение важно! Курс секундомер 5 звёзд добавить функциональность комплекса предпусковых операций. Продолжить?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Добавить обратный отсчет</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Обратный отсчет закончил!</value>
   </data>

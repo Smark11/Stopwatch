@@ -21,7 +21,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name="btnCountdownHowTo" Grid.Row="0" Width="450" Height="60" Margin="0,0,0,0"                
+        <Button x:Name="btnCountdownHowTo" Grid.Row="0" Width="Auto" Height="60" Margin="0,0,0,0"                
                 Content="{Binding Path=LocalizedResources.HowToUnlockCountdown, Source={StaticResource LocalizedStrings}}"
                 FontSize="20" FontFamily="Franklin Gothic Medium"/>
       

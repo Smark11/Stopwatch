@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Jūsu atsauksmes ir ļoti svarīgs! Likme hronometrs 5 zvaigznes pievienot Countdown funkcionalitāti. Vai turpināt?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Pievienot Countdown</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Atpakaļskaitīšanas gatavo!</value>
   </data>

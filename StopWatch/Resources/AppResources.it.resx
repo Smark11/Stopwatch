@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Il vostro feedback è importante! Tasso cronometro 5 stelle per aggiungere funzionalità di conto alla rovescia. Procedere?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Aggiungere il conto alla rovescia</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Finito il conto alla rovescia!</value>
   </data>

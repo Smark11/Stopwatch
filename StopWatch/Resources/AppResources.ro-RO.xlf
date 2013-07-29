@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cel mai bun Oprire ceas în Windows Phone magazin!
 
-Features include:
+Caracteristicile includ:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* Tur de e-mail şi Split ori
+* Care rulează sub ecran de blocare
+* Dezactivare blocare ecran
+* Atât Split şi timpul Total
+* Mare, uşor de citit ceas
+* Peisaj suport pentru numere mari
 
-Download this app today!</target>
+Descărcaţi acest app astăzi!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -148,7 +148,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numărătoarea inversă</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>
@@ -203,8 +203,8 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Feedback-ul este important! Rata cronometru 5 stele pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
-          <source>Add Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Adauga Countdown</target>
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rata pentru a permite numărătoarea inversă</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
@@ -223,8 +223,20 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Timp scurs:</target>
         </trans-unit>
         <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
-          <source>Use AppBar menu to unlock Countdown</source>
-          <target state="new">Use AppBar menu to unlock Countdown</target>
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utilizaţi AppBar meniu pentru a activa Countdown</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">da</target>
         </trans-unit>
       </group>
     </body>

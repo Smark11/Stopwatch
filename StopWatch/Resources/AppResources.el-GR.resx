@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Τα σχόλιά σας είναι σημαντική! Ποσοστό χρονόμετρο 5 αστέρια για να προσθέσετε λειτουργικότητα αντίστροφη μέτρηση. Προχωρήσει;</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Προσθέστε την αντίστροφη μέτρηση</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Αντίστροφη μέτρηση ολοκληρωθεί!</value>
   </data>
@@ -270,8 +267,5 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Χρόνος που πέρασε:</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Χρησιμοποιήστε AppBar μενού για να ξεκλειδώσετε την αντίστροφη μέτρηση</value>
   </data>
 </root>

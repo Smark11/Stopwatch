@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>La seva opinió és important! Taxa cronòmetre 5 estrelles d'afegir la funcionalitat de compte regressiva. Voleu continuar?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Afegir compte enrere</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Compte enrere va acabar!</value>
   </data>
@@ -270,8 +267,5 @@ Les característiques inclouen:
 * Suport per a un gran nombre de paisatge
 
 Descarregar aquest app avui!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Utilitzar AppBar menú per obrir compte enrere</value>
   </data>
 </root>

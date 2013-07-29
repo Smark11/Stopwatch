@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Melhor parar o relógio na loja de Windows Phone!
 
-Features include:
+As características incluem:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* E-mail colo e dividir vezes
+* Executando sob a tela do fechamento
+* Desabilitar a tela de bloqueio
+* Tanto o Split e o tempo Total
+* Grande, fácil de ler o relógio
+* Suporte para grandes números de paisagem
 
-Download this app today!</target>
+Baixe este app hoje!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -148,7 +148,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Contagem regressiva</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>
@@ -203,8 +203,8 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Seu feedback é importante! Taxa cronômetro 5 estrelas para adicionar a funcionalidade de contagem regressiva. Proceder?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
-          <source>Add Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Adicionar contagem regressiva</target>
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taxa para permitir a contagem regressiva</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
@@ -223,8 +223,20 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tempo decorrido:</target>
         </trans-unit>
         <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
-          <source>Use AppBar menu to unlock Countdown</source>
-          <target state="new">Use AppBar menu to unlock Countdown</target>
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Use AppBar menu para ativar a contagem regressiva</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Não</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sim</target>
         </trans-unit>
       </group>
     </body>

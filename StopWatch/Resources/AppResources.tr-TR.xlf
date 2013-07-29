@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">En iyi durdurmak Windows Phone depodaki izle!
 
-Features include:
+Özellikleri şunlardır:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* E-posta kucak ve Split kez
+* Kilit ekranı altında çalışan
+* Kilit ekranını devre dışı bırakın
+* Hem Split ve toplam süre
+* Büyük, saat okunması kolay
+* Destek büyük sayılar için manzara
 
-Download this app today!</target>
+Bu app bugün yükleyin!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -148,7 +148,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geri sayım</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>
@@ -203,8 +203,8 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Geribildirim önemlidir! Geri sayım işlevselliği eklemek için kronometre 5 yıldız oranı. Devam edilsin mi?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
-          <source>Add Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geri sayım Ekle</target>
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geri sayım etkinleştirmek için oranı</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
@@ -223,8 +223,20 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Geçen süre:</target>
         </trans-unit>
         <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
-          <source>Use AppBar menu to unlock Countdown</source>
-          <target state="new">Use AppBar menu to unlock Countdown</target>
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geri sayım etkinleştirmek için AppBar menüsünü kullanın</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hayır</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Evet</target>
         </trans-unit>
       </group>
     </body>

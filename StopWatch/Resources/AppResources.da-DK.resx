@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Din feedback er vigtig! Sats stopur 5 stjerner at tilføje Nedtælling funktionalitet. Vil du fortsætte?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Tilføje Nedtælling</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Nedtælling færdig!</value>
   </data>
@@ -270,8 +267,5 @@ Funktioner omfatter:
 * Landskab støtte til store tal
 
 Download denne app i dag!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Brug AppBar menu til at låse Nedtælling</value>
   </data>
 </root>

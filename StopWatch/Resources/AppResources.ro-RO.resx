@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Feedback-ul este important! Rata cronometru 5 stele pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Adauga Countdown</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Numărătoarea inversă a terminat!</value>
   </data>

@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>您的反馈很重要 ！率秒表 5 星添加倒计时功能。是否继续?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>添加倒计时</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>倒计时完成 ！</value>
   </data>

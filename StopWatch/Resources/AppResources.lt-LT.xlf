@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="new">Best Stop Watch in the Windows Phone Store!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
 
-Features include:
+Funkcijos apima:
 
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
+* Rašykite juosmens ir padalinti kartus
+* Veikia pagal užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir bendras laikas
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -148,7 +148,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Countdown</source>
-          <target state="new">Countdown</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Countdown</target>
         </trans-unit>
         <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
           <source>Elapsed</source>
@@ -203,8 +203,8 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Svarbu jūsų atsiliepimus! Norma chronometras 5 žvaigždės pridėti Countdown funkcionalumą. Tęsti?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
-          <source>Add Countdown</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti Countdown</target>
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Norėdami įjungti Atgalinės atskaitos palūkanų normos</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
           <source>Countdown Finished!</source>
@@ -223,8 +223,20 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Praėjęs laikas:</target>
         </trans-unit>
         <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
-          <source>Use AppBar menu to unlock Countdown</source>
-          <target state="new">Use AppBar menu to unlock Countdown</target>
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">AppBar meniu naudojimas jei norite įjungti Atgalinės atskaitos</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ne</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">taip</target>
         </trans-unit>
       </group>
     </body>

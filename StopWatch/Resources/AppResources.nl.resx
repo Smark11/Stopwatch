@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Uw feedback is belangrijk! Tarief Stopwatch 5 sterren Countdown functionaliteit toevoegen. Wilt u doorgaan?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Countdown toevoegen</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown klaar!</value>
   </data>

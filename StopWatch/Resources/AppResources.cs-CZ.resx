@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Vaše zpětná vazba je důležitá! Míra stopky 5 hvězdiček přidat funkce odpočítávání. Chcete pokračovat?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Přidejte odpočítávání</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Odpočítávání dokončen!</value>
   </data>
@@ -270,8 +267,5 @@ Mezi funkce patří:
 * Krajina podpora velkých čísel
 
 Stáhněte tuto app dnes!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Nabídka panelu aplikacφ slouží k odemknutí odpočítávání</value>
   </data>
 </root>

@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Ihr Feedback ist wichtig! Komplettpreise Stoppuhr 5 Sterne Countdown Funktionen hinzufügen. Vorgehen?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Hinzufügen von Countdown</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown beendet!</value>
   </data>
@@ -270,8 +267,5 @@ Eigenschaften umfassen:
 * Unterstützung für große Zahlen Landschaft
 
 Laden Sie diese app herunter!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Menü "verwenden AppBar" Countdown entsperren</value>
   </data>
 </root>

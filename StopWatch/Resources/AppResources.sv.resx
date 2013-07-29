@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Din feedback är viktig! Kurs stoppur 5 stjärnor att lägga till Countdown funktioner. Vill du fortsätta?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Lägg till Countdown</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Nedräkningen är klar!</value>
   </data>

@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Twoja opinia jest ważna! Kurs stoper 5 gwiazdek Countdown funkcje. Czy kontynuować?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Dodać odliczanie</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Odliczanie gotowy!</value>
   </data>

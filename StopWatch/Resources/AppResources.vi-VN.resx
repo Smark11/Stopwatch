@@ -256,9 +256,6 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Phản hồi của bạn là quan trọng! Tốc độ đồng hồ bấm giờ 5 sao để thêm chức năng đếm ngược. Tiếp tục?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Thêm bộ đếm</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Đếm ngược hoàn tất!</value>
   </data>

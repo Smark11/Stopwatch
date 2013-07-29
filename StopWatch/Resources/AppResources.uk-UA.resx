@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Ваші відгуки дуже важливо! Ставка секундомір 5 зірок, щоб додати функціональність зворотного відліку. Продовжити?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Додати зворотного відліку</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Зворотний відлік закінчена!</value>
   </data>

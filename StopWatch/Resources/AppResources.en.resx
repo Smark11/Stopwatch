@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Add Countdown</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown Finished!</value>
   </data>
@@ -270,8 +267,5 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>Use AppBar menu to unlock Countdown</value>
   </data>
 </root>

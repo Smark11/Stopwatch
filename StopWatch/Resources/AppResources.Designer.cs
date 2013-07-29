@@ -126,7 +126,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add Countdown.
+        ///   Looks up a localized string similar to Rate to enable countdown.
         /// </summary>
         public static string AppMenuItemAddCountdown {
             get {
@@ -261,6 +261,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to DisableLockScreenTimeout.
+        /// </summary>
+        public static string DisableLockScreenTimeout {
+            get {
+                return ResourceManager.GetString("DisableLockScreenTimeout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Elapsed Time:.
         /// </summary>
         public static string ElapsedTime {
@@ -306,7 +315,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use AppBar menu to unlock Countdown.
+        ///   Looks up a localized string similar to Use AppBar menu to enable Countdown.
         /// </summary>
         public static string HowToUnlockCountdown {
             get {
@@ -383,6 +392,15 @@ namespace StopWatch.Resources {
         public static string MaxTimeExceededMessage {
             get {
                 return ResourceManager.GetString("MaxTimeExceededMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
             }
         }
         
@@ -509,6 +527,15 @@ namespace StopWatch.Resources {
         public static string StopWatchOptions {
             get {
                 return ResourceManager.GetString("StopWatchOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
     }

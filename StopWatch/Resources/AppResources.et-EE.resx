@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Teie tagasiside on oluline! Määra taimer 5 tärni Tagaplaanil funktsionaalsust. Kas soovite jätkata?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Lisada Tagaplaanil</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Tagaplaanil lõppenud!</value>
   </data>
@@ -270,8 +267,5 @@ Funktsioonide hulka kuuluvad:
 * Maastiku toetus suured numbrid
 
 Lae alla käesoleva app täna!</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>AppBar menüü abil saate avada Tagaplaanil</value>
   </data>
 </root>

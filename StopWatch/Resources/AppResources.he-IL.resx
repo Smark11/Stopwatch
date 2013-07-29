@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>המשוב שלכם חשוב! קצב סטופר 5 כוכבים כדי להוסיף פונקציונליות הספירה לאחור. האם להמשיך?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>הוסף את הספירה לאחור</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>הספירה לאחור הסתיימה!</value>
   </data>
@@ -270,8 +267,5 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>זמן שחלף:</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>השתמש בתפריט AppBar כדי לפתוח את הספירה לאחור</value>
   </data>
 </root>

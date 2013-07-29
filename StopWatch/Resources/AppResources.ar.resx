@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>ملاحظاتك المهم! معدل ساعة توقيت 5 نجوم لإضافة وظيفة العد التنازلي. هل تريد المتابعة؟</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>إضافة العد التنازلي</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>انتهى العد التنازلي!</value>
   </data>
@@ -270,8 +267,5 @@
   </data>
   <data name="ElapsedTime" xml:space="preserve">
     <value>الوقت المنقضي:</value>
-  </data>
-  <data name="HowToUnlockCountdown" xml:space="preserve">
-    <value>استخدم القائمة AppBar لإطلاق العنان للعد التنازلي</value>
   </data>
 </root>

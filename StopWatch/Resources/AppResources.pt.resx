@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Seu feedback é importante! Taxa cronômetro 5 estrelas para adicionar a funcionalidade de contagem regressiva. Proceder?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Adicionar contagem regressiva</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Contagem regressiva terminou!</value>
   </data>

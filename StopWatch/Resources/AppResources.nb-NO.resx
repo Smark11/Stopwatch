@@ -242,9 +242,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Din tilbakemelding er viktig! Rate stoppeklokke 5 stjerner legge Countdown funksjonalitet. Vil du fortsette?</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>Legge til nedtelling</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Nedtellingen ferdig!</value>
   </data>

@@ -256,9 +256,6 @@
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>あなたのフィードバックは重要です ！カウント ダウンの機能を追加する率はストップウォッチ 5 星です。続行しますか。</value>
   </data>
-  <data name="AppMenuItemAddCountdown" xml:space="preserve">
-    <value>カウント ダウンを追加します。</value>
-  </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>カウント ダウン終了 ！</value>
   </data>
