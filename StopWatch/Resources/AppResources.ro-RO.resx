@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Timp scurs:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Cel mai bun Oprire ceas în Windows Phone magazin!
+
+Caracteristicile includ:
+
+* Tur de e-mail şi Split ori
+* Care rulează sub ecran de blocare
+* Dezactivare blocare ecran
+* Atât Split şi timpul Total
+* Mare, uşor de citit ceas
+* Peisaj suport pentru numere mari
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Numărătoarea inversă</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Rata pentru a permite numărătoarea inversă</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Utilizaţi AppBar meniu pentru a activa Countdown</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
 </root>

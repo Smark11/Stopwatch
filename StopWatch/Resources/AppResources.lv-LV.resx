@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Pagājušo laiku:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Labākais pārtraukt skatīties Windows Phone veikalā!
+
+Funkcijas ietver:
+
+* E-pasts klēpja un sadalīt reizes
+* Darbojas Lock Screen
+* Disable Lock Screen
+* Sadalīt gan kopējais laiks
+* Liels, viegli lasīt pulksteni
+* Ainavu atbalsts lielas numuriem
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Lai iespējotu atpakaļskaitīšanas likme</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Lietojiet AppBar izvēlni, lai aktivizētu Countdown</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nē</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>jā</value>
+  </data>
 </root>

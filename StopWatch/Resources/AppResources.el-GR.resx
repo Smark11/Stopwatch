@@ -268,4 +268,22 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Χρόνος που πέρασε:</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Αντίστροφη μέτρηση</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Ποσοστό ενεργοποιώ την αντίστροφη μέτρηση</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Χρήση AppBar μενού για να ενεργοποιήσετε την αντίστροφη μέτρηση</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
 </root>

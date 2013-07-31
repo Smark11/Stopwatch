@@ -268,4 +268,22 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>執行時間：</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>倒計時</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>率，使倒計時</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>使用 AppBar 功能表啟用倒計時</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
 </root>

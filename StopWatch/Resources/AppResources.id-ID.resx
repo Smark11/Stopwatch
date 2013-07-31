@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Berlalu waktu:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Terbaik Stop Watch di Windows Phone Store!
+
+Fitur termasuk:
+
+* Email Lap dan membagi kali
+* Berjalan di bawah layar kunci
+* Menonaktifkan layar kunci
+* Split maupun Total waktu
+* Besar, mudah dibaca clock
+* Lanskap dukungan untuk jumlah besar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Hitung mundur</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Tingkat untuk mengaktifkan countdown</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Gunakan AppBar menu untuk mengaktifkan Countdown</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ya</value>
+  </data>
 </root>

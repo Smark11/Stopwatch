@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Geçen süre:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>En iyi durdurmak Windows Phone depodaki izle!
+
+Özellikleri şunlardır:
+
+* E-posta kucak ve Split kez
+* Kilit ekranı altında çalışan
+* Kilit ekranını devre dışı bırakın
+* Hem Split ve toplam süre
+* Büyük, saat okunması kolay
+* Destek büyük sayılar için manzara
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Geri sayım</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Geri sayım etkinleştirmek için oranı</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Geri sayım etkinleştirmek için AppBar menüsünü kullanın</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
 </root>

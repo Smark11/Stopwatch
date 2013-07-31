@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Förfluten tid:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Bästa sluta titta i Windows Phone Store!
+
+Funktioner inkluderar:
+
+* E-varv och sträcktider
+* Körs under låsskärmen
+* Inaktivera låsskärmen
+* Både Split och Total tid
+* Stor, lätt att läsa klockan
+* Landskap stöd för stora siffror
+
+Ladda ner denna app idag!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Nedräkning</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Betygsätt aktivera nedräkning</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Använda AppBar-menyn för att aktivera nedräkning</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
 </root>

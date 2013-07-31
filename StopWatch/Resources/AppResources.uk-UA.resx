@@ -268,4 +268,22 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Витрачений час:</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Зворотний відлік</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Щоб увімкнути зворотного відліку</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Використовуйте панель «програми» меню, щоб включити зворотний відлік</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
 </root>

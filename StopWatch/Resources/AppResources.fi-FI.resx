@@ -268,4 +268,22 @@ Iso, helppolukuinen kello
 
 Lataa app tänään!</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Lähtölaskenta</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Kurssi, lähtölaskenta</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Avulla lähtölaskenta AppBar-valikon avulla</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
 </root>

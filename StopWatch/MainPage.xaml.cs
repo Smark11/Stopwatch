@@ -40,11 +40,11 @@ namespace StopWatch
             hasAppBeenRated = Rate.HasAppBeenRated();
             if (hasAppBeenRated.ToUpper() == "YES")
             {
-                EnableCountdown();             
+                EnableCountdown();
             }
             else
             {
-                DisableCountdown();            
+                DisableCountdown();
             }
 
             BuildLocalizedApplicationBar(hasAppBeenRated);
@@ -105,7 +105,7 @@ namespace StopWatch
                 {
                     if (PivotName == "STOPWATCH")
                     {
-                        item.Text =  AppResources.StopWatchOptions;
+                        item.Text = AppResources.StopWatchOptions;
                     }
                     else
                     {
@@ -338,6 +338,8 @@ namespace StopWatch
 
         private void PhoneOrientationChanged(object sender, OrientationChangedEventArgs e)
         {
+            
+
             switch (PivotName)
             {
                 case "STOPWATCH":
@@ -354,12 +356,12 @@ namespace StopWatch
                     // If not in portrait, move buttonList content to visible row and column.
                     else
                     {
-                        Grid.SetRow(this.stopwatchControl.ContentPanel, 1);
                         Grid.SetRow(MyAdControl, 0);
-                        Grid.SetRowSpan(this.stopwatchControl.ContentPanel, 4);
-                        Grid.SetRow(this.stopwatchControl.ButtonPanel, 5);
+                        Grid.SetRow(this.stopwatchControl.ContentPanel, 1);
+                        Grid.SetRowSpan(this.stopwatchControl.ContentPanel, 2);
+                        Grid.SetRow(this.stopwatchControl.ButtonPanel, 4);
                         this.stopwatchControl.LapBorder.Visibility = Visibility.Collapsed;
-                        this.stopwatchControl.LapGrid.Visibility = Visibility.Collapsed;
+                        this.stopwatchControl.LapGrid.Visibility = Visibility.Collapsed;                     
                     }
                     break;
                 case "COUNTDOWN":
@@ -369,17 +371,17 @@ namespace StopWatch
                         Grid.SetRow(MyAdControl, 0);
                         Grid.SetRow(this.countdownControl.ContentPanel, 1);
                         Grid.SetRowSpan(this.countdownControl.ContentPanel, 2);
-                        Grid.SetRow(this.stopwatchControl.ButtonPanel, 3);
+                        Grid.SetRow(this.countdownControl.ButtonPanel, 3);
                         this.countdownControl.LapBorder.Visibility = Visibility.Visible;
                         this.countdownControl.LapGrid.Visibility = Visibility.Visible;
                     }
                     // If not in portrait, move buttonList content to visible row and column.
                     else
                     {
-                        Grid.SetRow(this.countdownControl.ContentPanel, 1);
                         Grid.SetRow(MyAdControl, 0);
-                        Grid.SetRowSpan(this.countdownControl.ContentPanel, 4);
-                        Grid.SetRow(this.countdownControl.ButtonPanel, 5);
+                        Grid.SetRow(this.countdownControl.ContentPanel, 1);
+                        Grid.SetRowSpan(this.countdownControl.ContentPanel, 2);
+                        Grid.SetRow(this.countdownControl.ButtonPanel, 4);
                         this.countdownControl.LapBorder.Visibility = Visibility.Collapsed;
                         this.countdownControl.LapGrid.Visibility = Visibility.Collapsed;
                     }

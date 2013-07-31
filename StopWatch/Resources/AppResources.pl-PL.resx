@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Czas:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najlepszy stoper w magazynie Windows Phone!
+
+Funkcje obejmują:
+
+* E-mail okrążenie i międzyczasy
+* Działa blokada ekranu
+* Wyłączanie blokady ekranu
+* Zarówno Split i całkowity czas
+* Duży, czytelny zegar
+* Wsparcie dla dużych liczb krajobraz
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Odliczanie</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Oceń umożliwienie odliczania</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Użyj AppBar menu umożliwiające odliczanie</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nr</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Tak</value>
+  </data>
 </root>

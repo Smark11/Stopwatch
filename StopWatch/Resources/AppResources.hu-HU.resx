@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Eltelt idő:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Legjobb Stop Watch a Windows Phone boltban!
+
+Funkciók közé tartozik:
+
+* E-mail kör és részidők
+* Zár képernyőn alatt futó
+* Tiltsa le zár képernyőn
+* Split, mind a teljes idő
+* Nagy, könnyen olvasható óra
+* Táj támogatja a nagy számok
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Visszaszámlálás</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Ahhoz, hogy visszaszámlálás arány</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>AppBar menü segítségével engedélyezi a visszaszámlálás</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nem</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>igen</value>
+  </data>
 </root>

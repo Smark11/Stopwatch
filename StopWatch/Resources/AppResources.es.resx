@@ -268,4 +268,22 @@ Las características incluyen:
 
 Descargar esta aplicación hoy!</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Cuenta regresiva</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Tarifa para habilitar la cuenta regresiva</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Utilice AppBar menú para activar la cuenta regresiva</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
 </root>

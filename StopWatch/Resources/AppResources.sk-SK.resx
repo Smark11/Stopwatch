@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Uplynulý čas:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najlepšie stopky v ukladacom priestore Windows Phone!
+
+Funkcie patrí:
+
+* E-mail Lap a medzičasy
+* Beží pod Zamknúť obrazovku
+* Zakázať Lock obrazovky
+* Split aj celkový čas
+* Veľký, ľahko čitateľné hodiny
+* Šírku podporou pre veľké čísla
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Odpočítavanie</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Kurz umožní odpočítavanie</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Použite AppBar menu umožniť odpočítavanie</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nie</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>áno</value>
+  </data>
 </root>

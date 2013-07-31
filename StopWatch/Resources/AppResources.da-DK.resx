@@ -268,4 +268,22 @@ Funktioner omfatter:
 
 Download denne app i dag!</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Nedtælling</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Sats at aktivere Nedtælling</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Bruge AppBar menu til at aktivere Nedtælling</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
 </root>

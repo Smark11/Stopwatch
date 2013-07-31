@@ -36,7 +36,7 @@ namespace StopWatch
         public CountdownUserControl()
         {
             InitializeComponent();
-
+            
             isRunning = IsCountdownRunning();
             CountdownTimesCollection = new ObservableCollection<StopwatchTimes>();
 

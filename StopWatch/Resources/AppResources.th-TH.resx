@@ -268,4 +268,22 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>เวลาที่ใช้:</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>นับถอยหลัง</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>อัตราให้นับถอยหลัง</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>ใช้เมนู AppBar ให้นับถอยหลัง</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ไม่ใช่</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ใช่</value>
+  </data>
 </root>

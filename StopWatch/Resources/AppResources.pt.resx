@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Tempo decorrido:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Melhor parar o relógio na loja de Windows Phone!
+
+As características incluem:
+
+* E-mail colo e dividir vezes
+* Executando sob a tela do fechamento
+* Desabilitar a tela de bloqueio
+* Tanto o Split e o tempo Total
+* Grande, fácil de ler o relógio
+* Suporte para grandes números de paisagem
+
+Baixe este app hoje!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Contagem regressiva</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Taxa para permitir a contagem regressiva</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Use AppBar menu para ativar a contagem regressiva</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
 </root>

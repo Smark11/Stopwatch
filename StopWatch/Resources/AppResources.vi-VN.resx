@@ -268,4 +268,22 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="ElapsedTime" xml:space="preserve">
     <value>Thời gian:</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Đếm ngược</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Tỷ lệ để cho phép đếm ngược</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Sử dụng trình đơn AppBar để cho phép đếm ngược</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
 </root>

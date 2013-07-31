@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Praėjęs laikas:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+
+Funkcijos apima:
+
+* Rašykite juosmens ir padalinti kartus
+* Veikia pagal užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir bendras laikas
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Norėdami įjungti Atgalinės atskaitos palūkanų normos</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>AppBar meniu naudojimas jei norite įjungti Atgalinės atskaitos</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ne</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>taip</value>
+  </data>
 </root>

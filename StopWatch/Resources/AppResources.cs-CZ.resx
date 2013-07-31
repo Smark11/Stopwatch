@@ -268,4 +268,22 @@ Mezi funkce patří:
 
 Stáhněte tuto app dnes!</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Odpočítávání</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Míra aby odpočítávání</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Povolit odpočítávání pomocí nabídky panelu aplikacφ</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
 </root>

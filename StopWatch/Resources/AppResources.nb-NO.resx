@@ -254,4 +254,36 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Brukt tid:</value>
   </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste stoppeklokke i Windows Phone butikken!
+
+Funksjoner inkluderer:
+
+* E-post fanget og mellomtider
+* Kjører under låseskjermen
+* Deaktivere låseskjermen
+* Både Split og totaltiden
+* Store, lettleste klokke
+* Landskapet støtte for store tall
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Nedtelling</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Rate å aktivere nedtelling</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Bruke AppBar-menyen til å aktivere Countdown</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nei</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
 </root>

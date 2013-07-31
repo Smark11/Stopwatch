@@ -268,4 +268,22 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Изминало време:</value>
   </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Броене</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Курс да разрешите обратно броене</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Използвайте AppBar меню, за да разрешите обратно броене</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
 </root>
