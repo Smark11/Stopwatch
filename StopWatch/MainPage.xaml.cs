@@ -16,6 +16,7 @@ using System.Windows.Media;
 using Windows.ApplicationModel.Store;
 using Common.IsolatedStoreage;
 using Common.Utilities;
+using Common.Licencing;
 
 namespace StopWatch
 {
@@ -24,6 +25,8 @@ namespace StopWatch
     {
 
         public event PropertyChangedEventHandler PropertyChanged;
+        bool _trialExpired = false;
+        MarketplaceDetailTask _marketPlaceDetailTask = new MarketplaceDetailTask();
 
         // Constructor
         public MainPage()
@@ -54,6 +57,28 @@ namespace StopWatch
             MyAdControl.ErrorOccurred += MyAdControl_ErrorOccurred;
 
             this.DataContext = this;
+
+            if ((Application.Current as App).IsTrial)
+            {
+                SaveStartDateOfTrial();
+
+                if (IsTrialExpired())
+                {
+                    MessageBox.Show("Your trial has expired.  Please purchase this application.");
+                    _trialExpired = true;
+                    _marketPlaceDetailTask.Show();
+                }
+                else
+                {
+                    MessageBox.Show("You have " + GetDaysLeftInTrial() + " days remaining in your trial.");
+                }
+            }
+
+            //Based on _trialexpired will need to show or hide usercontrols
+            if (_trialExpired)
+            {
+                DisableApp();
+            }
         }
 
         void MyAdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
@@ -288,7 +313,12 @@ namespace StopWatch
             this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Visible;
         }
 
-
+        private void DisableApp()
+        {
+            this.pivotCountdown.IsEnabled = false;
+            this.pivotStopwatch.IsEnabled = false;
+            this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Visible;
+        }
 
         #endregion "Methods"
 
@@ -338,7 +368,7 @@ namespace StopWatch
 
         private void PhoneOrientationChanged(object sender, OrientationChangedEventArgs e)
         {
-            
+
 
             switch (PivotName)
             {
@@ -361,7 +391,7 @@ namespace StopWatch
                         Grid.SetRowSpan(this.stopwatchControl.ContentPanel, 2);
                         Grid.SetRow(this.stopwatchControl.ButtonPanel, 4);
                         this.stopwatchControl.LapBorder.Visibility = Visibility.Collapsed;
-                        this.stopwatchControl.LapGrid.Visibility = Visibility.Collapsed;                     
+                        this.stopwatchControl.LapGrid.Visibility = Visibility.Collapsed;
                     }
                     break;
                 case "COUNTDOWN":
@@ -387,6 +417,36 @@ namespace StopWatch
                     }
                     break;
             }
+        }
+
+        public void SaveStartDateOfTrial()
+        {
+            Trial.SaveStartDateOfTrial();
+        }
+
+        public DateTime GetStartDateOfTrial()
+        {
+            DateTime returnValue = DateTime.Today;
+
+            returnValue = Trial.GetStartDateOfTrial();
+
+            return returnValue;
+        }
+
+        public int GetDaysLeftInTrial()
+        {
+            int returnValue = 0;
+            returnValue = Trial.GetDaysLeftInTrial();
+            return returnValue;
+        }
+
+        private bool IsTrialExpired()
+        {
+            bool trialExpired = false;
+
+            trialExpired = Trial.IsTrialExpired();
+
+            return trialExpired;
         }
 
         #endregion "Common Routines"

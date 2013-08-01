@@ -13,6 +13,15 @@ namespace StopWatch
 {
     public partial class App : Application
     {
+        private static bool _isTrial;
+        public bool IsTrial
+        {
+            get
+            {
+                return _isTrial;
+            }
+        }
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
