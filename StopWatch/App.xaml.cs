@@ -8,11 +8,14 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using StopWatch.Resources;
 using Common.IsolatedStoreage;
+using Microsoft.Phone.Marketplace;
 
 namespace StopWatch
 {
     public partial class App : Application
     {
+        private static LicenseInformation _licenseInfo = new LicenseInformation();
+
         private static bool _isTrial;
         public bool IsTrial
         {
@@ -72,16 +75,30 @@ namespace StopWatch
 
         }
 
+
+        /// <summary>
+        /// Check the current license information for this application
+        /// </summary>
+        private void CheckLicense()
+        {
+            //_isTrial = false;
+
+            _isTrial = _licenseInfo.IsTrial();
+            //_isTrial = false;
+        }
+
         // Code to execute when the application is launching (eg, from Start)
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            CheckLicense();
         }
 
         // Code to execute when the application is activated (brought to foreground)
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            CheckLicense();
         }
 
         // Code to execute when the application is deactivated (sent to background)
