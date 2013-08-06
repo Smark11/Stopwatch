@@ -26,7 +26,7 @@
             </Grid.RowDefinitions>
 
             <UI:AdControl 
-                 x:Name="MyAdControl" Grid.Row="0"
+                 x:Name="MyAdControl" Grid.Row="0"               
                  AdUnitId="134721" 
                  ApplicationId="a5f523de-5568-422f-8074-f2321a75f7ee"                
                  HorizontalAlignment="Center" MaxWidth="480"  MaxHeight="80" Height="80" Width="480"

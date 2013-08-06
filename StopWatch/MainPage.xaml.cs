@@ -13,6 +13,7 @@ using System.Windows.Threading;
 using System.Collections.ObjectModel;
 using Microsoft.Phone.Tasks;
 using System.Windows.Media;
+using System.Globalization;
 using Windows.ApplicationModel.Store;
 using Common.IsolatedStoreage;
 using Common.Utilities;
@@ -36,7 +37,8 @@ namespace StopWatch
             InitializeComponent();
 
             AdvertisingVisibility = Visibility.Visible;
-
+            MyAdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
+            
             //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
             Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
 
