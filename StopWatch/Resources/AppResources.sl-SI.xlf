@@ -238,6 +238,54 @@ Travnato gričevje to app danes!</target>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">da</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Najboljši Stop Watch v shrambi Windows Phone!
+
+Funkcije vključujejo:
+
+* Email krog in Split-krat
+* Tekmovanje v teku pod Zakleni zaslon
+* Onemogoči zaklepanje zaslon
+* Tako Split in skupni čas
+* Veliki, enostavno branje clock
+* Krajine podporo za velike številke
+* Odštevalnik časa
+
+Travnato gričevje to app danes!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Štoparica</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Timer</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Odštevanje</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaja</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uresničevanje</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>예</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>최고의 중지 Windows Phone 저장소에 시계!
+
+기능은 다음과 같습니다.
+
+* 이메일 무릎 시간을 분할 하 고
+* 잠금 화면에서 실행 되
+* 잠금 화면 해제
+* 분할 및 총 시간
+* 대형, 시계 읽기 쉬운
+* 프리 큰 숫자에 대 한 지원
+* 카운트 다운 타이머
+
+오늘은이 애플 리 케이이 션을 다운로드!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>스톱 워치</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>타이머</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>카운트 다운</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>운동</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>운동</value>
+  </data>
 </root>

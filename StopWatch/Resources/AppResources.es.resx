@@ -286,4 +286,34 @@ Descargar esta aplicación hoy!</value>
   <data name="Yes" xml:space="preserve">
     <value>Sí</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mejor detener el reloj en la tienda de Windows Phone!
+
+Las características incluyen:
+
+* Correo electrónico Lap y dividir veces
+* Corriendo bajo bloqueo de pantalla
+* Desactivar la pantalla de bloqueo
+* El Split y el tiempo Total
+* Grande, fácil leer el reloj
+* Soporte para grandes números del paisaje
+* Temporizador
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cronómetro</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Contador de tiempo</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Cuenta regresiva</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Entrenamiento</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Ejercicio</value>
+  </data>
 </root>

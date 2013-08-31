@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>Так</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Краще зупинити годинник в магазині Windows Phone!
+
+Особливості включають:
+
+* По електронній пошті на колінах і розділити разів
+* Під управлінням екран блокування
+* Вимкнути екран блокування
+* Спліт і всього часу
+* Великі, легко читається годинник
+* Ландшафт підтримку великих чисел
+* Зворотного відліку таймера
+
+Завантажити цей застосунок сьогодні!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Секундомір</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Таймер</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Зворотний відлік</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Тренування</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Вправа</value>
+  </data>
 </root>

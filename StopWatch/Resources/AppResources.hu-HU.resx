@@ -286,4 +286,34 @@ Letölt ez app ma!</value>
   <data name="Yes" xml:space="preserve">
     <value>igen</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Legjobb Stop Watch a Windows Phone a boltban!
+
+Funkciók közé tartozik:
+
+* E-mail kör és részidők
+* Zár képernyőn alatt futó
+* Tiltsa le zár képernyőn
+* Split, mind a teljes idő
+* Nagy, könnyen olvasható óra
+* Táj támogatja a nagy számok
+* Visszaszámlálás időzítő
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Stopperóra</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Időzítő</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Visszaszámlálás</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Edzés</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Gyakorlat</value>
+  </data>
 </root>

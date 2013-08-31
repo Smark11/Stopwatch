@@ -238,6 +238,54 @@ Lae alla käesoleva app täna!</target>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Jah</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parim Stop Watch Windows Phone laos!
+
+Funktsioonide hulka kuuluvad:
+
+* E-post süles ja vaheajad
+* Käivitatud lukk ekraan
+* Välja lülitada Lukusta ekraan
+* Nii Split ja koguaeg
+* Suured, hästi loetavad clock
+* Maastik toetamine suured numbrid
+* Taimer
+
+Lae alla käesoleva app täna!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stopper</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taimer</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tagaplaanil</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Treening</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Harjutus</target>
+        </trans-unit>
       </group>
     </body>
   </file>

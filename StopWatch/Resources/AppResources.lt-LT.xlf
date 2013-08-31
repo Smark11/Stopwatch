@@ -238,6 +238,54 @@ Parsisiųsti šią programą šiandien!</target>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">taip</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+
+Funkcijos apima:
+
+* Rašykite juosmens ir padalinti kartus
+* Veikia užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir silpnos
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
+* Atgalinìs atskaitos laikmatis
+
+Parsisiųsti šią programą šiandien!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometras</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikmatis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tas, kurio nėra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Treniruotės</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratimai</target>
+        </trans-unit>
       </group>
     </body>
   </file>

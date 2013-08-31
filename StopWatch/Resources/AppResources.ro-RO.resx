@@ -286,4 +286,34 @@ Descărcaţi acest app astăzi!</value>
   <data name="Yes" xml:space="preserve">
     <value>da</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Cel mai bun Stop Watch în Windows Phone magazin!
+
+Caracteristicile includ:
+
+* Tur de e-mail şi Split ori
+* Care rulează sub ecran de blocare
+* Dezactivare blocare ecran
+* Atât Split şi timpul Total
+* Mare, uşor de citit ceas
+* Peisaj suport pentru numere mari
+* Temporizator
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Numărătoarea inversă</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Antrenament</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Exercitarea</value>
+  </data>
 </root>

@@ -238,6 +238,54 @@ Download this app today!</source>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Так</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Краще зупинити годинник в магазині Windows Phone!
+
+Особливості включають:
+
+* По електронній пошті на колінах і розділити разів
+* Під управлінням екран блокування
+* Вимкнути екран блокування
+* Спліт і всього часу
+* Великі, легко читається годинник
+* Ландшафт підтримку великих чисел
+* Зворотного відліку таймера
+
+Завантажити цей застосунок сьогодні!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Секундомір</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таймер</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотний відлік</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Тренування</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вправа</target>
+        </trans-unit>
       </group>
     </body>
   </file>

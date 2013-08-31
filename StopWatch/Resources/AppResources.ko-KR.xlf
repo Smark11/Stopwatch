@@ -238,6 +238,54 @@ Download this app today!</source>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">예</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">최고의 중지 Windows Phone 저장소에 시계!
+
+기능은 다음과 같습니다.
+
+* 이메일 무릎 시간을 분할 하 고
+* 잠금 화면에서 실행 되
+* 잠금 화면 해제
+* 분할 및 총 시간
+* 대형, 시계 읽기 쉬운
+* 프리 큰 숫자에 대 한 지원
+* 카운트 다운 타이머
+
+오늘은이 애플 리 케이이 션을 다운로드!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스톱 워치</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">타이머</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카운트 다운</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">운동</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">운동</target>
+        </trans-unit>
       </group>
     </body>
   </file>

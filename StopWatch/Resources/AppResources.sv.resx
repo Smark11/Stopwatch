@@ -286,4 +286,34 @@ Ladda ner denna app idag!</value>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bästa sluta titta i Windows Phone Store!
+
+Funktioner inkluderar:
+
+* E-varv och sträcktider
+* Kör under låsa skärmen
+* Inaktivera låsskärmen
+* Både Split och Total tid
+* Stor, lätt att läsa klockan
+* Landskap stöd för stora siffror
+* Nedräkningstimer
+
+Ladda ner denna app idag!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Stoppur</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Nedräkning</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Träning</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Motion</value>
+  </data>
 </root>

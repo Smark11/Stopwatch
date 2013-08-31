@@ -238,6 +238,54 @@ Bu app bugün yükleyin!</target>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Evet</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">En iyi Windows Phone deposunda izlemek durdurun!
+
+Özellikleri şunlardır:
+
+* Email kucak ve bölünmüş kez
+* Kilit ekranı altında çalışan
+* Kilit ekranını devre dışı bırakın
+* Hem Böl ve toplam süre
+* Geniş, kolay okunabilir saati
+* Büyük sayı için yatay destek
+* Geri sayım sayacı
+
+Bu app bugün yükleyin!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kronometre</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zamanlayıcı</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geri sayım</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Egzersiz</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Egzersiz</target>
+        </trans-unit>
       </group>
     </body>
   </file>

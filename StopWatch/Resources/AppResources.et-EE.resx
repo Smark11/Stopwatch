@@ -286,4 +286,34 @@ Lae alla käesoleva app täna!</value>
   <data name="Yes" xml:space="preserve">
     <value>Jah</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Parim Stop Watch Windows Phone laos!
+
+Funktsioonide hulka kuuluvad:
+
+* E-post süles ja vaheajad
+* Käivitatud lukk ekraan
+* Välja lülitada Lukusta ekraan
+* Nii Split ja koguaeg
+* Suured, hästi loetavad clock
+* Maastik toetamine suured numbrid
+* Taimer
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Stopper</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Taimer</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Tagaplaanil</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Treening</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Harjutus</value>
+  </data>
 </root>

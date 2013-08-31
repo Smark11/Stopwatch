@@ -286,4 +286,34 @@ Scaricare questa app oggi!</value>
   <data name="Yes" xml:space="preserve">
     <value>Sì</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Meglio interrompere guarda nell'archivio di Windows Phone!
+
+Le caratteristiche includono:
+
+* E-mail Lap e Split volte
+* In esecuzione sotto blocco schermo
+* Disattivare la schermata di blocco
+* Split sia tempo totale
+* Grande, facile leggere l'orologio
+* Supporto per i grandi numeri di panorama
+* Conto alla rovescia
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cronometro</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Conto alla rovescia</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Allenamento</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Esercizio</value>
+  </data>
 </root>

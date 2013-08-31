@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>हाँ</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>सर्वश्रेष्ठ देखो Windows Phone की दुकान में बंद करो!
+
+सुविधाओं में शामिल हैं:
+
+* ईमेल गोद और विभाजित टाइम्स
+* ताला स्क्रीन के तहत चल रहे
+* ताला स्क्रीन को अक्षम करें
+* दोनों भाजित और कुल समय
+* बड़े, घड़ी को पढ़ने के लिए आसान
+* बड़ी संख्याओं के लिए परिदृश्य समर्थन
+* उलटी गिनती टाइमर
+
+इस app डाउनलोड आज!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>स्टॉपवॉच</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>टाइमर</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>उलटी गिनती</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>कसरत</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>व्यायाम</value>
+  </data>
 </root>

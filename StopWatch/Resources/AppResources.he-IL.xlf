@@ -238,6 +238,54 @@ Download this app today!</source>
           <source>Yes</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">כן</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">הכי טוב לעצור את השעון בחנות Windows Phone!
+
+התכונות כוללות:
+
+* דוא ל הברכיים לפצל פעמים
+* פועל תחת מסך הנעילה
+* לבטל את מסך הנעילה
+* פיצול והן הזמן הכולל
+* גדול, קל מאוד לקרוא שעון
+* נוף תמיכה עבור מספרים גדולים
+* טיימר
+
+להוריד את יישום זה היום!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">סטופר</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">שעון עצר</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">הספירה לאחור</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">אימון</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">פעילות גופנית</target>
+        </trans-unit>
       </group>
     </body>
   </file>

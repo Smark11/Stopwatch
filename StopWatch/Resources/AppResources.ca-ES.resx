@@ -286,4 +286,34 @@ Descarregar aquest app avui!</value>
   <data name="Yes" xml:space="preserve">
     <value>Sí</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Millor deixar de veure a la botiga de Windows Phone!
+
+Les característiques inclouen:
+
+* Volta de correu electrònic i dividir vegades
+* Corrent sota la pantalla de panys
+* Impossibiliti pantalla de Pany
+* Split tant temps Total
+* Gran, fàcil de llegir el rellotge
+* Suport per a un gran nombre de paisatge
+* Countdown temporitzador
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cronòmetre</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Temporitzador</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Compte enrere</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Entrenament</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Exercici</value>
+  </data>
 </root>

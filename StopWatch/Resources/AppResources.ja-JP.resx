@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>はい</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>最高の Windows Phone ストアに時計を停止 ！
+
+機能は含みます。
+
+* メールでラップ回分割と
+* ロック画面下で実行しています。
+* ロック画面を無効にします。
+* 分割と合計時間
+* 大規模な時計を読みやすい
+* 大きな数字のための風景のサポート
+* カウント ダウン タイマー
+
+今日このアプリをダウンロード ！</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>タイマー</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>カウント ダウン</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>ワークアウト</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>運動</value>
+  </data>
 </root>

@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>ใช่</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>ส่วนหยุดนาฬิกาในร้าน Windows Phone
+
+คุณสมบัติรวมถึง:
+
+* อีตัก และแบ่งเวลา
+* ทำงานภายใต้หน้าจอล็อค
+* ปิดล็อคหน้าจอ
+* ทั้งแยกและรวมเวลา
+* ขนาดใหญ่ ง่ายต่อการอ่านนาฬิกา
+* สนับสนุนใหญ่เลขแนวนอน
+* จับเวลา
+
+ดาวน์โหลด app นี้วันนี้</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>นาฬิกาจับ</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>จับเวลา</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>นับถอยหลัง</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>ออกกำลังกาย</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>ออกกำลังกาย</value>
+  </data>
 </root>

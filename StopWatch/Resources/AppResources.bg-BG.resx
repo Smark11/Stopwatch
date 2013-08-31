@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>Да</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Най-добре спрете часовник в Windows Phone магазина!
+
+Характеристики включват:
+
+* Имейл скута и разделят пъти
+* Движение при заключване на екрана
+* Изключване на заключване на екрана
+* Разделяне и общо време
+* Големи, лесни за четене часовник
+* Пейзаж подкрепа за големи номера
+* Отброяване
+
+Изтеглете този ап днес!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Хронометър</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Таймер</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Броене</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Тренировка</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Упражнение</value>
+  </data>
 </root>

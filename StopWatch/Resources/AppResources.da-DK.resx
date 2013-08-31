@@ -286,4 +286,34 @@ Download denne app i dag!</value>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bedste stopur i Windows Phone butik!
+
+Funktioner omfatter:
+
+* Email Lap og stræktider
+* Kører under lås skærm
+* Deaktivere låseskærmen
+* Både delt og samlet tid
+* Store, let at læse ur
+* Landskab støtte til store tal
+* Nedtællingsur
+
+Download denne app i dag!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Stopur</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Timeren</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Nedtælling</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Træning</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Motion</value>
+  </data>
 </root>

@@ -286,4 +286,34 @@ Téléchargez cette application dès aujourd'hui !</value>
   <data name="Yes" xml:space="preserve">
     <value>Oui</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
+
+Caractéristiques comprennent :
+
+* Courriel tour et temps intermédiaires
+* En cours d'exécution sous l'écran de serrure
+* Désactiver l'écran de serrure
+* Split et temps Total
+* Grand, facile à lire horloge
+* Paysage de soutien pour les grands nombres
+* Compte à rebours
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Chronomètre</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Minuterie</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Compte à rebours</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Séance d'entraînement</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Exercice</value>
+  </data>
 </root>

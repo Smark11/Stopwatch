@@ -286,4 +286,34 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="Yes" xml:space="preserve">
     <value>Có</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Tốt nhất ngừng dõi vào cửa hàng Windows Phone!
+
+Tính năng bao gồm:
+
+* Gửi email Lap và phân chia thời gian
+* Chạy dưới màn hình khóa
+* Vô hiệu hoá màn hình khóa
+* Cả Split vaø toång thôøi
+* Lớn, dễ đọc đồng hồ
+* Cảnh quan hỗ trợ cho số lượng lớn
+* Đếm ngược
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Đồng hồ bấm giờ</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Bộ đếm thời gian</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Đếm ngược</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Tập luyện</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Tập thể dục</value>
+  </data>
 </root>

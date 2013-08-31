@@ -286,4 +286,34 @@ Download this app today!</value>
   <data name="Yes" xml:space="preserve">
     <value>Yes</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>StopWatch</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Workout</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Exercise</value>
+  </data>
 </root>

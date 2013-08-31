@@ -538,5 +538,71 @@ namespace StopWatch.Resources {
                 return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Best Stop Watch in the Windows Phone Store!
+        ///
+        ///Features include:
+        ///
+        ///* Email Lap and Split Times
+        ///* Running under Lock Screen
+        ///* Disable Lock Screen
+        ///* Both Split and Total Time
+        ///* Large, easy to read clock
+        ///* Landscape support for big numbers
+        ///* Countdown Timer
+        ///
+        ///Download this app today!.
+        /// </summary>
+        public static string Z_Description {
+            get {
+                return ResourceManager.GetString("Z_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StopWatch.
+        /// </summary>
+        public static string Z_Keyword1 {
+            get {
+                return ResourceManager.GetString("Z_Keyword1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Timer.
+        /// </summary>
+        public static string Z_KeyWord2 {
+            get {
+                return ResourceManager.GetString("Z_KeyWord2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Countdown.
+        /// </summary>
+        public static string Z_KeyWord3 {
+            get {
+                return ResourceManager.GetString("Z_KeyWord3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Workout.
+        /// </summary>
+        public static string Z_KeyWord4 {
+            get {
+                return ResourceManager.GetString("Z_KeyWord4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exercise.
+        /// </summary>
+        public static string Z_Keyword5 {
+            get {
+                return ResourceManager.GetString("Z_Keyword5", resourceCulture);
+            }
+        }
     }
 }

@@ -286,4 +286,34 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="Yes" xml:space="preserve">
     <value>taip</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+
+Funkcijos apima:
+
+* Rašykite juosmens ir padalinti kartus
+* Veikia užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir silpnos
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
+* Atgalinìs atskaitos laikmatis
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Chronometras</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Laikmatis</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Tas, kurio nėra</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Treniruotės</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Pratimai</value>
+  </data>
 </root>

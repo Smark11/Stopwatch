@@ -286,4 +286,34 @@ Pobrać tę aplikację dziś!</value>
   <data name="Yes" xml:space="preserve">
     <value>Tak</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Najlepszy stoper w magazynie Windows Phone!
+
+Funkcje obejmują:
+
+* E-mail okrążenie i międzyczasy
+* Uruchomiony blokada ekranu
+* Wyłączanie blokady ekranu
+* Zarówno Split i całkowity czas
+* Duży, czytelny zegar
+* Wsparcie dla dużych liczb krajobraz
+* Odliczanie do zera chronometrażysta
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Stoper</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Zegar</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Odliczanie</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Trening</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Ćwiczenia</value>
+  </data>
 </root>

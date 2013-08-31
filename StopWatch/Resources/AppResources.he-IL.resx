@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>כן</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>הכי טוב לעצור את השעון בחנות Windows Phone!
+
+התכונות כוללות:
+
+* דוא ל הברכיים לפצל פעמים
+* פועל תחת מסך הנעילה
+* לבטל את מסך הנעילה
+* פיצול והן הזמן הכולל
+* גדול, קל מאוד לקרוא שעון
+* נוף תמיכה עבור מספרים גדולים
+* טיימר
+
+להוריד את יישום זה היום!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>סטופר</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>שעון עצר</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>הספירה לאחור</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>אימון</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>פעילות גופנית</value>
+  </data>
 </root>

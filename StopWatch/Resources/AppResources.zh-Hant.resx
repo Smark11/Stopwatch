@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>是</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>最好停止 Windows Phone 存儲區中的手錶 ！
+
+功能包括：
+
+* 電子郵件圈和拆分倍
+* 在鎖定螢幕下運行
+* 禁用鎖定螢幕
+* 拆分和總時間
+* 大型、 易讀的時鐘
+* 景觀大數位支援
+* 倒計時計時器
+
+今天下載這個應用程式 ！</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>碼錶</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>計時器</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>倒計時</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>體育鍛煉</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>行使</value>
+  </data>
 </root>

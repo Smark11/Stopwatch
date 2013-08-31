@@ -286,4 +286,34 @@ Lataa app tänään!</value>
   <data name="Yes" xml:space="preserve">
     <value>Kyllä</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Paras lopettaa katsella Windows Phone varastossa!
+
+Ominaisuuksia:
+
+* Email kierros- ja väliaikoineen
+* Running Lukitse näyttö
+* Poista Lukitse näyttö
+* Split sekä kokonaisaika
+Iso, helppolukuinen kello
+* Maisema tuki suuria lukuja
+* Ajastin
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Sekuntikello</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Ajastin</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Lähtölaskenta</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Harjoitus</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Liikunta</value>
+  </data>
 </root>

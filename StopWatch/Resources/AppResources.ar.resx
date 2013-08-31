@@ -286,4 +286,34 @@
   <data name="Yes" xml:space="preserve">
     <value>نعم</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>أفضل وقف يشاهد في مخزن Windows Phone!
+
+وتشمل الميزات:
+
+* البريد الإلكتروني اللفة وتقسيم الأوقات
+* يعمل تحت قفل الشاشة
+* تعطيل قفل الشاشة
+* كل من الانقسام وإجمالي الوقت
+* كبيرة، وسهلة القراءة على مدار الساعة
+* تقديم الدعم للأرقام الكبيرة والمناظر الطبيعية
+* العد التنازلي
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>ساعة توقيت</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>جهاز ضبط الوقت</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>العد التنازلي</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>تجريب</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>ممارسة</value>
+  </data>
 </root>

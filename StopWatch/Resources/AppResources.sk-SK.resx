@@ -286,4 +286,34 @@ Stiahnite si túto app dnes!</value>
   <data name="Yes" xml:space="preserve">
     <value>áno</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Najlepšie stopky v ukladacom priestore Windows Phone!
+
+Funkcie patrí:
+
+* E-mail Lap a medzičasy
+* Beží pod Zamknúť obrazovku
+* Zakázať Lock obrazovky
+* Split aj celkový čas
+* Veľký, ľahko čitateľné hodiny
+* Podpora pre veľké čísla na šírku
+* Odpočítavanie
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Stopky</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Časovač</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Odpočítavanie</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Cvičenie</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Cvičenie</value>
+  </data>
 </root>
