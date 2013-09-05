@@ -316,4 +316,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>ممارسة</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف كافة بيانات السجل؟</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>حذف السجلات</value>
+  </data>
 </root>

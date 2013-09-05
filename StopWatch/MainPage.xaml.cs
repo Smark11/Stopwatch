@@ -38,7 +38,7 @@ namespace StopWatch
 
             AdvertisingVisibility = Visibility.Visible;
             MyAdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
-            
+
             //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
             Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
 
@@ -183,6 +183,14 @@ namespace StopWatch
 
                     break;
                 case "COUNTDOWN":
+                    MessageBoxResult result1 = MessageBox.Show(AppResources.DeleteAllRecordDataMessage, AppResources.DeleteRecordsTitle, MessageBoxButton.OKCancel);
+                    if (result1 == MessageBoxResult.OK)
+                    {
+                        IS.RemoveSetting("Countdown-Laps");
+                        IS.RemoveSetting("Countdown-Splits");                   
+                        this.countdownControl.CountdownTimesCollection.Clear();
+                    }
+
                     break;
             }
         }

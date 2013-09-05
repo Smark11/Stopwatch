@@ -286,6 +286,14 @@ Download this app today!</source>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Άσκηση</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Είστε βέβαιοι ότι θέλετε να διαγράψετε όλα τα δεδομένα εγγραφής;</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Διαγραφή εγγραφών</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -316,4 +316,10 @@ Descărcaţi acest app astăzi!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Exercitarea</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Sunteţi sigur că doriţi să ştergeţi toate datele de înregistrare?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Ştergeţi înregistrările</value>
+  </data>
 </root>

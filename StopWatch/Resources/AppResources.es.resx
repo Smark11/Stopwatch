@@ -316,4 +316,10 @@ Descargar esta aplicación hoy!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Ejercicio</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar todos los datos de registro?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Borrar registros</value>
+  </data>
 </root>

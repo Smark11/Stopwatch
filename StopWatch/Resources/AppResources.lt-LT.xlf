@@ -286,6 +286,14 @@ Parsisiųsti šią programą šiandien!</target>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratimai</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ar tikrai norite panaikinti visus registracijos duomenis?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti įrašus</target>
+        </trans-unit>
       </group>
     </body>
   </file>

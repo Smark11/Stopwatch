@@ -286,6 +286,14 @@ Download this app today!</source>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Вправа</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви дійсно бажаєте видалити всі записи даних?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Видалення записів</target>
+        </trans-unit>
       </group>
     </body>
   </file>

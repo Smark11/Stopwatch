@@ -286,6 +286,14 @@ Laden Sie diese app herunter!</target>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Übung</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bist du sicher, dass Sie alle Daten löschen möchten?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Löschen von Datensätzen</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -316,4 +316,10 @@ Bu app bugün yükleyin!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Egzersiz</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Tüm kayıt verileri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Kayıtları silme</value>
+  </data>
 </root>

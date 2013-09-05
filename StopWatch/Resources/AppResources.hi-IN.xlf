@@ -286,6 +286,14 @@ Download this app today!</source>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">व्यायाम</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आप सुनिश्चित करें कि आप सभी रिकॉर्ड डेटा हटाना चाहते हैं?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अभिलेख हटाएँ</target>
+        </trans-unit>
       </group>
     </body>
   </file>

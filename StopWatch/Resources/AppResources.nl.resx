@@ -316,4 +316,10 @@ Download dit app vandaag nog!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Oefening</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Weet u zeker dat u wilt verwijderen van alle recordgegevens?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Records verwijderen</value>
+  </data>
 </root>

@@ -316,4 +316,10 @@ Stáhněte tuto app dnes!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Cvičení</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Jste si jisti, že chcete odstranit všechna data záznamu?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Odstranit záznamy</value>
+  </data>
 </root>

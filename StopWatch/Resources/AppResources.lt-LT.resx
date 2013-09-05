@@ -316,4 +316,10 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Pratimai</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Ar tikrai norite panaikinti visus registracijos duomenis?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Naikinti įrašus</value>
+  </data>
 </root>

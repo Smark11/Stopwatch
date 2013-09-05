@@ -286,6 +286,14 @@ Letölt ez app ma!</target>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Gyakorlat</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Biztosan törli az összes rekord adatait?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rekordok törlése</target>
+        </trans-unit>
       </group>
     </body>
   </file>

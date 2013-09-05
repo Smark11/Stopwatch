@@ -316,4 +316,10 @@ Travnato gričevje to app danes!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Uresničevanje</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Ali ste prepričani, da želite izbrisati vseh zapisov podatkov?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Brisanje zapisov</value>
+  </data>
 </root>

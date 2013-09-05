@@ -286,6 +286,14 @@ Bu app bugün yükleyin!</target>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Egzersiz</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tüm kayıt verileri silmek istediğinizden emin misiniz?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kayıtları silme</target>
+        </trans-unit>
       </group>
     </body>
   </file>

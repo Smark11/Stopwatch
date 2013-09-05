@@ -286,6 +286,14 @@ Download this app today!</source>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">운동</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">당신은 모든 기록 데이터를 삭제 하 시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">레코드 삭제</target>
+        </trans-unit>
       </group>
     </body>
   </file>

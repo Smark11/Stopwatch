@@ -243,11 +243,29 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to delete all record data?.
+        /// </summary>
+        public static string DeleteAllRecordDataMessage {
+            get {
+                return ResourceManager.GetString("DeleteAllRecordDataMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete Laps.
         /// </summary>
         public static string DeleteLapsTitle {
             get {
                 return ResourceManager.GetString("DeleteLapsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Records.
+        /// </summary>
+        public static string DeleteRecordsTitle {
+            get {
+                return ResourceManager.GetString("DeleteRecordsTitle", resourceCulture);
             }
         }
         

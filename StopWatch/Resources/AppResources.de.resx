@@ -316,4 +316,10 @@ Laden Sie diese app herunter!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Übung</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Bist du sicher, dass Sie alle Daten löschen möchten?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Löschen von Datensätzen</value>
+  </data>
 </root>

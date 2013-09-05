@@ -316,4 +316,10 @@ Lejupielādēt šo app šodien!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Vingrinājumā</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Vai tiešām vēlaties izdzēst visus ierakstu datu</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Dzēst ierakstus</value>
+  </data>
 </root>

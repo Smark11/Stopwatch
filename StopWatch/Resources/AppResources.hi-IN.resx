@@ -316,4 +316,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>व्यायाम</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>आप सुनिश्चित करें कि आप सभी रिकॉर्ड डेटा हटाना चाहते हैं?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>अभिलेख हटाएँ</value>
+  </data>
 </root>

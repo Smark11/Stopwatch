@@ -316,4 +316,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Вправа</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Ви дійсно бажаєте видалити всі записи даних?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Видалення записів</value>
+  </data>
 </root>

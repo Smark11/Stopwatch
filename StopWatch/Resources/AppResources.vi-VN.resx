@@ -316,4 +316,10 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Tập thể dục</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa tất cả dữ liệu ghi?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Xóa hồ sơ</value>
+  </data>
 </root>

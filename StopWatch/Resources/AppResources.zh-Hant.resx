@@ -316,4 +316,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>行使</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>確實要刪除所有記錄的資料嗎?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>刪除記錄</value>
+  </data>
 </root>

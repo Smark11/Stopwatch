@@ -316,4 +316,10 @@ Descarregar aquest app avui!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Exercici</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Esteu segur que voleu suprimir totes les dades de registre?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Suprimir registres</value>
+  </data>
 </root>

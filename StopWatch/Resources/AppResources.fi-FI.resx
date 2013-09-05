@@ -316,4 +316,10 @@ Lataa tämän app tänään!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Liikunta</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa kaikki tallentaa tietoja?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Tietueiden poistaminen</value>
+  </data>
 </root>

@@ -316,4 +316,10 @@ Download denne app i dag!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Motion</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Er du sikker på du vil slette alle postdataene?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Slette poster</value>
+  </data>
 </root>

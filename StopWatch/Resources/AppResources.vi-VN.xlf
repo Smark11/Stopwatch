@@ -286,6 +286,14 @@ Tải về ứng dụng này vào ngày hôm nay!</target>
           <source>Exercise</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tập thể dục</target>
         </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bạn có chắc bạn muốn xóa tất cả dữ liệu ghi?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Xóa hồ sơ</target>
+        </trans-unit>
       </group>
     </body>
   </file>

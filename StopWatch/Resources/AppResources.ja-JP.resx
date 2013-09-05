@@ -316,4 +316,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>運動</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>すべてのレコードのデータを削除してもよろしいですか。</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>レコードを削除します。</value>
+  </data>
 </root>

@@ -316,4 +316,10 @@ Lae alla käesoleva app täna!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Harjutus</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Kas kindlasti kustutada kõik salvestada andmeid?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Kirje kustutamine</value>
+  </data>
 </root>

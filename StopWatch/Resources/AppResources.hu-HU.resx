@@ -316,4 +316,10 @@ Letölt ez app ma!</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Gyakorlat</value>
   </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Biztosan törli az összes rekord adatait?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Rekordok törlése</value>
+  </data>
 </root>
