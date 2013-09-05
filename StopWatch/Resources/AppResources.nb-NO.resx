@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Brukt tid:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Beste stoppeklokke i Windows Phone butikken!
-
-Funksjoner inkluderer:
-
-* E-post fanget og mellomtider
-* Kjører under låseskjermen
-* Deaktivere låseskjermen
-* Både Split og totaltiden
-* Store, lettleste klokke
-* Landskapet støtte for store tall
-
-Last ned denne app i dag!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Nedtelling</value>
   </data>
@@ -285,21 +271,6 @@ Last ned denne app i dag!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>ja</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Beste stoppeklokke i Windows Phone butikken!
-
-Funksjoner inkluderer:
-
-* E-post fanget og mellomtider
-* Kjører under låseskjermen
-* Deaktiver låseskjermen
-* Både Split og totaltiden
-* Store, lettleste klokke
-* Landskapet støtte for store tall
-* Countdown classes
-
-Last ned denne app i dag!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stoppeklokke</value>
@@ -321,5 +292,52 @@ Last ned denne app i dag!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Slette poster</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste stoppeklokke i Windows Phone butikken!
+
+Funksjoner inkluderer:
+
+* E-post fanget og mellomtider
+* Kjører under låseskjermen
+* Deaktiver låseskjermen
+* Både Split og totaltiden
+* Store, lettleste klokke
+* Landskapet støtte for store tall
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Beste stoppeklokke i Windows Phone butikken!
+
+Funksjoner inkluderer:
+
+* E-post fanget og mellomtider
+* Kjører under låseskjermen
+* Deaktiver låseskjermen
+* Både Split og totaltiden
+* Store, lettleste klokke
+* Landskapet støtte for store tall
+* Countdown classes
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Kjøp!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Prøveperioden er utgått, Kjøp programmet!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> gjenværende dager i prøveversjonen.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Utvide rettssaken til 10 dager etter vurdering programmet?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Utvide rettssaken?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
   </data>
 </root>

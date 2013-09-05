@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Berlalu waktu:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Terbaik Stop Watch di Windows Phone Store!
-
-Fitur termasuk:
-
-* Email Lap dan membagi kali
-* Berjalan di bawah layar kunci
-* Menonaktifkan layar kunci
-* Split maupun Total waktu
-* Besar, mudah dibaca clock
-* Lanskap dukungan untuk jumlah besar
-
-Download aplikasi ini hari ini!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Hitung mundur</value>
   </data>
@@ -285,21 +271,6 @@ Download aplikasi ini hari ini!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ya</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Terbaik berhenti menonton di Windows Phone Store!
-
-Fitur termasuk:
-
-* Email Lap dan membagi kali
-* Berjalan di bawah layar kunci
-* Menonaktifkan layar kunci
-* Split maupun Total waktu
-* Besar, mudah dibaca jam.
-* Lanskap dukungan untuk jumlah besar
-* Penghitung waktu
-
-Download aplikasi ini hari ini!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>StopWatch</value>
@@ -321,5 +292,52 @@ Download aplikasi ini hari ini!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Menghapus record</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Terbaik berhenti menonton di Windows Phone Store!
+
+Fitur termasuk:
+
+* Email Lap dan membagi kali
+* Berjalan di bawah layar kunci
+* Menonaktifkan layar kunci
+* Split maupun Total waktu
+* Besar, mudah dibaca jam.
+* Lanskap dukungan untuk jumlah besar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Terbaik berhenti menonton di Windows Phone Store!
+
+Fitur termasuk:
+
+* Email Lap dan membagi kali
+* Berjalan di bawah layar kunci
+* Menonaktifkan layar kunci
+* Split maupun Total waktu
+* Besar, mudah dibaca jam.
+* Lanskap dukungan untuk jumlah besar
+* Penghitung waktu
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Pembelian!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Anda persidangan telah berakhir, silahkan membeli aplikasi!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> hari-hari yang tersisa di sidang Anda.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Memperpanjang percobaan untuk 10 hari menurut penilaian aplikasi?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Memperpanjang percobaan?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Anda memiliki </value>
   </data>
 </root>

@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Удаление записей</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Покупка!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Истек срок действия пробной, пожалуйста приобретите приложение!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> дней, оставшихся в пробную версию.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Расширить судебное разбирательство до 10 дней, рейтинг приложения?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Расширить судебное разбирательство?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>У вас есть </value>
+  </data>
 </root>

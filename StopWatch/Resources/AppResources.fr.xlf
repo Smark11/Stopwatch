@@ -294,6 +294,30 @@ Téléchargez cette application dès aujourd'hui !</target>
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Supprimer des enregistrements</target>
         </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Achat !</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Votre période d'essai a expiré, s'il vous plaît acheter l'application !  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> jours restants dans votre période d'essai.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prolonger le procès à 10 jours par l'application de la notation ?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prolonger le procès ?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vous avez </target>
+        </trans-unit>
       </group>
     </body>
   </file>

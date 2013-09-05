@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Tiempo transcurrido:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Mejor detener el reloj en la tienda de Windows Phone!
-
-Las características incluyen:
-
-* Correo electrónico Lap y dividir veces
-* Corriendo bajo la pantalla de bloqueo
-* Desactivar la pantalla de bloqueo
-* Tanto Split y tiempo Total
-* Grande, fácil leer el reloj
-* Soporte para grandes números de paisaje
-
-Descargar esta aplicación hoy!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Cuenta regresiva</value>
   </data>
@@ -285,21 +271,6 @@ Descargar esta aplicación hoy!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Sí</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Mejor detener el reloj en la tienda de Windows Phone!
-
-Las características incluyen:
-
-* Correo electrónico Lap y dividir veces
-* Corriendo bajo bloqueo de pantalla
-* Desactivar la pantalla de bloqueo
-* El Split y el tiempo Total
-* Grande, fácil leer el reloj
-* Soporte para grandes números del paisaje
-* Temporizador
-
-Descargar esta aplicación hoy!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cronómetro</value>
@@ -321,5 +292,52 @@ Descargar esta aplicación hoy!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Borrar registros</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mejor detener el reloj en la tienda de Windows Phone!
+
+Las características incluyen:
+
+* Correo electrónico Lap y dividir veces
+* Corriendo bajo bloqueo de pantalla
+* Desactivar la pantalla de bloqueo
+* El Split y el tiempo Total
+* Grande, fácil leer el reloj
+* Soporte para grandes números del paisaje
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mejor detener el reloj en la tienda de Windows Phone!
+
+Las características incluyen:
+
+* Correo electrónico Lap y dividir veces
+* Corriendo bajo bloqueo de pantalla
+* Desactivar la pantalla de bloqueo
+* El Split y el tiempo Total
+* Grande, fácil leer el reloj
+* Soporte para grandes números del paisaje
+* Temporizador
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Compra!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Su juicio ha caducado, por favor compra la aplicación!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> días restantes en su juicio.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>¿Juicio se extiende a 10 días de calificación la aplicación?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>¿Extender el juicio?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Tienes </value>
   </data>
 </root>

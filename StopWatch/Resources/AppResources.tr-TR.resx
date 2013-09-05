@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Geçen süre:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>En iyi durdurmak Windows Phone depodaki izle!
-
-Özellikleri şunlardır:
-
-* E-posta kucak ve Split kez
-* Kilit ekranı altında çalışan
-* Kilit ekranını devre dışı bırakın
-* Hem Split ve toplam süre
-* Büyük, saat okunması kolay
-* Destek büyük sayılar için manzara
-
-Bu app bugün yükleyin!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Geri sayım</value>
   </data>
@@ -285,21 +271,6 @@ Bu app bugün yükleyin!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Evet</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>En iyi Windows Phone deposunda izlemek durdurun!
-
-Özellikleri şunlardır:
-
-* Email kucak ve bölünmüş kez
-* Kilit ekranı altında çalışan
-* Kilit ekranını devre dışı bırakın
-* Hem Böl ve toplam süre
-* Geniş, kolay okunabilir saati
-* Büyük sayı için yatay destek
-* Geri sayım sayacı
-
-Bu app bugün yükleyin!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Kronometre</value>
@@ -321,5 +292,52 @@ Bu app bugün yükleyin!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Kayıtları silme</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>En iyi Windows Phone deposunda izlemek durdurun!
+
+Özellikleri şunlardır:
+
+* Email kucak ve bölünmüş kez
+* Kilit ekranı altında çalışan
+* Kilit ekranını devre dışı bırakın
+* Hem Böl ve toplam süre
+* Geniş, kolay okunabilir saati
+* Büyük sayı için yatay destek
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>En iyi Windows Phone deposunda izlemek durdurun!
+
+Özellikleri şunlardır:
+
+* Email kucak ve bölünmüş kez
+* Kilit ekranı altında çalışan
+* Kilit ekranını devre dışı bırakın
+* Hem Böl ve toplam süre
+* Geniş, kolay okunabilir saati
+* Büyük sayı için yatay destek
+* Geri sayım sayacı
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Satın alma!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Deneme süresi doldu, lütfen uygulama satın!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> Deneme sürümünüzü kalan gün.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Deneme uzatmak?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Sen-si olmak </value>
   </data>
 </root>

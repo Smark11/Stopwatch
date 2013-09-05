@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Διαγραφή εγγραφών</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Αγορά!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Δίκη σας έχει λήξει, παρακαλώ να αγοράσει την εφαρμογή!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> μέρες που παρέμεινα στη ΔΙΚΗ σας.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Επεκτείνει δίκη για 10 ημέρες, με την εκτίμηση της εφαρμογής;</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Επεκτείνει τη δίκη;</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Έχετε </value>
+  </data>
 </root>

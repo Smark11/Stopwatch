@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Elapsed Time:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Best Stop Watch in the Windows Phone Store!
-
-Features include:
-
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
-
-Download this app today!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Countdown</value>
   </data>
@@ -285,21 +271,6 @@ Download this app today!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Yes</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Best Stop Watch in the Windows Phone Store!
-
-Features include:
-
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
-* Countdown Timer
-
-Download this app today!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>StopWatch</value>
@@ -321,5 +292,52 @@ Download this app today!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Delete Records</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Purchase!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Your trial has expired, please purchase the application!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> days remaining in your trial.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Extend Trial to 10 days by rating the application?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Extend Trial?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>You have </value>
   </data>
 </root>

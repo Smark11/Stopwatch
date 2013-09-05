@@ -118,6 +118,9 @@
     <Compile Include="StopWatchUserControl.xaml.cs">
       <DependentUpon>StopWatchUserControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TrialExpired.xaml.cs">
+      <DependentUpon>TrialExpired.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -145,6 +148,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StopWatchUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrialExpired.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -462,6 +469,7 @@
     <XliffResource Include="Resources\AppResources.en.xlf">
       <Generator>XliffResxGenerator</Generator>
       <LastGenOutput>AppResources.en.resx</LastGenOutput>
+      <SubType>Designer</SubType>
     </XliffResource>
     <XliffResource Include="Resources\AppResources.es.xlf">
       <Generator>XliffResxGenerator</Generator>

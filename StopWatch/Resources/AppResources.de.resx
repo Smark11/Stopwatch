@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Verstrichene Zeit:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Beste Stop Watch im Windows Phone Store!
-
-Eigenschaften umfassen:
-
-* E-Mail-Runde und Zwischenzeiten
-* Läuft unter Verschluss-Schirm
-* Lock-Bildschirm deaktivieren
-* Sowohl Split und Gesamtzeit
-* Großes, einfach abzulesendes Uhr
-* Unterstützung für große Zahlen Landschaft
-
-Laden Sie diese app herunter!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Countdown</value>
   </data>
@@ -285,21 +271,6 @@ Laden Sie diese app herunter!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Beste Stop Watch im Windows Phone Store!
-
-Eigenschaften umfassen:
-
-* E-Mail-Runde und Zwischenzeiten
-* Läuft unter Verschluss-Schirm
-* Lock-Bildschirm deaktivieren
-* Sowohl Split und Gesamtzeit
-* Großes, einfach abzulesendes Uhr
-* Unterstützung für große Zahlen Landschaft
-* Countdown-Timer
-
-Laden Sie diese app herunter!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stoppuhr</value>
@@ -321,5 +292,52 @@ Laden Sie diese app herunter!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Löschen von Datensätzen</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Beste Stop Watch im Windows Phone Store!
+
+Eigenschaften umfassen:
+
+* E-Mail-Runde und Zwischenzeiten
+* Läuft unter Verschluss-Schirm
+* Lock-Bildschirm deaktivieren
+* Sowohl Split und Gesamtzeit
+* Großes, einfach abzulesendes Uhr
+* Unterstützung für große Zahlen Landschaft
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Beste Stop Watch im Windows Phone Store!
+
+Eigenschaften umfassen:
+
+* E-Mail-Runde und Zwischenzeiten
+* Läuft unter Verschluss-Schirm
+* Lock-Bildschirm deaktivieren
+* Sowohl Split und Gesamtzeit
+* Großes, einfach abzulesendes Uhr
+* Unterstützung für große Zahlen Landschaft
+* Countdown-Timer
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Kaufen!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Ihre Testversion ist abgelaufen, bitte kaufen Sie die Anwendung!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> Tage verbleiben in Ihren Test.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Verlängern Sie Testversion bis 10 Tage nach Bewertung der Anwendung?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Verlängern Testversion?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Sie haben </value>
   </data>
 </root>

@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>מחיקת רשומות</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>לרכוש!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>פג תוקפו של המשפט שלך, נא לרכוש את היישום!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> הימים שנותרו במשפט שלך.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>להרחיב משפט ל-10 ימים על-ידי דירוג של היישום?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>להרחיב את המשפט?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>יש לך </value>
+  </data>
 </root>

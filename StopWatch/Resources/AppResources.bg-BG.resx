@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Изтриване на записи</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Покупка!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Вашият пробен период е изтекъл, моля закупуване на приложението!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> дни, оставащи в вашия опит.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Разшири изпитание за 10 дни по оценка на заявлението?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Разшири изпитание?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Имате </value>
+  </data>
 </root>

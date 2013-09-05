@@ -28,29 +28,23 @@ namespace StopWatch
         public event PropertyChangedEventHandler PropertyChanged;
         bool _trialExpired = false;
         MarketplaceDetailTask _marketPlaceDetailTask = new MarketplaceDetailTask();
+        private const string RATED = "RATED";
+        private const string NUMBEROFTIMESOPENED = "NUMBEROFTIMESOPENED";
+        private bool _rated;
+        private int _numberOfTimesOpened = 0;
+        public static MainPage _mainPageInstance;
 
         // Constructor
         public MainPage()
         {
+            _mainPageInstance = this;
+
             string hasAppBeenRated = string.Empty;
 
             InitializeComponent();
 
             AdvertisingVisibility = Visibility.Visible;
             MyAdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
-
-            //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-            Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
-
-            hasAppBeenRated = Rate.HasAppBeenRated();
-            if (hasAppBeenRated.ToUpper() == "YES")
-            {
-                EnableCountdown();
-            }
-            else
-            {
-                DisableCountdown();
-            }
 
             BuildLocalizedApplicationBar(hasAppBeenRated);
 
@@ -62,25 +56,76 @@ namespace StopWatch
 
             if ((Application.Current as App).IsTrial)
             {
-                SaveStartDateOfTrial();
-
-                if (IsTrialExpired())
+                AdvertisingVisibility = Visibility.Collapsed;
+                Trial.SaveStartDateOfTrial();
+                if (IS.GetSetting(RATED) != null)
                 {
-                    MessageBox.Show("Your trial has expired.  Please purchase this application.");
-                    _trialExpired = true;
+                    if ((bool)IS.GetSetting(RATED))
+                    {
+                        _rated = true;
+                    }
+                }
+
+                if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
+                {
+                    IS.SaveSetting(NUMBEROFTIMESOPENED, 0);
+                }
+                else
+                {
+                    IS.SaveSetting(NUMBEROFTIMESOPENED, (int)IS.GetSetting(NUMBEROFTIMESOPENED) + 1);
+                    _numberOfTimesOpened = (int)IS.GetSetting(NUMBEROFTIMESOPENED);
+                }
+
+
+                EnableCountdown();
+
+                if (Trial.IsTrialExpired())
+                //if(true)
+                {
+                    MessageBox.Show(AppResources.TrialExpired);
+                    EnableApp(false);
                     _marketPlaceDetailTask.Show();
                 }
                 else
                 {
-                    MessageBox.Show("You have " + GetDaysLeftInTrial() + " days remaining in your trial.");
+                    //App has already been rated
+                    if (_rated || _numberOfTimesOpened < 2)
+                    {
+                        MessageBox.Show(AppResources.YouHave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial);
+                    }
+                    //app not rated
+                    else if (!_rated && _numberOfTimesOpened >= 2)
+                    {
+                        MessageBoxResult result = MessageBox.Show(AppResources.Trial1, AppResources.Trial2, MessageBoxButton.OKCancel);
+
+                        if (result == MessageBoxResult.OK)
+                        {
+                            Trial.Add10DaysToTrial();
+                            IS.SaveSetting(RATED, true);
+                            _rated = true;
+                            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                            marketplaceReviewTask.Show();
+                        }
+                    }
+                }
+            }
+            else
+            {
+                //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+                Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+
+                hasAppBeenRated = Rate.HasAppBeenRated();
+                if (hasAppBeenRated.ToUpper() == "YES")
+                {
+                    EnableCountdown();
+                }
+                else
+                {
+                    DisableCountdown();
                 }
             }
 
-            //Based on _trialexpired will need to show or hide usercontrols
-            if (_trialExpired)
-            {
-                DisableApp();
-            }
+            
         }
 
         void MyAdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
@@ -323,11 +368,18 @@ namespace StopWatch
             this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Visible;
         }
 
-        private void DisableApp()
+        private void EnableApp(bool enabled)
         {
-            this.pivotCountdown.IsEnabled = false;
-            this.pivotStopwatch.IsEnabled = false;
-            this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Visible;
+            this.pivotCountdown.IsEnabled = enabled;
+            this.pivotStopwatch.IsEnabled = enabled;
+            if (enabled)
+            {
+                this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                this.countdownControl.btnCountdownHowTo.Visibility = Visibility.Visible;
+            }
         }
 
         #endregion "Methods"
@@ -461,6 +513,35 @@ namespace StopWatch
 
         #endregion "Common Routines"
 
+        /// <summary>
+        /// Called when the app comes back to life.  I put this in so when the trial is over, and the user is directed to the store, if 
+        /// the user purchases the app it will be activated when he / she comes back.  If the app is not activated, and the user just presses
+        /// the back button, we'll de-activate the app and go to the  "Purchase" screen.
+        /// </summary>
+        internal void AppActivated()
+        {
+            if ((Application.Current as App).IsTrial)
+            {
+                if (Trial.IsTrialExpired())
+                //if (true)
+                {
+                    try
+                    {
+                        Dispatcher.BeginInvoke(() =>
+                            {
+                                NavigationService.Navigate(new Uri("/TrialExpired.xaml", UriKind.Relative));
+                            });
+                    }
+                    catch (Exception ex)
+                    {
 
+                    }
+                }
+            }
+            else
+            {
+                EnableApp(true);
+            }
+        }
     }
 }

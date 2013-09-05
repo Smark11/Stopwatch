@@ -84,7 +84,7 @@ namespace StopWatch
             //_isTrial = false;
 
             _isTrial = _licenseInfo.IsTrial();
-            //_isTrial = false;
+            //_isTrial = true;
         }
 
         // Code to execute when the application is launching (eg, from Start)
@@ -99,6 +99,7 @@ namespace StopWatch
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
             CheckLicense();
+            MainPage._mainPageInstance.AppActivated();
         }
 
         // Code to execute when the application is deactivated (sent to background)

@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>अभिलेख हटाएँ</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>खरीद!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>अपने परीक्षण समाप्त हो गया है, कृपया आवेदन खरीद!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> अपने परीक्षण में शेष दिनों के लिए।</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>परीक्षण अनुप्रयोग द्वारा रेटिंग करने के लिए 10 दिन का विस्तार?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>परीक्षण का विस्तार?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>आपके पास </value>
+  </data>
 </root>

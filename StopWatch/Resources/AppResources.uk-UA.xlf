@@ -294,6 +294,30 @@ Download this app today!</source>
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Видалення записів</target>
         </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Покупки!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завершився ознайомлювальний, будь ласка, купити додаток!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> днів, що залишилися в вашого суду.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Продовжити судовий розгляд до 10 днів шляхом рейтинг застосунок?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Продовжити суду?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">У вас є </target>
+        </trans-unit>
       </group>
     </body>
   </file>

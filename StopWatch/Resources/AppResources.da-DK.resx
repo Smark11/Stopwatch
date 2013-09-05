@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Forløbet tid:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bedste stopur i Windows Phone butik!
-
-Funktioner omfatter:
-
-* Email Lap og stræktider
-* Kører under lås skærm
-* Deaktivere låseskærmen
-* Både delt og samlet tid
-* Store, let at læse ur
-* Landskab støtte til store tal
-
-Download denne app i dag!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Nedtælling</value>
   </data>
@@ -285,21 +271,6 @@ Download denne app i dag!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Bedste stopur i Windows Phone butik!
-
-Funktioner omfatter:
-
-* Email Lap og stræktider
-* Kører under lås skærm
-* Deaktivere låseskærmen
-* Både delt og samlet tid
-* Store, let at læse ur
-* Landskab støtte til store tal
-* Nedtællingsur
-
-Download denne app i dag!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stopur</value>
@@ -321,5 +292,52 @@ Download denne app i dag!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Slette poster</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Bedste stopur i Windows Phone butik!
+
+Funktioner omfatter:
+
+* Email Lap og stræktider
+* Kører under lås skærm
+* Deaktivere låseskærmen
+* Både delt og samlet tid
+* Store, let at læse ur
+* Landskab støtte til store tal
+
+Download denne app i dag!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bedste stopur i Windows Phone butik!
+
+Funktioner omfatter:
+
+* Email Lap og stræktider
+* Kører under lås skærm
+* Deaktivere låseskærmen
+* Både delt og samlet tid
+* Store, let at læse ur
+* Landskab støtte til store tal
+* Nedtællingsur
+
+Download denne app i dag!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Køb!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Prøveversionen er udløbet, kan du købe programmet!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dage tilbage i din retssag.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Forlænge retssagen til 10 dage ved rating ansøgningen?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Udvide retssag?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
   </data>
 </root>

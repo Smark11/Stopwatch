@@ -122,8 +122,8 @@ Download this app today!</source>
 De eigenschappen omvatten:
 
 * E-mail schoot en keer splitsen
-* Uitgevoerd onder scherm van het slot
-* Slotscherm uitschakelen
+* Uitgevoerd onder slotscherm
+* Uitschakelen slotscherm
 * Zowel Split en totale tijd
 * Grote, gemakkelijk te lezen van de klok
 * Landschap ondersteuning voor grote getallen
@@ -293,6 +293,30 @@ Download dit app vandaag nog!</target>
         <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Records verwijderen</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aankoop!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uw proefperiode is verlopen, kunt u kopen de toepassing!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dag(en) te gaan in uw proces.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uitbreiden Trial tot 10 dagen volgens rating de toepassing?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uitbreiden Trial?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">U hebt </target>
         </trans-unit>
       </group>
     </body>

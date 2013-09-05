@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Förfluten tid:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bästa sluta titta i Windows Phone Store!
-
-Funktioner inkluderar:
-
-* E-varv och sträcktider
-* Körs under låsskärmen
-* Inaktivera låsskärmen
-* Både Split och Total tid
-* Stor, lätt att läsa klockan
-* Landskap stöd för stora siffror
-
-Ladda ner denna app idag!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Nedräkning</value>
   </data>
@@ -285,21 +271,6 @@ Ladda ner denna app idag!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ja</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Bästa sluta titta i Windows Phone Store!
-
-Funktioner inkluderar:
-
-* E-varv och sträcktider
-* Kör under låsa skärmen
-* Inaktivera låsskärmen
-* Både Split och Total tid
-* Stor, lätt att läsa klockan
-* Landskap stöd för stora siffror
-* Nedräkningstimer
-
-Ladda ner denna app idag!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stoppur</value>
@@ -321,5 +292,52 @@ Ladda ner denna app idag!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Ta bort poster</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Bästa sluta titta i Windows Phone Store!
+
+Funktioner inkluderar:
+
+* E-varv och sträcktider
+* Kör under låsa skärmen
+* Inaktivera låsskärmen
+* Både Split och Total tid
+* Stor, lätt att läsa klockan
+* Landskap stöd för stora siffror
+
+Ladda ner denna app idag!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bästa sluta titta i Windows Phone Store!
+
+Funktioner inkluderar:
+
+* E-varv och sträcktider
+* Kör under låsa skärmen
+* Inaktivera låsskärmen
+* Både Split och Total tid
+* Stor, lätt att läsa klockan
+* Landskap stöd för stora siffror
+* Nedräkningstimer
+
+Ladda ner denna app idag!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Köp!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Din provperiod har upph÷RT, köpa vänligen ansökan!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dagar kvar i din rättegång.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Förlänga rättegången till 10 dagar efter betyg ansökan?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Förlänga rättegången?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
   </data>
 </root>

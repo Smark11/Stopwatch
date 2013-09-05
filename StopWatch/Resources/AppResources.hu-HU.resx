@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Eltelt idő:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Legjobb Stop Watch a Windows Phone boltban!
-
-Funkciók közé tartozik:
-
-* E-mail kör és részidők
-* Zár képernyőn alatt futó
-* Tiltsa le zár képernyőn
-* Split, mind a teljes idő
-* Nagy, könnyen olvasható óra
-* Táj támogatja a nagy számok
-
-Letölt ez app ma!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Visszaszámlálás</value>
   </data>
@@ -285,21 +271,6 @@ Letölt ez app ma!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>igen</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Legjobb Stop Watch a Windows Phone a boltban!
-
-Funkciók közé tartozik:
-
-* E-mail kör és részidők
-* Zár képernyőn alatt futó
-* Tiltsa le zár képernyőn
-* Split, mind a teljes idő
-* Nagy, könnyen olvasható óra
-* Táj támogatja a nagy számok
-* Visszaszámlálás időzítő
-
-Letölt ez app ma!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stopperóra</value>
@@ -321,5 +292,52 @@ Letölt ez app ma!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Rekordok törlése</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Legjobb Stop Watch a Windows Phone a boltban!
+
+Funkciók közé tartozik:
+
+* E-mail kör és részidők
+* Zár képernyőn alatt futó
+* Tiltsa le zár képernyőn
+* Split, mind a teljes idő
+* Nagy, könnyen olvasható óra
+* Táj támogatja a nagy számok
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Legjobb Stop Watch a Windows Phone a boltban!
+
+Funkciók közé tartozik:
+
+* E-mail kör és részidők
+* Zár képernyőn alatt futó
+* Tiltsa le zár képernyőn
+* Split, mind a teljes idő
+* Nagy, könnyen olvasható óra
+* Táj támogatja a nagy számok
+* Visszaszámlálás időzítő
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Vásárlás!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>A próba-birtokol lejárt, kérjük, vásárolja meg a kérelem!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> nap van hátra a próba.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>10 Napos próba meghosszabbíthatja értékelés alkalmazása?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Kiterjesztése a próba?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Van </value>
   </data>
 </root>

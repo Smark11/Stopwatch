@@ -322,4 +322,22 @@ Download this app today!</value>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Delete Records</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Purchase!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Your trial has expired, please purchase the application!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> days remaining in your trial.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Extend Trial to 10 days by rating the application?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Extend Trial?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>You have </value>
+  </data>
 </root>

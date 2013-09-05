@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Praėjęs laikas:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
-
-Funkcijos apima:
-
-* Rašykite juosmens ir padalinti kartus
-* Veikia pagal užrakto ekranas
-* Išjungti užrakto ekrano
-* Splitas ir bendras laikas
-* Didelis, lengvai skaityti laikrodžio
-* Kraštovaizdis parama didelių skaičių
-
-Parsisiųsti šią programą šiandien!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Countdown</value>
   </data>
@@ -285,21 +271,6 @@ Parsisiųsti šią programą šiandien!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>taip</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
-
-Funkcijos apima:
-
-* Rašykite juosmens ir padalinti kartus
-* Veikia užrakto ekranas
-* Išjungti užrakto ekrano
-* Splitas ir silpnos
-* Didelis, lengvai skaityti laikrodžio
-* Kraštovaizdis parama didelių skaičių
-* Atgalinìs atskaitos laikmatis
-
-Parsisiųsti šią programą šiandien!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Chronometras</value>
@@ -321,5 +292,52 @@ Parsisiųsti šią programą šiandien!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Naikinti įrašus</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+
+Funkcijos apima:
+
+* Rašykite juosmens ir padalinti kartus
+* Veikia užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir silpnos
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+
+Funkcijos apima:
+
+* Rašykite juosmens ir padalinti kartus
+* Veikia užrakto ekranas
+* Išjungti užrakto ekrano
+* Splitas ir silpnos
+* Didelis, lengvai skaityti laikrodžio
+* Kraštovaizdis parama didelių skaičių
+* Atgalinìs atskaitos laikmatis
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Pirkti!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Jūsų bandomasis pasibaigęs, prašome įsigyti!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dienas likusias savo teismą.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Pratęsti tyrimo?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Jūs turite </value>
   </data>
 </root>

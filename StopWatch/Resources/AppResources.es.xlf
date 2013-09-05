@@ -122,11 +122,11 @@ Download this app today!</source>
 Las características incluyen:
 
 * Correo electrónico Lap y dividir veces
-* Corriendo bajo la pantalla de bloqueo
+* Corriendo bajo bloqueo de pantalla
 * Desactivar la pantalla de bloqueo
-* Tanto Split y tiempo Total
+* El Split y el tiempo Total
 * Grande, fácil leer el reloj
-* Soporte para grandes números de paisaje
+* Soporte para grandes números del paisaje
 
 Descargar esta aplicación hoy!</target>
         </trans-unit>
@@ -293,6 +293,30 @@ Descargar esta aplicación hoy!</target>
         <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Borrar registros</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Compra!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Su juicio ha caducado, por favor compra la aplicación!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> días restantes en su juicio.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">¿Juicio se extiende a 10 días de calificación la aplicación?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">¿Extender el juicio?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tienes </target>
         </trans-unit>
       </group>
     </body>

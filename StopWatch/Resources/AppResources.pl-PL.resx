@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Czas:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Najlepszy stoper w magazynie Windows Phone!
-
-Funkcje obejmują:
-
-* E-mail okrążenie i międzyczasy
-* Działa blokada ekranu
-* Wyłączanie blokady ekranu
-* Zarówno Split i całkowity czas
-* Duży, czytelny zegar
-* Wsparcie dla dużych liczb krajobraz
-
-Pobrać tę aplikację dziś!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Odliczanie</value>
   </data>
@@ -285,21 +271,6 @@ Pobrać tę aplikację dziś!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Tak</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Najlepszy stoper w magazynie Windows Phone!
-
-Funkcje obejmują:
-
-* E-mail okrążenie i międzyczasy
-* Uruchomiony blokada ekranu
-* Wyłączanie blokady ekranu
-* Zarówno Split i całkowity czas
-* Duży, czytelny zegar
-* Wsparcie dla dużych liczb krajobraz
-* Odliczanie do zera chronometrażysta
-
-Pobrać tę aplikację dziś!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stoper</value>
@@ -321,5 +292,52 @@ Pobrać tę aplikację dziś!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Usuwanie rekordów</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najlepszy stoper w magazynie Windows Phone!
+
+Funkcje obejmują:
+
+* E-mail okrążenie i międzyczasy
+* Uruchomiony blokada ekranu
+* Wyłączanie blokady ekranu
+* Zarówno Split i całkowity czas
+* Duży, czytelny zegar
+* Wsparcie dla dużych liczb krajobraz
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Najlepszy stoper w magazynie Windows Phone!
+
+Funkcje obejmują:
+
+* E-mail okrążenie i międzyczasy
+* Uruchomiony blokada ekranu
+* Wyłączanie blokady ekranu
+* Zarówno Split i całkowity czas
+* Duży, czytelny zegar
+* Wsparcie dla dużych liczb krajobraz
+* Odliczanie do zera chronometrażysta
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Zakup!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Twoja próba wygasła, prosimy o zakup aplikacji!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dni pozostałych w próbnej.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Przedłużyć okres próbny?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Masz </value>
   </data>
 </root>

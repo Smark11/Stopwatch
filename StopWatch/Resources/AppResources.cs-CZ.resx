@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Uplynulý čas:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
-
-Mezi funkce patří:
-
-* E-mail Lap a Split krát
-* Běžící pod uzamknout obrazovku
-* Zakázat zamykání obrazovky
-* Split i celkový čas
-* Velká, snadno číst hodiny
-* Krajina podpora velkých čísel
-
-Stáhněte tuto app dnes!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Odpočítávání</value>
   </data>
@@ -285,21 +271,6 @@ Stáhněte tuto app dnes!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Ano</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
-
-Mezi funkce patří:
-
-* E-mail Lap a Split krát
-* Běží pod zámek obrazovky
-* Zakázat zamykání obrazovky
-* Split i celkový čas
-* Velká, snadno číst hodiny
-* Krajina podpora velkých čísel
-* Odpočítávací měřič
-
-Stáhněte tuto app dnes!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Stopky</value>
@@ -321,5 +292,52 @@ Stáhněte tuto app dnes!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Odstranit záznamy</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
+
+Mezi funkce patří:
+
+* E-mail Lap a Split krát
+* Běží pod zámek obrazovky
+* Zakázat zamykání obrazovky
+* Split i celkový čas
+* Velká, snadno číst hodiny
+* Krajina podpora velkých čísel
+
+Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
+
+Mezi funkce patří:
+
+* E-mail Lap a Split krát
+* Běží pod zámek obrazovky
+* Zakázat zamykání obrazovky
+* Split i celkový čas
+* Velká, snadno číst hodiny
+* Krajina podpora velkých čísel
+* Odpočítávací měřič
+
+Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Nákup!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vaše zkušební verze vypršela, zakupte aplikaci!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dní zbývajících do zkušební verze.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Rozšířit proces na 10 dní podle hodnocení aplikace?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prodloužit zkušební verzi?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Máte </value>
   </data>
 </root>

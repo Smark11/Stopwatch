@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Видалення записів</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Покупки!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Завершився ознайомлювальний, будь ласка, купити додаток!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> днів, що залишилися в вашого суду.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Продовжити судовий розгляд до 10 днів шляхом рейтинг застосунок?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Продовжити суду?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>У вас є </value>
+  </data>
 </root>

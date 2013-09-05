@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>레코드 삭제</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>구매!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>평가판 만료, 응용 프로그램을 구입 하십시오!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> 일 재판에 남아 있습니다.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>응용 프로그램을 평가 하 여 10 일 재판을 연장?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>재판을 연장?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>당신은 </value>
+  </data>
 </root>

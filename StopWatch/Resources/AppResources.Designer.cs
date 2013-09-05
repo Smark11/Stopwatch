@@ -225,6 +225,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to  days remaining in your trial..
+        /// </summary>
+        public static string DaysLeftInTrial {
+            get {
+                return ResourceManager.GetString("DaysLeftInTrial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Default Countdown Time.
         /// </summary>
         public static string DefaultCountdownTime {
@@ -432,6 +441,15 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Purchase!.
+        /// </summary>
+        public static string PurchaseButton {
+            get {
+                return ResourceManager.GetString("PurchaseButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rate.
         /// </summary>
         public static string RateAppHeader {
@@ -549,11 +567,47 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Extend Trial to 10 days by rating the application?.
+        /// </summary>
+        public static string Trial1 {
+            get {
+                return ResourceManager.GetString("Trial1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extend Trial?.
+        /// </summary>
+        public static string Trial2 {
+            get {
+                return ResourceManager.GetString("Trial2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your trial has expired, please purchase the application!  .
+        /// </summary>
+        public static string TrialExpired {
+            get {
+                return ResourceManager.GetString("TrialExpired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
         public static string Yes {
             get {
                 return ResourceManager.GetString("Yes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You have .
+        /// </summary>
+        public static string YouHave {
+            get {
+                return ResourceManager.GetString("YouHave", resourceCulture);
             }
         }
         

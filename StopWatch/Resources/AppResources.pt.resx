@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Tempo decorrido:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Melhor parar o relógio na loja de Windows Phone!
-
-As características incluem:
-
-* E-mail colo e dividir vezes
-* Executando sob a tela do fechamento
-* Desabilitar a tela de bloqueio
-* Tanto o Split e o tempo Total
-* Grande, fácil de ler o relógio
-* Suporte para grandes números de paisagem
-
-Baixe este app hoje!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Contagem regressiva</value>
   </data>
@@ -285,21 +271,6 @@ Baixe este app hoje!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Sim</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Melhor parar o relógio na loja de Windows Phone!
-
-As características incluem:
-
-* E-mail colo e dividir vezes
-* Executando sob a tela do fechamento
-* Desabilitar a tela de bloqueio
-* Tanto o Split e o tempo Total
-* Grande, fácil de ler o relógio
-* Suporte para grandes números de paisagem
-* Contagem regressiva
-
-Baixe este app hoje!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cronômetro</value>
@@ -321,5 +292,52 @@ Baixe este app hoje!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Excluir registros</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Melhor parar o relógio na loja de Windows Phone!
+
+As características incluem:
+
+* E-mail colo e dividir vezes
+* Executando sob a tela do fechamento
+* Desabilitar a tela de bloqueio
+* Tanto o Split e o tempo Total
+* Grande, fácil de ler o relógio
+* Suporte para grandes números de paisagem
+
+Baixe este app hoje!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Melhor parar o relógio na loja de Windows Phone!
+
+As características incluem:
+
+* E-mail colo e dividir vezes
+* Executando sob a tela do fechamento
+* Desabilitar a tela de bloqueio
+* Tanto o Split e o tempo Total
+* Grande, fácil de ler o relógio
+* Suporte para grandes números de paisagem
+* Contagem regressiva
+
+Baixe este app hoje!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Compra!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Seu teste expirou, por favor, compra o aplicativo!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dias restantes em seu julgamento.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Estender o julgamento de 10 dias pela avaliação da aplicação?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Estender o julgamento?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Você tem </value>
   </data>
 </root>

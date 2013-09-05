@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paras Stop Watch Windows Phone-Storessa!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paras lopettaa katsella Windows Phone varastossa!
 
 Ominaisuuksia:
 
 * Email kierros- ja väliaikoineen
-* Running Lukitusnäyttö
-* Poista Lukitusnäyttö
+* Running Lukitse näyttö
+* Poista Lukitse näyttö
 * Split sekä kokonaisaika
 Iso, helppolukuinen kello
 * Maisema tuki suuria lukuja
 
-Lataa app tänään!</target>
+Lataa tämän app tänään!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -293,6 +293,30 @@ Lataa tämän app tänään!</target>
         <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tietueiden poistaminen</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ostaa!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kokeiluversio on vanhentunut, voit ostaa sovellus!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> päivän kuluttua koettelemuksesi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Avartaa karsintakilpailu jotta 10 days luokituksen sovellus?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Avartaa karsintakilpailu?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sinulla on </target>
         </trans-unit>
       </group>
     </body>

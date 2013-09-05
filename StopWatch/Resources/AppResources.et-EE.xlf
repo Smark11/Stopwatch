@@ -117,16 +117,16 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parim Stop Watch Windows Phone poest!
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parim Stop Watch Windows Phone laos!
 
 Funktsioonide hulka kuuluvad:
 
 * E-post süles ja vaheajad
 * Käivitatud lukk ekraan
 * Välja lülitada Lukusta ekraan
-* Split nii koguaeg
-* Suur, kergesti loetav kella
-* Maastiku toetus suured numbrid
+* Nii Split ja koguaeg
+* Suured, hästi loetavad clock
+* Maastik toetamine suured numbrid
 
 Lae alla käesoleva app täna!</target>
         </trans-unit>
@@ -293,6 +293,30 @@ Lae alla käesoleva app täna!</target>
         <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kirje kustutamine</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ostu!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teie prooviversioon on aegunud, palun osta taotlus!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> päeva jäänud oma uuringus.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laiendamine kohtuprotsess?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teil on </target>
         </trans-unit>
       </group>
     </body>

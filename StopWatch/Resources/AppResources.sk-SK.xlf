@@ -126,7 +126,7 @@ Funkcie patrí:
 * Zakázať Lock obrazovky
 * Split aj celkový čas
 * Veľký, ľahko čitateľné hodiny
-* Šírku podporou pre veľké čísla
+* Podpora pre veľké čísla na šírku
 
 Stiahnite si túto app dnes!</target>
         </trans-unit>
@@ -293,6 +293,30 @@ Stiahnite si túto app dnes!</target>
         <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Odstránenie záznamov</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nákup!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaše skúšobné vypršala, prosím nákup aplikácie!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dni zostávajúce v skúšobnej verzie.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Predĺžiť skúšobnú verziu?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Máte </target>
         </trans-unit>
       </group>
     </body>

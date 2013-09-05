@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Temps transcorregut:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Millor deixar de veure a la botiga de Windows Phone!
-
-Les característiques inclouen:
-
-* Volta de correu electrònic i dividir el temps
-* S'executa amb pantalla de panys
-* Impossibiliti pantalla de Pany
-* Split tant temps Total
-* Gran, fàcil de llegir el rellotge
-* Suport per a un gran nombre de paisatge
-
-Descarregar aquest app avui!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Compte enrere</value>
   </data>
@@ -285,21 +271,6 @@ Descarregar aquest app avui!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Sí</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Millor deixar de veure a la botiga de Windows Phone!
-
-Les característiques inclouen:
-
-* Volta de correu electrònic i dividir vegades
-* Corrent sota la pantalla de panys
-* Impossibiliti pantalla de Pany
-* Split tant temps Total
-* Gran, fàcil de llegir el rellotge
-* Suport per a un gran nombre de paisatge
-* Countdown temporitzador
-
-Descarregar aquest app avui!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cronòmetre</value>
@@ -321,5 +292,52 @@ Descarregar aquest app avui!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Suprimir registres</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Millor deixar de veure a la botiga de Windows Phone!
+
+Les característiques inclouen:
+
+* Volta de correu electrònic i dividir vegades
+* Corrent sota la pantalla de panys
+* Impossibiliti pantalla de Pany
+* Split tant temps Total
+* Gran, fàcil de llegir el rellotge
+* Suport per a un gran nombre de paisatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Millor deixar de veure a la botiga de Windows Phone!
+
+Les característiques inclouen:
+
+* Volta de correu electrònic i dividir vegades
+* Corrent sota la pantalla de panys
+* Impossibiliti pantalla de Pany
+* Split tant temps Total
+* Gran, fàcil de llegir el rellotge
+* Suport per a un gran nombre de paisatge
+* Countdown temporitzador
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Compra!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>El seu judici ha expirat, si us plau comprar l'aplicació!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dies que romanen en el seu judici.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Estengui judici de 10 dies considerant l'aplicació?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Ampliar de Trial?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Teniu </value>
   </data>
 </root>

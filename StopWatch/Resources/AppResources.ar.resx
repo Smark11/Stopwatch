@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>حذف السجلات</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>شراء!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>انتهت المحاكمة الخاصة بك، الرجاء شراء التطبيق!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> الأيام المتبقية في المحاكمة الخاصة بك.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>تمديد المحاكمة لمدة 10 أيام بتصنيف التطبيق؟</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>تمديد المحاكمة؟</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>لديك </value>
+  </data>
 </root>

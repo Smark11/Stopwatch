@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>ลบเรกคอร์ด</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>ซื้อ</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>ทดลองของคุณหมดอายุแล้ว กรุณาซื้อแอพลิเคชัน  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> วันที่เหลืออยู่ในการทดลอง</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>ขยายทดลอง 10 วัน โดยใช้การจัดอันดับหรือไม่</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>ขยายการทดลองหรือไม่</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>คุณมี </value>
+  </data>
 </root>

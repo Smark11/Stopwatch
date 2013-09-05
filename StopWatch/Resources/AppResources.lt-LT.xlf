@@ -122,9 +122,9 @@ Download this app today!</source>
 Funkcijos apima:
 
 * Rašykite juosmens ir padalinti kartus
-* Veikia pagal užrakto ekranas
+* Veikia užrakto ekranas
 * Išjungti užrakto ekrano
-* Splitas ir bendras laikas
+* Splitas ir silpnos
 * Didelis, lengvai skaityti laikrodžio
 * Kraštovaizdis parama didelių skaičių
 
@@ -293,6 +293,30 @@ Parsisiųsti šią programą šiandien!</target>
         <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
           <source>Delete Records</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti įrašus</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkti!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsų bandomasis pasibaigęs, prašome įsigyti!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dienas likusias savo teismą.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratęsti tyrimo?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūs turite </target>
         </trans-unit>
       </group>
     </body>

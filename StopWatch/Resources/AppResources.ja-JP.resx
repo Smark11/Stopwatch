@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>レコードを削除します。</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>購入 ！</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版の有効期限が切れて、アプリケーションを購入してください ！</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>お試し版の残り日数。</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>10 日試用版アプリケーションを評価して拡張ですか？</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>試用版を拡張？</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>あります。</value>
+  </data>
 </root>

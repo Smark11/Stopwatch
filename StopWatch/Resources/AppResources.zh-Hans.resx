@@ -322,4 +322,22 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>删除记录</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>购买 ！</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>您的试用版已过期，请购买应用程序 ！</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>在您的试用中剩余的天数。</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>通过评分中应用扩展至 10 天的审判吗？</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>延长审判吗？</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>你有</value>
+  </data>
 </root>

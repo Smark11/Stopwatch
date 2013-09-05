@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Timp scurs:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Cel mai bun Oprire ceas în Windows Phone magazin!
-
-Caracteristicile includ:
-
-* Tur de e-mail şi Split ori
-* Care rulează sub ecran de blocare
-* Dezactivare blocare ecran
-* Atât Split şi timpul Total
-* Mare, uşor de citit ceas
-* Peisaj suport pentru numere mari
-
-Descărcaţi acest app astăzi!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Numărătoarea inversă</value>
   </data>
@@ -285,21 +271,6 @@ Descărcaţi acest app astăzi!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>da</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Cel mai bun Stop Watch în Windows Phone magazin!
-
-Caracteristicile includ:
-
-* Tur de e-mail şi Split ori
-* Care rulează sub ecran de blocare
-* Dezactivare blocare ecran
-* Atât Split şi timpul Total
-* Mare, uşor de citit ceas
-* Peisaj suport pentru numere mari
-* Temporizator
-
-Descărcaţi acest app astăzi!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cronometru</value>
@@ -321,5 +292,52 @@ Descărcaţi acest app astăzi!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Ştergeţi înregistrările</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Cel mai bun Stop Watch în Windows Phone magazin!
+
+Caracteristicile includ:
+
+* Tur de e-mail şi Split ori
+* Care rulează sub ecran de blocare
+* Dezactivare blocare ecran
+* Atât Split şi timpul Total
+* Mare, uşor de citit ceas
+* Peisaj suport pentru numere mari
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Cel mai bun Stop Watch în Windows Phone magazin!
+
+Caracteristicile includ:
+
+* Tur de e-mail şi Split ori
+* Care rulează sub ecran de blocare
+* Dezactivare blocare ecran
+* Atât Split şi timpul Total
+* Mare, uşor de citit ceas
+* Peisaj suport pentru numere mari
+* Temporizator
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Cumpărare!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vă proces a expirat, vă rugăm să cumpere aplicaţia!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> zile rămase în proces dumneavoastră.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prelungi proces?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Aveţi </value>
   </data>
 </root>

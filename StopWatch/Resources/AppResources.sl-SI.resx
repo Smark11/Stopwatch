@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Potekli čas:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Najboljši Stop Watch v shrambi Windows Phone!
-
-Funkcije vključujejo:
-
-* E-pošta krog in Split-krat
-* Tekmovanje v teku pod Zakleni zaslon
-* Onemogoči zaklepanje zaslon
-* Tako Split in skupni čas
-* Velik, enostaven za branje ura
-* Krajine podporo za velike številke
-
-Travnato gričevje to app danes!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Odštevanje</value>
   </data>
@@ -285,21 +271,6 @@ Travnato gričevje to app danes!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>da</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Najboljši Stop Watch v shrambi Windows Phone!
-
-Funkcije vključujejo:
-
-* Email krog in Split-krat
-* Tekmovanje v teku pod Zakleni zaslon
-* Onemogoči zaklepanje zaslon
-* Tako Split in skupni čas
-* Veliki, enostavno branje clock
-* Krajine podporo za velike številke
-* Odštevalnik časa
-
-Travnato gričevje to app danes!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Štoparica</value>
@@ -321,5 +292,52 @@ Travnato gričevje to app danes!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Brisanje zapisov</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Najboljši Stop Watch v shrambi Windows Phone!
+
+Funkcije vključujejo:
+
+* Email krog in Split-krat
+* Tekmovanje v teku pod Zakleni zaslon
+* Onemogoči zaklepanje zaslon
+* Tako Split in skupni čas
+* Veliki, enostavno branje clock
+* Krajine podporo za velike številke
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Najboljši Stop Watch v shrambi Windows Phone!
+
+Funkcije vključujejo:
+
+* Email krog in Split-krat
+* Tekmovanje v teku pod Zakleni zaslon
+* Onemogoči zaklepanje zaslon
+* Tako Split in skupni čas
+* Veliki, enostavno branje clock
+* Krajine podporo za velike številke
+* Odštevalnik časa
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Nakup!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vaš poskus has izdihniti, prosim nakup uporabe!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dni v vaš poskus.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Razširiti poskus za 10 dni ocenite uporabo?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Razširiti poskus?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Imate </value>
   </data>
 </root>

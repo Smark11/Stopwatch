@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Tempo trascorso:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Meglio smettere di guardare nell'archivio di Windows Phone!
-
-Le caratteristiche includono:
-
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Sia Split e tempo totale
-* Grande, di facile lettura dell'orologio
-* Supporto per i grandi numeri di panorama
-
-Scaricare questa app oggi!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Conto alla rovescia</value>
   </data>
@@ -285,21 +271,6 @@ Scaricare questa app oggi!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Sì</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Meglio interrompere guarda nell'archivio di Windows Phone!
-
-Le caratteristiche includono:
-
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Split sia tempo totale
-* Grande, facile leggere l'orologio
-* Supporto per i grandi numeri di panorama
-* Conto alla rovescia
-
-Scarica questa applicazione!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cronometro</value>
@@ -321,5 +292,52 @@ Scarica questa applicazione!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Eliminare i record</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Meglio interrompere guarda nell'archivio di Windows Phone!
+
+Le caratteristiche includono:
+
+* E-mail Lap e Split volte
+* In esecuzione sotto blocco schermo
+* Disattivare la schermata di blocco
+* Split sia tempo totale
+* Grande, facile leggere l'orologio
+* Supporto per i grandi numeri di panorama
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Meglio interrompere guarda nell'archivio di Windows Phone!
+
+Le caratteristiche includono:
+
+* E-mail Lap e Split volte
+* In esecuzione sotto blocco schermo
+* Disattivare la schermata di blocco
+* Split sia tempo totale
+* Grande, facile leggere l'orologio
+* Supporto per i grandi numeri di panorama
+* Conto alla rovescia
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Acquisto!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>La versione di prova è scaduta, si prega di acquistare l'applicazione!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> giorni rimanenti nella tua prova.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Estendere il Trial per 10 giorni di valutazione dell'applicazione?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Estendere la sperimentazione?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Avete </value>
   </data>
 </root>

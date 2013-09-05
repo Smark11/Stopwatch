@@ -322,4 +322,22 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Xóa hồ sơ</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Mua!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Thử nghiệm của bạn đã hết hạn, xin vui lòng mua ứng dụng!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> ngày còn lại trong thử nghiệm của bạn.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Mở rộng phiên tòa để 10 ngày bằng cách đánh giá các ứng dụng?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Mở rộng phiên tòa?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Bạn có </value>
+  </data>
 </root>

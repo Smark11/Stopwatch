@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Temps écoulé :</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
-
-Caractéristiques comprennent :
-
-* Courriel tour et temps intermédiaires
-* En cours d'exécution sous l'écran de serrure
-* Désactiver l'écran de serrure
-* Split et temps Total
-* Grand, facile à lire horloge
-* Paysage de soutien pour les grands nombres
-
-Téléchargez cette application dès aujourd'hui !</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Compte à rebours</value>
   </data>
@@ -285,21 +271,6 @@ Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Oui</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
-
-Caractéristiques comprennent :
-
-* Courriel tour et temps intermédiaires
-* En cours d'exécution sous l'écran de serrure
-* Désactiver l'écran de serrure
-* Split et temps Total
-* Grand, facile à lire horloge
-* Paysage de soutien pour les grands nombres
-* Compte à rebours
-
-Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Chronomètre</value>
@@ -321,5 +292,52 @@ Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Supprimer des enregistrements</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
+
+Caractéristiques comprennent :
+
+* Courriel tour et temps intermédiaires
+* En cours d'exécution sous l'écran de serrure
+* Désactiver l'écran de serrure
+* Split et temps Total
+* Grand, facile à lire horloge
+* Paysage de soutien pour les grands nombres
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
+
+Caractéristiques comprennent :
+
+* Courriel tour et temps intermédiaires
+* En cours d'exécution sous l'écran de serrure
+* Désactiver l'écran de serrure
+* Split et temps Total
+* Grand, facile à lire horloge
+* Paysage de soutien pour les grands nombres
+* Compte à rebours
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Achat !</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Votre période d'essai a expiré, s'il vous plaît acheter l'application !  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> jours restants dans votre période d'essai.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Prolonger le procès à 10 jours par l'application de la notation ?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prolonger le procès ?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Vous avez </value>
   </data>
 </root>

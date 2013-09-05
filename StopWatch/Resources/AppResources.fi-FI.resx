@@ -254,20 +254,6 @@
   <data name="ElapsedTime" xml:space="preserve">
     <value>Kulunut aika:</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Paras Stop Watch Windows Phone-Storessa!
-
-Ominaisuuksia:
-
-* Email kierros- ja väliaikoineen
-* Running Lukitusnäyttö
-* Poista Lukitusnäyttö
-* Split sekä kokonaisaika
-Iso, helppolukuinen kello
-* Maisema tuki suuria lukuja
-
-Lataa app tänään!</value>
-  </data>
   <data name="Keyword5" xml:space="preserve">
     <value>Lähtölaskenta</value>
   </data>
@@ -285,21 +271,6 @@ Lataa app tänään!</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Kyllä</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Paras lopettaa katsella Windows Phone varastossa!
-
-Ominaisuuksia:
-
-* Email kierros- ja väliaikoineen
-* Running Lukitse näyttö
-* Poista Lukitse näyttö
-* Split sekä kokonaisaika
-Iso, helppolukuinen kello
-* Maisema tuki suuria lukuja
-* Ajastin
-
-Lataa tämän app tänään!</value>
   </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Sekuntikello</value>
@@ -321,5 +292,52 @@ Lataa tämän app tänään!</value>
   </data>
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Tietueiden poistaminen</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Paras lopettaa katsella Windows Phone varastossa!
+
+Ominaisuuksia:
+
+* Email kierros- ja väliaikoineen
+* Running Lukitse näyttö
+* Poista Lukitse näyttö
+* Split sekä kokonaisaika
+Iso, helppolukuinen kello
+* Maisema tuki suuria lukuja
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Paras lopettaa katsella Windows Phone varastossa!
+
+Ominaisuuksia:
+
+* Email kierros- ja väliaikoineen
+* Running Lukitse näyttö
+* Poista Lukitse näyttö
+* Split sekä kokonaisaika
+Iso, helppolukuinen kello
+* Maisema tuki suuria lukuja
+* Ajastin
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Ostaa!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Kokeiluversio on vanhentunut, voit ostaa sovellus!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> päivän kuluttua koettelemuksesi.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Avartaa karsintakilpailu jotta 10 days luokituksen sovellus?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Avartaa karsintakilpailu?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Sinulla on </value>
   </data>
 </root>
