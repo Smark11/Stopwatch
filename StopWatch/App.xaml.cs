@@ -25,6 +25,15 @@ namespace StopWatch
             }
         }
 
+        private static bool _isFreeVersion = false;
+        public bool IsFreeVersion
+        {
+            get
+            {
+                return _isFreeVersion;
+            }
+        }
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>

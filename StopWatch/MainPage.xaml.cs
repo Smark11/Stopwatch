@@ -54,36 +54,76 @@ namespace StopWatch
 
             this.DataContext = this;
 
+            Trial.SaveStartDateOfTrial();
+            if (IS.GetSetting(RATED) != null)
+            {
+                if ((bool)IS.GetSetting(RATED))
+                {
+                    _rated = true;
+                }
+            }
+
+            if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
+            {
+                IS.SaveSetting(NUMBEROFTIMESOPENED, 0);
+            }
+            else
+            {
+                IS.SaveSetting(NUMBEROFTIMESOPENED, (int)IS.GetSetting(NUMBEROFTIMESOPENED) + 1);
+                _numberOfTimesOpened = (int)IS.GetSetting(NUMBEROFTIMESOPENED);
+            }
+
+            if (!(Application.Current as App).IsFreeVersion)
+            {
+                PaidAppInitialization();
+            }
+            else
+            {
+                FreeAppInitialIzation();
+            }
+
+
+        }
+
+        private void FreeAppInitialIzation()
+        {
+            if (!_rated && _numberOfTimesOpened >= 2)
+            {
+                MessageBoxResult result = MessageBox.Show(AppResources.AppMenuItemAddCountdown, AppResources.AppMenuItemAddCountdown, MessageBoxButton.OKCancel);
+
+                if (result == MessageBoxResult.OK)
+                {
+                    IS.SaveSetting(RATED, true);
+                    _rated = true;
+                    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                    marketplaceReviewTask.Show();
+                }
+            }
+
+            if (Rate.HasAppBeenRated() == "YES")
+            {
+                EnableCountdown();
+            }
+            else
+            {
+                DisableCountdown();
+            }
+        }
+
+        private void PaidAppInitialization()
+        {
+            //always enable countdown
+            EnableCountdown();
+
+            AdvertisingVisibility = Visibility.Collapsed;
+
+
             if ((Application.Current as App).IsTrial)
             {
-                AdvertisingVisibility = Visibility.Collapsed;
-                Trial.SaveStartDateOfTrial();
-                if (IS.GetSetting(RATED) != null)
-                {
-                    if ((bool)IS.GetSetting(RATED))
-                    {
-                        _rated = true;
-                    }
-                }
-
-                if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
-                {
-                    IS.SaveSetting(NUMBEROFTIMESOPENED, 0);
-                }
-                else
-                {
-                    IS.SaveSetting(NUMBEROFTIMESOPENED, (int)IS.GetSetting(NUMBEROFTIMESOPENED) + 1);
-                    _numberOfTimesOpened = (int)IS.GetSetting(NUMBEROFTIMESOPENED);
-                }
-
-
-                EnableCountdown();
-
                 if (Trial.IsTrialExpired())
-                //if(true)
                 {
-                    MessageBox.Show(AppResources.TrialExpired);
                     EnableApp(false);
+                    MessageBox.Show(AppResources.TrialExpired);
                     _marketPlaceDetailTask.Show();
                 }
                 else
@@ -93,7 +133,7 @@ namespace StopWatch
                     {
                         MessageBox.Show(AppResources.YouHave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial);
                     }
-                    //app not rated
+                    //app not rated, rate to add 10 days to trial
                     else if (!_rated && _numberOfTimesOpened >= 2)
                     {
                         MessageBoxResult result = MessageBox.Show(AppResources.Trial1, AppResources.Trial2, MessageBoxButton.OKCancel);
@@ -111,21 +151,12 @@ namespace StopWatch
             }
             else
             {
-                //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-                Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
-
-                hasAppBeenRated = Rate.HasAppBeenRated();
-                if (hasAppBeenRated.ToUpper() == "YES")
+                if (!_rated)
                 {
-                    EnableCountdown();
-                }
-                else
-                {
-                    DisableCountdown();
+                    //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+                    Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
                 }
             }
-
-            
         }
 
         void MyAdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
@@ -232,7 +263,7 @@ namespace StopWatch
                     if (result1 == MessageBoxResult.OK)
                     {
                         IS.RemoveSetting("Countdown-Laps");
-                        IS.RemoveSetting("Countdown-Splits");                   
+                        IS.RemoveSetting("Countdown-Splits");
                         this.countdownControl.CountdownTimesCollection.Clear();
                     }
 
