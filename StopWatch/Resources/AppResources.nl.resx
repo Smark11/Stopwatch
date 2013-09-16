@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Records verwijderen</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Aankoop!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Uw proefperiode is verlopen, kunt u kopen de toepassing!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dag(en) te gaan in uw proces.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Uitbreiden Trial tot 10 dagen volgens rating de toepassing?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Uitbreiden Trial?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>U hebt </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Beste Stop Watch in de Windows Phone Store!
 
@@ -321,23 +339,5 @@ De eigenschappen omvatten:
 * Timer-functie
 
 Download dit app vandaag nog!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Aankoop!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Uw proefperiode is verlopen, kunt u kopen de toepassing!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dag(en) te gaan in uw proces.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Uitbreiden Trial tot 10 dagen volgens rating de toepassing?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Uitbreiden Trial?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>U hebt </value>
   </data>
 </root>

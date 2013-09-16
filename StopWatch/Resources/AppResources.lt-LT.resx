@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Naikinti įrašus</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Pirkti!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Jūsų bandomasis pasibaigęs, prašome įsigyti!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dienas likusias savo teismą.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Pratęsti tyrimo?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Jūs turite </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
 
@@ -321,23 +339,5 @@ Funkcijos apima:
 * Atgalinìs atskaitos laikmatis
 
 Parsisiųsti šią programą šiandien!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Pirkti!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Jūsų bandomasis pasibaigęs, prašome įsigyti!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dienas likusias savo teismą.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Pratęsti tyrimo?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Jūs turite </value>
   </data>
 </root>

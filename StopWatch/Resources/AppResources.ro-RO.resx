@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Ştergeţi înregistrările</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Cumpărare!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vă proces a expirat, vă rugăm să cumpere aplicaţia!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> zile rămase în proces dumneavoastră.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prelungi proces?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Aveţi </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Cel mai bun Stop Watch în Windows Phone magazin!
 
@@ -321,23 +339,5 @@ Caracteristicile includ:
 * Temporizator
 
 Descărcaţi acest app astăzi!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Cumpărare!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Vă proces a expirat, vă rugăm să cumpere aplicaţia!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> zile rămase în proces dumneavoastră.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Prelungi proces?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Aveţi </value>
   </data>
 </root>

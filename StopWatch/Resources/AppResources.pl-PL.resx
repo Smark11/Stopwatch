@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Usuwanie rekordów</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Zakup!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Twoja próba wygasła, prosimy o zakup aplikacji!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dni pozostałych w próbnej.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Przedłużyć okres próbny?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Masz </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Najlepszy stoper w magazynie Windows Phone!
 
@@ -321,23 +339,5 @@ Funkcje obejmują:
 * Odliczanie do zera chronometrażysta
 
 Pobrać tę aplikację dziś!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Zakup!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Twoja próba wygasła, prosimy o zakup aplikacji!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dni pozostałych w próbnej.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Przedłużyć okres próbny?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Masz </value>
   </data>
 </root>

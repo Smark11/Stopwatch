@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Dzēst ierakstus</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Iegādāties!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Izmēģinājuma versijas termiņš ir beidzies, lūdzu pirkšanas pieteikumu!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dienas atlicis izmēģinājuma versiju.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma 10 dienu laikā pēc novērtējuma piemērošanu?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma versija?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Jums ir </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Labākais pārtraukt skatīties Windows Phone veikalā!
 
@@ -321,23 +339,5 @@ Funkcijas ietver:
 * Atpakaļskaitīšanas taimeris
 
 Lejupielādēt šo app šodien!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Iegādāties!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Izmēģinājuma versijas termiņš ir beidzies, lūdzu pirkšanas pieteikumu!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dienas atlicis izmēģinājuma versiju.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Paplašināt izmēģinājuma 10 dienu laikā pēc novērtējuma piemērošanu?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Paplašināt izmēģinājuma versija?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Jums ir </value>
   </data>
 </root>

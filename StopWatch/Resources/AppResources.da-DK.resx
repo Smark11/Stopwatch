@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Slette poster</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Køb!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Prøveversionen er udløbet, kan du købe programmet!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dage tilbage i din retssag.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Forlænge retssagen til 10 dage ved rating ansøgningen?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Udvide retssag?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Bedste stopur i Windows Phone butik!
 
@@ -321,23 +339,5 @@ Funktioner omfatter:
 * Nedtællingsur
 
 Download denne app i dag!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Køb!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Prøveversionen er udløbet, kan du købe programmet!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dage tilbage i din retssag.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Forlænge retssagen til 10 dage ved rating ansøgningen?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Udvide retssag?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Du har </value>
   </data>
 </root>

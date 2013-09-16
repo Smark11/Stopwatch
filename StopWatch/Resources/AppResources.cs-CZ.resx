@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Odstranit záznamy</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Nákup!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vaše zkušební verze vypršela, zakupte aplikaci!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dní zbývajících do zkušební verze.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Rozšířit proces na 10 dní podle hodnocení aplikace?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prodloužit zkušební verzi?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Máte </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Nejlepší zastavit Watch v úložišti Windows Phone!
 
@@ -321,23 +339,5 @@ Mezi funkce patří:
 * Odpočítávací měřič
 
 Stáhněte tuto app dnes!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Nákup!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Vaše zkušební verze vypršela, zakupte aplikaci!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dní zbývajících do zkušební verze.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Rozšířit proces na 10 dní podle hodnocení aplikace?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Prodloužit zkušební verzi?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Máte </value>
   </data>
 </root>
