@@ -25,7 +25,7 @@ namespace StopWatch
             }
         }
 
-        private static bool _isFreeVersion = false;
+        private static bool _isFreeVersion = true;
         public bool IsFreeVersion
         {
             get

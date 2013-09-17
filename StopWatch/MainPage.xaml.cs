@@ -41,12 +41,21 @@ namespace StopWatch
 
             string hasAppBeenRated = string.Empty;
 
+            if (Rate.HasAppBeenRated().ToUpper()=="YES")
+            {
+                _rated = true;
+            }
+            else
+            {
+                _rated = false;
+            }
+
             InitializeComponent();
 
             AdvertisingVisibility = Visibility.Visible;
             MyAdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
 
-            BuildLocalizedApplicationBar(hasAppBeenRated);
+            BuildLocalizedApplicationBar(_rated);
 
             SetLockScreenSetting();
 
@@ -81,8 +90,6 @@ namespace StopWatch
             {
                 FreeAppInitialIzation();
             }
-
-
         }
 
         private void FreeAppInitialIzation()
@@ -100,7 +107,7 @@ namespace StopWatch
                 }
             }
 
-            if (Rate.HasAppBeenRated() == "YES")
+            if (Rate.HasAppBeenRated().ToUpper() == "YES")
             {
                 EnableCountdown();
             }
@@ -417,7 +424,7 @@ namespace StopWatch
 
         #region "Common Routines"
 
-        private void BuildLocalizedApplicationBar(string hasAppBeenRated)
+        private void BuildLocalizedApplicationBar(bool hasAppBeenRated)
         {
             // Set the page's ApplicationBar to a new instance of ApplicationBar.
             ApplicationBar = new ApplicationBar();
@@ -451,7 +458,7 @@ namespace StopWatch
             ApplicationBar.MenuItems.Add(appBarMenuItem4);
             appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
 
-            if (hasAppBeenRated.ToUpper() == "NO")
+            if (!hasAppBeenRated && (Application.Current as App).IsFreeVersion)
             {
                 ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.AppMenuItemAddCountdown);
                 ApplicationBar.MenuItems.Add(appBarMenuItem5);
