@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="lv-LV" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="2.0.0" build-num="0">
+  <file datatype="xml" source-language="en-US" target-language="lv-LV" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="3.0.0" build-num="0">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
     </header>
@@ -17,7 +17,7 @@
           <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
         </trans-unit>
         <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
-          <source>StopWatch</source>
+          <source>Stopwatch</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Hronometrs</target>
         </trans-unit>
         <trans-unit id="Resx/AppBarClearLapsButton" translate="yes" xml:space="preserve">
@@ -167,20 +167,20 @@ Lejupielādēt šo app šodien!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Likme</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
-          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsu atsauksmes ir ļoti svarīgi, lai mums! Woud vēlaties dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū?</target>
+          <source>Like this app? Let everyone else know!  Would you like to share your feedback with us by rating the Stopwatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Piemēram, šī app? Ļaut visiem zināt!  Jūs vēlētos dalīties ar mums savu atsauksmi, pēc reitinga hronometrs tirgū?</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
-          <source>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsu atsauksmes ir ļoti svarīgi, lai mums! Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū.</target>
+          <source>Like this app? Let everyone else know!  Please share your feedback with us by rating the Stopwatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Piemēram, šī app? Ļaut visiem zināt!  Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū.</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemRemoveAdvertising" translate="yes" xml:space="preserve">
           <source>Remove Advertising</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Noņemt reklāmas</target>
         </trans-unit>
         <trans-unit id="Resx/RemoveAdvertisingQuestion" translate="yes" xml:space="preserve">
-          <source>Rate Stopwatch 5 stars to remove advertising. Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lai noņemtu reklāmas likmi hronometrs 5 zvaigznes. Vai turpināt?</target>
+          <source>Please share your feedback with us by rating the Stopwatch on the marketplace to remove advertising. Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lūdzu dalīties ar mums jūsu atsauksmes pēc hronometra tirgū noņemt reklāmas vērtējumu. Vai turpināt?</target>
         </trans-unit>
         <trans-unit id="Resx/CountdownAlarm" translate="yes" xml:space="preserve">
           <source>Countdown Alarm</source>
@@ -199,8 +199,8 @@ Lejupielādēt šo app šodien!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ierakstu</target>
         </trans-unit>
         <trans-unit id="Resx/AddCountdownQuestion" translate="yes" xml:space="preserve">
-          <source>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsu atsauksmes ir ļoti svarīgs! Likme hronometrs 5 zvaigznes pievienot Countdown funkcionalitāti. Vai turpināt?</target>
+          <source>Please share your feedback with us by rating the Stopwatch on the marketplace to add Countdown functionality. Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū pievienotu Countdown funkcionalitāti. Vai turpināt?</target>
         </trans-unit>
         <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
           <source>Rate to enable countdown</source>
@@ -317,6 +317,10 @@ Lejupielādēt šo app šodien!</target>
         <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
           <source>You have </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Jums ir </target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>BroughtToYouBy:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BroughtToYouBy:</target>
         </trans-unit>
       </group>
     </body>

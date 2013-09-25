@@ -125,9 +125,6 @@
     <value>lv-LV</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Hronometrs</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Notīriet Laps</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Likme</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Woud vēlaties dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Noņemt reklāmas</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Lai noņemtu reklāmas likmi hronometrs 5 zvaigznes. Vai turpināt?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Invalīdiem</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Ierakstu</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Jūsu atsauksmes ir ļoti svarīgs! Likme hronometrs 5 zvaigznes pievienot Countdown funkcionalitāti. Vai turpināt?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Atpakaļskaitīšanas gatavo!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Jums ir </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Hronometrs</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Labākais pārtraukt skatīties Windows Phone veikalā!
 
@@ -324,6 +312,18 @@ Funkcijas ietver:
 * Ainavu atbalsts lielas numuriem
 
 Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt!  Jūs vēlētos dalīties ar mums savu atsauksmi, pēc reitinga hronometrs tirgū?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt!  Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Lūdzu dalīties ar mums jūsu atsauksmes pēc hronometra tirgū noņemt reklāmas vērtējumu. Vai turpināt?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū pievienotu Countdown funkcionalitāti. Vai turpināt?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Labākais pārtraukt skatīties Windows Phone veikalā!
@@ -339,5 +339,8 @@ Funkcijas ietver:
 * Atpakaļskaitīšanas taimeris
 
 Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

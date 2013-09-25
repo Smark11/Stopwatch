@@ -125,9 +125,6 @@
     <value>nb-NO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stoppeklokke</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Fjern runder</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Rate</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Din tilbakemelding er veldig viktig for oss! Woud du gjerne dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedsplassen?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Din tilbakemelding er veldig viktig for oss! Kan du dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedet.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Fjerne reklamering</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Rate stoppeklokke 5 stjerner å fjerne reklame. Vil du fortsette?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Deaktivert</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Post</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Din tilbakemelding er viktig! Rate stoppeklokke 5 stjerner legge Countdown funksjonalitet. Vil du fortsette?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Nedtellingen ferdig!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stoppeklokke</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Beste stoppeklokke i Windows Phone butikken!
 
@@ -324,6 +312,18 @@ Funksjoner inkluderer:
 * Landskapet støtte for store tall
 
 Last ned denne app i dag!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Som denne app? La alle andre vet!  Ønsker du å dele tilbakemeldinger med oss etter vurdering stoppeklokken på markedet?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Som denne app? La alle andre vet!  Vær dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedet.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Vær dele dine tilbakemeldinger med oss etter vurdering stoppeklokken på markedet for å fjerne reklame. Vil du fortsette?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Vennligst dele tilbakemelding med oss etter vurdering stoppeklokken på markedet for å legge til nedtelling funksjonalitet. Vil du fortsette?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Beste stoppeklokke i Windows Phone butikken!
@@ -339,5 +339,8 @@ Funksjoner inkluderer:
 * Countdown classes
 
 Last ned denne app i dag!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

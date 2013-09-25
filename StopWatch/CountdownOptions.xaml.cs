@@ -29,37 +29,68 @@ namespace StopWatch
         //OFF Lock screen is not disabled
         private void toggleLockScreen_Checked(object sender, RoutedEventArgs e)
         {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            IS.SaveSetting("Stopwatch-LockScreen", "Enabled");
-            toggleLockScreen.Content = AppResources.Enabled;
+            try
+            {
+                PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
+                IS.SaveSetting("Stopwatch-LockScreen", "Enabled");
+                toggleLockScreen.Content = AppResources.Enabled;
+
+            }
+            catch (Exception)
+            {
+            }
         }
 
         //ON Lock screen is disabled
         private void toggleLockScreen_Unchecked(object sender, RoutedEventArgs e)
         {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
-            toggleLockScreen.Content = AppResources.Disabled;
+            try
+            {
+                PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+                IS.SaveSetting("Stopwatch-LockScreen", "Disabled");
+                toggleLockScreen.Content = AppResources.Disabled;
+            }
+            catch (Exception)
+            {
+            }
         }
 
         private void togglePlayAlarm_Checked(object sender, RoutedEventArgs e)
         {
-            IS.SaveSetting("Countdown-Alarm", "Enabled");
-            togglePlayAlarm.Content = AppResources.Enabled;
-            App.gAlarmSetting = "Enabled";
+            try
+            {
+                IS.SaveSetting("Countdown-Alarm", "Enabled");
+                togglePlayAlarm.Content = AppResources.Enabled;
+                App.gAlarmSetting = "Enabled";
+            }
+            catch (Exception)
+            {
+            }
         }
 
         private void togglePlayAlarm_Unchecked(object sender, RoutedEventArgs e)
         {
-            IS.SaveSetting("Countdown-Alarm", "Disabled");
-            togglePlayAlarm.Content = AppResources.Disabled;
-            App.gAlarmSetting = "Disabled";
+            try
+            {
+                IS.SaveSetting("Countdown-Alarm", "Disabled");
+                togglePlayAlarm.Content = AppResources.Disabled;
+                App.gAlarmSetting = "Disabled";
+            }
+            catch (Exception)
+            {
+            }
         }
 
         private void defaultCountdownTime_ValueChanged(object sender, RoutedPropertyChangedEventArgs<TimeSpan> e)
         {
-            IS.SaveSetting("Countdown-DefaultTime", ctlDefaultCountdownTime.Value.ToString());
-            App.gDefaultCountdown = TimeSpan.Parse(ctlDefaultCountdownTime.Value.ToString());
+            try
+            {
+                IS.SaveSetting("Countdown-DefaultTime", ctlDefaultCountdownTime.Value.ToString());
+                App.gDefaultCountdown = TimeSpan.Parse(ctlDefaultCountdownTime.Value.ToString());
+            }
+            catch (Exception)
+            {
+            }
         }
 
         #endregion "Events"
@@ -70,24 +101,31 @@ namespace StopWatch
         {
             string lockScreenValue = string.Empty;
 
-            if (IS.GetSettingStringValue("Stopwatch-LockScreen") == string.Empty)
+            try
             {
-                toggleLockScreen.IsChecked = false;
-                toggleLockScreen.Content = AppResources.Disabled;
-            }
-            else
-            {
-                lockScreenValue = IS.GetSettingStringValue("Stopwatch-LockScreen");
-                if (lockScreenValue == "Enabled")
-                {
-                    toggleLockScreen.IsChecked = true;
-                    toggleLockScreen.Content = AppResources.Enabled;
-                }
-                else
+                if (IS.GetSettingStringValue("Stopwatch-LockScreen") == string.Empty)
                 {
                     toggleLockScreen.IsChecked = false;
                     toggleLockScreen.Content = AppResources.Disabled;
                 }
+                else
+                {
+                    lockScreenValue = IS.GetSettingStringValue("Stopwatch-LockScreen");
+                    if (lockScreenValue == "Enabled")
+                    {
+                        toggleLockScreen.IsChecked = true;
+                        toggleLockScreen.Content = AppResources.Enabled;
+                    }
+                    else
+                    {
+                        toggleLockScreen.IsChecked = false;
+                        toggleLockScreen.Content = AppResources.Disabled;
+                    }
+                }
+
+            }
+            catch (Exception)
+            {
             }
         }
 
@@ -95,24 +133,30 @@ namespace StopWatch
         {
             string countdownAlarmValue = string.Empty;
 
-            if (IS.GetSettingStringValue("Countdown-Alarm") == string.Empty)
+            try
             {
-                togglePlayAlarm.IsChecked = false;
-                togglePlayAlarm.Content = AppResources.Disabled;
-            }
-            else
-            {
-                countdownAlarmValue = IS.GetSettingStringValue("Countdown-Alarm");
-                if (countdownAlarmValue == "Enabled")
-                {
-                    togglePlayAlarm.IsChecked = true;
-                    togglePlayAlarm.Content = AppResources.Enabled;
-                }
-                else
+                if (IS.GetSettingStringValue("Countdown-Alarm") == string.Empty)
                 {
                     togglePlayAlarm.IsChecked = false;
                     togglePlayAlarm.Content = AppResources.Disabled;
                 }
+                else
+                {
+                    countdownAlarmValue = IS.GetSettingStringValue("Countdown-Alarm");
+                    if (countdownAlarmValue == "Enabled")
+                    {
+                        togglePlayAlarm.IsChecked = true;
+                        togglePlayAlarm.Content = AppResources.Enabled;
+                    }
+                    else
+                    {
+                        togglePlayAlarm.IsChecked = false;
+                        togglePlayAlarm.Content = AppResources.Disabled;
+                    }
+                }
+            }
+            catch (Exception)
+            {
             }
         }
 
@@ -120,14 +164,20 @@ namespace StopWatch
         {
             string countdownAlarmValue = string.Empty;
 
-            if (IS.GetSettingStringValue("Countdown-DefaultTime") == string.Empty)
+            try
             {
-                ctlDefaultCountdownTime.Value = new TimeSpan(0, 1, 0);
+                if (IS.GetSettingStringValue("Countdown-DefaultTime") == string.Empty)
+                {
+                    ctlDefaultCountdownTime.Value = new TimeSpan(0, 1, 0);
+                }
+                else
+                {
+                    countdownAlarmValue = IS.GetSettingStringValue("Countdown-DefaultTime");
+                    ctlDefaultCountdownTime.Value = TimeSpan.Parse(countdownAlarmValue);
+                }
             }
-            else
+            catch (Exception)
             {
-                countdownAlarmValue = IS.GetSettingStringValue("Countdown-DefaultTime");
-                ctlDefaultCountdownTime.Value = TimeSpan.Parse(countdownAlarmValue);
             }
         }
 

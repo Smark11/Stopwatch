@@ -125,9 +125,6 @@
     <value>sl-SI</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Štoparica</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Jasno krogov</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Stopnja</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Vaša povratna informacija je zelo pomembno za nas! Woud želeli deliti svoje mnenje z nami po ocenah so štoparice na trgu?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Vaša povratna informacija je zelo pomembno za nas! Prosim delite svoje povratne informacije, z nami po ocenah so štoparice na trgu.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Odstranite oglaševanje</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Stopnja štoparica 5 zvezdic umakniti oglaševanja. Ali želite nadaljevati?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Invalidne</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Zapis</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Vaša povratna informacija je pomembna! Stopnja štoparica 5 zvezdic za dodajanje funkcionalnosti odštevanje. Ali želite nadaljevati?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Odštevanje končal!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Imate </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Štoparica</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Najboljši Stop Watch v shrambi Windows Phone!
 
@@ -324,6 +312,18 @@ Funkcije vključujejo:
 * Krajine podporo za velike številke
 
 Travnato gričevje to app danes!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo!  Bi želeli deliti svoje mnenje z nami ocenite toparica na trgu?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo!  Prosimo, delite svoje mnenje z nami ocenite toparica na trgu.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Prosimo, delite svoje mnenje z nami ocenite toparica na trgu umakniti oglaševanje. Ali želite nadaljevati?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Prosim delite svoje povratne informacije z nami ocenite ¹toparice na trgu dodati Countdown funkcionalnost. Ali želite nadaljevati?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Najboljši Stop Watch v shrambi Windows Phone!
@@ -339,5 +339,8 @@ Funkcije vključujejo:
 * Odštevalnik časa
 
 Travnato gričevje to app danes!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

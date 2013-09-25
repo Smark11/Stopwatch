@@ -125,9 +125,6 @@
     <value>ar</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>ساعة توقيت</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>لفات واضحة</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>معدل</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>ملاحظاتك مهم جداً بالنسبة لنا! Woud كنت ترغب في تقاسم تعليقاتك معنا حسب التصنيف ساعة توقيت في السوق؟</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>ملاحظاتك مهم جداً بالنسبة لنا! يرجى حصة تعليقاتك معنا بتصنيف ساعة الإيقاف في السوق.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>إزالة الإعلانات</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>معدل ساعة توقيت 5 نجوم لإزالة الإعلانات. هل تريد المتابعة؟</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>ذوي</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>سجل</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>ملاحظاتك المهم! معدل ساعة توقيت 5 نجوم لإضافة وظيفة العد التنازلي. هل تريد المتابعة؟</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>انتهى العد التنازلي!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>لديك </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ساعة توقيت</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  هل ترغب في تقاسم تعليقاتك معنا التصويت ساعة توقيت في السوق؟</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  يرجى حصة تعليقاتك معنا التصويت ساعة توقيت في السوق.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>يرجى حصة تعليقاتك معنا بتصنيف ساعة توقيت في السوق إزالة الإعلانات. هل تريد المتابعة؟</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>يرجى حصة تعليقاتك معنا بتصنيف ساعة توقيت في السوق لإضافة وظيفة العد التنازلي. هل تريد المتابعة؟</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>بروغتويوبي:</value>
   </data>
 </root>

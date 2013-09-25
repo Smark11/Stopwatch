@@ -125,9 +125,6 @@
     <value>id-ID</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Jelas lap</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tingkat</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Umpan balik Anda sangat penting untuk kita! Woud Anda ingin berbagi umpan balik Anda dengan kami dengan rating StopWatch di pasar?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Umpan balik Anda sangat penting untuk kita! Silakan berbagi Tanggapan Anda dengan kami dengan rating StopWatch di pasar.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Menghapus iklan</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Tingkat Stopwatch 5 stars untuk menghapus iklan. Melanjutkan?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Penyandang Cacat</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Catatan</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Umpan balik Anda sangat penting! Tingkat Stopwatch 5 stars untuk menambahkan fungsi hitung mundur. Melanjutkan?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown selesai!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Anda memiliki </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Terbaik berhenti menonton di Windows Phone Store!
 
@@ -324,6 +312,18 @@ Fitur termasuk:
 * Lanskap dukungan untuk jumlah besar
 
 Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Apakah Anda ingin berbagi umpan balik Anda dengan kami dengan rating Stopwatch di pasar?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Silakan berbagi Tanggapan Anda dengan kami dengan rating Stopwatch di pasar.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Silakan berbagi Tanggapan Anda dengan kami dengan rating Stopwatch di pasar untuk menghapus iklan. Melanjutkan?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Silakan berbagi Tanggapan Anda dengan kami dengan rating Stopwatch di pasar untuk menambahkan fungsi hitung mundur. Melanjutkan?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Terbaik berhenti menonton di Windows Phone Store!
@@ -339,5 +339,8 @@ Fitur termasuk:
 * Penghitung waktu
 
 Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

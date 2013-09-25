@@ -125,9 +125,6 @@
     <value>ru-RU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Секундомер</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Очистить Laps</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Ставка</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Ваше мнение очень важно для нас! Woud вы хотели бы поделиться своими впечатлениями с нами по рейтингу секундомер на рынке?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Ваше мнение очень важно для нас! Пожалуйста поделитесь с нами по рейтингу секундомер на рынке.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Удаление рекламы</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Курс секундомер 5 звёзд для удаления рекламы. Продолжить?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Инвалидов</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Запись</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Ваше мнение важно! Курс секундомер 5 звёзд добавить функциональность комплекса предпусковых операций. Продолжить?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Обратный отсчет закончил!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>У вас есть </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Секундомер</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Как этот app? Пусть все еще знают!  Вы хотели бы поделиться своими впечатлениями с нами по рейтингу секундомер на рынке?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Как этот app? Пусть все еще знают!  Пожалуйста поделитесь с нами по рейтингу секундомер на рынке.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Пожалуйста поделитесь с нами по рейтингу секундомер на рынке для удаления рекламы. Продолжить?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Пожалуйста поделитесь с нами по рейтингу секундомер на рынке, чтобы добавить функциональность комплекса предпусковых операций. Продолжить?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

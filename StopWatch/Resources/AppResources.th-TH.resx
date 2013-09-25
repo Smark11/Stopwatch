@@ -125,9 +125,6 @@
     <value>th-TH</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>นาฬิกาจับ</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>รอบชัดเจน</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>อัตรา</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา Woud คุณต้องใช้คำติชมของคุณกับเราจัดอันดับนาฬิกาจับในตลาด</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา กรุณาใช้คำติชมของคุณร่วมกับเรา โดยจัดอันดับนาฬิกาจับตลาดบน</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>เอาโฆษณา</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>ดาว 5 นาฬิกาจับอัตราการเอาโฆษณา ดำเนินต่อหรือไม่</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>ปิดการใช้งาน</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>คอร์ด</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>คำติชมของคุณเป็นสิ่งสำคัญ ดาว 5 นาฬิกาจับอัตราการเพิ่มฟังก์ชันการทำงานนับถอยหลัง ดำเนินต่อหรือไม่</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>นับถอยหลังเสร็จแล้ว</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>คุณมี </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>นาฬิกาจับ</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>เช่น app นี้ ให้คนอื่นรู้  คุณต้องการใช้คำติชมของคุณกับเราจัดอันดับนาฬิกาจับในตลาดหรือไม่</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>เช่น app นี้ ให้คนอื่นรู้  กรุณาใช้คำติชมของคุณร่วมกับเรา โดยจัดอันดับนาฬิกาจับตลาดบน</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>กรุณาใช้คำติชมของคุณร่วมกับเรา โดยจัดอันดับนาฬิกาจับตลาดบนเพื่อลบโฆษณา ดำเนินต่อหรือไม่</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>กรุณาใช้คำติชมของคุณร่วมกับเรา โดยจัดอันดับนาฬิกาจับในตลาดเพื่อเพิ่มฟังก์ชันการทำงานนับถอยหลัง ดำเนินต่อหรือไม่</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

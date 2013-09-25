@@ -125,9 +125,6 @@
     <value>ro-RO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Cronometru</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Clar ture</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Rata</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Feedback-ul este foarte important pentru noi! Woud ai dori să vă împărtăşesc feedback-ul cu noi reiting cronometru pe piaţă?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Feedback-ul este foarte important pentru noi! Vă rugăm să împărtăşesc feedback-ul cu noi reiting cronometru pe piaţă.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Elimina publicitate</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Rata cronometru 5 stele pentru a elimina de publicitate. Proceda?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Cu handicap</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Înregistrare</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Feedback-ul este important! Rata cronometru 5 stele pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Numărătoarea inversă a terminat!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Aveţi </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Cel mai bun Stop Watch în Windows Phone magazin!
 
@@ -324,6 +312,18 @@ Caracteristicile includ:
 * Peisaj suport pentru numere mari
 
 Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Doriţi să împărtăşiţi feedback-ul cu noi reiting cronometru pe piaţă?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă pentru a elimina publicitate. Proceda?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Cel mai bun Stop Watch în Windows Phone magazin!
@@ -339,5 +339,8 @@ Caracteristicile includ:
 * Temporizator
 
 Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

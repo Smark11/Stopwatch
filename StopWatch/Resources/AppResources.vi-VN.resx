@@ -125,9 +125,6 @@
     <value>vi-VN</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Đồng hồ bấm giờ</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Rõ ràng vòng</value>
   </data>
@@ -223,17 +220,8 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tỷ lệ</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Phản hồi của bạn là rất quan trọng với chúng tôi! Woud bạn muốn chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Phản hồi của bạn là rất quan trọng với chúng tôi! Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Loại bỏ quảng cáo</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Tốc độ đồng hồ bấm giờ 5 sao để loại bỏ các quảng cáo. Tiếp tục?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Khuyết tật</value>
@@ -252,9 +240,6 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   </data>
   <data name="Record" xml:space="preserve">
     <value>Kỷ lục</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Phản hồi của bạn là quan trọng! Tốc độ đồng hồ bấm giờ 5 sao để thêm chức năng đếm ngược. Tiếp tục?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Đếm ngược hoàn tất!</value>
@@ -339,5 +324,23 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>Bạn có </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Đồng hồ bấm giờ</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết!  Bạn có muốn chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết!  Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường để loại bỏ quảng cáo. Tiến hành không?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá đồng hồ bấm giờ trên thị trường để thêm chức năng đếm ngược. Tiến hành không?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

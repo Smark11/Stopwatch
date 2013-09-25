@@ -125,9 +125,6 @@
     <value>he-IL</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>סטופר</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>נקה הקפות</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>קצב</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>המשוב שלך מאוד חשובה לנו! Woud אתה רוצה לשתף אותנו את המשוב שלך על-ידי דירוג הסטופר על השוק?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>המשוב שלך מאוד חשובה לנו! אנא שתפו את המשוב שלך אותנו על-ידי דירוג הסטופר על השוק.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>להסיר פרסום</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>קצב סטופר 5 כוכבים כדי להסיר את הפרסום. האם להמשיך?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>בעלי מוגבלויות</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>שיא</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>המשוב שלכם חשוב! קצב סטופר 5 כוכבים כדי להוסיף פונקציונליות הספירה לאחור. האם להמשיך?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>הספירה לאחור הסתיימה!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>יש לך </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>סטופר</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר!  האם ברצונך לשתף את המשוב שלך על-ידי דירוג העצר על השוק?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר!  בבקשה לשתף את המשוב שלך איתנו על ידי דירוג העצר על השוק.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>בבקשה לשתף את המשוב שלך איתנו על ידי דירוג העצר על השוק כדי להסיר את הפרסום. האם להמשיך?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>בבקשה לשתף את המשוב שלך איתנו על ידי דירוג העצר על השוק כדי להוסיף פונקציונליות הספירה לאחור. האם להמשיך?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

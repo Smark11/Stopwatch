@@ -125,9 +125,6 @@
     <value>lt-LT</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Chronometras</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Aišku, ratų</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Norma</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Mums labai svarbu savo atsiliepimą! Woud norite pasidalinti su mumis savo atsiliepimus, įvertindami chronometras rinkoje?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Mums labai svarbu savo atsiliepimą! Prašome pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Pašalinti reklamos</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Norma chronometras 5 žvaigždės pašalinti reklamos. Tęsti?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Negalia</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Įrašas</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Svarbu jūsų atsiliepimus! Norma chronometras 5 žvaigždės pridėti Countdown funkcionalumą. Tęsti?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Tas, kurio nėra baigtas!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Jūs turite </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Chronometras</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
 
@@ -324,6 +312,18 @@ Funkcijos apima:
 * Kraštovaizdis parama didelių skaičių
 
 Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino!  Ar norite pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino!  Prašome pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Prašome pasidalinti savo atsiliepimus su mumis, įvertindami chronometras rinkoje pašalinti reklamos. Tęsti?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Prašome pasidalinti savo atsiliepimus su mumis, įvertindami chronometras rinkoje pridėti Countdown funkcionalumą. Tęsti?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
@@ -339,5 +339,8 @@ Funkcijos apima:
 * Atgalinìs atskaitos laikmatis
 
 Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

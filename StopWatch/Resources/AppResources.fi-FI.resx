@@ -125,9 +125,6 @@
     <value>fi-FI</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Sekuntikello</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Poista kierrosta</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Korko</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Palautteesi on meille tärkeää! Woud haluat antaa palautetta meille luokituksen sekuntikello markkinoilla?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Palautteesi on meille tärkeää! Lähetä palautetta meille luokituksen sekuntikello markkinoilla.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Poista mainonta</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Korko sekuntikello 5 tähteä poistaa mainonnan. Jatketaanko?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Vammaisten</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Ennätys</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Palautteesi on tärkeää! Korko sekuntikello 5 tähteä lisätä lähtölaskenta toiminnot. Jatketaanko?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Lähtölaskenta valmis!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Sinulla on </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Sekuntikello</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Paras lopettaa katsella Windows Phone varastossa!
 
@@ -324,6 +312,18 @@ Iso, helppolukuinen kello
 * Maisema tuki suuria lukuja
 
 Lataa tämän app tänään!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Pidän tästä app? Antaa kaikille muille tietää!  Haluatko antaa palautetta meille luokituksen sekuntikello markkinoilla?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Pidän tästä app? Antaa kaikille muille tietää!  Lähetä palautetta meille luokituksen sekuntikello markkinoilla.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Lähetä palautetta meille luokituksen sekuntikello markkinoilla poistaa mainokset. Jatketaanko?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Lähetä palautetta meille luokituksen sekuntikello markkinoilla lisätä lähtölaskenta toimintoja. Jatketaanko?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Paras lopettaa katsella Windows Phone varastossa!
@@ -339,5 +339,8 @@ Iso, helppolukuinen kello
 * Ajastin
 
 Lataa tämän app tänään!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

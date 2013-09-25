@@ -125,9 +125,6 @@
     <value>sv</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stoppur</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Tydlig varv</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Kurs</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Dina synpunkter är mycket viktiga för oss! Woud du vill dela din feedback med oss efter betyg stoppuret på marknadsplatsen?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Dina synpunkter är mycket viktiga för oss! Vänligen dela din feedback med oss efter betyg stoppuret på marketplace.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Ta bort reklam</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Kurs stoppur 5 stjärnor att ta bort reklam. Vill du fortsätta?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Funktionshindrade</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Posten</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Din feedback är viktig! Kurs stoppur 5 stjärnor att lägga till Countdown funktioner. Vill du fortsätta?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Nedräkningen är klar!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stoppur</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Bästa sluta titta i Windows Phone Store!
 
@@ -324,6 +312,18 @@ Funktioner inkluderar:
 * Landskap stöd för stora siffror
 
 Ladda ner denna app idag!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Som denna app? Låt alla andra vet!  Vill du dela din feedback med oss efter betyg stoppuret på marknadsplatsen?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Som denna app? Låt alla andra vet!  Vänligen dela din feedback med oss efter betyg stoppuret på marketplace.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Vänligen dela dina åsikter med oss efter betyg stoppuret på marketplace för att ta bort reklam. Vill du fortsätta?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Vänligen dela din feedback med oss efter betyg stoppuret på marketplace för att lägga till Countdown funktionalitet. Vill du fortsätta?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Bästa sluta titta i Windows Phone Store!
@@ -339,5 +339,8 @@ Funktioner inkluderar:
 * Nedräkningstimer
 
 Ladda ner denna app idag!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

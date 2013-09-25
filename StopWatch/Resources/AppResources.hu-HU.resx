@@ -125,9 +125,6 @@
     <value>hu-HU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stopperóra</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Egyértelmű kör</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Arány</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Visszajelzése nagyon fontos nekünk! Woud szeretne megosztani a visszajelzést értékelés az időmérő a piacon?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Visszajelzése nagyon fontos nekünk! Kérjük, ossza meg visszajelzést velünk az értékelés a stopper, a piactéren.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Távolítsa el a reklám</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Arány stopper 5 csillagok eltávolítani a reklám. Folytatja?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Fogyatékkal élő</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Rekord</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Visszajelzése fontos! Arány stopper 5 csillagok visszaszámlálás bővíthetjük. Folytatja?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Visszaszámlálás befejeződött!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Van </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stopperóra</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Legjobb Stop Watch a Windows Phone a boltban!
 
@@ -324,6 +312,18 @@ Funkciók közé tartozik:
 * Táj támogatja a nagy számok
 
 Letölt ez app ma!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Mint ez app? Hagyja, hogy mindenki tudja!  Szeretne megosztani a visszajelzést értékelés az időmérő a piacon?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Mint ez app? Hagyja, hogy mindenki tudja!  Kérjük, ossza meg visszajelzést velünk az értékelés a stopper, a piactéren.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Kérjük, ossza meg visszajelzést velünk az értékelés a stopper, a piacon, hogy távolítsa el a reklám. Folytatja?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Kérjük, ossza meg visszajelzést velünk az értékelés a piactéren a stopper, visszaszámlálás bővíthetjük. Folytatja?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Legjobb Stop Watch a Windows Phone a boltban!
@@ -339,5 +339,8 @@ Funkciók közé tartozik:
 * Visszaszámlálás időzítő
 
 Letölt ez app ma!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

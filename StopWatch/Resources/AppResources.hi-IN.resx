@@ -125,9 +125,6 @@
     <value>hi-IN</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>स्टॉपवॉच</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>गोद को साफ़ करें</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>दर</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! Woud आप अपनी राय हमारे साथ बाजार पर स्टॉपवॉच रेटिंग द्वारा साझा करने के लिए पसंद है?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! कृपया आपकी प्रतिक्रिया हमारे साथ शेयर बाज़ार पर स्टॉपवॉच रेटिंग द्वारा।</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>विज्ञापन निकालें</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>विज्ञापन हटाने के लिए दर स्टॉपवॉच 5 सितारे। आगे बढ़ें?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>विकलांग</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>रिकॉर्ड</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>आपकी राय महत्वपूर्ण है! दर स्टॉपवॉच 5 सितारे उलटी गिनती कार्यक्षमता जोड़ने के लिए। आगे बढ़ें?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>उलटी गिनती समाप्त हो गया!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>आपके पास </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>स्टॉपवॉच</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो!  आप अपनी राय हमारे साथ शेयर बाज़ार पर स्टॉपवॉच रेटिंग द्वारा करने के लिए चाहते हैं?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो!  कृपया आपकी प्रतिक्रिया हमारे साथ शेयर बाज़ार पर स्टॉपवॉच रेटिंग द्वारा।</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>कृपया अपनी राय हमारे साथ साझा करें विज्ञापन हटाने के लिए स्टॉपवॉच पर बाज़ार रेटिंग द्वारा। आगे बढ़ें?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>कृपया अपनी राय हमारे साथ साझा उलटी गिनती कार्यक्षमता जोड़ने के लिए स्टॉपवॉच पर बाज़ार रेटिंग द्वारा। आगे बढ़ें?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

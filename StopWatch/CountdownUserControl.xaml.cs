@@ -36,7 +36,7 @@ namespace StopWatch
         public CountdownUserControl()
         {
             InitializeComponent();
-            
+
             isRunning = IsCountdownRunning();
             CountdownTimesCollection = new ObservableCollection<StopwatchTimes>();
 
@@ -180,33 +180,40 @@ namespace StopWatch
 
         private void TimerClickAsync()
         {
-            Dispatcher.BeginInvoke(() =>
-            {
-                ClockValue = ClockValue - new TimeSpan(0, 0, 1);
-                ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
-
-                if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue > new TimeSpan(0, 0, 0))
-                {
-                    btnCountdownDisplay.Foreground = new SolidColorBrush(Colors.Red);
-                    PlaySound("Assets/alarm.wav");
-                }
-            });
-
-            if (ClockValue <= new TimeSpan(0, 0, 0))
+            try
             {
                 Dispatcher.BeginInvoke(() =>
+                {
+                    ClockValue = ClockValue - new TimeSpan(0, 0, 1);
+                    ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
+
+                    if (ClockValue <= new TimeSpan(0, 0, 5) && ClockValue > new TimeSpan(0, 0, 0))
                     {
-                        PlaySound("Assets/beep.wav");
+                        btnCountdownDisplay.Foreground = new SolidColorBrush(Colors.Red);
+                        PlaySound("Assets/alarm.wav");
+                    }
+                });
 
-                        MessageBoxResult result = MessageBox.Show(AppResources.ElapsedTime + " " + originalCountdownTime, AppResources.CountdownFinished, MessageBoxButton.OK);
-                        if (result == MessageBoxResult.OK)
+                if (ClockValue <= new TimeSpan(0, 0, 0))
+                {
+                    Dispatcher.BeginInvoke(() =>
                         {
-                            ResetCountdown(true);
-                        }
-                    });
-            }
+                            PlaySound("Assets/beep.wav");
 
-            IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
+                            MessageBoxResult result = MessageBox.Show(AppResources.ElapsedTime + " " + originalCountdownTime, AppResources.CountdownFinished, MessageBoxButton.OK);
+                            if (result == MessageBoxResult.OK)
+                            {
+                                ResetCountdown(true);
+                            }
+                        });
+                }
+
+                IS.SaveSetting("Countdown-LastValue", ClockValue.ToString());
+
+            }
+            catch (Exception)
+            {
+            }
         }
 
         private void Countdown_Start_Click(object sender, EventArgs e)
@@ -262,7 +269,7 @@ namespace StopWatch
                 //TJY I do not want to set the timespanpicker value here because if I do that triggers the value changed event below and resetscountdown,
                 //which is fine if the user picks a time and clicks ok/check, BUT if they cancel then I do not/did not want to resetcountdown, and just wanted what was there still
                 //up so by not setting the value here, I will only be resetting if they click ok/cancel.
-               // ctlCountdownTime.Value = ClockValue;
+                // ctlCountdownTime.Value = ClockValue;
                 ctlCountdownTime.DialogTitle = "Choose Duration";
 
                 ctlCountdownTime.OpenPicker();
@@ -305,18 +312,18 @@ namespace StopWatch
         private void ResetCountdown(bool setClockValueToDefault)
         {
             SolidColorBrush mySolidColorBrush = new SolidColorBrush();
-          
+
             dispatcherTimer.Stop();
-           
+
             if (setClockValueToDefault == true)
             {
                 ClockValue = App.gDefaultCountdown;
             }
 
-            
+
             // Describes the brush's color using RGB values.  Each value has a range of 0-255.
             mySolidColorBrush.Color = System.Windows.Media.Color.FromArgb(255, 50, 205, 50);
-          
+
             ClockValueString = ClockValue.ToString(@"hh\:mm\:ss");
             Mode = AppResources.StartText;
             Start.Background = new SolidColorBrush(Colors.Green);
@@ -496,5 +503,5 @@ namespace StopWatch
 
         #endregion "Methods"
 
-        }   
+    }
 }

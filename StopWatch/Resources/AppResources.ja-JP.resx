@@ -125,9 +125,6 @@
     <value>ja-JP</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>ストップウォッチ</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>周回数します。</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>レート</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>あなたのフィードバックは非常に重要です ！Woud 市場でストップウォッチを評価することにより、私たちとご意見を共有したいですか？</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>あなたのフィードバックは非常に重要です ！あなたのフィードバックを市場でストップウォッチを評価することによりシェアしてください。</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>広告を削除します。</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>広告を削除する率はストップウォッチ 5 星です。続行しますか。</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>無効になっています。</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>レコード</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>あなたのフィードバックは重要です ！カウント ダウンの機能を追加する率はストップウォッチ 5 星です。続行しますか。</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>カウント ダウン終了 ！</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>あります。</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！マーケットプ レースでストップウォッチの定格によって評価した私たちとあなたのフィードバックを共有する希望ですか？</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！ご意見を共有私たちのマーケットプ レースでストップウォッチの定格によって評価しました。</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>ご意見を共有私たちと広告を削除する、市場でストップウォッチの定格によって評価しました。続行しますか。</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>ご意見を共有私たちとカウント ダウン機能を追加する、市場でストップウォッチの定格によって評価しました。続行しますか。</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

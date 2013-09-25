@@ -125,9 +125,6 @@
     <value>da-DK</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stopur</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Klart omgange</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Sats</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Din feedback er meget vigtig for os! Woud du gerne dele din feedback med os ved rating stopur på markedspladsen?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Din feedback er meget vigtig for os! Kan du dele din feedback med os af rating stopur på markedet.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Fjerne reklamer</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Sats stopur 5 stjerner til at fjerne reklamer. Vil du fortsætte?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Handicappede</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Post</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Din feedback er vigtig! Sats stopur 5 stjerner at tilføje Nedtælling funktionalitet. Vil du fortsætte?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Nedtælling færdig!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stopur</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Bedste stopur i Windows Phone butik!
 
@@ -324,6 +312,18 @@ Funktioner omfatter:
 * Landskab støtte til store tal
 
 Download denne app i dag!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ligesom denne app? Lade enhver ellers kende!  Vil du gerne dele din feedback med os ved rating stopur på markedspladsen?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ligesom denne app? Lade enhver ellers kende!  Kan du dele din feedback med os af rating stopur på markedet.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Kan du dele din feedback med os af rating stopur på markedspladsen for at fjerne reklamer. Vil du fortsætte?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Kan du dele din feedback med os af rating stopur på markedspladsen for at tilføje Nedtælling funktionalitet. Vil du fortsætte?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Bedste stopur i Windows Phone butik!
@@ -339,5 +339,8 @@ Funktioner omfatter:
 * Nedtællingsur
 
 Download denne app i dag!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

@@ -125,9 +125,6 @@
     <value>es</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Cronómetro</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Vueltas claros</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tasa</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Su opinión es muy importante para nosotros! ¿Woud que le gustaría compartir su opinión con nosotros por valorar el cronómetro en el mercado?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Su opinión es muy importante para nosotros! Por favor comparta su opinión con nosotros por valorar el cronómetro en el mercado.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Quitar publicidad</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Tasa cronómetro 5 estrellas para quitar la publicidad. ¿Proceder?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Discapacitados</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Registro</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Su opinión es importante! Tasa cronómetro 5 estrellas para agregar funcionalidad de cuenta regresiva. ¿Proceder?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Cuenta regresiva terminó!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Tienes </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Cronómetro</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Mejor detener el reloj en la tienda de Windows Phone!
 
@@ -324,6 +312,18 @@ Las características incluyen:
 * Soporte para grandes números del paisaje
 
 Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>¿Como esta aplicación? Saber a los demás!  ¿Quieres compartir tus comentarios con nosotros clasificando el cronómetro en el mercado?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>¿Como esta aplicación? Saber a los demás!  Por favor comparta su opinión con nosotros clasificando el cronómetro en el mercado.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Por favor comparta su opinión con nosotros clasificando el cronómetro en el mercado para eliminar publicidad. ¿Proceder?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Por favor comparta su opinión con nosotros clasificando el cronómetro en el mercado para agregar funcionalidad de cuenta regresiva. ¿Proceder?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Mejor detener el reloj en la tienda de Windows Phone!
@@ -339,5 +339,8 @@ Las características incluyen:
 * Temporizador
 
 Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

@@ -125,9 +125,6 @@
     <value>nl</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Duidelijke ronden</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tarief</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Uw feedback is zeer belangrijk voor ons! Woud die u uw feedback met ons te delen willen volgens rating de StopWatch op de markt?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Uw feedback is zeer belangrijk voor ons! Deel uw feedback met ons volgens rating de StopWatch op de markt.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Verwijder reclame</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Tarief Stopwatch 5 sterren te verwijderen van reclame. Wilt u doorgaan?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Handicap</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Record</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Uw feedback is belangrijk! Tarief Stopwatch 5 sterren Countdown functionaliteit toevoegen. Wilt u doorgaan?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Countdown klaar!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>U hebt </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stopwatch</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Beste Stop Watch in de Windows Phone Store!
 
@@ -324,6 +312,18 @@ De eigenschappen omvatten:
 * Landschap ondersteuning voor grote getallen
 
 Download dit app vandaag nog!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Als dit app? Laat iedereen weten!  Wenst u uw feedback met ons te delen volgens de Stopwatch op de marketplace rating?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Als dit app? Laat iedereen weten!  Deel uw feedback met ons volgens rating de Stopwatch op de markt.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Deel uw feedback met ons volgens de Stopwatch op de marketplace te verwijderen reclame rating. Wilt u doorgaan?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Deel uw feedback met ons volgens de Stopwatch op de marketplace om toe te voegen Countdown functionaliteit rating. Wilt u doorgaan?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Beste Stop Watch in de Windows Phone Store!
@@ -339,5 +339,8 @@ De eigenschappen omvatten:
 * Timer-functie
 
 Download dit app vandaag nog!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

@@ -125,9 +125,6 @@
     <value>zh-Hans</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>秒表</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>清除圈</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>率</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>您的反馈意见是对我们很重要 ！闯你喜欢的评分在市场上的秒表与我们分享您的反馈意见吗？</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>您的反馈意见是对我们很重要 ！请由评分秒表在市场上的与我们分享您的反馈意见。</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>删除广告</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>删除广告率秒表 5 星。是否继续?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>已禁用</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>记录</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>您的反馈很重要 ！率秒表 5 星添加倒计时功能。是否继续?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>倒计时完成 ！</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>你有</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>秒表</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>像这个应用程序吗？让大家都知道 ！你想通过评分秒表在市场上的与我们共享您的反馈意见吗？</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>像这个应用程序吗？让大家都知道 ！请通过评分秒表在市场上的与我们分享您的反馈意见。</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>请通过评分秒表在市场上的以删除广告与我们分享您的反馈意见。是否继续吗？</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>请通过评分秒表在市场上的以添加倒计时功能与我们分享您的反馈意见。是否继续吗？</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy：</value>
   </data>
 </root>

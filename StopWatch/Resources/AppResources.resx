@@ -126,7 +126,7 @@
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>StopWatch</value>
+    <value>Stopwatch</value>
   </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Clear Laps</value>
@@ -233,16 +233,16 @@ Download this app today!</value>
     <value>Rate</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?</value>
+    <value>Like this app? Let everyone else know!  Would you like to share your feedback with us by rating the Stopwatch on the marketplace?</value>
   </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace.</value>
+    <value>Like this app? Let everyone else know!  Please share your feedback with us by rating the Stopwatch on the marketplace.</value>
   </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Remove Advertising</value>
   </data>
   <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Rate Stopwatch 5 stars to remove advertising. Proceed?</value>
+    <value>Please share your feedback with us by rating the Stopwatch on the marketplace to remove advertising. Proceed?</value>
   </data>
   <data name="CountdownAlarm" xml:space="preserve">
     <value>Countdown Alarm</value>
@@ -257,7 +257,7 @@ Download this app today!</value>
     <value>Record</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?</value>
+    <value>Please share your feedback with us by rating the Stopwatch on the marketplace to add Countdown functionality. Proceed?</value>
   </data>
   <data name="AppMenuItemAddCountdown" xml:space="preserve">
     <value>Rate to enable countdown</value>
@@ -339,5 +339,8 @@ Download this app today!</value>
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>You have </value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

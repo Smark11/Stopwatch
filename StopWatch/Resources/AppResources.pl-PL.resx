@@ -125,9 +125,6 @@
     <value>pl-PL</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stoper</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Wyczyść okrążeń</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Kurs</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Twoja opinia jest dla nas bardzo ważne! Woud chcesz podzielić się swoją opinię z nami przez ocena stoper na rynku?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Twoja opinia jest dla nas bardzo ważne! Napiszcie swoje opinie z nami przez ocena stoper na rynku.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Usunąć reklamy</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Kurs stoper 5 gwiazdek usunąć reklamy. Czy kontynuować?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Osób niepełnosprawnych</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Rekord</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Twoja opinia jest ważna! Kurs stoper 5 gwiazdek Countdown funkcje. Czy kontynuować?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Odliczanie gotowy!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Masz </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stoper</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Najlepszy stoper w magazynie Windows Phone!
 
@@ -324,6 +312,18 @@ Funkcje obejmują:
 * Wsparcie dla dużych liczb krajobraz
 
 Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Chcesz podzielić się swoją opinię z nami przez ocena stoper na rynku?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Napiszcie swoje opinie z nami przez ocena stoper na rynku.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Napiszcie swoje opinie z nami przez ocena stoper na rynku, aby usunąć reklamy. Czy kontynuować?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Napiszcie swoje opinie z nami przez ocena stoper na rynku, aby dodać funkcjonalność odliczanie. Czy kontynuować?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Najlepszy stoper w magazynie Windows Phone!
@@ -339,5 +339,8 @@ Funkcje obejmują:
 * Odliczanie do zera chronometrażysta
 
 Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

@@ -26,6 +26,8 @@ namespace StopWatch
             Author = "Author: KLB Creations";
             VersionString = "Version: " +  assemblyName.Version.ToString();
             Support = "Support/Feedback: KLBCreation01@yahoo.com";
+            PicCredits = "Pic Credits:http://www.freedigitalphotos.net/;http://animal-backgrounds.com";
+            SoundCredits = "Sound Credits:http://www.animal-sounds.org/;http://www.findsounds.com/";
 
             this.DataContext = this;
         }
@@ -68,6 +70,28 @@ namespace StopWatch
             {
                 _support = value;
                 NotifyPropertyChanged("Support");
+            }
+        }
+
+        private String _picCredits;
+        public String PicCredits
+        {
+            get { return _picCredits; }
+            set
+            {
+                _picCredits = value;
+                NotifyPropertyChanged("PicCredits");
+            }
+        }
+
+        private String _soundCredits;
+        public String SoundCredits
+        {
+            get { return _soundCredits; }
+            set
+            {
+                _soundCredits = value;
+                NotifyPropertyChanged("SoundCredits");
             }
         }
     }

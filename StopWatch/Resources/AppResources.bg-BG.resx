@@ -125,9 +125,6 @@
     <value>bg-BG</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Хронометър</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Изчистване на обиколки</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Курс</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Вашето мнение е много важно за нас! Woud искали да споделите вашето мнение с нас чрез оценка на хронометър на пазара?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Вашето мнение е много важно за нас! Моля, Споделете вашето мнение с нас по оценка на хронометър на пазара.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Премахване на рекламата</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Процент хронометър 5 звезди, за да премахнете реклама. Продължите?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Хора с</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Запис</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Вашето мнение е важно! Процент хронометър 5 звезди да добавите Countdown функционалност. Продължите?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Броене готови!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>Имате </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Хронометър</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Като този app? Позволявам всеки иначе зная!  Искате ли да споделите вашето мнение с нас по оценка на хронометър на пазара?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Като този app? Позволявам всеки иначе зная!  Моля, Споделете вашето мнение с нас по оценка на хронометър на пазара.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Моля, Споделете вашето мнение с нас по оценка на хронометър на пазара да премахнете реклама. Продължите?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Моля, Споделете вашето мнение с нас по оценка на хронометър на пазара да добавите обратно функционалност. Продължите?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

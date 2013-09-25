@@ -125,9 +125,6 @@
     <value>ko-KR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>스톱 워치</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>분명 바퀴</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>속도</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>귀하의 의견은 우리에 게 매우 중요 한! Woud 평가 시장에 기초 하 여 우리와 함께 귀하의 의견을 공유 하 시겠습니까?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>귀하의 의견은 우리에 게 매우 중요 한! 제발 평가 시장에 기초 하 여 우리와 함께 귀하의 의견 공유.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>광고를 제거</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>광고를 제거 하려면 속도 스톱 워치 5 별입니다. 진행?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>사용 안 함</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>레코드</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>귀하의 의견은 중요 합니다! 카운트 다운 기능 추가 속도 스톱 워치 5 별. 진행?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>카운트 다운 완료!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>당신은 </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>스톱 워치</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  시장에 초시계를 평가 하 여 우리와 함께 귀하의 의견을 공유 하 시겠습니까?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  공유 하시기 바랍니다 귀하의 의견 우리와 함께 시장에 초시계를 평가 합니다.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>공유 하시기 바랍니다 귀하의 의견 우리와 함께 광고를 제거 하는 시장에 초시계를 평가 합니다. 진행?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>제발 평가 시장에 스톱 워치 카운트 다운 기능을 추가 하 여 우리와 함께 귀하의 의견 공유. 진행?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

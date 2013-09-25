@@ -125,9 +125,6 @@
     <value>uk-UA</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Секундомір</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Зніміть кіл</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Курс</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Ваші відгуки дуже важливо для нас! Woud ви хотіли б поділитися вашу зворотний зв'язок з нами за рейтингом секундомір на ринку?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Ваші відгуки дуже важливо для нас! Будь ласка, поділіться своїми міркуваннями з нами за рейтингом секундомір на ринку.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Видалити реклами</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Ставка секундомір 5 зірочок видалити реклами. Продовжити?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Інваліди</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Запис</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Ваші відгуки дуже важливо! Ставка секундомір 5 зірок, щоб додати функціональність зворотного відліку. Продовжити?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Зворотний відлік закінчена!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>У вас є </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Секундомір</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Як цей застосунок? Хай всі інші знають!  Хотів би поділитися ваш зворотний зв'язок з нами за рейтингом секундомір на ринку?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Як цей застосунок? Хай всі інші знають!  Будь ласка, поділіться вашої зворотний зв'язок з нами рейтинговою секундомір на ринку.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Будь ласка, поділіться ваш зворотний зв'язок з нами за рейтингом секундомір на ринку для видалення реклами. Продовжити?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Будь ласка, поділіться вашого зворотний зв'язок з нами рейтинговою секундомір на ринку, щоб додати функціональність зворотний відлік. Продовжити?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

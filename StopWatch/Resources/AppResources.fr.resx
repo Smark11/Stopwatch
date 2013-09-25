@@ -125,9 +125,6 @@
     <value>fr</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Chronomètre</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Claires tours</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Taux</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Vos impressions sont très importantes pour nous ! Woud vous voulez partager vos commentaires avec nous par le chronomètre sur le marché de la notation ?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Vos impressions sont très importantes pour nous ! S'il vous plaît de partager vos commentaires avec nous par le chronomètre sur le marché de la notation.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Enlever la publicité</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Taux chronomètre 5 étoiles à enlever la publicité. Aller de l'avant ?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Handicapés</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Enregistrement</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Votre avis est important ! Taux chronomètre 5 étoiles pour ajouter des fonctionnalités de compte à rebours. Aller de l'avant ?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Compte à rebours terminé !</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Vous avez </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Chronomètre</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Mieux arrête de regarder dans le magasin de Windows Phone !
 
@@ -324,6 +312,18 @@ Caractéristiques comprennent :
 * Paysage de soutien pour les grands nombres
 
 Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Comme ce soft ? Tout le monde faites le savoir !  Vous souhaitez partager vos commentaires avec nous par le chronomètre sur le marché de la notation ?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Comme ce soft ? Tout le monde faites le savoir !  S'il vous plaît de partager vos commentaires avec nous par le chronomètre sur le marché de la notation.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>S'il vous plaît de partager vos commentaires avec nous par le chronomètre pour supprimer la publicité sur le marché de la notation. Aller de l'avant ?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>S'il vous plaît de partager vos commentaires avec nous par le chronomètre sur le marché pour ajouter des fonctionnalités de compte à rebours de la notation. Aller de l'avant ?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Mieux arrête de regarder dans le magasin de Windows Phone !
@@ -339,5 +339,8 @@ Caractéristiques comprennent :
 * Compte à rebours
 
 Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy :</value>
   </data>
 </root>

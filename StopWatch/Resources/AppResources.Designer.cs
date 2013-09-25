@@ -61,7 +61,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your feedback is important! Rate Stopwatch 5 stars to add Countdown functionality. Proceed?.
+        ///   Looks up a localized string similar to Please share your feedback with us by rating the Stopwatch on the marketplace to add Countdown functionality. Proceed?.
         /// </summary>
         public static string AddCountdownQuestion {
             get {
@@ -108,7 +108,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to StopWatch.
+        ///   Looks up a localized string similar to Stopwatch.
         /// </summary>
         public static string ApplicationTitle {
             get {
@@ -167,6 +167,15 @@ namespace StopWatch.Resources {
         public static string AppMenuItemReview {
             get {
                 return ResourceManager.GetString("AppMenuItemReview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BroughtToYouBy:.
+        /// </summary>
+        public static string BroughtToYouBy {
+            get {
+                return ResourceManager.GetString("BroughtToYouBy", resourceCulture);
             }
         }
         
@@ -459,7 +468,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your feedback is very important to us! Please share your feedback with us by rating the StopWatch on the marketplace..
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!  Please share your feedback with us by rating the Stopwatch on the marketplace..
         /// </summary>
         public static string RateTheAppPrompt {
             get {
@@ -468,7 +477,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your feedback is very important to us! Woud you like to share your feedback with us by rating the StopWatch on the marketplace?.
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!  Would you like to share your feedback with us by rating the Stopwatch on the marketplace?.
         /// </summary>
         public static string RateTheAppQuestion {
             get {
@@ -486,7 +495,7 @@ namespace StopWatch.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rate Stopwatch 5 stars to remove advertising. Proceed?.
+        ///   Looks up a localized string similar to Please share your feedback with us by rating the Stopwatch on the marketplace to remove advertising. Proceed?.
         /// </summary>
         public static string RemoveAdvertisingQuestion {
             get {

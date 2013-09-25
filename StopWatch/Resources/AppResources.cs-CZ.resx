@@ -125,9 +125,6 @@
     <value>cs-CZ</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stopky</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Vymazat kol</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Míra</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Váš názor je pro nás velmi důležité! Woud byste se s námi podělit své názory podle hodnocení stopky na tržišti?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Váš názor je pro nás velmi důležité! Prosím sdílet své názory s námi hodnocení stopky na tržišti.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Odstranit reklamy</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Míra stopky 5 hvězdiček odstranit reklamy. Chcete pokračovat?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Zakázáno</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Záznam</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Vaše zpětná vazba je důležitá! Míra stopky 5 hvězdiček přidat funkce odpočítávání. Chcete pokračovat?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Odpočítávání dokončen!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Máte </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stopky</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Nejlepší zastavit Watch v úložišti Windows Phone!
 
@@ -324,6 +312,18 @@ Mezi funkce patří:
 * Krajina podpora velkých čísel
 
 Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Jako tato app? Ať všichni vědí!  Chcete s námi podělit své názory podle hodnocení stopky na tržišti?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Jako tato app? Ať všichni vědí!  Prosím sdílet své názory s námi hodnocení stopky na tržišti.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Prosím sdílet své názory s námi hodnocení stopky na tržišti odstranit reklamy. Chcete pokračovat?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Prosím sdílet své názory s námi hodnocení stopky na tržišti přidat funkce odpočítávání. Chcete pokračovat?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Nejlepší zastavit Watch v úložišti Windows Phone!
@@ -339,5 +339,8 @@ Mezi funkce patří:
 * Odpočítávací měřič
 
 Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

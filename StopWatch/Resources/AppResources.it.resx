@@ -125,9 +125,6 @@
     <value>it</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Cronometro</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Chiare giri</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tasso</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Il vostro feedback è molto importante per noi! Woud volete condividere il vostro feedback con noi di punteggio il cronometro sul marketplace?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Il vostro feedback è molto importante per noi! Si prega di condividere il tuo feedback con noi di punteggio il cronometro sul marketplace.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Rimuovere la pubblicità</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Tasso cronometro 5 stelle a rimuovere la pubblicità. Procedere?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Disabili</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Record</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Il vostro feedback è importante! Tasso cronometro 5 stelle per aggiungere funzionalità di conto alla rovescia. Procedere?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Finito il conto alla rovescia!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Avete </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Cronometro</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Meglio interrompere guarda nell'archivio di Windows Phone!
 
@@ -324,6 +312,18 @@ Le caratteristiche includono:
 * Supporto per i grandi numeri di panorama
 
 Scarica questa applicazione!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Come questa app? Tutti gli altri far sapere!  Ti piacerebbe condividere commenti e suggerimenti con noi di valutazione il cronometro sul marketplace?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Come questa app? Tutti gli altri far sapere!  Per favore condividete i commenti con noi di valutazione il cronometro sul marketplace.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Per favore condividete i commenti con noi di valutazione il cronometro sul marketplace per rimuovere la pubblicità. Procedere?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Per favore condividete i commenti con noi di valutazione il cronometro sul marketplace per aggiungere funzionalità di conto alla rovescia. Procedere?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Meglio interrompere guarda nell'archivio di Windows Phone!
@@ -339,5 +339,8 @@ Le caratteristiche includono:
 * Conto alla rovescia
 
 Scarica questa applicazione!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

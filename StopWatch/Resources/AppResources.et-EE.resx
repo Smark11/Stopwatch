@@ -125,9 +125,6 @@
     <value>et-EE</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Stopper</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Selge ringe</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Määr</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Teie tagasiside on meile väga oluline! Garanteeritud soovite jagada oma tagasisidet meie poolt reiting on turuplatsil stopperit?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Teie tagasiside on meile väga oluline! Palun jaga oma tagasiside meiega on turuplatsil stopperit hinnangu järgi.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Eemalda reklaam</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Määra taimer 5 tärni eemaldada reklaam. Kas soovite jätkata?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Erivajadustega</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Kirje</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Teie tagasiside on oluline! Määra taimer 5 tärni Tagaplaanil funktsionaalsust. Kas soovite jätkata?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Tagaplaanil lõppenud!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Teil on </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Stopper</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Parim Stop Watch Windows Phone laos!
 
@@ -324,6 +312,18 @@ Funktsioonide hulka kuuluvad:
 * Maastik toetamine suured numbrid
 
 Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Nagu see app? Lase kõik teised teavad!  Kas soovite jagada oma tagasisidet meie poolt Reiting Stopper turul?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Nagu see app? Lase kõik teised teavad!  Palun jagage oma tagasiside siin turul Stopper hinnangu järgi.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Palun jaga oma tagasiside siin hinnangu Stopper turul eemaldada reklaami järgi. Kas soovite jätkata?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Palun jaga oma tagasiside siin turul stopperit Tagaplaanil funktsionaalsust hinnangu järgi. Kas soovite jätkata?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Parim Stop Watch Windows Phone laos!
@@ -339,5 +339,8 @@ Funktsioonide hulka kuuluvad:
 * Taimer
 
 Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

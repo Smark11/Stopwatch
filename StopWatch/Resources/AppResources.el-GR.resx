@@ -125,9 +125,6 @@
     <value>el-GR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Χρονόμετρο</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Σαφές γύρους</value>
   </data>
@@ -223,17 +220,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Ποσοστό</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Woud ήθελα να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση το χρονόμετρο στην αγορά;</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Αφαιρέσει τις διαφήμισεις</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Ποσοστό χρονόμετρο 5 αστέρια για να αφαιρέσω τη διαφήμιση. Προχωρήσει;</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Άτομα με ειδικές ανάγκες</value>
@@ -252,9 +240,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Εγγραφή</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Τα σχόλιά σας είναι σημαντική! Ποσοστό χρονόμετρο 5 αστέρια για να προσθέσετε λειτουργικότητα αντίστροφη μέτρηση. Προχωρήσει;</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Αντίστροφη μέτρηση ολοκληρωθεί!</value>
@@ -339,5 +324,23 @@
   </data>
   <data name="YouHave" xml:space="preserve">
     <value>Έχετε </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Θα θέλατε να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση το χρονόμετρο στην αγορά;</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά να αφαιρέσω τη διαφήμιση. Προχωρήσει;</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Παρακαλώ μοιραστείτε τα σχόλιά σας με μας από την βαθμολογία στο χρονόμετρο στην αγορά για να προσθέσετε λειτουργικότητα αντίστροφη μέτρηση. Προχωρήσει;</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

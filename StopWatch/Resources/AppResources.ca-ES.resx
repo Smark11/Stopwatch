@@ -125,9 +125,6 @@
     <value>ca-ES</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Cronòmetre</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>Desactiveu Laps</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Taxa</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>La seva opinió és molt important per a nosaltres! Woud agradaria compartir la seva opinió amb nosaltres pel cronòmetre a la plaça del mercat de l'avaluació?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>La seva opinió és molt important per a nosaltres! Si us plau, compartiu els vostres comentaris amb nosaltres pels avaluació el cronòmetre a la plaça del mercat.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Eliminar publicitat</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Taxa cronòmetre de 5 estrelles per eliminar la publicitat. Voleu continuar?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Amb discapacitat</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Registre</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>La seva opinió és important! Taxa cronòmetre 5 estrelles d'afegir la funcionalitat de compte regressiva. Voleu continuar?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Compte enrere va acabar!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Teniu </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Cronòmetre</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Millor deixar de veure a la botiga de Windows Phone!
 
@@ -324,6 +312,18 @@ Les característiques inclouen:
 * Suport per a un gran nombre de paisatge
 
 Descarregar aquest app avui!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Com aquest app? Deixar tothom saber!  Voleu compartir els vostres comentaris amb nosaltres pels avaluació el cronòmetre en el mercat?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Com aquest app? Deixar tothom saber!  Si us plau comparteixi la seva opinió amb nosaltres pels avaluació el cronòmetre en el mercat.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Si us plau comparteixi la seva opinió amb nosaltres pels avaluació el cronòmetre en el mercat per eliminar la publicitat. Voleu continuar?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Si us plau comparteixi la seva opinió amb nosaltres pel cronòmetre en el mercat per afegir funcionalitat de Countdown d'avaluació. Voleu continuar?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Millor deixar de veure a la botiga de Windows Phone!
@@ -339,5 +339,8 @@ Les característiques inclouen:
 * Countdown temporitzador
 
 Descarregar aquest app avui!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>

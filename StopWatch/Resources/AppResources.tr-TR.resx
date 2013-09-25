@@ -125,9 +125,6 @@
     <value>tr-TR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>Kronometre</value>
-  </data>
   <data name="AppBarClearLapsButton" xml:space="preserve">
     <value>NET Tur</value>
   </data>
@@ -209,17 +206,8 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Oranı</value>
   </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Görüşleriniz bizim için çok önemlidir! Kronometre Pazar derecelendirerek görüşlerinizi paylaşmak istediğiniz woud?</value>
-  </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Görüşleriniz bizim için çok önemlidir! Lütfen görüşlerinizi bizimle kronometre Pazar derecelendirerek paylaşın.</value>
-  </data>
   <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
     <value>Reklam kaldırmak</value>
-  </data>
-  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
-    <value>Oranı kronometre 5 yıldız reklam kaldırmak için. Devam edilsin mi?</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Engelli</value>
@@ -238,9 +226,6 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Rekor</value>
-  </data>
-  <data name="AddCountdownQuestion" xml:space="preserve">
-    <value>Geribildirim önemlidir! Geri sayım işlevselliği eklemek için kronometre 5 yıldız oranı. Devam edilsin mi?</value>
   </data>
   <data name="CountdownFinished" xml:space="preserve">
     <value>Geri sayım bitmiş!</value>
@@ -311,6 +296,9 @@
   <data name="YouHave" xml:space="preserve">
     <value>Sen-si olmak </value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Kronometre</value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>En iyi Windows Phone deposunda izlemek durdurun!
 
@@ -324,6 +312,18 @@
 * Büyük sayı için yatay destek
 
 Bu app bugün yükleyin!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin!  Pazar üzerinde kronometre derecelendirmeye göre görüşlerinizi paylaşmak ister misiniz?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin!  Lütfen görüşlerinizi bizimle paylaşmak pazar üzerinde kronometre derecelendirmeye göre.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Lütfen görüşlerinizi bizimle paylaşın reklam kaldırmak için kronometreyi Pazar üzerinde puan. Devam edilsin mi?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Lütfen görüşlerinizi bizimle paylaşmak pazar üzerinde kronometre geri sayım işlevselliği eklemek için puan. Devam edilsin mi?</value>
   </data>
   <data name="Z_Description" xml:space="preserve">
     <value>En iyi Windows Phone deposunda izlemek durdurun!
@@ -339,5 +339,8 @@ Bu app bugün yükleyin!</value>
 * Geri sayım sayacı
 
 Bu app bugün yükleyin!</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
   </data>
 </root>
