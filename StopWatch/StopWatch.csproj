@@ -433,6 +433,8 @@
     <Reference Include="Coding4Fun.Toolkit.Storage">
       <HintPath>..\packages\Coding4Fun.Toolkit.Storage.2.0.6\lib\windowsphone8\Coding4Fun.Toolkit.Storage.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Advertising.Mobile, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Advertising.Mobile.UI, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
       <HintPath>..\packages\WPtoolkit.4.2013.06.11\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
@@ -583,11 +585,6 @@
       <Generator>XliffResxGenerator</Generator>
       <LastGenOutput>AppResources.zh-Hant.resx</LastGenOutput>
     </XliffResource>
-  </ItemGroup>
-  <ItemGroup>
-    <SDKReference Include="MSAdvertising, Version=6.1">
-      <Name>Microsoft Advertising SDK for Windows Phone 8 %28XAML%29</Name>
-    </SDKReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Common\Common.csproj">
