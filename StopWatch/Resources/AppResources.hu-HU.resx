@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Rekordok törlése</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Vásárlás!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>A próba-birtokol lejárt, kérjük, vásárolja meg a kérelem!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> nap van hátra a próba.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>10 Napos próba meghosszabbíthatja értékelés alkalmazása?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Kiterjesztése a próba?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Van </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Legjobb Stop Watch a Windows Phone a boltban!
 
@@ -321,23 +339,5 @@ Funkciók közé tartozik:
 * Visszaszámlálás időzítő
 
 Letölt ez app ma!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Vásárlás!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>A próba-birtokol lejárt, kérjük, vásárolja meg a kérelem!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> nap van hátra a próba.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>10 Napos próba meghosszabbíthatja értékelés alkalmazása?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Kiterjesztése a próba?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Van </value>
   </data>
 </root>

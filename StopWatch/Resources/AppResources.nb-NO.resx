@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Slette poster</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Kjøp!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Prøveperioden er utgått, Kjøp programmet!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> gjenværende dager i prøveversjonen.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Utvide rettssaken til 10 dager etter vurdering programmet?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Utvide rettssaken?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Beste stoppeklokke i Windows Phone butikken!
 
@@ -321,23 +339,5 @@ Funksjoner inkluderer:
 * Countdown classes
 
 Last ned denne app i dag!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Kjøp!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Prøveperioden er utgått, Kjøp programmet!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> gjenværende dager i prøveversjonen.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Utvide rettssaken til 10 dager etter vurdering programmet?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Utvide rettssaken?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Du har </value>
   </data>
 </root>

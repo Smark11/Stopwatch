@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Kirje kustutamine</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Ostu!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Teie prooviversioon on aegunud, palun osta taotlus!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> päeva jäänud oma uuringus.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Laiendamine kohtuprotsess?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Teil on </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Parim Stop Watch Windows Phone laos!
 
@@ -321,23 +339,5 @@ Funktsioonide hulka kuuluvad:
 * Taimer
 
 Lae alla käesoleva app täna!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Ostu!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Teie prooviversioon on aegunud, palun osta taotlus!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> päeva jäänud oma uuringus.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Laiendamine kohtuprotsess?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Teil on </value>
   </data>
 </root>

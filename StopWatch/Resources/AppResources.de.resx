@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Löschen von Datensätzen</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Kaufen!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Ihre Testversion ist abgelaufen, bitte kaufen Sie die Anwendung!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> Tage verbleiben in Ihren Test.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Verlängern Sie Testversion bis 10 Tage nach Bewertung der Anwendung?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Verlängern Testversion?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Sie haben </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Beste Stop Watch im Windows Phone Store!
 
@@ -321,23 +339,5 @@ Eigenschaften umfassen:
 * Countdown-Timer
 
 Laden Sie diese app herunter!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Kaufen!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Ihre Testversion ist abgelaufen, bitte kaufen Sie die Anwendung!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> Tage verbleiben in Ihren Test.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Verlängern Sie Testversion bis 10 Tage nach Bewertung der Anwendung?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Verlängern Testversion?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Sie haben </value>
   </data>
 </root>

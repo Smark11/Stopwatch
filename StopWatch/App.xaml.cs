@@ -44,9 +44,9 @@ namespace StopWatch
         /// Constructor for the Application object.
         /// </summary>
         /// 
-       public static Stopwatch gStopWatch;
-       public static TimeSpan gDefaultCountdown;
-       public static string gAlarmSetting = string.Empty;
+        public static Stopwatch gStopWatch;
+        public static TimeSpan gDefaultCountdown;
+        public static string gAlarmSetting = string.Empty;
 
         public App()
         {
@@ -127,15 +127,21 @@ namespace StopWatch
 
         private void SaveStopWatchValues()
         {
-            IS.SaveSetting("Stopwatch-DateTimeLastStart", DateTime.Now.ToString());
+            try
+            {
+                IS.SaveSetting("Stopwatch-DateTimeLastStart", DateTime.Now.ToString());
 
-            if (gStopWatch.IsRunning == true)
-            {
-                IS.SaveSetting("Stopwatch-IsRunning", "Yes");
+                if (gStopWatch.IsRunning == true)
+                {
+                    IS.SaveSetting("Stopwatch-IsRunning", "Yes");
+                }
+                else
+                {
+                    IS.SaveSetting("Stopwatch-IsRunning", "No");
+                }
             }
-            else
+            catch (Exception)
             {
-                IS.SaveSetting("Stopwatch-IsRunning", "No");
             }
         }
 

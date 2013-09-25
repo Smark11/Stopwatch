@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Odstránenie záznamov</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Nákup!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vaše skúšobné vypršala, prosím nákup aplikácie!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dni zostávajúce v skúšobnej verzie.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Predĺžiť skúšobnú verziu?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Máte </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Najlepšie stopky v ukladacom priestore Windows Phone!
 
@@ -321,23 +339,5 @@ Funkcie patrí:
 * Odpočítavanie
 
 Stiahnite si túto app dnes!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Nákup!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Vaše skúšobné vypršala, prosím nákup aplikácie!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dni zostávajúce v skúšobnej verzie.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Predĺžiť skúšobnú verziu?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Máte </value>
   </data>
 </root>

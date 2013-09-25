@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Menghapus record</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Pembelian!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Anda persidangan telah berakhir, silahkan membeli aplikasi!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> hari-hari yang tersisa di sidang Anda.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Memperpanjang percobaan untuk 10 hari menurut penilaian aplikasi?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Memperpanjang percobaan?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Anda memiliki </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Terbaik berhenti menonton di Windows Phone Store!
 
@@ -321,23 +339,5 @@ Fitur termasuk:
 * Penghitung waktu
 
 Download aplikasi ini hari ini!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Pembelian!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Anda persidangan telah berakhir, silahkan membeli aplikasi!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> hari-hari yang tersisa di sidang Anda.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Memperpanjang percobaan untuk 10 hari menurut penilaian aplikasi?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Memperpanjang percobaan?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Anda memiliki </value>
   </data>
 </root>

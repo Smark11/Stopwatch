@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Suprimir registres</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Compra!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>El seu judici ha expirat, si us plau comprar l'aplicació!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dies que romanen en el seu judici.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Estengui judici de 10 dies considerant l'aplicació?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Ampliar de Trial?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Teniu </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Millor deixar de veure a la botiga de Windows Phone!
 
@@ -321,23 +339,5 @@ Les característiques inclouen:
 * Countdown temporitzador
 
 Descarregar aquest app avui!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Compra!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>El seu judici ha expirat, si us plau comprar l'aplicació!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dies que romanen en el seu judici.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Estengui judici de 10 dies considerant l'aplicació?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Ampliar de Trial?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Teniu </value>
   </data>
 </root>

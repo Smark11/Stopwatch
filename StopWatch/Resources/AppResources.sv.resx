@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Ta bort poster</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Köp!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Din provperiod har upph÷RT, köpa vänligen ansökan!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> dagar kvar i din rättegång.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Förlänga rättegången till 10 dagar efter betyg ansökan?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Förlänga rättegången?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>Bästa sluta titta i Windows Phone Store!
 
@@ -321,23 +339,5 @@ Funktioner inkluderar:
 * Nedräkningstimer
 
 Ladda ner denna app idag!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Köp!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Din provperiod har upph÷RT, köpa vänligen ansökan!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> dagar kvar i din rättegång.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Förlänga rättegången till 10 dagar efter betyg ansökan?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Förlänga rättegången?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Du har </value>
   </data>
 </root>

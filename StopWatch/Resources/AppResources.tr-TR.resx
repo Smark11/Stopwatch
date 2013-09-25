@@ -293,6 +293,24 @@
   <data name="DeleteRecordsTitle" xml:space="preserve">
     <value>Kayıtları silme</value>
   </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Satın alma!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Deneme süresi doldu, lütfen uygulama satın!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> Deneme sürümünüzü kalan gün.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Deneme uzatmak?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Sen-si olmak </value>
+  </data>
   <data name="AppDescription" xml:space="preserve">
     <value>En iyi Windows Phone deposunda izlemek durdurun!
 
@@ -321,23 +339,5 @@ Bu app bugün yükleyin!</value>
 * Geri sayım sayacı
 
 Bu app bugün yükleyin!</value>
-  </data>
-  <data name="PurchaseButton" xml:space="preserve">
-    <value>Satın alma!</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Deneme süresi doldu, lütfen uygulama satın!  </value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> Deneme sürümünüzü kalan gün.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Deneme uzatmak?</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>Sen-si olmak </value>
   </data>
 </root>
