@@ -90,10 +90,17 @@ namespace StopWatch
         /// </summary>
         private void CheckLicense()
         {
-            //_isTrial = false;
+            try
+            {
+                //_isTrial = false;
 
-            _isTrial = _licenseInfo.IsTrial();
-            //_isTrial = true;
+                _isTrial = _licenseInfo.IsTrial();
+                //_isTrial = true;
+            }
+            catch (Exception)
+            {
+                _isTrial = false;
+            }
         }
 
         // Code to execute when the application is launching (eg, from Start)
