@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stoppur</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bästa sluta titta i Windows Phone Store!
-
-Funktioner inkluderar:
-
-* E-varv och sträcktider
-* Kör under låsa skärmen
-* Inaktivera låsskärmen
-* Både Split och Total tid
-* Stor, lätt att läsa klockan
-* Landskap stöd för stora siffror
-
-Ladda ner denna app idag!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Som denna app? Låt alla andra vet!  Vill du dela din feedback med oss efter betyg stoppuret på marknadsplatsen?</value>
   </data>
@@ -324,21 +310,6 @@ Ladda ner denna app idag!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Vänligen dela din feedback med oss efter betyg stoppuret på marketplace för att lägga till Countdown funktionalitet. Vill du fortsätta?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Bästa sluta titta i Windows Phone Store!
-
-Funktioner inkluderar:
-
-* E-varv och sträcktider
-* Kör under låsa skärmen
-* Inaktivera låsskärmen
-* Både Split och Total tid
-* Stor, lätt att läsa klockan
-* Landskap stöd för stora siffror
-* Nedräkningstimer
-
-Ladda ner denna app idag!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

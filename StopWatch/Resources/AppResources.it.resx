@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Cronometro</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Meglio interrompere guarda nell'archivio di Windows Phone!
-
-Le caratteristiche includono:
-
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Split sia tempo totale
-* Grande, facile leggere l'orologio
-* Supporto per i grandi numeri di panorama
-
-Scarica questa applicazione!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Come questa app? Tutti gli altri far sapere!  Ti piacerebbe condividere commenti e suggerimenti con noi di valutazione il cronometro sul marketplace?</value>
   </data>
@@ -324,21 +310,6 @@ Scarica questa applicazione!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Per favore condividete i commenti con noi di valutazione il cronometro sul marketplace per aggiungere funzionalità di conto alla rovescia. Procedere?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Meglio interrompere guarda nell'archivio di Windows Phone!
-
-Le caratteristiche includono:
-
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Split sia tempo totale
-* Grande, facile leggere l'orologio
-* Supporto per i grandi numeri di panorama
-* Conto alla rovescia
-
-Scarica questa applicazione!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

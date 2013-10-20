@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopper</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Parim Stop Watch Windows Phone laos!
-
-Funktsioonide hulka kuuluvad:
-
-* E-post süles ja vaheajad
-* Käivitatud lukk ekraan
-* Välja lülitada Lukusta ekraan
-* Nii Split ja koguaeg
-* Suured, hästi loetavad clock
-* Maastik toetamine suured numbrid
-
-Lae alla käesoleva app täna!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Nagu see app? Lase kõik teised teavad!  Kas soovite jagada oma tagasisidet meie poolt Reiting Stopper turul?</value>
   </data>
@@ -324,21 +310,6 @@ Lae alla käesoleva app täna!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Palun jaga oma tagasiside siin turul stopperit Tagaplaanil funktsionaalsust hinnangu järgi. Kas soovite jätkata?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Parim Stop Watch Windows Phone laos!
-
-Funktsioonide hulka kuuluvad:
-
-* E-post süles ja vaheajad
-* Käivitatud lukk ekraan
-* Välja lülitada Lukusta ekraan
-* Nii Split ja koguaeg
-* Suured, hästi loetavad clock
-* Maastik toetamine suured numbrid
-* Taimer
-
-Lae alla käesoleva app täna!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

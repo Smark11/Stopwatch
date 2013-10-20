@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Cronómetro</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Mejor detener el reloj en la tienda de Windows Phone!
-
-Las características incluyen:
-
-* Correo electrónico Lap y dividir veces
-* Corriendo bajo bloqueo de pantalla
-* Desactivar la pantalla de bloqueo
-* El Split y el tiempo Total
-* Grande, fácil leer el reloj
-* Soporte para grandes números del paisaje
-
-Descargar esta aplicación hoy!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>¿Como esta aplicación? Saber a los demás!  ¿Quieres compartir tus comentarios con nosotros clasificando el cronómetro en el mercado?</value>
   </data>
@@ -324,21 +310,6 @@ Descargar esta aplicación hoy!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Por favor comparta su opinión con nosotros clasificando el cronómetro en el mercado para agregar funcionalidad de cuenta regresiva. ¿Proceder?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Mejor detener el reloj en la tienda de Windows Phone!
-
-Las características incluyen:
-
-* Correo electrónico Lap y dividir veces
-* Corriendo bajo bloqueo de pantalla
-* Desactivar la pantalla de bloqueo
-* El Split y el tiempo Total
-* Grande, fácil leer el reloj
-* Soporte para grandes números del paisaje
-* Temporizador
-
-Descargar esta aplicación hoy!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

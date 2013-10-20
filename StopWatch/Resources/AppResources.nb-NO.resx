@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stoppeklokke</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Beste stoppeklokke i Windows Phone butikken!
-
-Funksjoner inkluderer:
-
-* E-post fanget og mellomtider
-* Kjører under låseskjermen
-* Deaktiver låseskjermen
-* Både Split og totaltiden
-* Store, lettleste klokke
-* Landskapet støtte for store tall
-
-Last ned denne app i dag!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Som denne app? La alle andre vet!  Ønsker du å dele tilbakemeldinger med oss etter vurdering stoppeklokken på markedet?</value>
   </data>
@@ -324,21 +310,6 @@ Last ned denne app i dag!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Vennligst dele tilbakemelding med oss etter vurdering stoppeklokken på markedet for å legge til nedtelling funksjonalitet. Vil du fortsette?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Beste stoppeklokke i Windows Phone butikken!
-
-Funksjoner inkluderer:
-
-* E-post fanget og mellomtider
-* Kjører under låseskjermen
-* Deaktiver låseskjermen
-* Både Split og totaltiden
-* Store, lettleste klokke
-* Landskapet støtte for store tall
-* Countdown classes
-
-Last ned denne app i dag!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

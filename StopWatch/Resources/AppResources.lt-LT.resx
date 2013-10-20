@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Chronometras</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
-
-Funkcijos apima:
-
-* Rašykite juosmens ir padalinti kartus
-* Veikia užrakto ekranas
-* Išjungti užrakto ekrano
-* Splitas ir silpnos
-* Didelis, lengvai skaityti laikrodžio
-* Kraštovaizdis parama didelių skaičių
-
-Parsisiųsti šią programą šiandien!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Kaip šią programą? Tegul visi kiti nežino!  Ar norite pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje?</value>
   </data>
@@ -324,21 +310,6 @@ Parsisiųsti šią programą šiandien!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Prašome pasidalinti savo atsiliepimus su mumis, įvertindami chronometras rinkoje pridėti Countdown funkcionalumą. Tęsti?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
-
-Funkcijos apima:
-
-* Rašykite juosmens ir padalinti kartus
-* Veikia užrakto ekranas
-* Išjungti užrakto ekrano
-* Splitas ir silpnos
-* Didelis, lengvai skaityti laikrodžio
-* Kraštovaizdis parama didelių skaičių
-* Atgalinìs atskaitos laikmatis
-
-Parsisiųsti šią programą šiandien!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

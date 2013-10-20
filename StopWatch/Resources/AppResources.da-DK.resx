@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopur</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Bedste stopur i Windows Phone butik!
-
-Funktioner omfatter:
-
-* Email Lap og stræktider
-* Kører under lås skærm
-* Deaktivere låseskærmen
-* Både delt og samlet tid
-* Store, let at læse ur
-* Landskab støtte til store tal
-
-Download denne app i dag!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ligesom denne app? Lade enhver ellers kende!  Vil du gerne dele din feedback med os ved rating stopur på markedspladsen?</value>
   </data>
@@ -324,21 +310,6 @@ Download denne app i dag!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Kan du dele din feedback med os af rating stopur på markedspladsen for at tilføje Nedtælling funktionalitet. Vil du fortsætte?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Bedste stopur i Windows Phone butik!
-
-Funktioner omfatter:
-
-* Email Lap og stræktider
-* Kører under lås skærm
-* Deaktivere låseskærmen
-* Både delt og samlet tid
-* Store, let at læse ur
-* Landskab støtte til store tal
-* Nedtællingsur
-
-Download denne app i dag!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

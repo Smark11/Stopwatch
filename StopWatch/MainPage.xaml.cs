@@ -52,7 +52,10 @@ namespace StopWatch
 
             InitializeComponent();
 
+            //Initially show the msft control, if it fails, show google.
             AdvertisingVisibility = Visibility.Visible;
+            GoogleAdVisibility = Visibility.Collapsed;
+
             MyAdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
 
             BuildLocalizedApplicationBar(_rated);
@@ -60,6 +63,7 @@ namespace StopWatch
             SetLockScreenSetting();
 
             MyAdControl.ErrorOccurred += MyAdControl_ErrorOccurred;
+            GoogleAdControl.FailedToReceiveAd += GoogleAdControl_FailedToReceiveAd;
 
             this.DataContext = this;
 
@@ -92,6 +96,11 @@ namespace StopWatch
             }
         }
 
+        void GoogleAdControl_FailedToReceiveAd(object sender, GoogleAds.AdErrorEventArgs e)
+        {
+            
+        }
+
         private void FreeAppInitialIzation()
         {
             if (!_rated && _numberOfTimesOpened >= 2)
@@ -122,7 +131,9 @@ namespace StopWatch
             //always enable countdown
             EnableCountdown();
 
+            //Hide both ad controls in the paid app.
             AdvertisingVisibility = Visibility.Collapsed;
+            GoogleAdVisibility = Visibility.Collapsed;
 
 
             if ((Application.Current as App).IsTrial)
@@ -168,6 +179,12 @@ namespace StopWatch
 
         void MyAdControl_ErrorOccurred(object sender, Microsoft.Advertising.AdErrorEventArgs e)
         {
+            //When the MSFT Ad Control Fails, Now turn on the Google AD!
+            if ((Application.Current as App).IsFreeVersion)
+            {
+                AdvertisingVisibility = System.Windows.Visibility.Collapsed;
+                GoogleAdVisibility = System.Windows.Visibility.Visible;
+            }
             Console.WriteLine(e.Error);
         }
 
@@ -190,6 +207,14 @@ namespace StopWatch
                 NotifyPropertyChanged("AdvertisingVisibility");
             }
         }
+
+        private Visibility _googleAdVisibility;
+        public Visibility GoogleAdVisibility
+        {
+            get { return _googleAdVisibility; }
+            set { _googleAdVisibility = value; NotifyPropertyChanged("GoogleAdVisibility"); }
+        }
+        
 
         private String _pivotName;
         public String PivotName
@@ -558,27 +583,34 @@ namespace StopWatch
         /// </summary>
         internal void AppActivated()
         {
-            if ((Application.Current as App).IsTrial)
+            try
             {
-                if (Trial.IsTrialExpired())
-                //if (true)
+                if ((Application.Current as App).IsTrial)
                 {
-                    try
+                    if (Trial.IsTrialExpired())
+                    //if (true)
                     {
-                        Dispatcher.BeginInvoke(() =>
-                            {
-                                NavigationService.Navigate(new Uri("/TrialExpired.xaml", UriKind.Relative));
-                            });
-                    }
-                    catch (Exception ex)
-                    {
+                        try
+                        {
+                            Dispatcher.BeginInvoke(() =>
+                                {
+                                    NavigationService.Navigate(new Uri("/TrialExpired.xaml", UriKind.Relative));
+                                });
+                        }
+                        catch (Exception ex)
+                        {
 
+                        }
                     }
                 }
+                else
+                {
+                    EnableApp(true);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                EnableApp(true);
+
             }
         }
     }

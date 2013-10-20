@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Sekuntikello</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Paras lopettaa katsella Windows Phone varastossa!
-
-Ominaisuuksia:
-
-* Email kierros- ja väliaikoineen
-* Running Lukitse näyttö
-* Poista Lukitse näyttö
-* Split sekä kokonaisaika
-Iso, helppolukuinen kello
-* Maisema tuki suuria lukuja
-
-Lataa tämän app tänään!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Pidän tästä app? Antaa kaikille muille tietää!  Haluatko antaa palautetta meille luokituksen sekuntikello markkinoilla?</value>
   </data>
@@ -324,21 +310,6 @@ Lataa tämän app tänään!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Lähetä palautetta meille luokituksen sekuntikello markkinoilla lisätä lähtölaskenta toimintoja. Jatketaanko?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Paras lopettaa katsella Windows Phone varastossa!
-
-Ominaisuuksia:
-
-* Email kierros- ja väliaikoineen
-* Running Lukitse näyttö
-* Poista Lukitse näyttö
-* Split sekä kokonaisaika
-Iso, helppolukuinen kello
-* Maisema tuki suuria lukuja
-* Ajastin
-
-Lataa tämän app tänään!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

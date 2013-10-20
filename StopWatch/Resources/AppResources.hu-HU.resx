@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopperóra</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Legjobb Stop Watch a Windows Phone a boltban!
-
-Funkciók közé tartozik:
-
-* E-mail kör és részidők
-* Zár képernyőn alatt futó
-* Tiltsa le zár képernyőn
-* Split, mind a teljes idő
-* Nagy, könnyen olvasható óra
-* Táj támogatja a nagy számok
-
-Letölt ez app ma!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Mint ez app? Hagyja, hogy mindenki tudja!  Szeretne megosztani a visszajelzést értékelés az időmérő a piacon?</value>
   </data>
@@ -324,21 +310,6 @@ Letölt ez app ma!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Kérjük, ossza meg visszajelzést velünk az értékelés a piactéren a stopper, visszaszámlálás bővíthetjük. Folytatja?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Legjobb Stop Watch a Windows Phone a boltban!
-
-Funkciók közé tartozik:
-
-* E-mail kör és részidők
-* Zár képernyőn alatt futó
-* Tiltsa le zár képernyőn
-* Split, mind a teljes idő
-* Nagy, könnyen olvasható óra
-* Táj támogatja a nagy számok
-* Visszaszámlálás időzítő
-
-Letölt ez app ma!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

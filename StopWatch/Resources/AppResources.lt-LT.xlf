@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="lt-LT" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="3.0.0" build-num="0">
+  <file datatype="xml" source-language="en-US" target-language="lt-LT" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="4.0.0" build-num="0">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
     </header>
@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Funkcijos apima:
+Features include:
 
-* Rašykite juosmens ir padalinti kartus
-* Veikia užrakto ekranas
-* Išjungti užrakto ekrano
-* Splitas ir silpnos
-* Didelis, lengvai skaityti laikrodžio
-* Kraštovaizdis parama didelių skaičių
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Parsisiųsti šią programą šiandien!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -252,19 +252,19 @@ Features include:
 * Countdown Timer
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geriausia nustoti Žiūrėti Windows Phone parduotuvėje!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Funkcijos apima:
+Features include:
 
-* Rašykite juosmens ir padalinti kartus
-* Veikia užrakto ekranas
-* Išjungti užrakto ekrano
-* Splitas ir silpnos
-* Didelis, lengvai skaityti laikrodžio
-* Kraštovaizdis parama didelių skaičių
-* Atgalinìs atskaitos laikmatis
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
 
-Parsisiųsti šią programą šiandien!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

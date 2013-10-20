@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopwatch</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Terbaik berhenti menonton di Windows Phone Store!
-
-Fitur termasuk:
-
-* Email Lap dan membagi kali
-* Berjalan di bawah layar kunci
-* Menonaktifkan layar kunci
-* Split maupun Total waktu
-* Besar, mudah dibaca jam.
-* Lanskap dukungan untuk jumlah besar
-
-Download aplikasi ini hari ini!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Apakah Anda ingin berbagi umpan balik Anda dengan kami dengan rating Stopwatch di pasar?</value>
   </data>
@@ -324,21 +310,6 @@ Download aplikasi ini hari ini!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Silakan berbagi Tanggapan Anda dengan kami dengan rating Stopwatch di pasar untuk menambahkan fungsi hitung mundur. Melanjutkan?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Terbaik berhenti menonton di Windows Phone Store!
-
-Fitur termasuk:
-
-* Email Lap dan membagi kali
-* Berjalan di bawah layar kunci
-* Menonaktifkan layar kunci
-* Split maupun Total waktu
-* Besar, mudah dibaca jam.
-* Lanskap dukungan untuk jumlah besar
-* Penghitung waktu
-
-Download aplikasi ini hari ini!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

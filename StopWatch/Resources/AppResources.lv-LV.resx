@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Hronometrs</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Labākais pārtraukt skatīties Windows Phone veikalā!
-
-Funkcijas ietver:
-
-* E-pasts klēpja un sadalīt reizes
-* Darbojas Lock Screen
-* Disable Lock Screen
-* Sadalīt gan kopējais laiks
-* Liels, viegli lasīt pulksteni
-* Ainavu atbalsts lielas numuriem
-
-Lejupielādēt šo app šodien!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Piemēram, šī app? Ļaut visiem zināt!  Jūs vēlētos dalīties ar mums savu atsauksmi, pēc reitinga hronometrs tirgū?</value>
   </data>
@@ -324,21 +310,6 @@ Lejupielādēt šo app šodien!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga hronometrs tirgū pievienotu Countdown funkcionalitāti. Vai turpināt?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Labākais pārtraukt skatīties Windows Phone veikalā!
-
-Funkcijas ietver:
-
-* E-pasts klēpja un sadalīt reizes
-* Darbojas Lock Screen
-* Disable Lock Screen
-* Sadalīt gan kopējais laiks
-* Liels, viegli lasīt pulksteni
-* Ainavu atbalsts lielas numuriem
-* Atpakaļskaitīšanas taimeris
-
-Lejupielādēt šo app šodien!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

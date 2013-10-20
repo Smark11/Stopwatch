@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Cronòmetre</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Millor deixar de veure a la botiga de Windows Phone!
-
-Les característiques inclouen:
-
-* Volta de correu electrònic i dividir vegades
-* Corrent sota la pantalla de panys
-* Impossibiliti pantalla de Pany
-* Split tant temps Total
-* Gran, fàcil de llegir el rellotge
-* Suport per a un gran nombre de paisatge
-
-Descarregar aquest app avui!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Com aquest app? Deixar tothom saber!  Voleu compartir els vostres comentaris amb nosaltres pels avaluació el cronòmetre en el mercat?</value>
   </data>
@@ -324,21 +310,6 @@ Descarregar aquest app avui!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Si us plau comparteixi la seva opinió amb nosaltres pel cronòmetre en el mercat per afegir funcionalitat de Countdown d'avaluació. Voleu continuar?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Millor deixar de veure a la botiga de Windows Phone!
-
-Les característiques inclouen:
-
-* Volta de correu electrònic i dividir vegades
-* Corrent sota la pantalla de panys
-* Impossibiliti pantalla de Pany
-* Split tant temps Total
-* Gran, fàcil de llegir el rellotge
-* Suport per a un gran nombre de paisatge
-* Countdown temporitzador
-
-Descarregar aquest app avui!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopwatch</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Best Stop Watch in the Windows Phone Store!
-
-Features include:
-
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
-
-Download this app today!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Like this app? Let everyone else know!  Would you like to share your feedback with us by rating the Stopwatch on the marketplace?</value>
   </data>
@@ -324,21 +310,6 @@ Download this app today!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Please share your feedback with us by rating the Stopwatch on the marketplace to add Countdown functionality. Proceed?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Best Stop Watch in the Windows Phone Store!
-
-Features include:
-
-* Email Lap and Split Times
-* Running under Lock Screen
-* Disable Lock Screen
-* Both Split and Total Time
-* Large, easy to read clock
-* Landscape support for big numbers
-* Countdown Timer
-
-Download this app today!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

@@ -9,6 +9,8 @@
     xmlns:UI="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI"
    xmlns:local="clr-namespace:StopWatch"
    
+    xmlns:google="clr-namespace:GoogleAds;assembly=GoogleAds"
+    
     mc:Ignorable="d"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -32,6 +34,8 @@
                  HorizontalAlignment="Center" MaxWidth="480"  MaxHeight="80" Height="80" Width="480"
                  Visibility="{Binding AdvertisingVisibility}"
                  VerticalAlignment="Top" />
+
+            <google:AdView Visibility="{Binding GoogleAdVisibility}" x:Name="GoogleAdControl" Grid.Row="0" Format="Banner"  AdUnitID="ca-app-pub-4744330962784471/2630935545"/>
 
             <phone:Pivot x:Name="pivotControl" Grid.Row="1" SelectionChanged="pivotControl_SelectionChanged">
                 <!--Pivot item one-->

@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopwatch</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Beste Stop Watch in de Windows Phone Store!
-
-De eigenschappen omvatten:
-
-* E-mail schoot en keer splitsen
-* Uitgevoerd onder slotscherm
-* Uitschakelen slotscherm
-* Zowel Split en totale tijd
-* Grote, gemakkelijk te lezen van de klok
-* Landschap ondersteuning voor grote getallen
-
-Download dit app vandaag nog!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Als dit app? Laat iedereen weten!  Wenst u uw feedback met ons te delen volgens de Stopwatch op de marketplace rating?</value>
   </data>
@@ -324,21 +310,6 @@ Download dit app vandaag nog!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Deel uw feedback met ons volgens de Stopwatch op de marketplace om toe te voegen Countdown functionaliteit rating. Wilt u doorgaan?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Beste Stop Watch in de Windows Phone Store!
-
-De eigenschappen omvatten:
-
-* E-mail schoot en keer splitsen
-* Uitgevoerd onder slotscherm
-* Uitschakelen slotscherm
-* Zowel Split en totale tijd
-* Grote, gemakkelijk te lezen van de klok
-* Landschap ondersteuning voor grote getallen
-* Timer-functie
-
-Download dit app vandaag nog!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="it" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="3.0.0" build-num="0">
+  <file datatype="xml" source-language="en-US" target-language="it" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="4.0.0" build-num="0">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
     </header>
@@ -117,18 +117,18 @@ Features include:
 * Landscape support for big numbers
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meglio interrompere guarda nell'archivio di Windows Phone!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Le caratteristiche includono:
+Features include:
 
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Split sia tempo totale
-* Grande, facile leggere l'orologio
-* Supporto per i grandi numeri di panorama
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
 
-Scarica questa applicazione!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>
@@ -252,19 +252,19 @@ Features include:
 * Countdown Timer
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meglio interrompere guarda nell'archivio di Windows Phone!
+          <target state="new">Best Stop Watch in the Windows Phone Store!
 
-Le caratteristiche includono:
+Features include:
 
-* E-mail Lap e Split volte
-* In esecuzione sotto blocco schermo
-* Disattivare la schermata di blocco
-* Split sia tempo totale
-* Grande, facile leggere l'orologio
-* Supporto per i grandi numeri di panorama
-* Conto alla rovescia
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
 
-Scarica questa applicazione!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
           <source>StopWatch</source>

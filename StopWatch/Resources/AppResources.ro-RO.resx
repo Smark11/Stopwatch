@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Cronometru</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Cel mai bun Stop Watch în Windows Phone magazin!
-
-Caracteristicile includ:
-
-* Tur de e-mail şi Split ori
-* Care rulează sub ecran de blocare
-* Dezactivare blocare ecran
-* Atât Split şi timpul Total
-* Mare, uşor de citit ceas
-* Peisaj suport pentru numere mari
-
-Descărcaţi acest app astăzi!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ca acest app? Lasa toata lumea ştie!  Doriţi să împărtăşiţi feedback-ul cu noi reiting cronometru pe piaţă?</value>
   </data>
@@ -324,21 +310,6 @@ Descărcaţi acest app astăzi!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Cel mai bun Stop Watch în Windows Phone magazin!
-
-Caracteristicile includ:
-
-* Tur de e-mail şi Split ori
-* Care rulează sub ecran de blocare
-* Dezactivare blocare ecran
-* Atât Split şi timpul Total
-* Mare, uşor de citit ceas
-* Peisaj suport pentru numere mari
-* Temporizator
-
-Descărcaţi acest app astăzi!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

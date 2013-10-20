@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Chronomètre</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
-
-Caractéristiques comprennent :
-
-* Courriel tour et temps intermédiaires
-* En cours d'exécution sous l'écran de serrure
-* Désactiver l'écran de serrure
-* Split et temps Total
-* Grand, facile à lire horloge
-* Paysage de soutien pour les grands nombres
-
-Téléchargez cette application dès aujourd'hui !</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Comme ce soft ? Tout le monde faites le savoir !  Vous souhaitez partager vos commentaires avec nous par le chronomètre sur le marché de la notation ?</value>
   </data>
@@ -324,21 +310,6 @@ Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>S'il vous plaît de partager vos commentaires avec nous par le chronomètre sur le marché pour ajouter des fonctionnalités de compte à rebours de la notation. Aller de l'avant ?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Mieux arrête de regarder dans le magasin de Windows Phone !
-
-Caractéristiques comprennent :
-
-* Courriel tour et temps intermédiaires
-* En cours d'exécution sous l'écran de serrure
-* Désactiver l'écran de serrure
-* Split et temps Total
-* Grand, facile à lire horloge
-* Paysage de soutien pour les grands nombres
-* Compte à rebours
-
-Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy :</value>

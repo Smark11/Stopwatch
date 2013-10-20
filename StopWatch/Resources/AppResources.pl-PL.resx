@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stoper</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Najlepszy stoper w magazynie Windows Phone!
-
-Funkcje obejmują:
-
-* E-mail okrążenie i międzyczasy
-* Uruchomiony blokada ekranu
-* Wyłączanie blokady ekranu
-* Zarówno Split i całkowity czas
-* Duży, czytelny zegar
-* Wsparcie dla dużych liczb krajobraz
-
-Pobrać tę aplikację dziś!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Chcesz podzielić się swoją opinię z nami przez ocena stoper na rynku?</value>
   </data>
@@ -324,21 +310,6 @@ Pobrać tę aplikację dziś!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Napiszcie swoje opinie z nami przez ocena stoper na rynku, aby dodać funkcjonalność odliczanie. Czy kontynuować?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Najlepszy stoper w magazynie Windows Phone!
-
-Funkcje obejmują:
-
-* E-mail okrążenie i międzyczasy
-* Uruchomiony blokada ekranu
-* Wyłączanie blokady ekranu
-* Zarówno Split i całkowity czas
-* Duży, czytelny zegar
-* Wsparcie dla dużych liczb krajobraz
-* Odliczanie do zera chronometrażysta
-
-Pobrać tę aplikację dziś!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

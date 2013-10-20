@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stopky</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
-
-Mezi funkce patří:
-
-* E-mail Lap a Split krát
-* Běží pod zámek obrazovky
-* Zakázat zamykání obrazovky
-* Split i celkový čas
-* Velká, snadno číst hodiny
-* Krajina podpora velkých čísel
-
-Stáhněte tuto app dnes!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Jako tato app? Ať všichni vědí!  Chcete s námi podělit své názory podle hodnocení stopky na tržišti?</value>
   </data>
@@ -324,21 +310,6 @@ Stáhněte tuto app dnes!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Prosím sdílet své názory s námi hodnocení stopky na tržišti přidat funkce odpočítávání. Chcete pokračovat?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Nejlepší zastavit Watch v úložišti Windows Phone!
-
-Mezi funkce patří:
-
-* E-mail Lap a Split krát
-* Běží pod zámek obrazovky
-* Zakázat zamykání obrazovky
-* Split i celkový čas
-* Velká, snadno číst hodiny
-* Krajina podpora velkých čísel
-* Odpočítávací měřič
-
-Stáhněte tuto app dnes!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>

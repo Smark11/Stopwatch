@@ -299,20 +299,6 @@
   <data name="ApplicationTitle" xml:space="preserve">
     <value>Stoppuhr</value>
   </data>
-  <data name="AppDescription" xml:space="preserve">
-    <value>Beste Stop Watch im Windows Phone Store!
-
-Eigenschaften umfassen:
-
-* E-Mail-Runde und Zwischenzeiten
-* Läuft unter Verschluss-Schirm
-* Lock-Bildschirm deaktivieren
-* Sowohl Split und Gesamtzeit
-* Großes, einfach abzulesendes Uhr
-* Unterstützung für große Zahlen Landschaft
-
-Laden Sie diese app herunter!</value>
-  </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Wie diese app? Lassen Sie alle anderen wissen!  Möchten Sie Ihr Feedback mit uns zu teilen, durch Bewertung der Stoppuhr auf dem Marktplatz?</value>
   </data>
@@ -324,21 +310,6 @@ Laden Sie diese app herunter!</value>
   </data>
   <data name="AddCountdownQuestion" xml:space="preserve">
     <value>Bitte teilen Sie Ihr Feedback mit uns nach Bewertung der Stoppuhr auf dem Marktplatz um Countdown Funktionen hinzuzufügen. Vorgehen?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Beste Stop Watch im Windows Phone Store!
-
-Eigenschaften umfassen:
-
-* E-Mail-Runde und Zwischenzeiten
-* Läuft unter Verschluss-Schirm
-* Lock-Bildschirm deaktivieren
-* Sowohl Split und Gesamtzeit
-* Großes, einfach abzulesendes Uhr
-* Unterstützung für große Zahlen Landschaft
-* Countdown-Timer
-
-Laden Sie diese app herunter!</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>BroughtToYouBy:</value>
